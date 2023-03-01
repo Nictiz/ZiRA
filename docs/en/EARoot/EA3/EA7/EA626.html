@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>CARE BILLING</title>
+<title>DIAGNOSIS</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CARE BILLING", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("DIAGNOSIS", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:22</td>
+			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:21</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19-3-2022 11:30:51</td>
+			<td class="ObjectDetailsValue">1-3-2023 14:38:37</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Business function model </a>, Bedrijfsfunctiemodel + WP, <a href="../../EA2/EA1/EA119.html">Business function + WP + BA care support</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA71.html">Business function model </a>, , <a href="../../EA2/EA1/EA98.html">Business function + BA diagnosis</a>, <a href="../../EA2/EA1/EA108.html">Operating function + WP + BA diagnosis</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">collection of data for invoicing (DBC registration and invoicing). The handling of the invoice itself is part of the financial administration.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Determining the nature and cause of the patient&#39;s complaints or need for care.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA715.html">«ArchiMate_Grouping» Care support</a><br />
+						<a href="../EA8/EA713.html">«ArchiMate_Grouping» Diagnosis</a><br />
 						Grouping «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -78,18 +78,98 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA603.html">«ArchiMate_BusinessProcess» Recording transaction</a><br />
+						<a href="../EA6/EA600.html">«ArchiMate_BusinessProcess» Request peer consultation</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA532.html">«ArchiMate_BusinessProcess» Invoicing healthcare product</a><br />
+						<a href="../EA6/EA575.html">«ArchiMate_BusinessProcess» Prepare for contact</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA710.html">«ArchiMate_Grouping» Care billing</a><br />
-						Grouping «ArchiMate_Association» 
+						<a href="../EA6/EA465.html">«ArchiMate_BusinessProcess» Assess self-management information</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA599.html">«ArchiMate_BusinessProcess» Request Additional diagnostic testing</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA1/EA412.html">«ArchiMate_BusinessProcess» Diagnose</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA523.html">«ArchiMate_BusinessProcess» Inform patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA594.html">«ArchiMate_BusinessProcess» Receive patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA440.html">«ArchiMate_BusinessProcess» Prepare contact</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA421.html">«ArchiMate_BusinessProcess» Assess information</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA480.html">«ArchiMate_BusinessProcess» Conduct own research</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA519.html">«ArchiMate_BusinessProcess» Identify patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA444.html">«ArchiMate_BusinessProcess» Receive patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA464.html">«ArchiMate_BusinessProcess» Assess results of peer consultation</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA615.html">«ArchiMate_BusinessProcess» Take patient history</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA431.html">«ArchiMate_BusinessProcess» Diagnosis</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA425.html">«ArchiMate_BusinessProcess» Collect additional information</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA603.html">«ArchiMate_BusinessProcess» Review patient file</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA463.html">«ArchiMate_BusinessProcess» Assess results of additional or own research</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA486.html">«ArchiMate_BusinessProcess» Determine diagnosis</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -106,7 +186,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1583</td>
+				<td width="50%" class="TableRow" valign="top">1569</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

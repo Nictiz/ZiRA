@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Carrying out drug therapy</title>
+<title>Conduct therapy</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Carrying out drug therapy", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Conduct therapy", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,15 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19-3-2022 11:30:39</td>
+			<td class="ObjectDetailsValue">1-3-2023 14:37:57</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA132.html">Business Process Treating</a>, <a href="../../../EA2/EA3/EA6/EA208.html">Treat / Conducting drug therapy</a>, Bedrijfsfunctiemodel + WP, <a href="../../../EA2/EA1/EA115.html">Company function + WP + BA treatment </a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA131.html">Business Process Treating</a>, <a href="../../../EA2/EA3/EA6/EA195.html">Treat / Conducting therapy</a>, , <a href="../../../EA2/EA1/EA114.html">Company function + WP + BA treatment </a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Pre-conditie: Voorbereide (geplande) therapie&lt;br/&gt;Post-conditie: Uitgevoerde therapie&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
@@ -64,18 +65,18 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA419.html">«ArchiMate_BusinessProcess» Treat</a><br />
+						<a href="../../EA7/EA668.html">«ArchiMate_BusinessFunction» THERAPY</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA656.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA416.html">«ArchiMate_BusinessProcess» Treat</a><br />
 						BusinessProcess &nbsp;
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA666.html">«ArchiMate_BusinessFunction» MEDICATION</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA659.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -87,32 +88,32 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA491.html">«ArchiMate_BusinessProcess» Delivery of medication</a><br />
+						<a href="../../EA6/EA495.html">«ArchiMate_BusinessProcess» Determine therapeutic diagnosis</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA458.html">«ArchiMate_BusinessProcess» Administer/use medication</a><br />
+						<a href="../../EA6/EA496.html">«ArchiMate_BusinessProcess» Determine therapy goal</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA463.html">«ArchiMate_BusinessProcess» Afleveren medicatie</a><br />
+						<a href="../../EA6/EA497.html">«ArchiMate_BusinessProcess» Determine therapy plan</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA558.html">«ArchiMate_BusinessProcess» Monitor medication</a><br />
+						<a href="../../EA6/EA516.html">«ArchiMate_BusinessProcess» Evaluate therapy</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA594.html">«ArchiMate_BusinessProcess» Prescribing medication</a><br />
+						<a href="../../EA6/EA481.html">«ArchiMate_BusinessProcess» Conduct therapy</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA586.html">«ArchiMate_BusinessProcess» Prepare medication</a><br />
+						<a href="../../EA6/EA616.html">«ArchiMate_BusinessProcess» Take therapeutic history</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -130,7 +131,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1086</td>
+				<td width="50%" class="TableRow" valign="top">1084</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>

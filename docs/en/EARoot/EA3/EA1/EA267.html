@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Patientenlogistiek</title>
+<title>Healthcare billing</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Patientenlogistiek", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Healthcare billing", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19-3-2022 11:31:36</td>
+			<td class="ObjectDetailsValue">1-3-2023 14:37:39</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA73.html">Application functions</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Functionaliteit voor de ondersteuning van het verplaatsen van mensen en middelen (bv transportlogistiek, route ondersteuning, track & tracing, aanmeldregistratie, wachtrijmanagement, oproepfunctionaliteit en functionaliteit tbv sterilisatie van middelen)&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Functionality for recording the transaction and invoicing the care product&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -64,7 +64,12 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA602.html">«ArchiMate_BusinessProcess» Received patient</a><br />
+						<a href="../EA6/EA595.html">«ArchiMate_BusinessProcess» Recording transaction</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA524.html">«ArchiMate_BusinessProcess» Invoicing healthcare product</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>

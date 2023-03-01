@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>CARE::Care support::Care billing</title>
+<title>Domains::CARE::TREATMENT</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,23 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Care billing", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TREATMENT", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:26</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19-3-2022 11:30:54</td>
+			<td class="ObjectDetailsValue">1-3-2023 14:34:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA70.html">Domains</a>, <a href="../../EA2/EA78.html">Domains with BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA71.html">Business function model </a>, , <a href="../../EA2/EA69.html">Domains</a>, <a href="../../EA2/EA77.html">Domains with BA en IO</a>, <a href="../../EA2/EA73.html">Application functions</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">De activiteiten tijdens het (zorg)proces die nodig zijn voor verzamelen van gegevens ten behoeve van de facturering (DBC-registratie en facturatie).&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
@@ -64,13 +63,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA715.html">«ArchiMate_Grouping» Care support</a><br />
+						<a href="EA672.html">«ArchiMate_Grouping» CARE</a><br />
 						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA626.html">«ArchiMate_BusinessFunction» CARE BILLING</a><br />
-						BusinessFunction «ArchiMate_Association» 
 					</td>
 				</tr>
 			</table>
@@ -82,23 +76,68 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA532.html">«ArchiMate_BusinessProcess» Invoicing healthcare product</a><br />
+						<a href="../EA7/EA656.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						BusinessFunction «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA692.html">«ArchiMate_Grouping» Medication</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA473.html">«ArchiMate_BusinessProcess» Collect treatment outcomes</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA9/EA794.html">«ArchiMate_BusinessObject» Healthcare Service</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA9/EA839.html">«ArchiMate_BusinessObject» Operation</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA603.html">«ArchiMate_BusinessProcess» Recording transaction</a><br />
+						<a href="../EA6/EA580.html">«ArchiMate_BusinessProcess» Prepare resources for treatment</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA693.html">«ArchiMate_Grouping» Therapy</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA695.html">«ArchiMate_Grouping» Nursing</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA582.html">«ArchiMate_BusinessProcess» Prepare treatment room</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA694.html">«ArchiMate_Grouping» Treatment, other</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA691.html">«ArchiMate_Grouping» Surgery</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA9/EA780.html">«ArchiMate_BusinessObject» Evaluation report</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA513.html">«ArchiMate_BusinessProcess» Evaluate care</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA578.html">«ArchiMate_BusinessProcess» Prepare patient for treatment</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA690.html">«ArchiMate_Grouping» Nursing</a><br />
+						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -111,11 +150,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.25</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.1.4</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">CEE</td>
+				<td width="50%" class="TableRow" valign="top">CC</td>
 			</tr>	
 
 	</table>

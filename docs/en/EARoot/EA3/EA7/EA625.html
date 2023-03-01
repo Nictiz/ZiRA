@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ADVICE</title>
+<title>COMMUNICATION AND INFORMATION</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,29 +34,43 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ADVICE", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("COMMUNICATION AND INFORMATION", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:21</td>
+			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:22</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">19-3-2022 11:30:49</td>
+			<td class="ObjectDetailsValue">1-3-2023 14:38:37</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Business function model </a>, Bedrijfsfunctiemodel + WP, <a href="../../EA2/EA1/EA111.html">Bedrijfsfunctie + WP + BA advise</a>, <a href="../../EA2/EA1/EA101.html">Business function + BA advise</a>, Checkdiagram</td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA71.html">Business function model </a>, , <a href="../../EA2/EA1/EA94.html">Business function+ BA Non Care</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Giving treatment advice&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">information, fundraising and complaints handling&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA675.html">«ArchiMate_Grouping» Business support</a><br />
+						Grouping «ArchiMate_Association» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -64,42 +78,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA1/EA417.html">«ArchiMate_BusinessProcess» Advise (bp)</a><br />
+						<a href="../EA6/EA517.html">«ArchiMate_BusinessProcess» Fundraising and sponsorship</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA455.html">«ArchiMate_BusinessProcess» Accept advice request</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA437.html">«ArchiMate_BusinessProcess» Giving advice</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA461.html">«ArchiMate_BusinessProcess» Advise patient</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA422.html">«ArchiMate_BusinessProcess» Assess advice request</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA506.html">«ArchiMate_BusinessProcess» Determining treatment advice</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA718.html">«ArchiMate_Grouping» Advice</a><br />
+						<a href="../EA8/EA680.html">«ArchiMate_Grouping» Communication and information</a><br />
 						Grouping «ArchiMate_Association» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA507.html">«ArchiMate_BusinessProcess» Determining treatment options</a><br />
+						<a href="../EA6/EA522.html">«ArchiMate_BusinessProcess» Inform internally and externally</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA550.html">«ArchiMate_BusinessProcess» Mediation of complaints</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -117,7 +111,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1571</td>
+				<td width="50%" class="TableRow" valign="top">1596</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.3.5:1", "", "Determine treatment plan", "EARoot/EA2/EA3/EA5/EA189.html", "175.png", "109", "0", "", "Logical diagram0","{BEF3FC53-45D7-4e3c-8391-19D279A1B780}");
-tocTab[tocTab.length] = new Array("0.2.3.5:2", "", "Request treatment activity", "EARoot/EA2/EA3/EA5/EA191.html", "175.png", "110", "0", "", "Logical diagram0","{C44B9924-80E2-431e-A8AC-8401EFF6689B}");
-tocTab[tocTab.length] = new Array("0.2.3.5:3", "", "Plan treatment activity", "EARoot/EA2/EA3/EA5/EA193.html", "175.png", "111", "0", "", "Logical diagram0","{A88260E8-2004-47c1-96A4-185E04FD0E0D}");
+tocTab[tocTab.length] = new Array("0.2.3.5:1", "", "Determine treatment plan", "EARoot/EA2/EA3/EA5/EA188.html", "175.png", "109", "0", "", "Logical diagram0","{BEF3FC53-45D7-4e3c-8391-19D279A1B780}");
+tocTab[tocTab.length] = new Array("0.2.3.5:2", "", "Request treatment activity", "EARoot/EA2/EA3/EA5/EA190.html", "175.png", "110", "0", "", "Logical diagram0","{C44B9924-80E2-431e-A8AC-8401EFF6689B}");
+tocTab[tocTab.length] = new Array("0.2.3.5:3", "", "Plan treatment activity", "EARoot/EA2/EA3/EA5/EA192.html", "175.png", "111", "0", "", "Logical diagram0","{A88260E8-2004-47c1-96A4-185E04FD0E0D}");
