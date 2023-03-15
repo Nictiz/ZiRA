@@ -35,14 +35,14 @@ English names lookup table from fods export of zira spreadsheet with english col
 -----------------
 xslt/zira2xls:
 
-N.B. artifacts/zira-1.0-elements-nl+en.max is the latest version with SortOrder!
+N.B. artifacts/zira-1.2-elements-nl+en.max is the latest version with SortKey!
 
-> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.0-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.0-nl.xml
-> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.0-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.0-en.xml
+> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.2-nl.xml
+> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.2-en.xml
 .. then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet  
 
 -----------------
-scripts:
+scripts (OBSOLETE):
 adden2max.js: Adding engligh translation to original zira-v1.0.max file
 
 > docker run -it -v "$(pwd)":/app node:lts-buster /bin/bash

@@ -7,6 +7,9 @@
 	<!--
 		Maak MAX Export van de Content Package!
 
+		[15-mar-2023]
+		applicatiefunctie NL tekst
+
 		[1-mar-2022]
 		io_out en io_in toegevoegd voor proces
 		omgezet naar NL ipv EN
@@ -215,7 +218,7 @@
 						<type>AF</type>
 						<domeinen><xsl:value-of select="string-join($domeinen,$nl)"/></domeinen>
 						<applicatiefunctie><xsl:value-of select="$appfunctie/name"/></applicatiefunctie>
-						<beschrijving><xsl:value-of select="$appfunctie/notes"/></beschrijving>
+						<beschrijving><xsl:value-of select="substring-before(substring-after($appfunctie/notes,'&lt;nl-NL&gt;'),'&lt;/nl-NL&gt;')"/></beschrijving>
 						<referenties><xsl:value-of select="$appfunctie/tag[@name='ExternalReference']/@value"/></referenties>
 						<bedrijfsactiviteiten><xsl:value-of select="string-join($bas,$nl)"/></bedrijfsactiviteiten>
 						<informatieobjecten><xsl:value-of select="string-join($baIOs,$nl)"/></informatieobjecten>

@@ -7,6 +7,9 @@
 	<!--
 		Maak MAX Export van de Content Package!
 
+		[15-mar-2023]
+		applicatiefunctie EN tekst
+
 		[18-aug-2022]
 		Added tag sortkey for processtap in functions and proces tabs for proper sorting
 		N.B. xslt is case sensitive and sortkey is all small letters for BA and for domains camel cased 
@@ -236,8 +239,8 @@
 					<line>
 						<type>AF</type>
 						<domeinen><xsl:value-of select="string-join($domeinen,$nl)"/></domeinen>
-						<applicatiefunctie><xsl:value-of select="$appfunctie/name"/></applicatiefunctie>
-						<beschrijving><xsl:value-of select="$appfunctie/notes"/></beschrijving>
+						<applicatiefunctie><xsl:value-of select="$appfunctie/alias"/></applicatiefunctie>
+						<beschrijving><xsl:value-of select="substring-before(substring-after($appfunctie/notes,'&lt;en-US&gt;'),'&lt;/en-US&gt;')"/></beschrijving>
 						<referenties><xsl:value-of select="$appfunctie/tag[@name='ExternalReference']/@value"/></referenties>
 						<bedrijfsactiviteiten><xsl:value-of select="string-join($bas,$nl)"/></bedrijfsactiviteiten>
 						<informatieobjecten><xsl:value-of select="string-join($baIOs,$nl)"/></informatieobjecten>
