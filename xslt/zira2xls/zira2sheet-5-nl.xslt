@@ -161,6 +161,8 @@
 						</line>
 						<!-- should be stereotype='ArchiMate_Aggregation' instead of type='Aggregation' -->
 						<xsl:for-each select="/max:model/relationships/relationship[destId=$wpid and type='Aggregation']">
+							<xsl:sort select="tag[@name='sortkey']/@value"/>
+
 							<xsl:variable name="baid" select="sourceId"/>
 							<xsl:variable name="ba" select="/max:model/objects/object[id=$baid]"/>
 							<xsl:variable name="domeinid" select="/max:model/relationships/relationship[sourceId=$baid and stereotype='ArchiMate_Aggregation' and starts-with(destId,'2.16.840.1.113883.2.4.3.11.29.2.')]/destId"/>

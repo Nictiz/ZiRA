@@ -2392,35 +2392,6 @@ Post-conditie: er is een contact gepland</beschrijving>
          <dienst>Bepalen Zorgbehoefte</dienst>
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Verwerken verwijzing (wp)</werkproces>
-         <processtap>Beheren patiëntgegevens</processtap>
-         <beschrijving>Vastleggen en onderhouden van administratieve gegevens; Verzekering, BSN, etc.</beschrijving>
-         <io_in>Verwijsinformatie</io_in>
-         <io_out>Patient</io_out>
-         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
-AANVULLEND ONDERZOEK
-DIAGNOSTISERING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Bepalen Zorgbehoefte</dienst>
-         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
-         <werkproces>Verwerken verwijzing (wp)</werkproces>
-         <processtap>Beheren patientdossier</processtap>
-         <beschrijving>Verwerken van (medische)  patientinformatie in het patientdossier.
-</beschrijving>
-         <io_in>Verwijsinformatie</io_in>
-         <io_out>Patientdossier</io_out>
-         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.125</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Bepalen Zorgbehoefte</dienst>
-         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
-         <werkproces>Verwerken verwijzing (wp)</werkproces>
          <processtap>Accepteren verwijzing</processtap>
          <beschrijving>Ontvangen en administratief verwerken van de verwijzing.
 Aanvang van de behandelrelatie als ziekenhuis. </beschrijving>
@@ -2436,6 +2407,21 @@ Verwijsinformatie</io_in>
          <dienst>Bepalen Zorgbehoefte</dienst>
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Verwerken verwijzing (wp)</werkproces>
+         <processtap>Beheren patiëntgegevens</processtap>
+         <beschrijving>Vastleggen en onderhouden van administratieve gegevens; Verzekering, BSN, etc.</beschrijving>
+         <io_in>Verwijsinformatie</io_in>
+         <io_out>Patient</io_out>
+         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
+AANVULLEND ONDERZOEK
+DIAGNOSTISERING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Bepalen Zorgbehoefte</dienst>
+         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
+         <werkproces>Verwerken verwijzing (wp)</werkproces>
          <processtap>Opvragen / Ontvangen extra informatie</processtap>
          <beschrijving>Opvragen extra medische/administratieve informatie bij (XDS) repository, lsp,, huisarts, etc. etc.</beschrijving>
          <io_in>Externe informatie Patient</io_in>
@@ -2443,6 +2429,20 @@ Verwijsinformatie</io_in>
          <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
          <zira_id>1955</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Bepalen Zorgbehoefte</dienst>
+         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
+         <werkproces>Verwerken verwijzing (wp)</werkproces>
+         <processtap>Beheren patientdossier</processtap>
+         <beschrijving>Verwerken van (medische)  patientinformatie in het patientdossier.
+</beschrijving>
+         <io_in>Verwijsinformatie</io_in>
+         <io_out>Patientdossier</io_out>
+         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.125</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2474,6 +2474,19 @@ Verwijsinformatie</io_in>
          <dienst>Bepalen Zorgbehoefte</dienst>
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Bepalen zorgbehoefte (wp)</werkproces>
+         <processtap>Beoordelen verwijzing</processtap>
+         <beschrijving>Kennisnemen van de aard en achtergrond van een verwijzing door de (toegewezen) zorgverlener</beschrijving>
+         <io_in>Verwijzing</io_in>
+         <io_out>Verwijzing</io_out>
+         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.126</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Bepalen Zorgbehoefte</dienst>
+         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
+         <werkproces>Bepalen zorgbehoefte (wp)</werkproces>
          <processtap>Bepalen zorgbehoefte</processtap>
          <beschrijving>Het vaststellen van de zorgbehoefte van de patient en bepalen hoe deze geleverd kan worden
 Dit bevat in specifieke contexten (e.g. SEH) ook de triage.</beschrijving>
@@ -2482,19 +2495,6 @@ Dit bevat in specifieke contexten (e.g. SEH) ook de triage.</beschrijving>
          <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.369</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Bepalen Zorgbehoefte</dienst>
-         <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
-         <werkproces>Bepalen zorgbehoefte (wp)</werkproces>
-         <processtap>Beoordelen verwijzing</processtap>
-         <beschrijving>Kennisnemen van de aard en achtergrond van een verwijzing door de (toegewezen) zorgverlener</beschrijving>
-         <io_in>Verwijzing</io_in>
-         <io_out>Verwijzing</io_out>
-         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.126</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2537,16 +2537,16 @@ Afspraakverzoek</io_in>
          <dienst>Bepalen Zorgbehoefte</dienst>
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
-         <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <processtap>Plannen personen</processtap>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
          <io_in>Rooster</io_in>
-         <io_out>Locatie
-Afspraak</io_out>
+         <io_out>Afspraak
+Persoon</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 BEHANDELPLANNING
 VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2570,16 +2570,16 @@ VERWIJZING &amp; OVERDRACHT
          <dienst>Bepalen Zorgbehoefte</dienst>
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
-         <processtap>Plannen personen</processtap>
-         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
+         <processtap>Plannen van  de locatie</processtap>
+         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
-         <io_out>Afspraak
-Persoon</io_out>
+         <io_out>Locatie
+Afspraak</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 BEHANDELPLANNING
 VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -2649,6 +2649,19 @@ AANVULLEND ONDERZOEK
          <dienst>Diagnostiek</dienst>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Ontvangen patient (wp)</werkproces>
+         <processtap>Identificeren patiënt</processtap>
+         <beschrijving>Identificeren, kan leiden tot wijziging in patientgegevens.</beschrijving>
+         <io_in/>
+         <io_out/>
+         <bedrijfsfuncties>DIAGNOSTISERING
+</bedrijfsfuncties>
+         <zira_id>2191</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostiek</dienst>
+         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
+         <werkproces>Ontvangen patient (wp)</werkproces>
          <processtap>Beheren patiëntgegevens</processtap>
          <beschrijving>Vastleggen en onderhouden van administratieve gegevens; Verzekering, BSN, etc.</beschrijving>
          <io_in>Verwijsinformatie</io_in>
@@ -2658,19 +2671,6 @@ AANVULLEND ONDERZOEK
 DIAGNOSTISERING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostiek</dienst>
-         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
-         <werkproces>Ontvangen patient (wp)</werkproces>
-         <processtap>Identificeren patiënt</processtap>
-         <beschrijving>Identificeren, kan leiden tot wijziging in patientgegevens.</beschrijving>
-         <io_in/>
-         <io_out/>
-         <bedrijfsfuncties>DIAGNOSTISERING
-</bedrijfsfuncties>
-         <zira_id>2191</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2689,13 +2689,16 @@ DIAGNOSTISERING
          <dienst>Diagnostiek</dienst>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Verzamelen aanvullende informatie (wp)</werkproces>
-         <processtap>Aanvragen collegiaal consult</processtap>
-         <beschrijving>Verzoek aan een collega-zorgverlener om een specifiek oordeel/advies inzake diagnose of behandeling.</beschrijving>
-         <io_in/>
-         <io_out>Collegiaal Consult</io_out>
+         <processtap>Afnemen anamnese</processtap>
+         <beschrijving>Middels gerichte vragen verzamelen van informatie rond voorgeschiedenis en klachten; dit kan ook voorafgaande aan consult zijn aangeleverd middels bv. vragenlijsten of zelfmanagementinformatie of naslaan medische voorgeschiedenis.</beschrijving>
+         <io_in>Zelfmanagementinformatie
+Zorgbehoefte
+Verwijzing
+Verwijsinformatie</io_in>
+         <io_out>Anamneseverslag</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.130</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.127</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2729,16 +2732,13 @@ Uitslag eigen onderzoek</io_out>
          <dienst>Diagnostiek</dienst>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Verzamelen aanvullende informatie (wp)</werkproces>
-         <processtap>Afnemen anamnese</processtap>
-         <beschrijving>Middels gerichte vragen verzamelen van informatie rond voorgeschiedenis en klachten; dit kan ook voorafgaande aan consult zijn aangeleverd middels bv. vragenlijsten of zelfmanagementinformatie of naslaan medische voorgeschiedenis.</beschrijving>
-         <io_in>Zelfmanagementinformatie
-Zorgbehoefte
-Verwijzing
-Verwijsinformatie</io_in>
-         <io_out>Anamneseverslag</io_out>
+         <processtap>Aanvragen collegiaal consult</processtap>
+         <beschrijving>Verzoek aan een collega-zorgverlener om een specifiek oordeel/advies inzake diagnose of behandeling.</beschrijving>
+         <io_in/>
+         <io_out>Collegiaal Consult</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.127</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.130</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2773,19 +2773,6 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <dienst>Diagnostiek</dienst>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Beoordelen informatie (wp)</werkproces>
-         <processtap>Beoordelen resultaat collegiaal of extern consult</processtap>
-         <beschrijving>Kennisnemen en beoordelen van de bevindingen die zijn gedaan bij een consult van een collega-zorgverlener, en deze betrekken bij diagnose en behandelplan.</beschrijving>
-         <io_in>Resultaat Collegiaal Consult</io_in>
-         <io_out>Resultaat Collegiaal Consult</io_out>
-         <bedrijfsfuncties>DIAGNOSTISERING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.131</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostiek</dienst>
-         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
-         <werkproces>Beoordelen informatie (wp)</werkproces>
          <processtap>Beoordelen zelfmanagementinformatie</processtap>
          <beschrijving>Ontvangen en verwerken van informatie (bijv. metingen, dagboek en bevindingen) van de patiënt over diens eigen zorgproces, zowel digitaal als op papier.</beschrijving>
          <io_in>Zelfmanagementinformatie</io_in>
@@ -2793,6 +2780,19 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <bedrijfsfuncties>DIAGNOSTISERING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.117</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostiek</dienst>
+         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
+         <werkproces>Beoordelen informatie (wp)</werkproces>
+         <processtap>Beoordelen resultaat collegiaal of extern consult</processtap>
+         <beschrijving>Kennisnemen en beoordelen van de bevindingen die zijn gedaan bij een consult van een collega-zorgverlener, en deze betrekken bij diagnose en behandelplan.</beschrijving>
+         <io_in>Resultaat Collegiaal Consult</io_in>
+         <io_out>Resultaat Collegiaal Consult</io_out>
+         <bedrijfsfuncties>DIAGNOSTISERING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.131</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2826,6 +2826,19 @@ Uitslag aanvullend onderzoek</io_out>
          <dienst>Diagnostiek</dienst>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Stellen diagnose (wp)</werkproces>
+         <processtap>Bepalen diagnose</processtap>
+         <beschrijving>Eenduidig vaststellen van de aard en oorzaak van de klachten van de patiënt.</beschrijving>
+         <io_in>Patientdossier</io_in>
+         <io_out>Diagnose</io_out>
+         <bedrijfsfuncties>DIAGNOSTISERING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.133</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostiek</dienst>
+         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
+         <werkproces>Stellen diagnose (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
          <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
@@ -2840,19 +2853,6 @@ BEHANDELPLANNING
 BEHANDELPLANNING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostiek</dienst>
-         <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
-         <werkproces>Stellen diagnose (wp)</werkproces>
-         <processtap>Bepalen diagnose</processtap>
-         <beschrijving>Eenduidig vaststellen van de aard en oorzaak van de klachten van de patiënt.</beschrijving>
-         <io_in>Patientdossier</io_in>
-         <io_out>Diagnose</io_out>
-         <bedrijfsfuncties>DIAGNOSTISERING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.133</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -2941,16 +2941,16 @@ Afspraak</io_out>
          <dienst>Aanvullend onderzoek</dienst>
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
-         <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <processtap>Plannen personen</processtap>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
          <io_in>Rooster</io_in>
-         <io_out>Locatie
-Afspraak</io_out>
+         <io_out>Afspraak
+Persoon</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 BEHANDELPLANNING
 VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2974,16 +2974,16 @@ VERWIJZING &amp; OVERDRACHT
          <dienst>Aanvullend onderzoek</dienst>
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
-         <processtap>Plannen personen</processtap>
-         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
+         <processtap>Plannen van  de locatie</processtap>
+         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
-         <io_out>Afspraak
-Persoon</io_out>
+         <io_out>Locatie
+Afspraak</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 BEHANDELPLANNING
 VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2996,19 +2996,6 @@ VERWIJZING &amp; OVERDRACHT
          <io_out/>
          <bedrijfsfuncties/>
          <zira_id>1070</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Aanvullend onderzoek</dienst>
-         <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
-         <werkproces>Voorbereiden onderzoek (wp)</werkproces>
-         <processtap>Controleren materiaalgegevens</processtap>
-         <beschrijving>Ontvangen en verifiëren van materiaalgegevens.</beschrijving>
-         <io_in>Lichaamsmateriaal</io_in>
-         <io_out>Lichaamsmateriaal</io_out>
-         <bedrijfsfuncties>AANVULLEND ONDERZOEK
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.397</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3029,6 +3016,21 @@ AANVULLEND ONDERZOEK
          <dienst>Aanvullend onderzoek</dienst>
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Voorbereiden onderzoek (wp)</werkproces>
+         <processtap>Beheren patiëntgegevens</processtap>
+         <beschrijving>Vastleggen en onderhouden van administratieve gegevens; Verzekering, BSN, etc.</beschrijving>
+         <io_in>Verwijsinformatie</io_in>
+         <io_out>Patient</io_out>
+         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
+AANVULLEND ONDERZOEK
+DIAGNOSTISERING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Aanvullend onderzoek</dienst>
+         <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
+         <werkproces>Voorbereiden onderzoek (wp)</werkproces>
          <processtap>Afnemen lichaamsmateriaal</processtap>
          <beschrijving>Het afnemen van lichaamsmateriaal benodigd voor onderzoek</beschrijving>
          <io_in/>
@@ -3042,15 +3044,13 @@ AANVULLEND ONDERZOEK
          <dienst>Aanvullend onderzoek</dienst>
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Voorbereiden onderzoek (wp)</werkproces>
-         <processtap>Beheren patiëntgegevens</processtap>
-         <beschrijving>Vastleggen en onderhouden van administratieve gegevens; Verzekering, BSN, etc.</beschrijving>
-         <io_in>Verwijsinformatie</io_in>
-         <io_out>Patient</io_out>
-         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
-AANVULLEND ONDERZOEK
-DIAGNOSTISERING
+         <processtap>Controleren materiaalgegevens</processtap>
+         <beschrijving>Ontvangen en verifiëren van materiaalgegevens.</beschrijving>
+         <io_in>Lichaamsmateriaal</io_in>
+         <io_out>Lichaamsmateriaal</io_out>
+         <bedrijfsfuncties>AANVULLEND ONDERZOEK
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.397</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3123,6 +3123,20 @@ Uitslag aanvullend onderzoek</io_out>
          <dienst>Aanvullend onderzoek</dienst>
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Rapporteren resultaat (wp)</werkproces>
+         <processtap>Opstellen verslag</processtap>
+         <beschrijving>Vastleggenvan het resultaat van het onderzoek.</beschrijving>
+         <io_in>Resultaat</io_in>
+         <io_out>Onderzoeksaanvraag
+Onderzoeksverslag</io_out>
+         <bedrijfsfuncties>AANVULLEND ONDERZOEK
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.158</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Aanvullend onderzoek</dienst>
+         <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
+         <werkproces>Rapporteren resultaat (wp)</werkproces>
          <processtap>Beschikbaar stellen verslag</processtap>
          <beschrijving>Opsturen van het verslag van het resultaat van het aangevraagde onderzoek naar de aanvrager.</beschrijving>
          <io_in>Onderzoeksverslag</io_in>
@@ -3143,20 +3157,6 @@ Uitslag aanvullend onderzoek</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.399</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Aanvullend onderzoek</dienst>
-         <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
-         <werkproces>Rapporteren resultaat (wp)</werkproces>
-         <processtap>Opstellen verslag</processtap>
-         <beschrijving>Vastleggenvan het resultaat van het onderzoek.</beschrijving>
-         <io_in>Resultaat</io_in>
-         <io_out>Onderzoeksaanvraag
-Onderzoeksverslag</io_out>
-         <bedrijfsfuncties>AANVULLEND ONDERZOEK
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.158</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -3302,20 +3302,6 @@ BEHANDELPLANNING
          <dienst>Behandelplan</dienst>
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Bepalen behandelplan (wp)</werkproces>
-         <processtap>Vaststellen behandelplan</processtap>
-         <beschrijving>Bepalen en vaststellen van een behandelplan (inclusief aanvragen van machtigingen (van verzekeraar)).</beschrijving>
-         <io_in/>
-         <io_out>Behandelplan</io_out>
-         <bedrijfsfuncties>BEHANDELPLANNING
-BEHANDELPLANNING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.136</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandelplan</dienst>
-         <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
-         <werkproces>Bepalen behandelplan (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
          <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
@@ -3344,6 +3330,20 @@ BEHANDELPLANNING
 BEHANDELPLANNING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.377</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandelplan</dienst>
+         <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
+         <werkproces>Bepalen behandelplan (wp)</werkproces>
+         <processtap>Vaststellen behandelplan</processtap>
+         <beschrijving>Bepalen en vaststellen van een behandelplan (inclusief aanvragen van machtigingen (van verzekeraar)).</beschrijving>
+         <io_in/>
+         <io_out>Behandelplan</io_out>
+         <bedrijfsfuncties>BEHANDELPLANNING
+BEHANDELPLANNING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.136</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3405,22 +3405,6 @@ AANVULLEND ONDERZOEK
          <dienst>Behandelplan</dienst>
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
-         <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
-         <io_in>Rooster</io_in>
-         <io_out>Locatie
-Afspraak</io_out>
-         <bedrijfsfuncties>AANVULLEND ONDERZOEK
-BEHANDELPLANNING
-VERWIJZING &amp; OVERDRACHT
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandelplan</dienst>
-         <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
-         <werkproces>Plannen behandelactiviteit (wp)</werkproces>
          <processtap>Plannen activiteit</processtap>
          <beschrijving>Plannen van de activiteit </beschrijving>
          <io_in>Rooster
@@ -3429,6 +3413,22 @@ Order</io_in>
          <bedrijfsfuncties>BEHANDELPLANNING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.162</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandelplan</dienst>
+         <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
+         <werkproces>Plannen behandelactiviteit (wp)</werkproces>
+         <processtap>Plannen personen</processtap>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
+         <io_in>Rooster</io_in>
+         <io_out>Afspraak
+Persoon</io_out>
+         <bedrijfsfuncties>AANVULLEND ONDERZOEK
+BEHANDELPLANNING
+VERWIJZING &amp; OVERDRACHT
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3452,16 +3452,16 @@ VERWIJZING &amp; OVERDRACHT
          <dienst>Behandelplan</dienst>
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
-         <processtap>Plannen personen</processtap>
-         <beschrijving>Vaststellen en plannen van gewenste inzet van personen.</beschrijving>
+         <processtap>Plannen van  de locatie</processtap>
+         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
-         <io_out>Afspraak
-Persoon</io_out>
+         <io_out>Locatie
+Afspraak</io_out>
          <bedrijfsfuncties>AANVULLEND ONDERZOEK
 BEHANDELPLANNING
 VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -3497,6 +3497,20 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Voorbereiden behandeling (wp)</werkproces>
+         <processtap>Voorbereiden behandelruimte</processtap>
+         <beschrijving>De behandelruimte voorbereiden op de behandeling die gepland is</beschrijving>
+         <io_in>Locatie
+Behandelplan</io_in>
+         <io_out/>
+         <bedrijfsfuncties>BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.383</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Voorbereiden behandeling (wp)</werkproces>
          <processtap>Voorbereiden middelen voor behandeling</processtap>
          <beschrijving>Zorgen dat de benodigdheden gereedgemaakt worden, bijv medicatie toedieningsgereedmaken, zorgen dat de juiste netten aanwezig zijn op OK, etc
 
@@ -3524,20 +3538,6 @@ Behandelplan</io_in>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.385</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Voorbereiden behandeling (wp)</werkproces>
-         <processtap>Voorbereiden behandelruimte</processtap>
-         <beschrijving>De behandelruimte voorbereiden op de behandeling die gepland is</beschrijving>
-         <io_in>Locatie
-Behandelplan</io_in>
-         <io_out/>
-         <bedrijfsfuncties>BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.383</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
@@ -3556,20 +3556,6 @@ Post-conditie: Uitgevoerde/afgeronde (overige) medische behandeling
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Uitvoeren (overige) medische behandeling (wp)</werkproces>
-         <processtap>Afronden behandeling</processtap>
-         <beschrijving>Afronden behandeling (eindcontrole, stabilisatie, overdracht aan andere zorgverlener en de behandelkamer opruimen)</beschrijving>
-         <io_in>Behandeling</io_in>
-         <io_out>Behandelverslag</io_out>
-         <bedrijfsfuncties>OVERIGE BEHANDELINGEN
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.387</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren (overige) medische behandeling (wp)</werkproces>
          <processtap>Uitvoeren behandeling</processtap>
          <beschrijving>Uitvoeren behandeling inclusief eindcontrole, stabilisatie)</beschrijving>
          <io_in>Behandeling</io_in>
@@ -3578,6 +3564,20 @@ BEHANDELING
 BEHANDELING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.386</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren (overige) medische behandeling (wp)</werkproces>
+         <processtap>Afronden behandeling</processtap>
+         <beschrijving>Afronden behandeling (eindcontrole, stabilisatie, overdracht aan andere zorgverlener en de behandelkamer opruimen)</beschrijving>
+         <io_in>Behandeling</io_in>
+         <io_out>Behandelverslag</io_out>
+         <bedrijfsfuncties>OVERIGE BEHANDELINGEN
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.387</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3592,20 +3592,6 @@ Post-conditie: Uitgevoerde verpleegkundige zorg
          <io_out/>
          <bedrijfsfuncties/>
          <zira_id>1082</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren verpleegkundige zorg (wp)</werkproces>
-         <processtap>Bepalen verpleegdoel (outcome)</processtap>
-         <beschrijving>het bepalen van het verlpeegkundig doel</beschrijving>
-         <io_in/>
-         <io_out>Verpleegplan</io_out>
-         <bedrijfsfuncties>VERPLEGING
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.389</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3640,14 +3626,14 @@ BEHANDELING
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Uitvoeren verpleegkundige zorg (wp)</werkproces>
-         <processtap>Evalueren verpleegresultaat</processtap>
-         <beschrijving>evalueren van het verpleegresultaat</beschrijving>
+         <processtap>Bepalen verpleegdoel (outcome)</processtap>
+         <beschrijving>het bepalen van het verlpeegkundig doel</beschrijving>
          <io_in/>
-         <io_out>Verpleegkundige Evaluatie</io_out>
+         <io_out>Verpleegplan</io_out>
          <bedrijfsfuncties>VERPLEGING
 BEHANDELING
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.390</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.389</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3679,6 +3665,20 @@ BEHANDELING
          <zira_id>1469</zira_id>
       </line>
       <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren verpleegkundige zorg (wp)</werkproces>
+         <processtap>Evalueren verpleegresultaat</processtap>
+         <beschrijving>evalueren van het verpleegresultaat</beschrijving>
+         <io_in/>
+         <io_out>Verpleegkundige Evaluatie</io_out>
+         <bedrijfsfuncties>VERPLEGING
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.390</zira_id>
+      </line>
+      <line>
          <type>WP</type>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
@@ -3696,14 +3696,14 @@ Post-conditie: Uitgevoerde verzorging</beschrijving>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Uitvoeren verzorging (wp)</werkproces>
-         <processtap>Voorbereiden verzorging</processtap>
-         <beschrijving>Het verzamelen van de middelen die nodig zijn om op de zorgvraag te reageren.</beschrijving>
-         <io_in>Verzorgplan</io_in>
-         <io_out/>
+         <processtap>Verwerken verzorgingverzoek</processtap>
+         <beschrijving>Het ontvangen en begrijpen van de zorgvraag.</beschrijving>
+         <io_in>Verzorging</io_in>
+         <io_out>Verzorging</io_out>
          <bedrijfsfuncties>VERZORGING
 BEHANDELING
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.393</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.391</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3719,6 +3719,20 @@ Verzorgplan</io_out>
 BEHANDELING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.392</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren verzorging (wp)</werkproces>
+         <processtap>Voorbereiden verzorging</processtap>
+         <beschrijving>Het verzamelen van de middelen die nodig zijn om op de zorgvraag te reageren.</beschrijving>
+         <io_in>Verzorgplan</io_in>
+         <io_out/>
+         <bedrijfsfuncties>VERZORGING
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.393</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3750,20 +3764,6 @@ BEHANDELING
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.394</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren verzorging (wp)</werkproces>
-         <processtap>Verwerken verzorgingverzoek</processtap>
-         <beschrijving>Het ontvangen en begrijpen van de zorgvraag.</beschrijving>
-         <io_in>Verzorging</io_in>
-         <io_out>Verzorging</io_out>
-         <bedrijfsfuncties>VERZORGING
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.391</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
@@ -3775,6 +3775,62 @@ Post-conditie: Uitgevoerde therapie</beschrijving>
          <io_out/>
          <bedrijfsfuncties/>
          <zira_id>1084</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren therapie (wp)</werkproces>
+         <processtap>Bepalen therapieplan</processtap>
+         <beschrijving>Besluiten tot een verpleegplan en dit vastleggen zodat dit kan worden gebruikt in de communicatie met de patiënt en met andere zorgverleners,</beschrijving>
+         <io_in/>
+         <io_out>Therapieplan</io_out>
+         <bedrijfsfuncties>THERAPIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.381</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren therapie (wp)</werkproces>
+         <processtap>Afnemen therapeutische anamnese</processtap>
+         <beschrijving>het afnemen van een anamnese bendoigd voor een bepaalde therapie</beschrijving>
+         <io_in>Therapie</io_in>
+         <io_out>Therapeutische Anamnese</io_out>
+         <bedrijfsfuncties>THERAPIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.378</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren therapie (wp)</werkproces>
+         <processtap>Bepalen therapeutische diagnose</processtap>
+         <beschrijving>de diagnose volgens de therapeut</beschrijving>
+         <io_in/>
+         <io_out>Therapeutische Diagnose</io_out>
+         <bedrijfsfuncties>THERAPIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.379</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren therapie (wp)</werkproces>
+         <processtap>Bepalen therapiedoel</processtap>
+         <beschrijving>de doelstelling van de therapie overeengekomen met de patient</beschrijving>
+         <io_in>Therapeutische Diagnose</io_in>
+         <io_out>Therapieplan</io_out>
+         <bedrijfsfuncties>THERAPIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.380</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3805,62 +3861,6 @@ BEHANDELING
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.382</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren therapie (wp)</werkproces>
-         <processtap>Bepalen therapiedoel</processtap>
-         <beschrijving>de doelstelling van de therapie overeengekomen met de patient</beschrijving>
-         <io_in>Therapeutische Diagnose</io_in>
-         <io_out>Therapieplan</io_out>
-         <bedrijfsfuncties>THERAPIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.380</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren therapie (wp)</werkproces>
-         <processtap>Bepalen therapeutische diagnose</processtap>
-         <beschrijving>de diagnose volgens de therapeut</beschrijving>
-         <io_in/>
-         <io_out>Therapeutische Diagnose</io_out>
-         <bedrijfsfuncties>THERAPIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.379</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren therapie (wp)</werkproces>
-         <processtap>Afnemen therapeutische anamnese</processtap>
-         <beschrijving>het afnemen van een anamnese bendoigd voor een bepaalde therapie</beschrijving>
-         <io_in>Therapie</io_in>
-         <io_out>Therapeutische Anamnese</io_out>
-         <bedrijfsfuncties>THERAPIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.378</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren therapie (wp)</werkproces>
-         <processtap>Bepalen therapieplan</processtap>
-         <beschrijving>Besluiten tot een verpleegplan en dit vastleggen zodat dit kan worden gebruikt in de communicatie met de patiënt en met andere zorgverleners,</beschrijving>
-         <io_in/>
-         <io_out>Therapieplan</io_out>
-         <bedrijfsfuncties>THERAPIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.381</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
@@ -3871,6 +3871,20 @@ BEHANDELING
          <io_out/>
          <bedrijfsfuncties/>
          <zira_id>1085</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren operatieve behandeling (wp)</werkproces>
+         <processtap>Uitvoeren preoperatieve screening</processtap>
+         <beschrijving>Middels onderzoek/vragenlijsten/gesprek verkrijgen van informatie over de conditie van de patiënt, afwegen van de noodzaak en risico's van de geplande operatie en bepalen van de gewenste aanpak en wijze van anesthesie.</beschrijving>
+         <io_in>Operatie</io_in>
+         <io_out>Preoperatieve-screeningverslag</io_out>
+         <bedrijfsfuncties>OPERATIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.138</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3918,20 +3932,6 @@ BEHANDELING
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.141</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren operatieve behandeling (wp)</werkproces>
-         <processtap>Uitvoeren preoperatieve screening</processtap>
-         <beschrijving>Middels onderzoek/vragenlijsten/gesprek verkrijgen van informatie over de conditie van de patiënt, afwegen van de noodzaak en risico's van de geplande operatie en bepalen van de gewenste aanpak en wijze van anesthesie.</beschrijving>
-         <io_in>Operatie</io_in>
-         <io_out>Preoperatieve-screeningverslag</io_out>
-         <bedrijfsfuncties>OPERATIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.138</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
@@ -3967,20 +3967,6 @@ BEHANDELING
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Uitvoeren medicamenteuze therapie (wp)</werkproces>
-         <processtap>Bereiden medicatie</processtap>
-         <beschrijving>Het geheel of gedeeltelijk vervaardigen van geneesmiddelen dan wel het verpakken of etiketteren daarvan (bron: Geneesmiddelenwet).</beschrijving>
-         <io_in>Toedieningsafspraak</io_in>
-         <io_out/>
-         <bedrijfsfuncties>MEDICATIE
-BEHANDELING
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.145</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Behandeling</dienst>
-         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
-         <werkproces>Uitvoeren medicamenteuze therapie (wp)</werkproces>
          <processtap>Verwerken voorschrift</processtap>
          <beschrijving>Door de apotheek verwerken van een medicatieafspraak tot een medicatieopdracht (in klinische setting) of aflevering van medicatie (in ambulante setting)
 Verwerking kan bestaan uit het substitueren van de medicatie, toepassen van medicatiebewaking etc.</beschrijving>
@@ -3998,17 +3984,14 @@ BEHANDELING
          <dienst>Behandeling</dienst>
          <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
          <werkproces>Uitvoeren medicamenteuze therapie (wp)</werkproces>
-         <processtap>Toedienen/gebruiken medicatie</processtap>
-         <beschrijving>Verstrekken en/of inbrengen van medicatie ter inname op één bepaald moment, volgens afspraak en toedieningsweg (oraal, injectie, anaal etc.). Kan ook betreffen het toedienen van voeding via een infuus of sonde en gebruiken van medicatie in eigen beheer zijn.</beschrijving>
-         <io_in>Medicatieafspraak
-Toedieningsafspraak
-Medicatieverstrekking</io_in>
-         <io_out>Medicatietoediening
-Medicatiegebruik</io_out>
+         <processtap>Bereiden medicatie</processtap>
+         <beschrijving>Het geheel of gedeeltelijk vervaardigen van geneesmiddelen dan wel het verpakken of etiketteren daarvan (bron: Geneesmiddelenwet).</beschrijving>
+         <io_in>Toedieningsafspraak</io_in>
+         <io_out/>
          <bedrijfsfuncties>MEDICATIE
 BEHANDELING
 </bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.146</zira_id>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.145</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4024,6 +4007,23 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
 BEHANDELING
 </bedrijfsfuncties>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.144</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Behandeling</dienst>
+         <bedrijfsproces>Behandelen (bp)</bedrijfsproces>
+         <werkproces>Uitvoeren medicamenteuze therapie (wp)</werkproces>
+         <processtap>Toedienen/gebruiken medicatie</processtap>
+         <beschrijving>Verstrekken en/of inbrengen van medicatie ter inname op één bepaald moment, volgens afspraak en toedieningsweg (oraal, injectie, anaal etc.). Kan ook betreffen het toedienen van voeding via een infuus of sonde en gebruiken van medicatie in eigen beheer zijn.</beschrijving>
+         <io_in>Medicatieafspraak
+Toedieningsafspraak
+Medicatieverstrekking</io_in>
+         <io_out>Medicatietoediening
+Medicatiegebruik</io_out>
+         <bedrijfsfuncties>MEDICATIE
+BEHANDELING
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.146</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4115,21 +4115,6 @@ en irt behandeldoelen.</beschrijving>
          <dienst>Overdracht</dienst>
          <bedrijfsproces>Overdragen (bp)</bedrijfsproces>
          <werkproces>Bepalen transferbeleid (wp)</werkproces>
-         <processtap>Verwijzen patiënt</processtap>
-         <beschrijving>Versturen van een verzoek (zowel digitaal als papier) van een patiënt/zorgverlener om een zorgverlener binnen de (andere) instelling in te schakelen. </beschrijving>
-         <io_in>Overdracht / transferbeleid</io_in>
-         <io_out>Zorgaanbieder
-Zorgverlener
-Verwijzing</io_out>
-         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
-</bedrijfsfuncties>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.120</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Overdracht</dienst>
-         <bedrijfsproces>Overdragen (bp)</bedrijfsproces>
-         <werkproces>Bepalen transferbeleid (wp)</werkproces>
          <processtap>Bepalen overdracht / transferbeleid</processtap>
          <beschrijving>Bepalen van het beleid voor overdracht en transfer.
 Evalueer zorg door het Patientdossier te raadplegen.
@@ -4143,6 +4128,21 @@ Patientdossier</io_in>
          <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
 </bedrijfsfuncties>
          <zira_id>1470</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Overdracht</dienst>
+         <bedrijfsproces>Overdragen (bp)</bedrijfsproces>
+         <werkproces>Bepalen transferbeleid (wp)</werkproces>
+         <processtap>Verwijzen patiënt</processtap>
+         <beschrijving>Versturen van een verzoek (zowel digitaal als papier) van een patiënt/zorgverlener om een zorgverlener binnen de (andere) instelling in te schakelen. </beschrijving>
+         <io_in>Overdracht / transferbeleid</io_in>
+         <io_out>Zorgaanbieder
+Zorgverlener
+Verwijzing</io_out>
+         <bedrijfsfuncties>VERWIJZING &amp; OVERDRACHT
+</bedrijfsfuncties>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.120</zira_id>
       </line>
       <line>
          <type>WP</type>

@@ -2614,36 +2614,6 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
          <dienst>Determine healthcare needs</dienst>
          <bedrijfsproces>Determine care needs</bedrijfsproces>
          <werkproces>Process referral request</werkproces>
-         <processtap>Manage patient data</processtap>
-         <beschrijving>Recording and maintaining administrative data, such as insurance, personal identification number, etc.</beschrijving>
-         <io_in>Referral information</io_in>
-         <io_out>Patient</io_out>
-         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
-ADDITIONAL DIAGNOSTIC TESTING
-DIAGNOSIS
-</bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Determine healthcare needs</dienst>
-         <bedrijfsproces>Determine care needs</bedrijfsproces>
-         <werkproces>Process referral request</werkproces>
-         <processtap>Manage patient file</processtap>
-         <beschrijving>Processing (medical) patient information in the patient file.</beschrijving>
-         <io_in>Referral information</io_in>
-         <io_out>Patient health record</io_out>
-         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
-</bedrijfsfuncties>
-         <sort_key>4</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.125</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Determine healthcare needs</dienst>
-         <bedrijfsproces>Determine care needs</bedrijfsproces>
-         <werkproces>Process referral request</werkproces>
          <processtap>Accept referral</processtap>
          <beschrijving>Receiving and administrative processing of the referral.
 Start of the treatment relationship as a hospital.</beschrijving>
@@ -2660,6 +2630,22 @@ Referral information</io_in>
          <dienst>Determine healthcare needs</dienst>
          <bedrijfsproces>Determine care needs</bedrijfsproces>
          <werkproces>Process referral request</werkproces>
+         <processtap>Manage patient data</processtap>
+         <beschrijving>Recording and maintaining administrative data, such as insurance, personal identification number, etc.</beschrijving>
+         <io_in>Referral information</io_in>
+         <io_out>Patient</io_out>
+         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
+ADDITIONAL DIAGNOSTIC TESTING
+DIAGNOSIS
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Determine healthcare needs</dienst>
+         <bedrijfsproces>Determine care needs</bedrijfsproces>
+         <werkproces>Process referral request</werkproces>
          <processtap>Request/receive additional information</processtap>
          <beschrijving>Requesting additional medical/administrative information from an internal or external source.</beschrijving>
          <io_in>External information, patient</io_in>
@@ -2668,6 +2654,20 @@ Referral information</io_in>
 </bedrijfsfuncties>
          <sort_key>3</sort_key>
          <zira_id>1955</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Determine healthcare needs</dienst>
+         <bedrijfsproces>Determine care needs</bedrijfsproces>
+         <werkproces>Process referral request</werkproces>
+         <processtap>Manage patient file</processtap>
+         <beschrijving>Processing (medical) patient information in the patient file.</beschrijving>
+         <io_in>Referral information</io_in>
+         <io_out>Patient health record</io_out>
+         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
+</bedrijfsfuncties>
+         <sort_key>4</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.125</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2701,20 +2701,6 @@ Referral information</io_in>
          <dienst>Determine healthcare needs</dienst>
          <bedrijfsproces>Determine care needs</bedrijfsproces>
          <werkproces>Determine care needs</werkproces>
-         <processtap>Determine care needs</processtap>
-         <beschrijving>Assessing the patient's care needs and determining how they can be delivered.  This includes triage in specific contexts.</beschrijving>
-         <io_in/>
-         <io_out>Care needs</io_out>
-         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
-</bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.369</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Determine healthcare needs</dienst>
-         <bedrijfsproces>Determine care needs</bedrijfsproces>
-         <werkproces>Determine care needs</werkproces>
          <processtap>Assess referral</processtap>
          <beschrijving>Taking note of the nature and background of a referral by the (assigned) healthcare provider</beschrijving>
          <io_in>Referral request</io_in>
@@ -2723,6 +2709,20 @@ Referral information</io_in>
 </bedrijfsfuncties>
          <sort_key/>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.126</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Determine healthcare needs</dienst>
+         <bedrijfsproces>Determine care needs</bedrijfsproces>
+         <werkproces>Determine care needs</werkproces>
+         <processtap>Determine care needs</processtap>
+         <beschrijving>Assessing the patient's care needs and determining how they can be delivered.  This includes triage in specific contexts.</beschrijving>
+         <io_in/>
+         <io_out>Care needs</io_out>
+         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.369</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2769,17 +2769,17 @@ Appointment request</io_in>
          <dienst>Determine healthcare needs</dienst>
          <bedrijfsproces>Determine care needs</bedrijfsproces>
          <werkproces>Plan contact</werkproces>
-         <processtap>Plan location</processtap>
-         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
+         <processtap>Plan people</processtap>
+         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
          <io_in>Schedule</io_in>
-         <io_out>Location
-Appointment</io_out>
+         <io_out>Appointment
+Person</io_out>
          <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 TREATMENT PLANNING
 REFERRALS &amp; TRANSFERS
 </bedrijfsfuncties>
-         <sort_key>4</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2804,17 +2804,17 @@ REFERRALS &amp; TRANSFERS
          <dienst>Determine healthcare needs</dienst>
          <bedrijfsproces>Determine care needs</bedrijfsproces>
          <werkproces>Plan contact</werkproces>
-         <processtap>Plan people</processtap>
-         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
+         <processtap>Plan location</processtap>
+         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
          <io_in>Schedule</io_in>
-         <io_out>Appointment
-Person</io_out>
+         <io_out>Location
+Appointment</io_out>
          <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 TREATMENT PLANNING
 REFERRALS &amp; TRANSFERS
 </bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <sort_key>4</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -2889,6 +2889,20 @@ ADDITIONAL DIAGNOSTIC TESTING
          <dienst>Diagnostics</dienst>
          <bedrijfsproces>Diagnose</bedrijfsproces>
          <werkproces>Receive patient</werkproces>
+         <processtap>Identify patient</processtap>
+         <beschrijving>Identifying, can lead to changes in patient data.</beschrijving>
+         <io_in/>
+         <io_out/>
+         <bedrijfsfuncties>DIAGNOSIS
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2191</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostics</dienst>
+         <bedrijfsproces>Diagnose</bedrijfsproces>
+         <werkproces>Receive patient</werkproces>
          <processtap>Manage patient data</processtap>
          <beschrijving>Recording and maintaining administrative data, such as insurance, personal identification number, etc.</beschrijving>
          <io_in>Referral information</io_in>
@@ -2899,20 +2913,6 @@ DIAGNOSIS
 </bedrijfsfuncties>
          <sort_key>3</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostics</dienst>
-         <bedrijfsproces>Diagnose</bedrijfsproces>
-         <werkproces>Receive patient</werkproces>
-         <processtap>Identify patient</processtap>
-         <beschrijving>Identifying, can lead to changes in patient data.</beschrijving>
-         <io_in/>
-         <io_out/>
-         <bedrijfsfuncties>DIAGNOSIS
-</bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2191</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -2932,14 +2932,17 @@ DIAGNOSIS
          <dienst>Diagnostics</dienst>
          <bedrijfsproces>Diagnose</bedrijfsproces>
          <werkproces>Collect additional information</werkproces>
-         <processtap>Request peer consultation</processtap>
-         <beschrijving>Requesting opinion/adivce from a fellow healthcare provider regarding diagnosis or treatment.</beschrijving>
-         <io_in/>
-         <io_out>Collegiate consultation</io_out>
+         <processtap>Take patient history</processtap>
+         <beschrijving>Collecting information about past history and complaints by means of targeted questions; this may also have been provided prior to the consultation by means of, for example, questionnaires or self-management information or checking medical history.</beschrijving>
+         <io_in>Self-management information
+Care needs
+Referral request
+Referral information</io_in>
+         <io_out>Anamnesis report</io_out>
          <bedrijfsfuncties>DIAGNOSIS
 </bedrijfsfuncties>
-         <sort_key>4</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.130</zira_id>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.127</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -2975,17 +2978,14 @@ Results of own research</io_out>
          <dienst>Diagnostics</dienst>
          <bedrijfsproces>Diagnose</bedrijfsproces>
          <werkproces>Collect additional information</werkproces>
-         <processtap>Take patient history</processtap>
-         <beschrijving>Collecting information about past history and complaints by means of targeted questions; this may also have been provided prior to the consultation by means of, for example, questionnaires or self-management information or checking medical history.</beschrijving>
-         <io_in>Self-management information
-Care needs
-Referral request
-Referral information</io_in>
-         <io_out>Anamnesis report</io_out>
+         <processtap>Request peer consultation</processtap>
+         <beschrijving>Requesting opinion/adivce from a fellow healthcare provider regarding diagnosis or treatment.</beschrijving>
+         <io_in/>
+         <io_out>Collegiate consultation</io_out>
          <bedrijfsfuncties>DIAGNOSIS
 </bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.127</zira_id>
+         <sort_key>4</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.130</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3019,20 +3019,6 @@ Referral information</io_in>
          <dienst>Diagnostics</dienst>
          <bedrijfsproces>Diagnose</bedrijfsproces>
          <werkproces>Assess information</werkproces>
-         <processtap>Assess results of peer consultation</processtap>
-         <beschrijving>Taking note of and assessing the findings made during a consultation with a fellow healthcare provider, and including these in the diagnosis and treatment plans.</beschrijving>
-         <io_in>Result collegiate consultation</io_in>
-         <io_out>Result collegiate consultation</io_out>
-         <bedrijfsfuncties>DIAGNOSIS
-</bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.131</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostics</dienst>
-         <bedrijfsproces>Diagnose</bedrijfsproces>
-         <werkproces>Assess information</werkproces>
          <processtap>Assess self-management information</processtap>
          <beschrijving>Receiving and processing information (eg., measurements, diary and findings) from the patient about their own care process, both digitally and on paper.</beschrijving>
          <io_in>Self-management information</io_in>
@@ -3041,6 +3027,20 @@ Referral information</io_in>
 </bedrijfsfuncties>
          <sort_key>2</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.117</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostics</dienst>
+         <bedrijfsproces>Diagnose</bedrijfsproces>
+         <werkproces>Assess information</werkproces>
+         <processtap>Assess results of peer consultation</processtap>
+         <beschrijving>Taking note of and assessing the findings made during a consultation with a fellow healthcare provider, and including these in the diagnosis and treatment plans.</beschrijving>
+         <io_in>Result collegiate consultation</io_in>
+         <io_out>Result collegiate consultation</io_out>
+         <bedrijfsfuncties>DIAGNOSIS
+</bedrijfsfuncties>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.131</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3076,6 +3076,20 @@ Diagnostics Results</io_out>
          <dienst>Diagnostics</dienst>
          <bedrijfsproces>Diagnose</bedrijfsproces>
          <werkproces>Diagnosis</werkproces>
+         <processtap>Determine diagnosis</processtap>
+         <beschrijving>To the greatest extent possible, making an unambiguous determination of the nature and cause of the patient's complaints.</beschrijving>
+         <io_in>Patient health record</io_in>
+         <io_out>Diagnosis</io_out>
+         <bedrijfsfuncties>DIAGNOSIS
+</bedrijfsfuncties>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.133</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Diagnostics</dienst>
+         <bedrijfsproces>Diagnose</bedrijfsproces>
+         <werkproces>Diagnosis</werkproces>
          <processtap>Inform patient</processtap>
          <beschrijving>Informing and advising on, for example, the nature, approach and risk of further examination, treatment options, or surgery that the patient undergoes.</beschrijving>
          <io_in>Patient health record
@@ -3089,20 +3103,6 @@ TREATMENT PLANNING
 </bedrijfsfuncties>
          <sort_key>2</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Diagnostics</dienst>
-         <bedrijfsproces>Diagnose</bedrijfsproces>
-         <werkproces>Diagnosis</werkproces>
-         <processtap>Determine diagnosis</processtap>
-         <beschrijving>To the greatest extent possible, making an unambiguous determination of the nature and cause of the patient's complaints.</beschrijving>
-         <io_in>Patient health record</io_in>
-         <io_out>Diagnosis</io_out>
-         <bedrijfsfuncties>DIAGNOSIS
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.133</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -3193,17 +3193,17 @@ Appointment</io_out>
          <dienst>Additional diagnostic testing</dienst>
          <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
          <werkproces>Plan diagnostic testing</werkproces>
-         <processtap>Plan location</processtap>
-         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
+         <processtap>Plan people</processtap>
+         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
          <io_in>Schedule</io_in>
-         <io_out>Location
-Appointment</io_out>
+         <io_out>Appointment
+Person</io_out>
          <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 TREATMENT PLANNING
 REFERRALS &amp; TRANSFERS
 </bedrijfsfuncties>
-         <sort_key>5</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3228,17 +3228,17 @@ REFERRALS &amp; TRANSFERS
          <dienst>Additional diagnostic testing</dienst>
          <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
          <werkproces>Plan diagnostic testing</werkproces>
-         <processtap>Plan people</processtap>
-         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
+         <processtap>Plan location</processtap>
+         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
          <io_in>Schedule</io_in>
-         <io_out>Appointment
-Person</io_out>
+         <io_out>Location
+Appointment</io_out>
          <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 TREATMENT PLANNING
 REFERRALS &amp; TRANSFERS
 </bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <sort_key>5</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3252,20 +3252,6 @@ REFERRALS &amp; TRANSFERS
          <bedrijfsfuncties/>
          <sort_key/>
          <zira_id>1070</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Additional diagnostic testing</dienst>
-         <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
-         <werkproces>Prepare diagnostic testing</werkproces>
-         <processtap>Check specimen data</processtap>
-         <beschrijving>Receiving and verifying material data.</beschrijving>
-         <io_in>Specimen</io_in>
-         <io_out>Specimen</io_out>
-         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
-</bedrijfsfuncties>
-         <sort_key>4</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.397</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3287,6 +3273,22 @@ ADDITIONAL DIAGNOSTIC TESTING
          <dienst>Additional diagnostic testing</dienst>
          <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
          <werkproces>Prepare diagnostic testing</werkproces>
+         <processtap>Manage patient data</processtap>
+         <beschrijving>Recording and maintaining administrative data, such as insurance, personal identification number, etc.</beschrijving>
+         <io_in>Referral information</io_in>
+         <io_out>Patient</io_out>
+         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
+ADDITIONAL DIAGNOSTIC TESTING
+DIAGNOSIS
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Additional diagnostic testing</dienst>
+         <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
+         <werkproces>Prepare diagnostic testing</werkproces>
          <processtap>Collect specimen</processtap>
          <beschrijving>Collecting human material (blood, urine, tissue, etc.) required for diagnostic testing.</beschrijving>
          <io_in/>
@@ -3301,16 +3303,14 @@ ADDITIONAL DIAGNOSTIC TESTING
          <dienst>Additional diagnostic testing</dienst>
          <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
          <werkproces>Prepare diagnostic testing</werkproces>
-         <processtap>Manage patient data</processtap>
-         <beschrijving>Recording and maintaining administrative data, such as insurance, personal identification number, etc.</beschrijving>
-         <io_in>Referral information</io_in>
-         <io_out>Patient</io_out>
-         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
-ADDITIONAL DIAGNOSTIC TESTING
-DIAGNOSIS
+         <processtap>Check specimen data</processtap>
+         <beschrijving>Receiving and verifying material data.</beschrijving>
+         <io_in>Specimen</io_in>
+         <io_out>Specimen</io_out>
+         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 </bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.167</zira_id>
+         <sort_key>4</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.397</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3386,6 +3386,21 @@ Diagnostics Results</io_out>
          <dienst>Additional diagnostic testing</dienst>
          <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
          <werkproces>Report results</werkproces>
+         <processtap>Prepare report</processtap>
+         <beschrijving>Recording the results of diagnostic testing.</beschrijving>
+         <io_in>Result</io_in>
+         <io_out>Research request
+Research report</io_out>
+         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
+</bedrijfsfuncties>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.158</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Additional diagnostic testing</dienst>
+         <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
+         <werkproces>Report results</werkproces>
          <processtap>Make report available</processtap>
          <beschrijving>Sending the report of the result of the requested diagnostic test to othe applicant.</beschrijving>
          <io_in>Research report</io_in>
@@ -3408,21 +3423,6 @@ Diagnostics Results</io_out>
 </bedrijfsfuncties>
          <sort_key>3</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.399</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Additional diagnostic testing</dienst>
-         <bedrijfsproces>Conduct additional diagnostic testing</bedrijfsproces>
-         <werkproces>Report results</werkproces>
-         <processtap>Prepare report</processtap>
-         <beschrijving>Recording the results of diagnostic testing.</beschrijving>
-         <io_in>Result</io_in>
-         <io_out>Research request
-Research report</io_out>
-         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.158</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -3578,21 +3578,6 @@ TREATMENT PLANNING
          <dienst>Treatment plan</dienst>
          <bedrijfsproces>Establish treatment plan</bedrijfsproces>
          <werkproces>Determine treatment plan</werkproces>
-         <processtap>Develop treatment plan</processtap>
-         <beschrijving>Determining and establishing a treatment plan (including requests for authorizations from the insurer)).</beschrijving>
-         <io_in/>
-         <io_out>Treatment plan</io_out>
-         <bedrijfsfuncties>TREATMENT PLANNING
-TREATMENT PLANNING
-</bedrijfsfuncties>
-         <sort_key>5</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.136</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment plan</dienst>
-         <bedrijfsproces>Establish treatment plan</bedrijfsproces>
-         <werkproces>Determine treatment plan</werkproces>
          <processtap>Inform patient</processtap>
          <beschrijving>Informing and advising on, for example, the nature, approach and risk of further examination, treatment options, or surgery that the patient undergoes.</beschrijving>
          <io_in>Patient health record
@@ -3621,6 +3606,21 @@ TREATMENT PLANNING
 </bedrijfsfuncties>
          <sort_key>4</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.377</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment plan</dienst>
+         <bedrijfsproces>Establish treatment plan</bedrijfsproces>
+         <werkproces>Determine treatment plan</werkproces>
+         <processtap>Develop treatment plan</processtap>
+         <beschrijving>Determining and establishing a treatment plan (including requests for authorizations from the insurer)).</beschrijving>
+         <io_in/>
+         <io_out>Treatment plan</io_out>
+         <bedrijfsfuncties>TREATMENT PLANNING
+TREATMENT PLANNING
+</bedrijfsfuncties>
+         <sort_key>5</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.136</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3684,23 +3684,6 @@ ADDITIONAL DIAGNOSTIC TESTING
          <dienst>Treatment plan</dienst>
          <bedrijfsproces>Establish treatment plan</bedrijfsproces>
          <werkproces>Plan treatment activity</werkproces>
-         <processtap>Plan location</processtap>
-         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
-         <io_in>Schedule</io_in>
-         <io_out>Location
-Appointment</io_out>
-         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
-TREATMENT PLANNING
-REFERRALS &amp; TRANSFERS
-</bedrijfsfuncties>
-         <sort_key>5</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment plan</dienst>
-         <bedrijfsproces>Establish treatment plan</bedrijfsproces>
-         <werkproces>Plan treatment activity</werkproces>
          <processtap>Plan activity</processtap>
          <beschrijving>Planning the activity.</beschrijving>
          <io_in>Schedule
@@ -3710,6 +3693,23 @@ Order</io_in>
 </bedrijfsfuncties>
          <sort_key>2</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.162</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment plan</dienst>
+         <bedrijfsproces>Establish treatment plan</bedrijfsproces>
+         <werkproces>Plan treatment activity</werkproces>
+         <processtap>Plan people</processtap>
+         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
+         <io_in>Schedule</io_in>
+         <io_out>Appointment
+Person</io_out>
+         <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
+TREATMENT PLANNING
+REFERRALS &amp; TRANSFERS
+</bedrijfsfuncties>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3734,17 +3734,17 @@ REFERRALS &amp; TRANSFERS
          <dienst>Treatment plan</dienst>
          <bedrijfsproces>Establish treatment plan</bedrijfsproces>
          <werkproces>Plan treatment activity</werkproces>
-         <processtap>Plan people</processtap>
-         <beschrijving>Determining and planning the desired deployment of people (caregivers and others).</beschrijving>
+         <processtap>Plan location</processtap>
+         <beschrijving>Determining and planning the desired use of spaces and rooms.</beschrijving>
          <io_in>Schedule</io_in>
-         <io_out>Appointment
-Person</io_out>
+         <io_out>Location
+Appointment</io_out>
          <bedrijfsfuncties>ADDITIONAL DIAGNOSTIC TESTING
 TREATMENT PLANNING
 REFERRALS &amp; TRANSFERS
 </bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.164</zira_id>
+         <sort_key>5</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BP</type>
@@ -3782,6 +3782,21 @@ Post-condition: Prepared treatment (location, resources, patient)"
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Prepare treatment</werkproces>
+         <processtap>Prepare treatment room</processtap>
+         <beschrijving>Preparing the treatment room for the treatment that is planned.</beschrijving>
+         <io_in>Location
+Treatment plan</io_in>
+         <io_out/>
+         <bedrijfsfuncties>TREATMENT
+</bedrijfsfuncties>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.383</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Prepare treatment</werkproces>
          <processtap>Prepare resources for treatment</processtap>
          <beschrijving>Receiving/obtaining/collecting the necessary resources for treatment. Ensuring that the supplies are prepared, e.g. preparing medication for administration.</beschrijving>
          <io_in>Material
@@ -3807,21 +3822,6 @@ Treatment plan</io_in>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.385</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Prepare treatment</werkproces>
-         <processtap>Prepare treatment room</processtap>
-         <beschrijving>Preparing the treatment room for the treatment that is planned.</beschrijving>
-         <io_in>Location
-Treatment plan</io_in>
-         <io_out/>
-         <bedrijfsfuncties>TREATMENT
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.383</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
@@ -3841,21 +3841,6 @@ Post-condition: Performed/completed (other) medical treatment"</beschrijving>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Carry out (other) medical treatment</werkproces>
-         <processtap>Complete treatment</processtap>
-         <beschrijving>Completing the treatment (final check-up, stabilization, transfer to another healthcare provider and cleaning up the treatment room).</beschrijving>
-         <io_in>Treatment</io_in>
-         <io_out>Treatment report</io_out>
-         <bedrijfsfuncties>OTHER TREATMENTS
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>5</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.387</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Carry out (other) medical treatment</werkproces>
          <processtap>Carry out treatment</processtap>
          <beschrijving>Performing treatment including final check, stabilization.</beschrijving>
          <io_in>Treatment</io_in>
@@ -3865,6 +3850,21 @@ TREATMENT
 </bedrijfsfuncties>
          <sort_key>4</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.386</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Carry out (other) medical treatment</werkproces>
+         <processtap>Complete treatment</processtap>
+         <beschrijving>Completing the treatment (final check-up, stabilization, transfer to another healthcare provider and cleaning up the treatment room).</beschrijving>
+         <io_in>Treatment</io_in>
+         <io_out>Treatment report</io_out>
+         <bedrijfsfuncties>OTHER TREATMENTS
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>5</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.387</zira_id>
       </line>
       <line>
          <type>WP</type>
@@ -3879,21 +3879,6 @@ Post-condition: Nursing care performed.</beschrijving>
          <bedrijfsfuncties/>
          <sort_key/>
          <zira_id>1082</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Perform nursing care</werkproces>
-         <processtap>Determine nursing goal (outcome)</processtap>
-         <beschrijving>Determining the nursing goal.</beschrijving>
-         <io_in/>
-         <io_out>Nursing plan</io_out>
-         <bedrijfsfuncties>NURSING
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.389</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3930,15 +3915,15 @@ TREATMENT
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Perform nursing care</werkproces>
-         <processtap>Evaluate nursing results</processtap>
-         <beschrijving>Evaluating the nursing outcome.</beschrijving>
+         <processtap>Determine nursing goal (outcome)</processtap>
+         <beschrijving>Determining the nursing goal.</beschrijving>
          <io_in/>
-         <io_out>Nurse Evaluation</io_out>
+         <io_out>Nursing plan</io_out>
          <bedrijfsfuncties>NURSING
 TREATMENT
 </bedrijfsfuncties>
-         <sort_key>6</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.390</zira_id>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.389</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -3972,6 +3957,21 @@ TREATMENT
          <zira_id>1469</zira_id>
       </line>
       <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Perform nursing care</werkproces>
+         <processtap>Evaluate nursing results</processtap>
+         <beschrijving>Evaluating the nursing outcome.</beschrijving>
+         <io_in/>
+         <io_out>Nurse Evaluation</io_out>
+         <bedrijfsfuncties>NURSING
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>6</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.390</zira_id>
+      </line>
+      <line>
          <type>WP</type>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
@@ -3990,15 +3990,15 @@ Post-condition: Care performed.</beschrijving>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Perform additional care</werkproces>
-         <processtap>Prepare for care</processtap>
-         <beschrijving>Gathering the resources necessary to respond to the care request.</beschrijving>
-         <io_in>Care plan</io_in>
-         <io_out/>
+         <processtap>Process care request</processtap>
+         <beschrijving>Receiving and understanding the request for care.</beschrijving>
+         <io_in>Care</io_in>
+         <io_out>Care</io_out>
          <bedrijfsfuncties>NURSING
 TREATMENT
 </bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.393</zira_id>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.391</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4015,6 +4015,21 @@ TREATMENT
 </bedrijfsfuncties>
          <sort_key>2</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.392</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Perform additional care</werkproces>
+         <processtap>Prepare for care</processtap>
+         <beschrijving>Gathering the resources necessary to respond to the care request.</beschrijving>
+         <io_in>Care plan</io_in>
+         <io_out/>
+         <bedrijfsfuncties>NURSING
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.393</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4048,21 +4063,6 @@ TREATMENT
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.394</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Perform additional care</werkproces>
-         <processtap>Process care request</processtap>
-         <beschrijving>Receiving and understanding the request for care.</beschrijving>
-         <io_in>Care</io_in>
-         <io_out>Care</io_out>
-         <bedrijfsfuncties>NURSING
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.391</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
@@ -4075,6 +4075,66 @@ Post-conditie: Uitgevoerde therapie</beschrijving>
          <bedrijfsfuncties/>
          <sort_key/>
          <zira_id>1084</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Conduct therapy</werkproces>
+         <processtap>Determine therapy plan</processtap>
+         <beschrijving>Deciding on a nursing plan and recording it so that it can be used in communication with the patient and other caregivers.</beschrijving>
+         <io_in/>
+         <io_out>Therapy plan</io_out>
+         <bedrijfsfuncties>THERAPY
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key/>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.381</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Conduct therapy</werkproces>
+         <processtap>Take therapeutic history</processtap>
+         <beschrijving>Taking a history appropriate for a particular therapy.</beschrijving>
+         <io_in>Therapy</io_in>
+         <io_out>Therapeutic History</io_out>
+         <bedrijfsfuncties>THERAPY
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>1</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.378</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Conduct therapy</werkproces>
+         <processtap>Determine therapeutic diagnosis</processtap>
+         <beschrijving>Provide the diagnosis.</beschrijving>
+         <io_in/>
+         <io_out>Therapeutic Diagnosis</io_out>
+         <bedrijfsfuncties>THERAPY
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.379</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Conduct therapy</werkproces>
+         <processtap>Determine therapy goal</processtap>
+         <beschrijving>Working with the patient to determine the aim of the therapy.</beschrijving>
+         <io_in>Therapeutic Diagnosis</io_in>
+         <io_out>Therapy plan</io_out>
+         <bedrijfsfuncties>THERAPY
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>3</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.380</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4107,66 +4167,6 @@ TREATMENT
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.382</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Conduct therapy</werkproces>
-         <processtap>Determine therapy goal</processtap>
-         <beschrijving>Working with the patient to determine the aim of the therapy.</beschrijving>
-         <io_in>Therapeutic Diagnosis</io_in>
-         <io_out>Therapy plan</io_out>
-         <bedrijfsfuncties>THERAPY
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>3</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.380</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Conduct therapy</werkproces>
-         <processtap>Determine therapeutic diagnosis</processtap>
-         <beschrijving>Provide the diagnosis.</beschrijving>
-         <io_in/>
-         <io_out>Therapeutic Diagnosis</io_out>
-         <bedrijfsfuncties>THERAPY
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.379</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Conduct therapy</werkproces>
-         <processtap>Take therapeutic history</processtap>
-         <beschrijving>Taking a history appropriate for a particular therapy.</beschrijving>
-         <io_in>Therapy</io_in>
-         <io_out>Therapeutic History</io_out>
-         <bedrijfsfuncties>THERAPY
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.378</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Conduct therapy</werkproces>
-         <processtap>Determine therapy plan</processtap>
-         <beschrijving>Deciding on a nursing plan and recording it so that it can be used in communication with the patient and other caregivers.</beschrijving>
-         <io_in/>
-         <io_out>Therapy plan</io_out>
-         <bedrijfsfuncties>THERAPY
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key/>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.381</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
@@ -4178,6 +4178,21 @@ TREATMENT
          <bedrijfsfuncties/>
          <sort_key/>
          <zira_id>1085</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Perform operative treatment</werkproces>
+         <processtap>Perform preoperative screening</processtap>
+         <beschrijving>Obtaining information about the patient's condition through examination/questionnaires/conversation, weighing the necessity and risks of the planned operation and determining the desired approach and method of anaesthesia.</beschrijving>
+         <io_in>Surgery</io_in>
+         <io_out>Preoperative Screening Report</io_out>
+         <bedrijfsfuncties>SURGERY
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key/>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.138</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4228,21 +4243,6 @@ TREATMENT
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.141</zira_id>
       </line>
       <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Perform operative treatment</werkproces>
-         <processtap>Perform preoperative screening</processtap>
-         <beschrijving>Obtaining information about the patient's condition through examination/questionnaires/conversation, weighing the necessity and risks of the planned operation and determining the desired approach and method of anaesthesia.</beschrijving>
-         <io_in>Surgery</io_in>
-         <io_out>Preoperative Screening Report</io_out>
-         <bedrijfsfuncties>SURGERY
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key/>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.138</zira_id>
-      </line>
-      <line>
          <type>WP</type>
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
@@ -4280,6 +4280,23 @@ TREATMENT
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Carry out drug therapy</werkproces>
+         <processtap>Process prescription</processtap>
+         <beschrijving>Processing a medication agreement by the pharmacy into a medication order (in a clinical setting) or delivery of medication (in an outpatient setting).  Processing can consist of substituting the medication, applying medication monitoring, etc.</beschrijving>
+         <io_in>Patient health record
+Medication agreement
+Provision request</io_in>
+         <io_out>Administration agreement</io_out>
+         <bedrijfsfuncties>MEDICATION
+TREATMENT
+</bedrijfsfuncties>
+         <sort_key>2</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.143</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Treatment</dienst>
+         <bedrijfsproces>Treat</bedrijfsproces>
+         <werkproces>Carry out drug therapy</werkproces>
          <processtap>Prepare medication</processtap>
          <beschrijving>Full or partial manufacturing, packaging, or labeling of medicines.</beschrijving>
          <io_in>Administration agreement</io_in>
@@ -4295,17 +4312,15 @@ TREATMENT
          <dienst>Treatment</dienst>
          <bedrijfsproces>Treat</bedrijfsproces>
          <werkproces>Carry out drug therapy</werkproces>
-         <processtap>Process prescription</processtap>
-         <beschrijving>Processing a medication agreement by the pharmacy into a medication order (in a clinical setting) or delivery of medication (in an outpatient setting).  Processing can consist of substituting the medication, applying medication monitoring, etc.</beschrijving>
-         <io_in>Patient health record
-Medication agreement
-Provision request</io_in>
-         <io_out>Administration agreement</io_out>
+         <processtap>Deliver medication</processtap>
+         <beschrijving>Dispensing by a pharmacy of a specific drug to a person. Dispensing is the supply of a quantity of a medicinal product to the patient, his administering party or his representative.</beschrijving>
+         <io_in/>
+         <io_out>Medication dispense</io_out>
          <bedrijfsfuncties>MEDICATION
 TREATMENT
 </bedrijfsfuncties>
-         <sort_key>2</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.143</zira_id>
+         <sort_key>4</sort_key>
+         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.144</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4324,21 +4339,6 @@ TREATMENT
 </bedrijfsfuncties>
          <sort_key>5</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.146</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Treatment</dienst>
-         <bedrijfsproces>Treat</bedrijfsproces>
-         <werkproces>Carry out drug therapy</werkproces>
-         <processtap>Deliver medication</processtap>
-         <beschrijving>Dispensing by a pharmacy of a specific drug to a person. Dispensing is the supply of a quantity of a medicinal product to the patient, his administering party or his representative.</beschrijving>
-         <io_in/>
-         <io_out>Medication dispense</io_out>
-         <bedrijfsfuncties>MEDICATION
-TREATMENT
-</bedrijfsfuncties>
-         <sort_key>4</sort_key>
-         <zira_id>2.16.840.1.113883.2.4.3.11.29.3.144</zira_id>
       </line>
       <line>
          <type>BA</type>
@@ -4434,6 +4434,21 @@ Treatment</io_in>
          <dienst>Transfer</dienst>
          <bedrijfsproces>Transfer</bedrijfsproces>
          <werkproces>Determine transfer policy</werkproces>
+         <processtap>Determine transfer/transfer policy</processtap>
+         <beschrijving>Determining the activities and the necessary information provision for the transfer of patient to home or transfer of patient to another institution.</beschrijving>
+         <io_in>Referral order
+Patient health record</io_in>
+         <io_out>Transfer policy</io_out>
+         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
+</bedrijfsfuncties>
+         <sort_key>1</sort_key>
+         <zira_id>1470</zira_id>
+      </line>
+      <line>
+         <type>BA</type>
+         <dienst>Transfer</dienst>
+         <bedrijfsproces>Transfer</bedrijfsproces>
+         <werkproces>Determine transfer policy</werkproces>
          <processtap>Refer patient</processtap>
          <beschrijving>Sending a request (digital and/or paper) for a patient/care provider to engage a healthcare provider within the (other) institution.</beschrijving>
          <io_in>Transfer policy</io_in>
@@ -4444,21 +4459,6 @@ Referral request</io_out>
 </bedrijfsfuncties>
          <sort_key>2</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.120</zira_id>
-      </line>
-      <line>
-         <type>BA</type>
-         <dienst>Transfer</dienst>
-         <bedrijfsproces>Transfer</bedrijfsproces>
-         <werkproces>Determine transfer policy</werkproces>
-         <processtap>Determine transfer/transfer policy</processtap>
-         <beschrijving>Determining the activities and the necessary information provision for the transfer of patient to home or transfer of patient to another institution.</beschrijving>
-         <io_in>Referral order
-Patient health record</io_in>
-         <io_out>Transfer policy</io_out>
-         <bedrijfsfuncties>REFERRALS &amp; TRANSFERS
-</bedrijfsfuncties>
-         <sort_key>1</sort_key>
-         <zira_id>1470</zira_id>
       </line>
       <line>
          <type>WP</type>
