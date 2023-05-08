@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ZiRA 1.2 Elements" id="EAPK_0BF583DB_5A77_4a00_9AAF_39029BA8F001" version="5.0.0">
-  <folder name="Strategy" id="id-b6319490e6674cbba5a6685628d8bfcd" type="strategy"/>
-  <folder name="Business" id="id-c8e3812d263d4196a68c27ab3dd378a8" type="business">
-    <folder name="Services" id="id-933d4ce39ead49fb9554d64937d54347">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ZiRA 1.2" id="EAPK_0BF583DB_5A77_4a00_9AAF_39029BA8F001" version="5.0.0">
+  <folder name="Strategy" id="id-18e2979a3e0143ab8a726f6f9696c52a" type="strategy"/>
+  <folder name="Business" id="id-7c5d9aae35294a5c9210f32fccaac6a8" type="business">
+    <folder name="Services" id="id-30cc7a21905a42fa9878a668bd312e8c">
       <element xsi:type="archimate:BusinessService" name="Additional diagnostic testing" id="EAID_3602D752_4FE9_4fd6_8483_5B9C54417069">
         <property key="MAX::ID" value="858"/>
       </element>
@@ -25,8 +25,8 @@
         <property key="MAX::ID" value="860"/>
       </element>
     </folder>
-    <folder name="Processes" id="id-b5b25680d49640beb676c627991a2b32">
-      <folder name="Business processes" id="id-88282bf616f343c891fdecf08e3cd8ef">
+    <folder name="Processes" id="id-efe4805da7ad48a0ba8a6fde291f4be9">
+      <folder name="Business processes" id="id-c0133b22b6534b2c81955485d46a6de7">
         <element xsi:type="archimate:BusinessProcess" name="Determine care needs" id="EAID_8656A828_2F50_4ec0_A143_745A42B2E599">
           <documentation>Precondition: Reference Postcondition: a contact is scheduled</documentation>
           <property key="atomic" value="false"/>
@@ -71,7 +71,7 @@ This is specifically described in the pre-conditions.
           <property key="MAX::ID" value="855"/>
         </element>
       </folder>
-      <folder name="Work processes" id="id-b239dd54567e402b8ac56ea5ab2c5124">
+      <folder name="Work processes" id="id-f1b54109208c4b89b3377bf60f4322fd">
         <element xsi:type="archimate:BusinessProcess" name="Assess advice request" id="EAID_2F3EF567_FDED_491d_A8C5_FD39C8E7AC5C">
           <property key="ZIRA::Type" value="Werkproces"/>
           <property key="atomic" value="false"/>
@@ -284,7 +284,7 @@ post-condition: an order for the activity has been created</documentation>
         </element>
       </folder>
     </folder>
-    <folder name="Business activities" id="id-1138a47417cd4759a5af5d239140debe">
+    <folder name="Business activities" id="id-b827420d2c6f493990b1bce673359ddd">
       <element xsi:type="archimate:BusinessProcess" name="Accept advice request" id="EAID_9F5A8122_3711_4e96_AE81_1111FBE0D2ED">
         <documentation>Taking note of the nature and background of a request for advice, assessing whether the requested care is appropriate and can also be provided.</documentation>
         <property key="atomic" value="false"/>
@@ -1341,8 +1341,8 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
       </element>
     </folder>
-    <folder name="Business functions" id="id-c0a7ce7060374197b8051b00e83d231f">
-      <folder id="id-b2eefc6f337d4978b7bb5f9e34fa33d4">
+    <folder name="Business functions" id="id-18acb9e219924e3ea859a31ed6a64591">
+      <folder name="ADDITIONAL DIAGNOSTIC TESTING Folder" id="id-ca429967a5094ab3919ee3d08d8d290c">
         <element xsi:type="archimate:BusinessFunction" name="CLINICAL CHEMISTRT LAB RESEARCH" id="EAID_9B676AD4_E58B_44fd_94A6_A1722C83F5D0">
           <property key="atomic" value="false"/>
           <property key="rotation" value="up"/>
@@ -1373,6 +1373,15 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
           <property key="showdecoration" value="true"/>
           <property key="MAX::ID" value="1565"/>
         </element>
+        <element xsi:type="archimate:BusinessFunction" name="ADDITIONAL DIAGNOSTIC TESTING" id="EAID_2F4175EE_B115_42e1_B3D1_055C8C986CBA">
+          <documentation>Performing additional research such as clinical chemical research, X-ray research, microbiological research, pathological research, etc. In fact, there is a domain research with specializations into the type of research. Specializations can be added within the DRH for specific applications.</documentation>
+          <property key="atomic" value="false"/>
+          <property key="rotation" value="up"/>
+          <property key="showdecoration" value="true"/>
+          <property key="MAX::ID" value="1570"/>
+        </element>
+      </folder>
+      <folder name="TREATMENT Folder" id="id-40605a5cf9544040b96e4bfab46107ce">
         <element xsi:type="archimate:BusinessFunction" name="MEDICATION" id="EAID_B0378213_8FF1_4187_ADFA_D3D3584244E0">
           <documentation>Drug treatment of the patient</documentation>
           <property key="atomic" value="false"/>
@@ -1413,6 +1422,13 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
           <property key="rotation" value="up"/>
           <property key="showdecoration" value="true"/>
           <property key="MAX::ID" value="1574"/>
+        </element>
+        <element xsi:type="archimate:BusinessFunction" name="TREATMENT" id="EAID_29EEDB30_1821_4b61_80C9_F8CEF513BED3">
+          <documentation>Treatment of the patient</documentation>
+          <property key="atomic" value="false"/>
+          <property key="rotation" value="up"/>
+          <property key="showdecoration" value="true"/>
+          <property key="MAX::ID" value="1573"/>
         </element>
       </folder>
       <element xsi:type="archimate:BusinessFunction" name="ACCOUNTABILITY" id="EAID_70BF4586_8DFF_4cf2_B88B_0785028D90E4">
@@ -1665,7 +1681,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="MAX::ID" value="1572"/>
       </element>
     </folder>
-    <folder name="Informationobjects" id="id-1d91781bb6314a0abe55f90e7b6c90e0">
+    <folder name="Informationobjects" id="id-46a6f61005714e35b95656a51dd7a57b">
       <element xsi:type="archimate:BusinessObject" name="Activity" id="EAID_A46B78C7_91B1_4b72_BF12_0FBECFD258C9">
         <documentation>There are 2 types of activities, which are ordered and unordered. A certain activity, operation, series of actions with which a certain result can be achieved. </documentation>
         <property key="MAX::ID" value="2171"/>
@@ -2462,23 +2478,9 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="MAX::ID" value="2.16.840.1.113883.2.4.3.11.29.4.334"/>
       </element>
     </folder>
-    <element xsi:type="archimate:BusinessFunction" name="ADDITIONAL DIAGNOSTIC TESTING" id="EAID_2F4175EE_B115_42e1_B3D1_055C8C986CBA">
-      <documentation>Performing additional research such as clinical chemical research, X-ray research, microbiological research, pathological research, etc. In fact, there is a domain research with specializations into the type of research. Specializations can be added within the DRH for specific applications.</documentation>
-      <property key="atomic" value="false"/>
-      <property key="rotation" value="up"/>
-      <property key="showdecoration" value="true"/>
-      <property key="MAX::ID" value="1570"/>
-    </element>
-    <element xsi:type="archimate:BusinessFunction" name="TREATMENT" id="EAID_29EEDB30_1821_4b61_80C9_F8CEF513BED3">
-      <documentation>Treatment of the patient</documentation>
-      <property key="atomic" value="false"/>
-      <property key="rotation" value="up"/>
-      <property key="showdecoration" value="true"/>
-      <property key="MAX::ID" value="1573"/>
-    </element>
   </folder>
-  <folder name="Application" id="id-504f22e68e1f4f8389bae0d26c72f79f" type="application">
-    <folder name="Application functions" id="id-52f589fa74ed4c6ca33adac9c1691858">
+  <folder name="Application" id="id-b830cf97647f47deb51f1f7bd00b1408" type="application">
+    <folder name="Application functions" id="id-14605635257341ff8a367c958b1fca9a">
       <element xsi:type="archimate:ApplicationFunction" name="Policy and innovation" id="EAID_7F87AA7E_33EF_4b14_B8C4_9369228E010F">
         <documentation>Functionality to support the determination and management of policy, development of products &amp; services, planning &amp; control cycle and supporting management information</documentation>
         <property key="atomic" value="false"/>
@@ -3157,7 +3159,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
       </element>
     </folder>
-    <folder name="Dataobjects (HCIMs)" id="id-0d19b155600248b087ea24cbd0b1e969">
+    <folder name="Dataobjects (HCIMs)" id="id-bb4b0e75bbd340b2aced655a09c3e7ea">
       <element xsi:type="archimate:DataObject" name="AbilityToDessOneself" id="EAID_8A151459_B923_4b36_86B4_5B6B8E042769">
         <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Zelfstandig zich kunnen kleden is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
@@ -3830,11 +3832,330 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
       </element>
     </folder>
   </folder>
-  <folder name="Technology &amp; Physical" id="id-7b7ed70edaf74d23b646c673e9cb3c4f" type="technology"/>
-  <folder name="Motivation" id="id-b9fa44e817b8446c88ed6fb19ceff4c1" type="motivation"/>
-  <folder name="Implementation &amp; Migration" id="id-134add59fd6447178c0cab914563dd42" type="implementation_migration"/>
-  <folder name="Other" id="id-871f09d23b6f46bbb3334ea4c8611c8b" type="other">
-    <folder name="Domains" id="id-b703d22f88ea43faa66b01ac3022db25">
+  <folder name="Technology &amp; Physical" id="id-ce5be12f59ba46b6a32ea8df40db5de6" type="technology"/>
+  <folder name="Motivation" id="id-28c32319eca84ef589ab5f45a278184c" type="motivation">
+    <folder name="Principles" id="id-515b6d9d046343d2a8b5289881320c95">
+      <folder name="Base principles" id="id-2c64bba4cfc14fdf8b9802c30306e813">
+        <element xsi:type="archimate:Principle" name="Basic Principle 1: The Patient Comes First" id="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851">
+          <documentation>
+*Motivation
+The starting point in healthcare is that the patient comes first. It must be noted, however, that today processes are typically devised and designed by the care provider. This can lead to obstacles for the patient with respect to access to care and understanding and influencing the care process.
+
+*Rationale
+The hospital derives its raison d’être from the needs of the patient. The services are therefore focused on satisfaction and best results for the patient and the reduction of costs for the hospital (value-based healthcare).
+
+*Implications
+The care process is organized from the perspective of the patient, so in terms of services for the patient, this means:
+·     —  Information about the key care processes should be available to the patient
+      —  Care provision is patient-friendly, service-oriented, and professional
+Many logistical processes underlying the provision of care are not important to communicate to the patient – he or she must be confronted with this as little as possible and not be bothered by it; this means:
+—  The logistical processes should be in the best interest of the patient while also being practical for the provider
+—  Patients are helped quickly, not unnecessarily referred, and need only provide information once – the client file must therefore be complete and known to every actor (insofar as privacy rules are followed)
+The patient decides, in consultation with his or her provider, the course of care, which means:
+—  Healthcare providers proactively inform the patient
+—  Patient privacy is guaranteed; healthcare providers must comply with the healthcare privacy rules and regulations of the country where care is provided
+—  The patient can go to a clear, open, and friendly counter/contact point for questions and complaints</documentation>
+          <property key="Rationale" value="Het ziekenhuis ontleent zijn bestaansrecht aan de behoefte van de klant. De diensten moeten daarom gericht zijn op tevredenheid en optimaal resultaat voor de klant."/>
+          <property key="Aanleiding" value="Uitgangspunt in de zorg is dat de klant centraal staat. Deze ervaart nu echter nog vaak drempels doordat processen vanuit de kant van de zorgverlener worden bedacht en vormgegeven. Dit kan leiden tot belemmeringen voor de patiënt bij de toegang tot de zor"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="Basic Principle 2: The Hospital Functions in a Network of Care Providers" id="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3">
+          <documentation>*Motivation
+Healthcare is provided in a network of formal and informal care giving. Networks exist in hospitals, in hospital systems, and in larger ecosystems. In a network, caregivers are separated by few if any degrees of separation. Operational and information management are still too focused on efficiency within an organization.
+
+*Rationale
+Typically, patient care is delivered by formal and/or informal caregivers in a network. Several care providers are involved in the care of a patient and they do not always work in a hospital or in the same hospital. By organizing operational management and information management through cooperation, the collaborating partners work together quickly and efficiently for the benefit of the patient. Both the operational management around the patient and the required information exchange are designed for interoperability across the boundaries of care lines.
+
+*Implications
+·     Healthcare is increasingly developing in networked care – cooperation with collaboration partners in the service of the patient
+·     Anticipating and acting on internal and external developments and social involvement is a motivation of the hospital
+·     Information exchange in healthcare is essential to guarantee the quality and continuity of healthcare – information provision must therefore be up-to-date and set up for maximum interchangeability
+·     Patient care, research, and education reinforce and build on each other in a learning healthcare system; patients, healthcare providers, researchers, teachers, and students work together, which also requires adequate information exchange</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Basic Principle 3: Clear and Unambiguous Data Capture at the Point of Care" id="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F">
+          <documentation>*Motivation
+Most hospitals experience data collection as burdensome. This is caused by, among other things, inefficient data management. Frequently, data is requested and stored multiple times, in multiple systems, and multiple places, unnecessarily. This is because data is often not coded using a standardized format. This limits the possibilities for reuse (which makes repeated data collection and entry necessary) and can lead to interpretation errors.
+
+*Rationale
+Data and information are among the most valuable resources in an organization. Unambiguous and one-time registration of data helps ensure that everyone has access to the same facts, including where key data is located. As a result, scientific research becomes easier. Patients no longer need to tell the same story every time. Because information is more widely available and usable, within boundaries set by safety and security protocols, patients and personal caregivers can exercise more control over care, permissioned providers can access necessary data when and where needed, and the quality of care may increase.
+
+
+*Implications
+·     Data management is organized according to FAIR principles; this means:
+—  Findable: data is easy to find (again), identifiable, and traceable to the source; data is accessed quickly, flexibly where possible, cautiously, and checked where necessary
+—  Accessible: data is shared and is accessible to authorized persons; authorization is granted in accordance with legislation and policy; storage and disclosure of data is done centrally where possible, locally where necessary
+—  Interoperable: data has a common vocabulary and clear definitions – we opt for uniformity and (international) standards where possible, and local nuances where necessary
+—  Reusable: data is recorded once at the source for multiple use – data from one domain can be reused in one or more other domains
+·     One integrated longitudinal view of the patient (patient access and management, integrity, unambiguous, reusable longitudinal file)
+·     The purpose for which data is used and reused is compatible with the purpose for which data is collected (purpose limitation); customers have access to the data that they keep about patients, who has access to it, and who has edited it or consulted it
+·     Data is requested from the source and as much as possible use is made of the patient’s master record
+·     When in doubt about the correctness of data in a system, every user (patient or healthcare provider) must be able to report this to the source holder of that system, after which the source holder will adjust the data if necessary
+·     Data is created, used, and stored in accordance with the specifications of the healthcare information building blocks
+Around this basic principle, a program called “Registration at the Source” was started January 2014 in collaboration between Nictiz and the eight University Medical Centers in the Netherlands. For more information, see https://amigo.nictiz.nl/programma/registratie-aan-de-bron.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Basic Principle 4: Information Provision is Flexible, Secure, and Sustainable" id="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399">
+          <documentation>*Motivation
+Change happens faster and comes from more sources (including government, technology, and users) than ever before. Information exchange is often an impediment that delays responses to changing circumstances and needs of professionals and customers.
+
+*Rationale
+The provision of information must support the continuous improvement and innovation of care.
+
+*Implications
+·     The provision of information is flexible
+·     The provision of information is increasingly service-oriented, based on loosely-coupled components; systems are synchronized and integrated in real time via an integration platform
+·     When multiple applications are used, the context of patient data must be clear
+·     Information provision uses national guidelines, generic standards, and proven solutions
+·     Information provision is secure and complies with laws and regulations and the standards for information security
+·     Measures have been put in place to guarantee the continuity of the service throughout the network of care
+·     Promote the shared use of applications
+·     Reuse comes before buying, before making
+·     The provision of information is set up in a sustainable and responsible manner</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Basic Principle 5: Quality can be Deduced from the Care Process" id="EAID_89F17C86_E587_49bc_8F65_5901049A49D7">
+          <documentation>
+*Motivation
+To be able to manage their care process, patients/customers need insight into the quality of care provided. Only then can they base their choices on the right information. But the registration burden in healthcare is high and the supply of (extra) quality information increases this burden even more. Data to be recorded must have added value for the (care for) the patient or contribute to determining the (quality of) care provided.
+
+*Rationale
+By realizing the desired transparency with unambiguous, anonymous data from the primary source registration, (satisfaction) measurements, and information to be derived from this, the registration burden can be limited. This also applies to transparency towards the government, insurers, or other organizations involved in healthcare.
+
+*Implications
+·     (Re)design of processes based on value for the patient (outcomes, outcome)
+·     Quality registrations and other deliveries entail as little extra work as possible; this means:
+—  The quality records are based on information from the primary process
+—  Different quality registrations request similar information in the same way
+—  Record data in accordance with the healthcare information building blocks
+·     Data capturing details of the patient experience is also required for complete transparency; this means:
+—  Structural satisfaction and outcome measurements of the patient as part of the process
+—  Drawing up and adjusting questionnaires in consultation with the patient, so that attention is paid to what they find important
+·     The technical design of systems should ensure, to the extent possible, that administrative burden is kept to a minimum; this means:
+—  Data is recorded unambiguously to enable multiple use (see also Basic Principle 3)
+—  For optimum user-friendliness, interfaces are designed in close collaboration with end users; e.g., using principles from interaction design and user experience design
+·     Healthcare providers record information clearly and once; this means:
+—  Do not record something that has already been recorded
+—  Providers should be aware of the usefulness and necessity of this
+—  Structural support for caregivers in the use of quality improvement systems
+—  Use semantic standards and the healthcare information building blocks</documentation>
+        </element>
+      </folder>
+      <folder name="Derived principles" id="id-60643142a60a485584bb2ebe22c62bb5">
+        <element xsi:type="archimate:Principle" name="(Re)design of processes is based on value for the patient (outcomes-based)." id="EAID_A64929DA_9F7A_4806_BF2F_E491985AEF7A">
+          <documentation>
+* Reason/Dilemma
+How do we organize care in such a way that teams can take joint responsibility for the best outcomes of care.
+
+*Rational
+Improving the outcome of care and the patient experience in delivering care.
+
+*Implications
+- The patient as a partner: strengthening the involvement of the patient (and family/network) in his treatment and care, and in improving it. If desired, the patient can take the lead in this;
+- Interprofessional cooperation: providing care and improving it as the joint responsibility of all professionals involved in hospitals, chains and regional networks.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Applications are designed to be intuitive and to help the user." id="EAID_ED252A8C_3BD4_40b6_8922_E0DA6871AC8C"/>
+        <element xsi:type="archimate:Principle" name="Applications are service- oriented and loosely- coupled." id="EAID_777BD9DB_3D7D_42bb_9F6A_01C07BCD79C1">
+          <documentation>
+* Reason/Dilemma
+The provision of information does not adapt quickly and flexibly to changes in the approach and participation of the patient. Information provision is too rigid. Adjustments are laborious and complex due to many internal dependencies. Similar functionality occurs in multiple applications. Reuse of functionality is not always possible.
+
+*Rational
+A more service-oriented information provision responds more quickly to changing circumstances and new requirements and wishes.
+
+*Implications
+- Applications make their functionality and data available through services based on open standards. Open standards provide the best basis for integration because they are widely supported in the market. Open standards also prevent supplier dependencies.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Clear agreements are made about the type of data to be exchanged." id="EAID_C3895F95_AED3_4156_A728_6DC00AF3CDAD">
+          <documentation>
+* Reason/Dilemma
+Data is now often exchanged without agreement on the meaning of the data. Data is therefore misinterpreted.
+
+*Rational
+Unambiguous agreements about the data that are exchanged are necessary for a correct understanding and interpretation of the data. Without these agreements, information exchange can pose a risk to patient safety.
+
+*Implications
+- In ICT terms, this means specifying a dataset that specifies which data types are needed and how they are captured.
+- For example, implementation of information standards https://www.nictiz.nl/standaardisatie/informatiestandaarden</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Data from the care process can be used for derived objectives, such as governance, control, quality indicators, administration, finance, and research." id="EAID_A8314889_9A09_4cd0_85AC_71397DE34CB5"/>
+        <element xsi:type="archimate:Principle" name="Data is a business asset and is carefully managed." id="EAID_09DD792D_29A8_4b53_8465_367AD755F381">
+          <documentation>
+* Reason/Dilemma
+Traditionally, data has been tied to one specific application. The understanding of this data lay within the application. With more and more cooperation and information exchange, this is no longer valid.
+
+*Rational
+Data is a valuable asset. They must therefore be managed in such a way that the customers in an organization (or chain) have access to the right data of the right quality at the right time, in a safe manner. Data is the basis of information, knowledge and decisions, and is therefore of crucial importance for the correct and efficient functioning of healthcare.
+
+*Implications
+- Monitoring the quality of data;
+- Using uniform definitions for data;
+- Setting up data governance.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Data is classified on the basis of availability, integrity, and confidentiality." id="EAID_998179BE_4E06_47ce_91DA_1641D883A4B8"/>
+        <element xsi:type="archimate:Principle" name="Data is protected from unauthorized access and use." id="EAID_F5775764_EA23_4c4e_ADC8_C7369155C1F5"/>
+        <element xsi:type="archimate:Principle" name="Data is recorded once and shared for multiple uses." id="EAID_AE5DB0F1_3616_4d1d_8B4F_0C5B706D4398"/>
+        <element xsi:type="archimate:Principle" name="Data is requested from the source and registers are used as much as possible." id="EAID_CDBD996B_37E5_42aa_A553_6B4248AA1AD2"/>
+        <element xsi:type="archimate:Principle" name="Each data object has a designated “owner” who is responsible for its quality." id="EAID_0C0E5A56_57BD_4efc_AE88_CCBDE7966A28"/>
+        <element xsi:type="archimate:Principle" name="Exchange of data according to the specification of the healthare information building blocks." id="EAID_34877F48_987E_4bc2_9CBB_645F824BC3D1"/>
+        <element xsi:type="archimate:Principle" name="Exchange of data according to the specification of the healthcare information building blocks or other data exchange standard." id="EAID_B3B36916_ACA2_409e_988E_DED121138128">
+          <documentation>
+* Reason/Dilemma
+For data exchange, it is important that the data that is shared is also interpreted correctly.
+
+*Rational
+A healthcare information building block (ZIB) is a model that helps to record data in an unambiguous manner at an information level, where clarity relates to the recorded data and not to the interpretation of that data in a certain context.
+
+*Implications</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Healthare providers can obtain adequate explanations and instructions about systems at any time." id="EAID_C806F94C_79E1_41f6_A50B_3FFCEE78B0A5"/>
+        <element xsi:type="archimate:Principle" name="Information from healthcare systems is made available to patients in understandable language." id="EAID_884EC2ED_2740_4df3_9338_780FE86BE20A"/>
+        <element xsi:type="archimate:Principle" name="Inter-hospital care processes comply with/conform to care standards and guidelines." id="EAID_0B19E261_11B2_47db_9F09_78F54CFAB726">
+          <documentation>
+* Reason/Dilemma
+Designing transmural processes is often still custom work aimed at a specific solution and data exchange, which means that this solution is often not reusable.
+
+*Rational
+Agreements have been made on the 5 layers of interoperability in the national care standards and guidelines.
+
+*Implications</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Interoperability agreements are made between the care organizations involved." id="EAID_6F23FD05_00FD_4a73_B58D_A152E0C9AF1C">
+          <documentation>
+* Reason/Dilemma
+Interoperability still fails too often due to a one-sided approach. Attention is either too one-sidedly focused on infrastructure (technical) or information (datasets). Sometimes only policy agreements have been made, but the implementation fails.
+
+*Rational
+All aspects represented in the five layers of the interoperability model require attention for successful implementation.
+
+*Implications
+- In ICT terminology this means that concrete 'use cases' are defined with associated actors, transactions and transaction information;
+- Agreements are made and recorded on all five layers of the NICTIZ interoperability model;
+- See also Checklist voor informatieuitwisseling in de zorg.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Limit technnical diversity." id="EAID_EE111E82_1A4C_4a9e_8342_1563460151DA"/>
+        <element xsi:type="archimate:Principle" name="Maximum disconnection between the technical components." id="EAID_B8BDFD27_86DF_4f9e_9340_B906E7899311"/>
+        <element xsi:type="archimate:Principle" name="Message traffic takes place on the basis of standards (e.g., HL7 CDA, HL7 FHIR)" id="EAID_86AFFAAE_3154_4d71_8E1D_8699C1670FC0"/>
+        <element xsi:type="archimate:Principle" name="Necessary information can be recorded at logical moments during the care process" id="EAID_B6B16893_BC04_4e20_AE20_F55455D405B8"/>
+        <element xsi:type="archimate:Principle" name="One application (service) for each generic functionality." id="EAID_90F795A0_2567_4836_8D70_2B6129D03387"/>
+        <element xsi:type="archimate:Principle" name="One longitudinal file per patient with a defined common basic data set." id="EAID_89F00663_DB3F_4a78_8DB9_B947AE64B9F3">
+          <documentation>
+
+* Reason/Dilemma
+Data sharing is hampered by the lack of a common definition of the basic set of healthcare data.
+
+*Rational
+A collection of patient data that is minimally required to provide patients with continuity of care
+
+*Implications
+Implementation of the basic dataset care (https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf )</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Patient can decide what information can be shared with other caregivers." id="EAID_ADB43648_52E7_4051_BF3E_64647E260624">
+          <documentation>
+* Reason/Dilemma
+Lack of information about his own illness, and insufficient insight into which care provider has had access to his data, leads to the patient having insufficient control over his own care process.
+
+The choice of control over his own process is a patient's right, not an obligation. The patient can hand over control to an informal carer, case manager or the attending physician.
+
+*Rational
+- Increase customer satisfaction;
+- Increase effectiveness of care;
+- The patient can exert influence himself.
+
+*Implications</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Patient can provide information themselves." id="EAID_504ABEB2_A424_4e39_8CC5_F297329BF256"/>
+        <element xsi:type="archimate:Principle" name="Patient data may not be used for other purposes without the patient’s consent." id="EAID_DC6FD3E2_25AD_4aaa_B19B_1EFF6A4E3C24"/>
+        <element xsi:type="archimate:Principle" name="Patient has access to their own information in a personal health record." id="EAID_07BE1B97_DD1E_421f_9BCA_C3648045B492"/>
+        <element xsi:type="archimate:Principle" name="Patient has the opportunity to report their self-assement of the quality of care received." id="EAID_6ADB94A8_E53F_43b9_AF2A_FEA65880A740"/>
+        <element xsi:type="archimate:Principle" name="Patient uses a single interface for all work processes" id="EAID_9B0E0109_4A71_484a_A0C8_26E84B6E6F5B"/>
+        <element xsi:type="archimate:Principle" name="Patient/customer has access to his (inter-hospital) health records" id="EAID_95A60EA5_2D5A_43da_89BF_4E70F73969EF"/>
+        <element xsi:type="archimate:Principle" name="Patients and healthcare providers are involved in designing questionnaires, and determining what standards are used (e.g., healthcare building blocks)" id="EAID_FB91F82F_F44D_4d0d_B9F0_2AA7D92C445A"/>
+        <element xsi:type="archimate:Principle" name="Patients receive services through clearly defined and consistent processes." id="EAID_DA807475_2193_4603_AF1D_9D8245C2A6A0">
+          <documentation>
+* Reason/Dilemma
+Processes are now focused on internal efficiency.
+
+*Rational
+Making processes service-oriented focuses on the result and the added value to be delivered for the customer/patient and puts the customer at the center of the process.
+
+*Implications
+- Outcome for the customer is our main driving force in the design;
+- A process provides a service. The interest of the customer of the service is leading and preferable to the interest of the actors and departments that carry out the process.</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Physical communication takes place by connecting to existing infrastructural exchange mechanisms." id="EAID_CD9588A1_3F4A_458f_B14C_1F897539DF5D"/>
+        <element xsi:type="archimate:Principle" name="Processes are classified on the basis of availability, integrity, and confidentiality." id="EAID_814CDD3D_7783_43ff_8751_E389AFD17CA9"/>
+        <element xsi:type="archimate:Principle" name="Processes are described from the perspective of “providing care together with the patient”." id="EAID_374362A7_01D4_4366_9586_C286852BA328"/>
+        <element xsi:type="archimate:Principle" name="Processes are designed with data reuse in mind." id="EAID_BD7FFBAF_AD4B_4566_9C53_8EB5055FCC76">
+          <documentation>
+* Reason/Dilemma
+When processing information within processes, the reuse of this data is often insufficiently taken into account.
+
+*Rational
+For efficient processes and reduction of the registration burden, it is important that data is entered unambiguously, so that it can be used multiple times.
+
+*Implications
+- Use of the healthcare information building blocks
+- Use of semantic standards and code systems</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Processes are standardized and flexible and contain reusable work processes and business activities." id="EAID_D7E0B7FD_E30E_45e1_AEE2_012CBD8CC04C"/>
+        <element xsi:type="archimate:Principle" name="Processes have a designated “owner” and a management procedure in the business." id="EAID_378A22F9_E6BB_492c_867B_995D08DF73F4"/>
+        <element xsi:type="archimate:Principle" name="Quality information from healthcare systems is made available to patients (anonymized and aggregated)." id="EAID_01E1BF2F_6EE1_4512_8B4E_E3CB311369C1"/>
+        <element xsi:type="archimate:Principle" name="Registration at the source." id="EAID_E44B1121_4700_4057_AB67_01C19DD12610"/>
+        <element xsi:type="archimate:Principle" name="Relevant systems for participating care organizations in interoperability agreements are configured to integrate appropriately." id="EAID_3D976AB9_ED80_42cc_A065_1410A1370C11">
+          <documentation>
+* Reason/Dilemma
+Applications in the chain are often only designed for information exchange and less for collaboration in chain care
+
+*Rational
+Collaboration in the chain goes further than just transferring and exchanging information. Continuity of chain care requires a clear, integrated overview based on the organization of data relating to clinical pictures. In addition, it is useful within the chain if functionality is available to support the collaboration between the patient's healthcare providers (e.g. logbook, chat functionality, consent registration, audit trail, integration of self-monitoring and connection to PHE).
+
+*Implications
+- An integrated overview is available for the care providers in the chain, in which the data are arranged around the clinical picture and the patient (and not around the care provider)</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Segregation of duties is applied in critical business functions." id="EAID_11DDDB8B_765B_4579_8F1B_8765E7BFD3A6"/>
+        <element xsi:type="archimate:Principle" name="Start developing a services-oriented application architecture." id="EAID_017074B1_B9A9_4476_BF92_99933686A80B"/>
+        <element xsi:type="archimate:Principle" name="Systems are designed to be user-friendly, according to the principles of “user interaction”." id="EAID_72997333_E787_4efb_B383_BEA6633FA21B"/>
+        <element xsi:type="archimate:Principle" name="Systems are synchronized in real time and produce timely information online." id="EAID_0C12F4AA_92F8_402b_801D_15F9B9D20624"/>
+        <element xsi:type="archimate:Principle" name="Systems are synchronized in real time." id="EAID_98F85930_0BEC_4548_8066_93846B881D45"/>
+        <element xsi:type="archimate:Principle" name="Systems can exchange messages among themselves in a secure manner." id="EAID_E98C69C2_0150_4810_A68E_9983E12F7A43"/>
+        <element xsi:type="archimate:Principle" name="Systems can record and deliver information in a standardized manner." id="EAID_09D0828C_7BC4_4f10_BF7B_12DC675DD01C"/>
+        <element xsi:type="archimate:Principle" name="The non-functional requirements are identified, qualified, and determined." id="EAID_AC883DA1_088F_4ee9_B432_D4F2CB5B4575">
+          <documentation>
+* Reason/Dilemma
+During development and innovation, functional requirements often receive the most attention. Non-functional requirements such as quality criteria are undervalued.
+
+*Rational
+Non-functional requirements determine the quality of the system. They are essential for user acceptance, because they determine, among other things, user-friendliness, performance, reusability, extensibility, scalability, reliability, maintainability, future-proofness, effectiveness and efficiency.
+
+The purpose of non-functional requirements is:
+- specifying the desired quality characteristics;
+- define constraints and design criteria of the system (e.g. secure and transferable);
+- early sizing of the system and facilitating cost estimation;
+- assess the viability of the proposed system.
+
+*Implications</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="The standardization of processes is based on the ZiRA Process Model." id="EAID_17B33B37_EA4B_44a5_AD3E_63C1A88BAE96">
+          <documentation>
+* Reason/Dilemma
+Processes are often designed in different ways and are not uniform. The patient does not recognize uniformity and always feels treated differently.
+
+*Rational
+Process modeling according to a generic process model stimulates reuse and recognisability, and saves costs in design and layout
+
+*Implications
+- Modeling conventions for process design
+- Common library of processes
+- Reuse process models</documentation>
+        </element>
+        <element xsi:type="archimate:Principle" name="Think mobile with front- end applications." id="EAID_DB3E686B_0553_45a9_89B5_D8A76EE3FA3F"/>
+        <element xsi:type="archimate:Principle" name="Think of the cloud with back-end applications." id="EAID_CDAC64B7_79FD_43a0_A96E_439A67EBA2EB"/>
+        <element xsi:type="archimate:Principle" name="Transactions are logged." id="EAID_F8BDCC29_C0AB_4e6a_943D_D10EEAD1E7F9"/>
+        <element xsi:type="archimate:Principle" name="User (patient) interface is multi-lingual." id="EAID_5C7EFF0F_759B_4549_8F23_4BE7F58CBCEF"/>
+        <element xsi:type="archimate:Principle" name="Virtualize application services." id="EAID_637A5699_46DA_4db4_9953_CF5D2FD44E83"/>
+      </folder>
+    </folder>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-35702e43143f46b0945e990ce91ba5b1" type="implementation_migration"/>
+  <folder name="Other" id="id-c72de3831a0d45eaa30c589b41634e8e" type="other">
+    <folder name="Domains" id="id-42ea37ac3dee4652b61513cb9e7f5691">
       <element xsi:type="archimate:Grouping" name="WORKPLACE &amp; COLLABORATION" id="EAID_FD3F250B_4AE3_46f8_B3D5_0283A13658DD">
         <property key="SortKey" value="FD"/>
       </element>
@@ -3849,7 +4170,7 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
       </element>
     </folder>
   </folder>
-  <folder name="Relations" id="id-210c8d7110eb4a099a9b6053c84aec39" type="relations">
+  <folder name="Relations" id="id-6a25b2cd06cd4265b01d5fd9bc0b68a8" type="relations">
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_50F7EEA6_8977_400c_A8F8_49AC50C6AB21" source="EAID_F89371F5_711B_461c_BCBF_B15E5E035CAA" target="EAID_0786FB7C_8145_4ba1_BB94_C8BCE869FF0F"/>
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_37E88C45_F962_43ad_A2E2_272693CC2C0A" source="EAID_ED3BC090_330A_4140_9793_62CE97347881" target="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9"/>
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_355A8504_55E0_45ea_A9B8_8CCD8F89B475" source="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9" target="EAID_C3604AD3_4A3D_4d78_8C5B_4483D8C6CB82"/>
@@ -4523,6 +4844,7 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
     <element xsi:type="archimate:SpecializationRelationship" id="EAID_B1F6662E_7A09_4f4f_9EA0_B61D28D55F0E" source="EAID_1DD35D37_BA7F_4fb9_9EE4_990CB42A3B42" target="EAID_0B22A61B_DCBE_42ea_A41D_81897EBB79E2"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_406F07CA_F077_4e1b_BE30_A91617C3B6A9" source="EAID_C8B083B7_4D1A_4438_B35A_7D219BA2ADC3" target="EAID_2EB7BFAA_0B7D_4649_8852_67E897C7985D"/>
     <element xsi:type="archimate:AssociationRelationship" name="hoort bij" id="EAID_74851410_151A_4932_A780_631B934A37F8" source="EAID_C8B083B7_4D1A_4438_B35A_7D219BA2ADC3" target="EAID_823AD3B0_A35B_4d54_90A5_0DB375A41DB6"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_18F0996B_ABC8_439e_A882_88B3A6FA0F44" source="EAID_DA807475_2193_4603_AF1D_9D8245C2A6A0" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
     <element xsi:type="archimate:SpecializationRelationship" id="EAID_18414E01_999E_4914_AC57_6E1420B6CA65" source="EAID_2EB7BFAA_0B7D_4649_8852_67E897C7985D" target="EAID_0B22A61B_DCBE_42ea_A41D_81897EBB79E2"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_F848859C_BD16_4165_88B1_99AA2131D21C" source="EAID_87FDBCED_7791_404d_B6AA_A8EC02B59804" target="EAID_A1E3FC50_94A5_44ba_9F77_2896ED7548F2"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_175DC5F8_8F78_4911_9E1C_1E60ADEDDA9F" source="EAID_31650BDA_EC95_4d3e_8FE7_043DE3F58BC7" target="EAID_A1E3FC50_94A5_44ba_9F77_2896ED7548F2"/>
@@ -4732,10 +5054,66 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
     <element xsi:type="archimate:AggregationRelationship" id="EAID_458CF303_456E_48bd_9FC3_4E428E230438" source="EAID_4E7586B8_AAA8_41e1_987B_24813544BD1B" target="EAID_B53AE0AF_D9CE_4a91_AD0C_E1B4B800EC82"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_E22CB70D_EF04_416b_8AFF_A693E42ADEC4" source="EAID_4E7586B8_AAA8_41e1_987B_24813544BD1B" target="EAID_12A67150_C4B2_4c06_BE36_4FD9AB2E12B9"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_1C0F83BB_CF48_41ab_8831_9C8D7F821F82" source="EAID_4E7586B8_AAA8_41e1_987B_24813544BD1B" target="EAID_97683ECC_CEE6_453c_83DE_4C73322CC2B1"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_26A85977_F842_4b88_8ED0_D04EC461EB4D" source="EAID_374362A7_01D4_4366_9586_C286852BA328" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_1AE55E1A_F390_4b58_8045_803293B101EC" source="EAID_A64929DA_9F7A_4806_BF2F_E491985AEF7A" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_9763D5C3_D29B_48b7_A476_A0BB65B4E784" source="EAID_378A22F9_E6BB_492c_867B_995D08DF73F4" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_A304FF40_DE92_4321_BE07_83A9BFA02AD5" source="EAID_17B33B37_EA4B_44a5_AD3E_63C1A88BAE96" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_694E5901_CF8B_4ca3_B801_996C76D2476E" source="EAID_504ABEB2_A424_4e39_8CC5_F297329BF256" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_8EB0B68C_EA2F_42cf_99D7_5F33ED6A93FC" source="EAID_ADB43648_52E7_4051_BF3E_64647E260624" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_EB42A149_D8AA_460c_8193_4A6585762BD6" source="EAID_6ADB94A8_E53F_43b9_AF2A_FEA65880A740" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_90C17E49_31FF_4cea_B414_A7781BCD149F" source="EAID_07BE1B97_DD1E_421f_9BCA_C3648045B492" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_976B7609_011D_4832_87A9_280A56C06C0E" source="EAID_ED252A8C_3BD4_40b6_8922_E0DA6871AC8C" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_F334E185_47B2_447c_9F57_52971865ED9C" source="EAID_5C7EFF0F_759B_4549_8F23_4BE7F58CBCEF" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_F51EC926_ABD0_4c85_8AA6_ECD8D0B9421E" source="EAID_9B0E0109_4A71_484a_A0C8_26E84B6E6F5B" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_A6CD6F12_CAAD_408a_B1A1_EF4B06C95D72" source="EAID_777BD9DB_3D7D_42bb_9F6A_01C07BCD79C1" target="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_FA36C91F_6670_40de_820F_E65C54696A3D" source="EAID_0B19E261_11B2_47db_9F09_78F54CFAB726" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_1B137D6A_726E_4a99_8E29_87EF0C8A56E1" source="EAID_6F23FD05_00FD_4a73_B58D_A152E0C9AF1C" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_7443DA2F_B629_452a_995D_D89F37E27EBD" source="EAID_C3895F95_AED3_4156_A728_6DC00AF3CDAD" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_EDD30216_6A5A_43d0_899D_361FE5F51F3E" source="EAID_B3B36916_ACA2_409e_988E_DED121138128" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_AB562E16_6322_469c_AD2A_F310CC67DC48" source="EAID_95A60EA5_2D5A_43da_89BF_4E70F73969EF" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_0A4C398A_6A52_4d72_A5BC_57881EBEA465" source="EAID_3D976AB9_ED80_42cc_A065_1410A1370C11" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_E00A7DDC_25B6_4f98_A399_73C0F29A20C0" source="EAID_0C12F4AA_92F8_402b_801D_15F9B9D20624" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_FE4A4108_B0B1_4418_AF81_BB237F60EBFE" source="EAID_CD9588A1_3F4A_458f_B14C_1F897539DF5D" target="EAID_2E6856D8_D233_45c7_AB5A_AED14174C6A3"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_2FE9C3D7_58D9_4f14_9C0A_2F4FB4164638" source="EAID_BD7FFBAF_AD4B_4566_9C53_8EB5055FCC76" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_A3B17DEB_1318_4806_B0D5_02160E4117D0" source="EAID_E44B1121_4700_4057_AB67_01C19DD12610" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_11AD63A5_12C9_4464_9C26_C232C491A32A" source="EAID_CDBD996B_37E5_42aa_A553_6B4248AA1AD2" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_C6A58428_C0DB_4b1c_A7B8_5F301FC9E7F3" source="EAID_89F00663_DB3F_4a78_8DB9_B947AE64B9F3" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_2C70445F_5CF7_4dd5_BE81_FBBE73BED5C8" source="EAID_A8314889_9A09_4cd0_85AC_71397DE34CB5" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_9B80193C_2548_497b_AAAF_262EA8C53CCF" source="EAID_0C0E5A56_57BD_4efc_AE88_CCBDE7966A28" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_B9E6C4D2_15D0_470d_AB25_4A6C6F46D468" source="EAID_AE5DB0F1_3616_4d1d_8B4F_0C5B706D4398" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_EC2ECEE1_C6E2_4a6b_9052_0DD652090CD6" source="EAID_90F795A0_2567_4836_8D70_2B6129D03387" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_269990E7_CF0D_4719_906F_1FA236F243FC" source="EAID_98F85930_0BEC_4548_8066_93846B881D45" target="EAID_2A48E8AC_3222_4081_B9DC_C961EAE0C44F"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_6564C440_A5E0_456a_9A18_5E327D7E482A" source="EAID_814CDD3D_7783_43ff_8751_E389AFD17CA9" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_4C6A7357_4182_41dc_BC46_FF2AFAD87661" source="EAID_AC883DA1_088F_4ee9_B432_D4F2CB5B4575" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_F925536F_5BE9_410d_A4FE_18F1715BCF8D" source="EAID_D7E0B7FD_E30E_45e1_AEE2_012CBD8CC04C" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_4712487E_D94B_4013_844D_83393E6AC176" source="EAID_09DD792D_29A8_4b53_8465_367AD755F381" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_7C6F4ED3_62E7_4f06_8076_3C7DA82E3F55" source="EAID_11DDDB8B_765B_4579_8F1B_8765E7BFD3A6" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_AF97FDB7_73AD_45fc_A67C_A7387B7121B9" source="EAID_884EC2ED_2740_4df3_9338_780FE86BE20A" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_FCE4628D_001B_441a_B110_AE7BCACAE019" source="EAID_F5775764_EA23_4c4e_ADC8_C7369155C1F5" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_0A187154_4924_40be_BD69_4F0D249E1C01" source="EAID_998179BE_4E06_47ce_91DA_1641D883A4B8" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_681E3ACE_1496_4cc0_9639_864C2EF109AF" source="EAID_F8BDCC29_C0AB_4e6a_943D_D10EEAD1E7F9" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_5A2B9411_E566_4ba1_9FF5_473933594961" source="EAID_DC6FD3E2_25AD_4aaa_B19B_1EFF6A4E3C24" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_0E237891_DA9D_4a5e_AF9C_1E8492CC63D9" source="EAID_017074B1_B9A9_4476_BF92_99933686A80B" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_9205BB7A_6808_439c_931A_573F0FD96570" source="EAID_637A5699_46DA_4db4_9953_CF5D2FD44E83" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_15CE04BE_9A74_4c69_A7F7_A4BA95C01DAB" source="EAID_CDAC64B7_79FD_43a0_A96E_439A67EBA2EB" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_EC5D7286_AC6B_4a78_A019_954AD4793DDA" source="EAID_DB3E686B_0553_45a9_89B5_D8A76EE3FA3F" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_5DE27725_E735_4ef5_928B_C97526F63C77" source="EAID_B8BDFD27_86DF_4f9e_9340_B906E7899311" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_C6D59DE4_7F4F_4c4a_9823_77F8219F1230" source="EAID_EE111E82_1A4C_4a9e_8342_1563460151DA" target="EAID_FDB11BFA_C4E8_44ba_8BA4_A63DB40FD399"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_92061D77_0E90_4988_A800_388ADC5DDD17" source="EAID_A64929DA_9F7A_4806_BF2F_E491985AEF7A" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_92256583_8398_4aab_BDC3_149751E06396" source="EAID_B6B16893_BC04_4e20_AE20_F55455D405B8" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_575853FA_83BC_4964_AB3B_8FA361FCC9FE" source="EAID_C806F94C_79E1_41f6_A50B_3FFCEE78B0A5" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_F543040E_5E2A_4fdc_A0BD_4FE8A2DB7E50" source="EAID_FB91F82F_F44D_4d0d_B9F0_2AA7D92C445A" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_3B2BC6F8_86CB_4c25_850B_DA4057E560BB" source="EAID_01E1BF2F_6EE1_4512_8B4E_E3CB311369C1" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_6AA5368D_B5E4_49b0_B1F5_0D708D9B9FB8" source="EAID_B3B36916_ACA2_409e_988E_DED121138128" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_7DC5F0EA_C5D9_4479_A00C_5DBAA89D7565" source="EAID_09D0828C_7BC4_4f10_BF7B_12DC675DD01C" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_22E586FB_ABD0_4df6_922A_60F6531D57BB" source="EAID_72997333_E787_4efb_B383_BEA6633FA21B" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_2E9CFCCC_7547_474c_847A_F3B9151D4D96" source="EAID_E98C69C2_0150_4810_A68E_9983E12F7A43" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_52CB771D_0664_4387_A3F2_7C14729BE50B" source="EAID_86AFFAAE_3154_4d71_8E1D_8699C1670FC0" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="EAID_0C842854_8DCB_420d_B1EB_EE4A888DC87E" source="EAID_34877F48_987E_4bc2_9CBB_645F824BC3D1" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_6A40E751_8B45_4712_A761_7A856F31D27E" source="EAID_4E7586B8_AAA8_41e1_987B_24813544BD1B" target="EAID_C6EBE2B0_AF94_474a_8711_76D94C95DB9C"/>
   </folder>
-  <folder name="Views" id="id-243d39e3602348adb3b15a4a407b59a8" type="diagrams"/>
+  <folder name="Views" id="id-aac92ca746fd42279455e21d4de96fec" type="diagrams"/>
   <property key="MAX::ImportDate" value="4/24/2014 15:28:00"/>
-  <property key="MAX::ExportDate" value="15-3-2023 15:53:35"/>
-  <property key="MAX::ExportFile" value="Z:\EAP\ZiRA\zira-1.2-elements-nl+en.max"/>
+  <property key="MAX::ExportDate" value="13-1-2022 22:18:34"/>
+  <property key="MAX::ExportFile" value="Z:\EAP\ZiRA\zira-1.0-elements-nl+en.max"/>
 </archimate:model>
