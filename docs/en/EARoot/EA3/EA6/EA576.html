@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Prepare medication</title>
+<title>Prepare for care</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Prepare medication", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Prepare for care", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:24</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:17:42</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1-3-2023 14:38:25</td>
+			<td class="ObjectDetailsValue">14-6-2023 10:13:46</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA131.html">Business Process Treating</a>, <a href="../../EA2/EA3/EA6/EA207.html">Treat / Conducting drug therapy</a>, <a href="../../EA2/EA1/EA114.html">Company function + WP + BA treatment </a>, <a href="../../EA2/EA1/EA104.html">Company function + BA treatment </a>, <a href="../../EA2/EA77.html">Domains with BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA133.html">Business Process Treating</a>, <a href="../../EA2/EA3/EA6/EA211.html">Treat / Carry out care</a>, <a href="../../EA2/EA1/EA116.html">Company function + WP + BA treatment </a>, <a href="../../EA2/EA1/EA106.html">Company function + BA treatment </a>, <a href="../../EA2/EA79.html">Domains with BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Full or partial manufacturing, packaging, or labeling of medicines.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Gathering the resources necessary to respond to the care request.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -68,22 +68,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA692.html">«ArchiMate_Grouping» Medication</a><br />
+						<a href="../EA8/EA674.html">«ArchiMate_Grouping» Nursing</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA663.html">«ArchiMate_BusinessFunction» MEDICATION</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA424.html">«ArchiMate_BusinessProcess» Carry out drug therapy</a><br />
+						<a href="../EA5/EA2/EA436.html">«ArchiMate_BusinessProcess» Perform additional care</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA656.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						<a href="../EA7/EA649.html">«ArchiMate_BusinessFunction» NURSING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA671.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -96,7 +96,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA251.html">«ArchiMate_ApplicationFunction» Medication</a><br />
+						<a href="../EA1/EA257.html">«ArchiMate_ApplicationFunction» Nursing support (patient services)</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -110,7 +110,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA483.html">Deliver medication</a><br />
+						<a href="EA619.html">Taking care of patient</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -126,7 +126,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA587.html">Process prescription</a><br />
+						<a href="EA513.html">Draw up care plan</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -146,7 +146,11 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.145</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.393</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">NIEUW</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -177,7 +181,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA734.html">«ArchiMate_BusinessObject» Administration agreement</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA753.html">«ArchiMate_BusinessObject» Care plan</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

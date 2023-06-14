@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Evaluate treatment</title>
+<title>Determine treatment plan</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Evaluate treatment", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Determine treatment plan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,19 +42,20 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">1-3-2023 14:37:58</td>
+			<td class="ObjectDetailsValue">14-6-2023 10:13:21</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA131.html">Business Process Treating</a>, <a href="../../../EA2/EA3/EA6/EA197.html">Treat / Evaluate treatment</a>, , <a href="../../../EA2/EA1/EA114.html">Company function + WP + BA treatment </a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA131.html">Business process drafting a treatment plan</a>, <a href="../../../EA2/EA3/EA5/EA190.html">Determine treatment plan</a>, <a href="../../../EA2/EA1/EA114.html">Company function + WP + BA treatment planning</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Pre-condition: Performed Treatment&lt;br/&gt;Post-condition: Evaluated Treatment&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Pre-condition: a (provisional/work) diagnosis has been determined&lt;br/&gt;Post-condition: a (specific) treatment plan has been determined&lt;br/&gt;&lt;br/&gt;After determining treatment options (MDO?) for diagnosis,&lt;br/&gt;an option is chosen together with the patient (informing the patient) and concent is asked for it and then the details are filled in (treatment plan).&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
@@ -65,13 +66,18 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA416.html">«ArchiMate_BusinessProcess» Treat</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA672.html">«ArchiMate_BusinessFunction» TREATMENT PLANNING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA656.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						<a href="../../EA7/EA672.html">«ArchiMate_BusinessFunction» TREATMENT PLANNING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA417.html">«ArchiMate_BusinessProcess» Establish treatment plan</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -83,15 +89,41 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA513.html">«ArchiMate_BusinessProcess» Evaluate care</a><br />
+						<a href="../../EA6/EA561.html">«ArchiMate_BusinessProcess» Obtain informed consent</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA473.html">«ArchiMate_BusinessProcess» Collect treatment outcomes</a><br />
+						<a href="../../EA6/EA525.html">«ArchiMate_BusinessProcess» Inform patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA502.html">«ArchiMate_BusinessProcess» Determine treatment options</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA507.html">«ArchiMate_BusinessProcess» Develop treatment plan</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA448.html">Request treatment activity</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+
 			</table>
 		</div>
 <div class="ItemBody" id="TaggedValTable">
@@ -106,7 +138,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1087</td>
+				<td width="50%" class="TableRow" valign="top">1077</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ZiRA 1.2" id="EAPK_0BF583DB_5A77_4a00_9AAF_39029BA8F001" version="5.0.0">
-  <folder name="Strategy" id="id-18e2979a3e0143ab8a726f6f9696c52a" type="strategy"/>
-  <folder name="Business" id="id-7c5d9aae35294a5c9210f32fccaac6a8" type="business">
-    <folder name="Services" id="id-30cc7a21905a42fa9878a668bd312e8c">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ZiRA 1.2 EN" id="EAPK_0BF583DB_5A77_4a00_9AAF_39029BA8F001" version="5.0.0">
+  <folder name="Strategy" id="id-9e78643841574c4dbe702b31905e86a5" type="strategy"/>
+  <folder name="Business" id="id-066a47017e9d4a6cbd12636f2e6e1724" type="business">
+    <folder name="Services" id="id-9790897297864113be92b09b616d4e3d">
       <element xsi:type="archimate:BusinessService" name="Additional diagnostic testing" id="EAID_3602D752_4FE9_4fd6_8483_5B9C54417069">
         <property key="MAX::ID" value="858"/>
       </element>
@@ -25,8 +25,8 @@
         <property key="MAX::ID" value="860"/>
       </element>
     </folder>
-    <folder name="Processes" id="id-efe4805da7ad48a0ba8a6fde291f4be9">
-      <folder name="Business processes" id="id-c0133b22b6534b2c81955485d46a6de7">
+    <folder name="Processes" id="id-b06842b652294c65abd93ef5f20db388">
+      <folder name="Business processes" id="id-b64abdb991ab47e3864019b72938a6cc">
         <element xsi:type="archimate:BusinessProcess" name="Determine care needs" id="EAID_8656A828_2F50_4ec0_A143_745A42B2E599">
           <documentation>Precondition: Reference Postcondition: a contact is scheduled</documentation>
           <property key="atomic" value="false"/>
@@ -71,7 +71,7 @@ This is specifically described in the pre-conditions.
           <property key="MAX::ID" value="855"/>
         </element>
       </folder>
-      <folder name="Work processes" id="id-f1b54109208c4b89b3377bf60f4322fd">
+      <folder name="Work processes" id="id-355c882a74854355ba5d0e49f3a06339">
         <element xsi:type="archimate:BusinessProcess" name="Assess advice request" id="EAID_2F3EF567_FDED_491d_A8C5_FD39C8E7AC5C">
           <property key="ZIRA::Type" value="Werkproces"/>
           <property key="atomic" value="false"/>
@@ -284,7 +284,7 @@ post-condition: an order for the activity has been created</documentation>
         </element>
       </folder>
     </folder>
-    <folder name="Business activities" id="id-b827420d2c6f493990b1bce673359ddd">
+    <folder name="Business activities" id="id-b133d8d0b7864242ba95414a1c6f36b8">
       <element xsi:type="archimate:BusinessProcess" name="Accept advice request" id="EAID_9F5A8122_3711_4e96_AE81_1111FBE0D2ED">
         <documentation>Taking note of the nature and background of a request for advice, assessing whether the requested care is appropriate and can also be provided.</documentation>
         <property key="atomic" value="false"/>
@@ -1341,96 +1341,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
       </element>
     </folder>
-    <folder name="Business functions" id="id-18acb9e219924e3ea859a31ed6a64591">
-      <folder name="ADDITIONAL DIAGNOSTIC TESTING Folder" id="id-ca429967a5094ab3919ee3d08d8d290c">
-        <element xsi:type="archimate:BusinessFunction" name="CLINICAL CHEMISTRT LAB RESEARCH" id="EAID_9B676AD4_E58B_44fd_94A6_A1722C83F5D0">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1563"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="MICROBIOLOGY AND IMMUNOLOGY LAB RESEARCH" id="EAID_8BF3D3B6_2125_4730_B431_C413E6874DC3">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1564"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="NUCLEAR" id="EAID_8EC05132_E6A8_4ba5_97B0_E0EECB25009E">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1566"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="OTHER ADDITIONAL INVESTIGATIONS" id="EAID_04B66FEB_21DD_4f59_82CD_4CC545FC395E">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1567"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="RADIOLOGY" id="EAID_D5C0FCB1_07A8_4cbf_9EA2_91960669D3C6">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1565"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="ADDITIONAL DIAGNOSTIC TESTING" id="EAID_2F4175EE_B115_42e1_B3D1_055C8C986CBA">
-          <documentation>Performing additional research such as clinical chemical research, X-ray research, microbiological research, pathological research, etc. In fact, there is a domain research with specializations into the type of research. Specializations can be added within the DRH for specific applications.</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1570"/>
-        </element>
-      </folder>
-      <folder name="TREATMENT Folder" id="id-40605a5cf9544040b96e4bfab46107ce">
-        <element xsi:type="archimate:BusinessFunction" name="MEDICATION" id="EAID_B0378213_8FF1_4187_ADFA_D3D3584244E0">
-          <documentation>Drug treatment of the patient</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1576"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="NURSING" id="EAID_4C3C030B_C75C_4991_BC6C_575A4A83B3B0">
-          <documentation>Treatment of the patient through nursing interventions</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1577"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="NURSING" id="EAID_9EA16BF8_D46A_4bd0_9B2D_C70502F10800">
-          <documentation>Behandeling van de patiënt doormiddel van verzorgende taken.</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1578"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="OTHER TREATMENTS" id="EAID_FE5A29D3_0EE8_406d_A949_E207AA6DF1AB">
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1580"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="SURGERY" id="EAID_70FF6119_AD00_490c_8C53_444C1BCD6112">
-          <documentation>Surgical procedures as part of the patient's treatment</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1575"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="THERAPY" id="EAID_E6736EEE_D0F7_40cd_BCF6_EB371620B07D">
-          <documentation>Form of treatment that deals with the treatment or cure of diseases or the relief of symptoms</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1574"/>
-        </element>
-        <element xsi:type="archimate:BusinessFunction" name="TREATMENT" id="EAID_29EEDB30_1821_4b61_80C9_F8CEF513BED3">
-          <documentation>Treatment of the patient</documentation>
-          <property key="atomic" value="false"/>
-          <property key="rotation" value="up"/>
-          <property key="showdecoration" value="true"/>
-          <property key="MAX::ID" value="1573"/>
-        </element>
-      </folder>
+    <folder name="Business functions" id="id-edcfe013270e479d9588dd97c26ce7f5">
       <element xsi:type="archimate:BusinessFunction" name="ACCOUNTABILITY" id="EAID_70BF4586_8DFF_4cf2_B88B_0785028D90E4">
         <documentation>Accountability of the hospital to its environment</documentation>
         <property key="atomic" value="false"/>
@@ -1438,12 +1349,41 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1551"/>
       </element>
+      <element xsi:type="archimate:BusinessFunction" name="ADDITIONAL DIAGNOSTIC TESTING" id="EAID_2F4175EE_B115_42e1_B3D1_055C8C986CBA">
+        <documentation>Performing additional research such as clinical chemical research, X-ray research, microbiological research, pathological research, etc. In fact, there is a domain research with specializations into the type of research. Specializations can be added within the DRH for specific applications.</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1570"/>
+      </element>
       <element xsi:type="archimate:BusinessFunction" name="ADVICE" id="EAID_87DB223F_9851_47da_A732_F8C035D54B2E">
         <documentation>Giving treatment advice</documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1571"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="ANALYSIS OF BODY FLUIDS" id="EAID_9B676AD4_E58B_44fd_94A6_A1722C83F5D0">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van klinisch chemisch laboratorium (KCL) onderzoek.&lt;/nl-NL>&lt;en-US>The most commonly analyzed fluids are: blood, urine, fluid that surrounds the spinal cord and brain (cerebraospinal fluid), fluid within a joint (synovial fluid). Less often, sweat, saliva and fluid from the digestive tract are analyzed. Sometimes the fluids analyzed are present only if a disorder is present, as when fluid collects in the abdomen, causing ascites, or in the space between the two-layered membrane covering the lungs and lining the chest wall (pleura), casing pleural effusion. &lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1563"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="ANALYSIS OF GENETIC MATERIAL" id="EAID_A1DC1A56_828A_4d2b_93B1_AD37AC3F85E3">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van genetisch onderzoek.&lt;/nl-NL>&lt;en-US>Usually, cells from skin, blood, or bone marrow are analyzed. Cells are examined to check for abnormalities of chromosomes, genes (including DNA), or both. Genetic testing may be done in the following:
+·    Fetuses: To determine whether they have a genetic disorder
+·    Children and young adults: To determine whether they have a disorder or are at risk of developing a disorder
+·    Adults: Sometimes to help determine the likelihood that their relatives, such as children or grandchildren, will develop certain disorders.&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="BIOPSY" id="EAID_32BA6426_3A22_4a0f_A264_6F23615C3454">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van biopsie.&lt;/nl-NL>&lt;en-US>Tissue samples are removed and examined, usually with a microscope. The examination often focuses on finding abnormal cells that may provide evidence of inflammation or of a disorder, such as cancer. Tissues that are commonly examined include skin, breast, lung, liver, kidney, and bone..&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="CARE BILLING" id="EAID_E3D20DE0_4A96_4002_9282_3B79B5EF1257">
         <documentation>collection of data for invoicing (DBC registration and invoicing). The handling of the invoice itself is part of the financial administration.</documentation>
@@ -1480,18 +1420,23 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1585"/>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="EDUCATION SUPPORT" id="EAID_5FCA7F37_A126_48f5_A5DE_BF4F2FC46C4D">
-        <documentation>Administrative, substantive, educational support</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="ENDOSCOPY" id="EAID_8EC05132_E6A8_4ba5_97B0_E0EECB25009E">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van endoscopisch onderzoek.&lt;/nl-NL>&lt;en-US>&quot;A viewing tube (endoscope) is used to directly observe the inside of body organs or spaces (cavities). Most often, a flexible endoscope is used, but in some cases, a rigid one is more useful. The tip of the endoscope is usually equipped with a light and a camera, so the examiner watches the images on a television monitor rather than looking directly through the endoscope. Tools are often passed through a channel in the endoscope. One type of tool is used to cut and remove tissue samples.
+Endoscopy usually consists of passing the viewing tube through an existing body opening, such as the following:
+·      Nose: To examine the voice box (laryngoscopy) or the lungs (bronchoscopy)
+·      Mouth: To examine the esophagus (esophagoscopy), stomach (gastroscopy), and small intestine (upper gastrointestinal endoscopy)
+·      Anus: To examine the large intestine, rectum, and anus (coloscopy)
+·      Urethra: To examine the bladder (cystoscopy)
+·      Vagina: To examine the uterus (hysteroscopy)
+However, sometimes an opening in the body must be created. A small cut (incision) is made through the skin and the layers of tissue beneath the skin, so that the endoscope can be passed into a body cavity. Such incisions are used to view the inside of the following:
+·      Joints (arthroscopy)
+·      Abdominal cavity (laparoscopy)
+·      Area of the chest between the lungs (mediastinoscopy)
+·      Lungs and pleura (thoracoscopy)&quot;&lt;/en-US>&lt;/languages></documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
-        <property key="MAX::ID" value="1589"/>
-      </element>
-      <element xsi:type="archimate:BusinessFunction" name="EDUCATION TESTING" id="EAID_3895D5AF_2109_49e8_A3BA_A2A294173D84">
-        <property key="atomic" value="false"/>
-        <property key="rotation" value="up"/>
-        <property key="showdecoration" value="true"/>
-        <property key="MAX::ID" value="1587"/>
+        <property key="MAX::ID" value="1566"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="FINANCIAL ADMINISTRATION" id="EAID_A19A4579_2992_444a_AEE9_B9BD5079D692">
         <documentation>Taking care of all incoming and outgoing financial flows</documentation>
@@ -1515,6 +1460,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="MAX::ID" value="1595"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="HUMAN RESOURCE MANGEMENT" id="EAID_650B8A94_437F_4034_80DC_87AEFDB89C1F">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het management van personeelszaken binnen het ziekenhuis.&lt;/nl-NL>&lt;en-US>Human resources management within the hospital.&lt;/en-US>&lt;/languages></documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
@@ -1527,12 +1473,12 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1597"/>
       </element>
-      <element xsi:type="archimate:BusinessFunction" name="IMPLEMENTATION OF EDUCATION" id="EAID_C0746DC8_2A70_461c_A4C2_9F94B3B9F214">
-        <documentation>Preparing and executing all activities directly related to education.</documentation>
+      <element xsi:type="archimate:BusinessFunction" name="IMAGING" id="EAID_D5C0FCB1_07A8_4cbf_9EA2_91960669D3C6">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van beeldvormend onderzoek zoals radiologie en nucleair.&lt;/nl-NL>&lt;en-US>These tests provide a picture of the inside of the body—in its entirety or only of certain parts.  Ordinary x-rays are the most common imaging tests. Others include ultrasonography, radioisotope (nuclear) scanning, computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), and angiography.&lt;/en-US>&lt;/languages></documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
-        <property key="MAX::ID" value="1586"/>
+        <property key="MAX::ID" value="1565"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="INNOVATION" id="EAID_0EF2DB1B_008B_4dd6_951C_A8EF4BA1E205">
         <documentation>Developing existing and new services</documentation>
@@ -1562,12 +1508,54 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1552"/>
       </element>
+      <element xsi:type="archimate:BusinessFunction" name="MEASUREMENT OF BODY FUNCTIONS" id="EAID_04B66FEB_21DD_4f59_82CD_4CC545FC395E">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van functieonderzoeken. &lt;/nl-NL>&lt;en-US>Often, body functions are measured by recording and analyzing the activity of various organs. For example, electrical activity of the heart is measured with electrocardiography (ECG), and electrical activity of the brain is measured with electroencephalography (EEG). The lungs’ ability to hold air, to move air in and out, and to exchange oxygen and carbon dioxide is measured with pulmonary function tests.&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1567"/>
+      </element>
       <element xsi:type="archimate:BusinessFunction" name="MEDICAL TECHNOLOGY" id="EAID_158B5EC4_6101_452a_B5E8_CB37538EC243">
         <documentation>Maintaining and supporting medical technology.</documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1598"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="MEDICATION" id="EAID_B0378213_8FF1_4187_ADFA_D3D3584244E0">
+        <documentation>Drug treatment of the patient</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1576"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="MICROBIOLOGY AND IMMUNOLOGY LAB RESEARCH" id="EAID_8BF3D3B6_2125_4730_B431_C413E6874DC3">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het uitvoeren en verslagleggen van microbiologisch en immunologisch labonderzoek.&lt;/nl-NL>&lt;en-US>Conducting and reporting microbiological and immunological lab research&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1564"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="NURSING" id="EAID_4C3C030B_C75C_4991_BC6C_575A4A83B3B0">
+        <documentation>Treatment of the patient through nursing interventions</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1577"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="NURSING" id="EAID_9EA16BF8_D46A_4bd0_9B2D_C70502F10800">
+        <documentation>Behandeling van de patiënt doormiddel van verzorgende taken.</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1578"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="OTHER TREATMENTS" id="EAID_FE5A29D3_0EE8_406d_A949_E207AA6DF1AB">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Behandeling niet afgedekt door de overig soorten van behandeling.&lt;/nl-NL>&lt;en-US>Type of treatment not covered in the other five treatment business function categories.&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1580"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="PARTICIPATION" id="EAID_8AC3251C_8E72_4eb4_A422_7A6E6B637C63">
         <documentation>Participation of the patient in his/her own care process</documentation>
@@ -1584,6 +1572,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="MAX::ID" value="1550"/>
       </element>
       <element xsi:type="archimate:BusinessFunction" name="PLANNING &amp; CONTROL" id="EAID_4436AF01_50C1_4d61_920D_4B4C6FD4D372">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het geheel van activiteiten om te bepalen wat er in een bepaalde periode moet gebeuren (planning), de rapportage daarover en de benodigde bijsturing en uiteindelijke verantwoording over de behaalde resultaat (control).&lt;/nl-NL>&lt;en-US>The whole of activities to determine what needs to be done in a certain period (planning), the reporting on this and the necessary adjustments and ultimate accountability for the result achieved (control).&lt;/en-US>&lt;/languages></documentation>
         <property key="atomic" value="false"/>
         <property key="rotation" value="up"/>
         <property key="showdecoration" value="true"/>
@@ -1673,6 +1662,48 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
         <property key="MAX::ID" value="1547"/>
       </element>
+      <element xsi:type="archimate:BusinessFunction" name="SURGERY" id="EAID_70FF6119_AD00_490c_8C53_444C1BCD6112">
+        <documentation>Surgical procedures as part of the patient's treatment</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1575"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="TEACHING EVALUATION" id="EAID_3895D5AF_2109_49e8_A3BA_A2A294173D84">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het testen van de resultaten van het onderwijs.&lt;/nl-NL>&lt;en-US>Evaluating the impact of teaching&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1587"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="TEACHING PERFORMANCE" id="EAID_C0746DC8_2A70_461c_A4C2_9F94B3B9F214">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het voorbereiden en uitvoeren van alle direct aan het onderwijs gerelateerde activiteiten.&lt;/nl-NL>&lt;en-US>Preparing and executing all activities directly related to education.&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1586"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="TEACHING SUPPORT" id="EAID_5FCA7F37_A126_48f5_A5DE_BF4F2FC46C4D">
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Administratief, inhoudelijk, ondersteuning van onderwijs&lt;/nl-NL>&lt;en-US>Administrative, substantive, educational support&lt;/en-US>&lt;/languages></documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1589"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="THERAPY" id="EAID_E6736EEE_D0F7_40cd_BCF6_EB371620B07D">
+        <documentation>Form of treatment that deals with the treatment or cure of diseases or the relief of symptoms</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1574"/>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" name="TREATMENT" id="EAID_29EEDB30_1821_4b61_80C9_F8CEF513BED3">
+        <documentation>Treatment of the patient</documentation>
+        <property key="atomic" value="false"/>
+        <property key="rotation" value="up"/>
+        <property key="showdecoration" value="true"/>
+        <property key="MAX::ID" value="1573"/>
+      </element>
       <element xsi:type="archimate:BusinessFunction" name="TREATMENT PLANNING" id="EAID_DA29BA6C_255D_4f4f_B784_72A2CF8FC29B">
         <documentation>Determining and setting out a treatment plan</documentation>
         <property key="atomic" value="false"/>
@@ -1681,7 +1712,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="MAX::ID" value="1572"/>
       </element>
     </folder>
-    <folder name="Informationobjects" id="id-46a6f61005714e35b95656a51dd7a57b">
+    <folder name="Informationobjects" id="id-2f6302209bba43e486b5f62b089f49aa">
       <element xsi:type="archimate:BusinessObject" name="Activity" id="EAID_A46B78C7_91B1_4b72_BF12_0FBECFD258C9">
         <documentation>There are 2 types of activities, which are ordered and unordered. A certain activity, operation, series of actions with which a certain result can be achieved. </documentation>
         <property key="MAX::ID" value="2171"/>
@@ -2479,8 +2510,8 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </element>
     </folder>
   </folder>
-  <folder name="Application" id="id-b830cf97647f47deb51f1f7bd00b1408" type="application">
-    <folder name="Application functions" id="id-14605635257341ff8a367c958b1fca9a">
+  <folder name="Application" id="id-62da245180024ef79fcf7ff0a87848af" type="application">
+    <folder name="Application functions" id="id-3888414f50fe4d7398859308e5f3755c">
       <element xsi:type="archimate:ApplicationFunction" name="Policy and innovation" id="EAID_7F87AA7E_33EF_4b14_B8C4_9369228E010F">
         <documentation>Functionality to support the determination and management of policy, development of products &amp; services, planning &amp; control cycle and supporting management information</documentation>
         <property key="atomic" value="false"/>
@@ -3159,106 +3190,86 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
         <property key="showdecoration" value="true"/>
       </element>
     </folder>
-    <folder name="Dataobjects (HCIMs)" id="id-bb4b0e75bbd340b2aced655a09c3e7ea">
+    <folder name="Dataobjects (HCIMs)" id="id-446587bbb0a245e490f6e646d3e99bf4">
       <element xsi:type="archimate:DataObject" name="AbilityToDessOneself" id="EAID_8A151459_B923_4b36_86B4_5B6B8E042769">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zelfstandig zich kunnen kleden is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere eten, drinken en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Being able to get dressed independently is part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. 
 This activity and activities such as those including eating, drinking, and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToDrink" id="EAID_5BA0C1CC_0D69_4edd_AB8D_9AC7775E56C6">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zelfstandig drinken kunnen bereiden en nuttigen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Being able to independently prepare and drink beverages is part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. 
 This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToEat" id="EAID_F0767D50_81E0_4dcd_ACED_9FC284223C7C">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zelfstandig eten kunnen bereiden en nuttigen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere drinken, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Being able to independently prepare and consume food is part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. 
 This activity and activities such as those including drinking, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToPerformHaircareActivities" id="EAID_2399B866_9939_44db_AEE0_8919513FD83C">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zelfstandig het haar en indien van toepassing de baard of snor kunnen verzorgen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied. Het wassen van het haar valt hier niet onder, dit valt onder vermogen om zich te wassen.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+Zelfstandig het haar en indien van toepassing de baard of snor kunnen verzorgen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied. Het wassen van het haar valt hier niet onder; dit valt onder vermogen om zich te wassen.
 Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 A patient being able to independently do their hair (and beard or mustache, if applicable) is a part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. Washing hair does not fall into this category; it falls under the ability to wash oneself. 
-This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
+This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToPerformMouthcareActivities" id="EAID_C85962F1_7530_48e2_8D7D_5AA95B8753CA">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Zelfstandig de mond kunnen verzorgen is een onderdeel van zelfzorg. Het gaat hierbij om tweemaal daags poetsen van de tanden en kiezen met fluoride tandpasta en/of het reinigen van het (gedeeltelijk) kunstgebit en het reinigen van een kaak zonder tanden of kiezen (edentate kaak) en het verzorgen van het mondslijmvlies. 
 Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-
-(Bron: Instructiekaart Mondverzorging, 2011)
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
-The ability to keep up one?s own dental hygiene is part of self-care. This includes brushing teeth twice a day with fluoride toothpaste and/or cleaning (partial) dentures, cleaning jaws without teeth (edentulous jaws) and taking care of the mucous membrane of the mouth.  
+Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid. (Bron: Instructiekaart Mondverzorging, 2011)
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
+The ability to keep up one's own dental hygiene is part of self-care. This includes brushing teeth twice a day with fluoride toothpaste and/or cleaning (partial) dentures, cleaning jaws without teeth (edentulous jaws) and taking care of the mucous membrane of the mouth.  
 Limitations in this ability indicate a reduced ability to cope for oneself. 
-This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently. 
- 
-(Source: Instruction card for oral hygiene, 2011)</documentation>
+This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently. (Source: Instruction card for oral hygiene, 2011)&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToUseToilet" id="EAID_B3B1CB21_B7F5_46b3_8324_2B4F7FA92211">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zelfstandig kunnen zorgdragen voor urineren, defeceren en de zorg bij menstruatie is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Being able to urinate, defecate and keep up hygiene during a menstrual cycle independently is part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. 
 This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AbilityToWashOneself" id="EAID_84807593_C346_4a77_80F6_AD0FB5538AC1">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zich zelfstandig kunnen wassen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
-Deze activiteit wordt samen met activiteiten zoals onder andere eten, drinken en zich kleden, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Being able to bathe independently is part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. 
 This activity and activities such as those including eating, drinking, and dressing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AdvanceDirecrtive" id="EAID_3F587FD1_AA2D_4091_9882_35974108C8F6">
-        <documentation>Een wilsverklaring is een mondelinge of schriftelijke omschrijving van de wens van de pati?nt ten aanzien van toekomstig medisch handelen of het levenseinde. Een wilsverklaring is vooral voor situaties waarin de pati?nt niet meer over deze beslissingen kan praten met de zorgverlener.
-{en-US}A living will is a verbal or written description of the patient?s wishes with regard to future medical action or end of their life. A living will is mainly used for situations in which the patient is no longer able to speak about these decisions with their healthcare provider.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een wilsverklaring is een mondelinge of schriftelijke omschrijving van de wens van de pati&amp;#235;nt ten aanzien van toekomstig medisch handelen of het levenseinde. Een wilsverklaring is vooral voor situaties waarin de pati&amp;#235;nt niet meer over deze beslissingen kan praten met de zorgverlener.
+{&lt;/nl-NL>&lt;en-US>A living will is a verbal or written description of the patient's wishes with regard to future medical action or end of their life. A living will is mainly used for situations in which the patient is no longer able to speak about these decisions with their healthcare provider.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AlcoholUse" id="EAID_EB4896D1_917E_4a4e_B6B8_D95CCCEB1D1D">
-        <documentation>Alcohol is in de context van deze bouwsteen de verzamelnaam voor alcoholische dranken die als genotsmiddel genuttigd worden. Deze bouwsteen beschrijft de bij de pati?nt uitgevraagde gegevens over het gebruik van alcohol.
-{en-US}In the context of this information model, alcohol is the collective term for alcoholic beverages consumed as a leisure product. This information model describes the information asked of the patient about their alcohol use.</documentation>
+        <documentation>In the context of this information model, alcohol is the collective term for alcoholic beverages consumed as a leisure product. This information model describes the information asked of the patient about their alcohol use.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Alert" id="EAID_50A174AD_61C5_4c93_A9AB_F64272732499">
-        <documentation>Een alert beschrijft een klinisch of administratief feit dat onder de aandacht van de gebruikers van de klinische systemen wordt gebracht , om er bij het vormen van diagnostisch en therapeutisch beleid of bij de omgang met de pati?nt rekening mee te houden, meestal wegens een veiligheidsrisico. 
-Aandoeningen, die de overgevoeligheid van het lichaam voor een stof beschrijven, zich uitend in een specifieke fysiologische reactie na blootstelling, worden allergie?n genoemd. Deze worden in een aparte bouwsteen beschreven. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een alert beschrijft een klinisch of administratief feit dat onder de aandacht van de gebruikers van de klinische systemen wordt gebracht , om er bij het vormen van diagnostisch en therapeutisch beleid of bij de omgang met de pati&amp;#235;nt rekening mee te houden, meestal wegens een veiligheidsrisico. 
+Aandoeningen, die de overgevoeligheid van het lichaam voor een stof beschrijven, zich uitend in een specifieke fysiologische reactie na blootstelling, worden allergie&amp;#235;n genoemd. Deze worden in een aparte bouwsteen beschreven. 
 Waarschuwingen voor niet allergische aandoeningen kunnen betreffen:
--	een aandoening (conditie of diagnose die beschouwd kan worden als contra-indicatie voor het gebruik van groepen van geneesmiddelen of het ondergaan van een bepaalde therapie), zoals zwangerschap of een verlengd QT-syndroom
--	Verminderde functie van een orgaansysteem (hartfalen, verminder lever- of nierfunctie, verminderde afweer) 
--	Kans op verspreiding van bepaalde micro-organismen (multiresistente bacterie, tuberkelbacterie, HIV, HBV, Ebola virus)
--	Andere risico?s
-{en-US}An alert describes a clinical or administrative fact brought to the attention of the users of the clinical systems to be taken into account when shaping diagnostic and therapeutic policy or in dealing with the patient, usually because of a safety risk.  
-Disorders that describe the body?s sensitivity to a substance which results in a specific physiological reaction after being exposed to that substance are referred to as allergies. These are described in a separate information model.  
+-een aandoening (conditie of diagnose die beschouwd kan worden als contra-indicatie voor het gebruik van groepen van geneesmiddelen of het ondergaan van een bepaalde therapie), zoals zwangerschap of een verlengd QT-syndroom
+-Verminderde functie van een orgaansysteem (hartfalen, verminder lever- of nierfunctie, verminderde afweer) 
+-Kans op verspreiding van bepaalde micro-organismen (multiresistente bacterie, tuberkelbacterie, HIV, HBV, Ebola virus)
+-Andere risico's
+{&lt;/nl-NL>&lt;en-US>An alert describes a clinical or administrative fact brought to the attention of the users of the clinical systems to be taken into account when shaping diagnostic and therapeutic policy or in dealing with the patient, usually because of a safety risk.  
+Disorders that describe the body's sensitivity to a substance which results in a specific physiological reaction after being exposed to that substance are referred to as allergies. These are described in a separate information model.  
 Warnings for non-allergic disorders can concern: 
 - A disorder (condition or diagnosis which can be considered as a contraindication for the use of groups of medication or undergoing a certain type of therapy), such as pregnancy or long QT syndrome 
 - Impaired functioning of an organ system (heart failure, impaired liver or kidney function, weakened immune system)  
 - Risk of spreading certain microorganisms (multi-resistant bacteria, tubercle bacilli, HIV, HBV, Ebola virus) 
-- Other risks</documentation>
+- Other risks&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="AllergyIntolerance" id="EAID_67C5E563_7B78_452b_ABA9_E04F47F426D1">
-        <documentation>Een allergie  of intolerantie beschrijft de geneigdheid tot overgevoeligheid van een pati?nt voor een stof,  zodat na blootstelling een ongewenste fysiologische reactie verwacht wordt, terwijl bij de meeste mensen bij die hoeveelheid geen reactie zou optreden. De waargenomen fysiologische veranderingen zijn meestal het resultaat van een immunologische reactie.  
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een allergie of intolerantie beschrijft de geneigdheid tot overgevoeligheid van een pati&amp;#235;nt voor een stof,  zodat na blootstelling een ongewenste fysiologische reactie verwacht wordt, terwijl bij de meeste mensen bij die hoeveelheid geen reactie zou optreden. De waargenomen fysiologische veranderingen zijn meestal het resultaat van een immunologische reactie.  
 De stoffen kunnen als volgt worden ingedeeld:
--	Geneesmiddel
--	Geneesmiddelgroep
--	Ingredi?nt/toevoeging
--	Voeding
--	Omgevingsfactor
--	Dier
--	Planten
--	Chemicali?n
--	Inhalatieallergenen
-{en-US}An allergy or intolerance describes a patient?s tendency towards hypersensitivity to a certain substance, so that an unwanted physiological reaction is expected after exposure to the substance, while most people would not exhibit such a reaction to that amount. The observed physiological changes are usually the result of an immunological reaction.   
+-Geneesmiddel
+-Geneesmiddelgroep
+-Ingredi&amp;#235;nt/toevoeging
+-Voeding
+-Omgevingsfactor
+-Dier
+-Planten
+-Chemicali&amp;#235;n
+-Inhalatieallergenen
+{&lt;/nl-NL>&lt;en-US>An allergy or intolerance describes a patient's tendency towards hypersensitivity to a certain substance, so that an unwanted physiological reaction is expected after exposure to the substance, while most people would not exhibit such a reaction to that amount. The observed physiological changes are usually the result of an immunological reaction.   
 The substances can be categorized as follows: 
 - Medicine 
 - Medicine category 
@@ -3268,162 +3279,124 @@ The substances can be categorized as follows:
 - Animal 
 - Plants 
 - Chemicals 
-- Inhaled allergenic</documentation>
+- Inhaled allergenic&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BarthelADLIndex" id="EAID_9DF3FCC2_1D55_4045_B08E_BF9E9187462E">
-        <documentation>De Barthel-index is een gevalideerd meetinstrument voor het vastleggen en volgen van activiteiten van het dagelijks leven (ADL) van pati?nten en indirect de mate van afhankelijk zijn van hulp. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De Barthel-index is een gevalideerd meetinstrument voor het vastleggen en volgen van activiteiten van het dagelijks leven (ADL) van pati&amp;#235;nten en indirect de mate van afhankelijk zijn van hulp. 
 De lijst bestaat uit 10 onderdelen: darm, blaas, uiterlijke verzorging, toiletgebruik, eten, transfers (bed-stoel en omgekeerd), mobiliteit, aan- en uitkleden, trappen lopen en baden/douchen waaraan een score wordt toegekend. 
 De totaalscore is de som van de scores van de 10 onderdelen. 
-{en-US}The Barthel ADL index is a validated scale used to measure and track patients? activities of daily living (ADL) and indirectly, the extent to which they are dependent on help.  
+{&lt;/nl-NL>&lt;en-US>The Barthel ADL index is a validated scale used to measure and track patients' activities of daily living (ADL) and indirectly, the extent to which they are dependent on help.  
 The list comprises 10 variables: bowels, bladder, grooming, toilet use, feeding, transfers (from chair to bed and vice versa), mobility, dressing, climbing stairs and bathing, which are all given a score.  
-The total score is the sum of the scores of the 10 variables.</documentation>
+The total score is the sum of the scores of the 10 variables.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BladderFunction" id="EAID_3F957A02_8664_403a_AC5E_511234083E14">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-De primaire functie van de blaas is tijdelijke opslag van urine. Een tweede belangrijke functie van de blaas is het uitdrijven van de opgeslagen urine, zodra daar een gelegenheid voor is. Door diverse oorzaken kunnen deze functies verstoord zijn. 
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 The primary function of the bladder is temporary storage of urine. A second important function of the bladder is secretion of the stored urine at the moment there is cause to do so. These functions can be disrupted due to various causes.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BloodPressure" id="EAID_6BDF87B3_1B1F_45ae_A6FC_68922A169FC8">
-        <documentation>De bloeddruk is een parameter om de toestand van de bloedsomloop vast te leggen en wordt uitgedrukt in de systolische en diastolische druk in mmHg.
-{en-US}The blood pressure is a parameter for determining the condition of the blood circulation and is expressed in systolic and diastolic pressure in mmHg.</documentation>
+        <documentation>The blood pressure is a parameter for determining the condition of the blood circulation and is expressed in systolic and diastolic pressure in mmHg.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BodyHeight" id="EAID_16725738_900A_4874_8801_4CDE53094AC0">
-        <documentation>De lichaamslengte van een persoon.
-{en-US}A person?s body height.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De lichaamslengte van een persoon.
+{&lt;/nl-NL>&lt;en-US>A person's body height.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BodyTemperature" id="EAID_734A396B_03C1_4f6b_A916_B069E720FBFD">
-        <documentation>Het meten en vastleggen van de lichaamstemperatuur van een persoon als surrogaat voor de centrale lichaamstemperatuur (de hoogste temperatuur midden in de romp) van een persoon
-{en-US}Measuring and documenting the body temperature of a person as a surrogate for a person?s central body temperature (the highest temperature at the centre of the torso)</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het meten en vastleggen van de lichaamstemperatuur van een persoon als surrogaat voor de centrale lichaamstemperatuur (de hoogste temperatuur midden in de romp) van een persoon
+{&lt;/nl-NL>&lt;en-US>Measuring and documenting the body temperature of a person as a surrogate for a person's central body temperature (the highest temperature at the centre of the torso)&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BodyWeight" id="EAID_813771AE_BC5B_4abb_8027_4A4D2ABE4105">
-        <documentation>Lichaamsgewicht is de gangbare benaming voor de massa van het (menselijk) lichaam.
-{en-US}Body weight is the common name for (human) body mass.</documentation>
+        <documentation>Body weight is the common name for (human) body mass.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="BowerlFunction" id="EAID_82D867CC_7C16_4a7c_9A80_EC32D96952F1">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Een belangrijke functie van met name de endeldarm is de tijdelijke opslag van ontlasting en het uitscheiden hiervan, zodra daar een gelegenheid voor is. Verstoring van de darmfunctie kan leiden tot ontlastingsincontinentie en obstipatie.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 An important function of the rectum in particular is the temporary storage and excretion of feces, at the moment there is cause to do so. Disrupting the bowel functions can lead to fecal incontinence and constipation.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Burnwound" id="EAID_EB988181_D242_43e9_9C24_7751750E0271">
-        <documentation>Een brandwond is een verwonding door invloed van hitte op de huid gedurende een bepaalde tijd en boven een bepaalde kritische temperatuur. Boven deze kritische temperatuur (+/- 40? C) treedt beschadiging van de huid op. Er zijn verschillende soorten brandwonden en deze worden  ingedeeld naar de diepte van de brandwond. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een brandwond is een verwonding door invloed van hitte op de huid gedurende een bepaalde tijd en boven een bepaalde kritische temperatuur. Boven deze kritische temperatuur (+/- 40 graden Celsius) treedt beschadiging van de huid op. Er zijn verschillende soorten brandwonden en deze worden  ingedeeld naar de diepte van de brandwond. 
 De diepte van de brandwond hangt af van: 
 - de temperatuur van de inwerkende hitte;
 - de tijd dat de hitte inwerkt op de huid; 
 - de oorzaak van de verbranding (bijvoorbeeld hete vloeistof, vuur).
-{en-US}A burn wound is a wound caused by skin being exposed to heat for a certain time above a certain critical temperature. Heat above this critical temperature (+/- 40?C) will cause damage to the skin. There are different types of burn wounds, which are categorized according to the depth of the burn wound.  
+{&lt;/nl-NL>&lt;en-US>A burn wound is a wound caused by skin being exposed to heat for a certain time above a certain critical temperature. Heat above this critical temperature (+/- 40 degrees Celsius) will cause damage to the skin. There are different types of burn wounds, which are categorized according to the depth of the burn wound.  
 The depth of the burn wound depends on:  
 - the temperature of the impacting heat; 
 - the duration of the impact of heat on the skin;  
-- the source of the burn (e.g. fire, fluid).</documentation>
+- the source of the burn (e.g. fire, fluid).&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="CommunicationSkills" id="EAID_B3880E5B_9897_4876_B237_377920E6BC45">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Communicatievaardigheden zijn de vaardigheden van pati?nt m.b.t. het delen van informatie (zowel verbaal als non-verbaal), waarbij een  onderscheid wordt gemaakt tussen het begrijpen van de gecommuniceerde informatie en het zich kunnen uiten, zowel verbaal als non-verbaal. 
-Beperkingen in communicatievaardigheden  kunnen verschillende oorzaken hebben. Het kan een gevolg zijn van hersenletsel, zoals afasie, of een stoornis in de mentale functies. Dit kan een grote impact hebben op de mate waarin iemand informatie begrijpt of de manier waarop iemand zich kan uiten. Ook pati?nten die slechthorend zijn kunnen moeite hebben met communicatie.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+Communicatievaardigheden zijn de vaardigheden van pati&amp;#235;nt m.b.t. het delen van informatie (zowel verbaal als non-verbaal), waarbij een  onderscheid wordt gemaakt tussen het begrijpen van de gecommuniceerde informatie en het zich kunnen uiten, zowel verbaal als non-verbaal. 
+Beperkingen in communicatievaardigheden  kunnen verschillende oorzaken hebben. Het kan een gevolg zijn van hersenletsel, zoals afasie, of een stoornis in de mentale functies. Dit kan een grote impact hebben op de mate waarin iemand informatie begrijpt of de manier waarop iemand zich kan uiten. Ook pati&amp;#235;nten die slechthorend zijn kunnen moeite hebben met communicatie.
 Mate van taalbeheersing is geen onderdeel van communicatievaardigheden.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Communication skills are a patient?s skills in terms of sharing information (both verbally and non-verbally), with a distinction between understanding the communicated information and the ability to express oneself, both verbally and non-verbally.  
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
+Communication skills are a patient's skills in terms of sharing information (both verbally and non-verbally), with a distinction between understanding the communicated information and the ability to express oneself, both verbally and non-verbally.  
 Limitations in communication skills can have various causes. They can result from brain damage, such as aphasia, or mental function disorders. This can have a major impact on the extent to which a person is able to understand information or the way in which a person can express themselves. Hearing impaired patients can also have difficulty in communication. 
-Linguistic competence is not a part of communication skills.</documentation>
+Linguistic competence is not a part of communication skills.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Concern" id="EAID_DABDC3B2_A18F_4edb_99FC_262FE6B9562D">
-        <documentation>Bij het vastleggen van relevante gezondheidsproblemen van de pati?nt zijn twee aspecten van belang: enerzijds de waarneming van het probleem (de klacht, het symptoom, de diagnose enz.) zelf en anderzijds de beoordeling of het actief beleid vergt. Deze beoordeling door de zorgverlener ligt vast in het ?Concern?, het punt van aandacht. Het is mogelijk om Problemen, die onderling samenhangen, onder te brengen onder ??n Concern.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Bij het vastleggen van relevante gezondheidsproblemen van de pati&amp;#235;nt zijn twee aspecten van belang: enerzijds de waarneming van het probleem (de klacht, het symptoom, de diagnose enz.) zelf en anderzijds de beoordeling of het actief beleid vergt. Deze beoordeling door de zorgverlener ligt vast in het 'Concern', het punt van aandacht. Het is mogelijk om Problemen, die onderling samenhangen, onder te brengen onder &amp;#233;&amp;#233;n Concern.
 Het onderscheid tussen vastgestelde problemen en de aandacht die deze vergen, maakt het mogelijk aan te geven waarop medisch of verpleegkundig beleid van toepassing dan wel noodzakelijk is. Als voorbeeld kan een goed ingestelde diabetes worden genoemd; deze vereist geen actief beleid van de zorgverlener.
-
-Een probleem beschrijft een toestand met betrekking tot de gezondheid en/of het welzijn van een individu. Deze toestand kan zijn benoemd door de betroffene (de pati?nt) zelf (een klacht), of door zijn of haar zorgverlener (onder andere een diagnose). De toestand kan aanleiding zijn voor diagnostisch of therapeutisch beleid.
+Een probleem beschrijft een toestand met betrekking tot de gezondheid en/of het welzijn van een individu. Deze toestand kan zijn benoemd door de betroffene (de pati&amp;#235;nt) zelf (een klacht), of door zijn of haar zorgverlener (onder andere een diagnose). De toestand kan aanleiding zijn voor diagnostisch of therapeutisch beleid.
 Een probleem omvat allerlei soorten medische of verpleegkundige gegevens, die een gezondheidsprobleem representeren. Een probleem kan verschillende typen gezondheidsproblemen representeren:
-
-	- Een klacht (Complaint, finding by patient): een subjectieve, als negatief ervaren waarneming van de gezondheid. Voorbeelden: buikpijn, geheugenverlies 
-	- Een symptoom (Symptom): een waarneming door of over de pati?nt die de betrekking zou kunnen hebben op een bepaalde ziekte. Voorbeelden : koorts, bloed bij de ontlasting, witte vlekken op het gehemelte;  
-	- Een bevinding (Finding): een waarneming van de zorgverlener m.b.t. de gezondheid van de pati?nt. Voorbeelden: vergrote lever, pathologische voetzoolreflex, afwijkende Minimal Mental State, afwezig gebitselement. 
-	- Een conditie (Condition): een beschrijving van een (afwijkende) toestand van het lichaam, die niet noodzakelijkerwijs als ziekte wordt gezien. Voorbeelden: zwangerschap, circulatiestoornis, vergiftiging. 
-	- Een diagnose (Diagnosis): medische interpretatie van klachten en bevindingen. Voorbeelden: Diabetes Mellitus type II, pneumonie, Hemolytisch Uremisch Syndroom. 
-	- Een functionele beperking (Functional Limitation): een vermindering van functionele mogelijkheden. Voorbeelden: verminderde mobiliteit, hulp nodig bij aankleden. 
+	- Een klacht (Complaint, finding by patient): een subjectieve, als negatief ervaren waarneming van de gezondheid. Voorbeelden: buikpijn, geheugenverlies
+	- Een symptoom (Symptom): een waarneming door of over de pati&amp;#235;nt die de betrekking zou kunnen hebben op een bepaalde ziekte. Voorbeelden : koorts, bloed bij de ontlasting, witte vlekken op het gehemelte;  
+	- Een bevinding (Finding): een waarneming van de zorgverlener m.b.t. de gezondheid van de pati&amp;#235;nt. Voorbeelden: vergrote lever, pathologische voetzoolreflex, afwijkende Minimal Mental State, afwezig gebitselement.
+	- Een conditie (Condition): een beschrijving van een (afwijkende) toestand van het lichaam, die niet noodzakelijkerwijs als ziekte wordt gezien. Voorbeelden: zwangerschap, circulatiestoornis, vergiftiging.
+	- Een diagnose (Diagnosis): medische interpretatie van klachten en bevindingen. Voorbeelden: Diabetes Mellitus type II, pneumonie, Hemolytisch Uremisch Syndroom.
+	- Een functionele beperking (Functional Limitation): een vermindering van functionele mogelijkheden. Voorbeelden: verminderde mobiliteit, hulp nodig bij aankleden.
 	- Een complicatie (Complication): Iedere diagnose die door de zorgverlener gezien wordt als een onvoorzien en ongewenst gevolg van medisch handelen. Voorbeelden: wondinfectie na chirurgie, gehoorverlies door antibioticagebruik.  
-	- Een aandachtspunt (Problem): iedere omstandigheid die relevant is bij de medische behandeling, maar niet in ??n van de genoemde categorie?n past. Voorbeelden: Pati?nt verblijft in Nederland zonder rechtmatige status en is niet verzekerd, pati?nt kan geen glucosecontrole uitvoeren.
-
+	- Een aandachtspunt (Problem): iedere omstandigheid die relevant is bij de medische behandeling, maar niet in &amp;#233;&amp;#233;n van de genoemde categorie&amp;#235;n past. Voorbeelden: pati&amp;#235;nt verblijft in Nederland zonder rechtmatige status en is niet verzekerd, pati&amp;#235;nt kan geen glucosecontrole uitvoeren.
 In de eerste lijn vervult het concept Episode de rol van Concern. 
-{en-US}Determining relevant health issues of the patient involves two important aspects: observing the problem itself on the one hand (complaints, symptoms, diagnosis, etc.) and evaluation of whether or not an active policy is required on the other. This evaluation by the healthcare provider is documented in the ?Concern?, the point of attention. Multiple, linked Problems can be subsumed under a single Concern. 
+{&lt;/nl-NL>&lt;en-US>Determining relevant health issues of the patient involves two important aspects: observing the problem itself on the one hand (complaints, symptoms, diagnosis, etc.) and evaluation of whether or not an active policy is required on the other. This evaluation by the healthcare provider is documented in the 'Concern', the point of attention. Multiple, linked Problems can be subsumed under a single Concern. 
 The difference between recorded problems and the attention they require enables an indication of which issues medical or nursing policy applies to, or in which issues policy is necessary. An example is well-managed diabetes; this requires no active policy of the healthcare provider. 
- 
-A problem describes a situation with regard to an individual?s health and/or welfare. This situation can be described by the person involved (the patient) themselves (in the form of a complaint), or by their healthcare provider (in the form of a diagnosis, for example). The situation can form cause for diagnostic or therapeutic policy. 
-A problem includes all kinds of medical or nursing information that represents a health problem. A problem can represent various types of health problems: 
- 
- 
- - A complaint, finding by patient: a subjective, negatively experienced observation of the patient?s health. Examples: stomach ache, amnesia  
- - A symptom: an observation by or about the patient which may indicate a certain disease. Examples: fever, blood in stool, white spots on the roof of the mouth;  
- - A finding: a healthcare provider?s observation of a patient?s health. Examples: enlarged liver, pathological plantar reflex, deviating Minimal Mental State, missing teeth.  
- - A condition: a description of a (deviating) bodily state, which may or may not be seen as a disease. Examples: pregnancy, circulatory disorder, poisoning.  
- - A diagnosis: medical interpretation of complaints and findings. Examples: Diabetes Mellitus type II, pneumonia, hemolytic-uremic syndrome.  
- - A functional limitation: a reduction of functional options. Examples: reduced mobility, help required for dressing.  
- - A complication: Every diagnosis seen by the healthcare provider as an unforeseen and undesired result of medical action. Examples: post-operative wound infections, loss of hearing through the use of antibiotics.   
- - A problem: any circumstance that is relevant to the medical treatment, but does not fit into one of the categories listed. Examples: Patient resides in the Netherlands without a legal status and is not insured; patient is not able to check their own blood sugar levels. 
- 
-
-In first-line care the Episode concept fills the role of Concern.</documentation>
+A problem describes a situation with regard to an individual's health and/or welfare. This situation can be described by the person involved (the patient) themselves (in the form of a complaint), or by their healthcare provider (in the form of a diagnosis, for example). The situation can form cause for &lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="ContactPerson" id="EAID_98898F64_38BF_4c6e_9FFC_67C2CBD958AA">
-        <documentation>Een contactpersoon is een persoon anders dan zorgverleners, die betrokken zijn bij de zorg voor de pati?nt, zoals familieleden, mantelzorgers, geestelijke verzorgers, voogden en wettelijkelijk vertegenwoordigers.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een contactpersoon is een persoon anders dan zorgverleners, die betrokken zijn bij de zorg voor de pati&amp;#235;nt, zoals familieleden, mantelzorgers, geestelijke verzorgers, voogden en wettelijkelijk vertegenwoordigers.
 
-Naast identificerende gegevens als naam kunnen ook adres- en contactgegevens worden toegevoegd. Daarnaast kan relatie tot de pati?nt en rol die de persoon heeft, meegegeven worden.
-{en-US}A contact is a different person than a healthcare provider who is involved in the patient?s care, such as family members, caregivers, mental caretakers, guardians and legal representatives. 
- 
-In addition to identification information such as the name, address and contact information can also be entered. The relationship to the patient and the role this person has can be entered as well.</documentation>
+Naast identificerende gegevens als naam kunnen ook adres- en contactgegevens worden toegevoegd. Daarnaast kan relatie tot de pati&amp;#235;nt en rol die de persoon heeft, meegegeven worden.
+{&lt;/nl-NL>&lt;en-US>A contact is a different person than a healthcare provider who is involved in the patient's care, such as family members, caregivers, mental caretakers, guardians and legal representatives. 
+
+In addition to identification information such as the name, address and contact information can also be entered. The relationship to the patient and the role this person has can be entered as well.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="DrugUse" id="EAID_096CDE2B_2BBC_485a_804D_50CA11FF0E17">
-        <documentation>Drugs (ook wel: verdovende middelen, stimulerende middelen, bedwelmingsmiddelen, roesmiddelen, geestverruimende middelen, verboden middelen of dope) is een verzamelnaam voor geneesmiddelen en genotsmiddelen die een meer of minder 'drogerende' (verdovende, opwekkende en/of hallucinogene) werking hebben en die tot verslaving kunnen leiden. Drug [Online] Beschikbaar op:  nl.Wikipedia.org/wiki/drug [Geraadpleegd: 11 februari 2015].
-
-Deze bouwsteen beschrijft de bij de pati?nt uitgevraagde gegevens over het gebruik van drugs.
-{en-US}Drugs (or: narcotics, amphetamines, intoxicants, highs, hallucinogenics, illegal substances or dope) is a collective term for drugs and chemical substances with a more or less ?drugging' (anesthetic, boosting and/or hallucinogenic) effect and which can lead to addiction. Drug [Online] Available at: nl.Wikipedia.org/wiki/drug [Accessed: 11 February 2015]. 
+        <documentation>Drugs (or: narcotics, amphetamines, intoxicants, highs, hallucinogenics, illegal substances or dope) is a collective term for drugs and chemical substances with a more or less ?drugging' (anesthetic, boosting and/or hallucinogenic) effect and which can lead to addiction. Drug [Online] Available at: nl.Wikipedia.org/wiki/drug [Accessed: 11 February 2015]. 
  
 This information model describes the information asked of the patient about their drug use.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Education" id="EAID_51A732A9_C701_4d6b_9AB5_2C146E6ED883">
-        <documentation>De opleiding beschrijft de hoogst genoten opleiding.
-{en-US}Education indicates the highest level of education achieved.</documentation>
+        <documentation>Education indicates the highest level of education achieved.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Encounter" id="EAID_8207BC59_4CBF_4d26_9D48_0C5CA5F8CCEC">
-        <documentation>Een contact is een interactie, onafhankelijk van de situatie, tussen een pati?nt en een zorgverlener, waarbij de zorgverlener de primaire verantwoordelijkheid heeft de conditie van de pati?nt te diagnosticeren, te evalueren, te behandelen en de pati?nt te informeren. Dit kunnen bezoeken, afspraken of niet face-to-face interacties zijn.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een contact is een interactie, onafhankelijk van de situatie, tussen een pati&amp;#235;nt en een zorgverlener, waarbij de zorgverlener de primaire verantwoordelijkheid heeft de conditie van de pati&amp;#235;nt te diagnosticeren, te evalueren, te behandelen en de pati&amp;#235;nt te informeren. Dit kunnen bezoeken, afspraken of niet face-to-face interacties zijn.
 
 Contacten kunnen huisarts- of praktijkbezoeken, thuisbezoeken, opnames (in bijvoorbeeld ziekenhuizen, verpleeg/verzorgingstehuizen, psychiatrische inrichtingen of revalidatieklinieken) of andere relevante contacten betreffen. Het betreft alleen historische contacten. De toekomstige contacten kunnen vastgelegd worden in de bouwsteen GeplandeZorgActiviteit.
-{en-US}A contact is any interaction, regardless of the situation, between a patient and the healthcare provider, in which the healthcare provider has primary responsibility for diagnosing, evaluating and treating the patient?s condition and informing the patient. These can be visits, appointments or non face-to-face interactions. 
- 
-Contacts can be visits to the general practitioner or other practices, home visits, admissions (in hospitals, nursing homes or care homes, psychiatric institutions or convalescent homes) or other relevant contacts. This only includes past contacts. Future contacts can be documented in the PlannedCareActivity information model.</documentation>
+{&lt;/nl-NL>&lt;en-US>A contact is any interaction, regardless of the situation, between a patient and the healthcare provider, in which the healthcare provider has primary responsibility for diagnosing, evaluating and treating the patient's condition and informing the patient. These can be visits, appointments or non face-to-face interactions. 
+
+Contacts can be visits to the general practitioner or other practices, home visits, admissions (in hospitals, nursing homes or care homes, psychiatric institutions or convalescent homes) or other relevant contacts. This only includes past contacts. Future contacts can be documented in the PlannedCareActivity information model.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FallRisk" id="EAID_A0469A09_8A56_47a8_883A_613F93255906">
-        <documentation>Vallen is de meest voorkomende oorzaak van letsel door een ongeval bij ouderen. Wanneer een pati?nt eenmaal gevallen is, loopt hij een groter risico om opnieuw te vallen. Met de juiste aanpak kan het valrisico bij ouderen effectief verlaagd worden. 
- 
-{en-US}Falling is the most common cause of damage resulting from accidents among seniors. Once a patient has fallen, they run a higher risk of falling again. The right approach can effectively reduce the risk of falling among seniors.</documentation>
+        <documentation>Falling is the most common cause of damage resulting from accidents among seniors. Once a patient has fallen, they run a higher risk of falling again. The right approach can effectively reduce the risk of falling among seniors.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FamilyHistory" id="EAID_0CF5FA4C_4046_46c0_84FE_53AFE401BBE6">
-        <documentation>De familieanamnese beschrijft de gezondheidsproblemen van biologische verwanten die relevant zijn. De familieanamnese bevat informatie over de medische aandoeningen van het familielid en de biologische relatie tussen de pati?nt en het beschreven familielid.
-{en-US}The family history describes any health problems of biological relatives that may be relevant. The family history contains information on the medical disorders of the family member and the biological relationship between the patient and the described family member.</documentation>
+        <documentation>The family history describes any health problems of biological relatives that may be relevant. The family history contains information on the medical disorders of the family member and the biological relationship between the patient and the described family member.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FamilySituation" id="EAID_32689E62_5253_4d7e_9F5F_7D99A8262F6C">
-        <documentation>Traditioneel is een gezin gedefinieerd als een leefverband van een of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en de opvoeding van een of meer kinderen.
-Tegenwoordig wordt de term breder gebruikt voor alle samenlevingsvormen die een herkenbare sociale eenheid vormen, met al dan niet verwante personen die duurzame en affectieve banden hebben en elkaar onderling steun en verzorging verlenen.
-{en-US}Traditionally, a family is defined as a group of people of one or more adults who carry responsibility for caring for and raising one or more children. 
+        <documentation>Traditionally, a family is defined as a group of people of one or more adults who carry responsibility for caring for and raising one or more children. 
 Currently, the term is used more broadly for all forms of cohabitation which form a recognizable social unit, of people who are or who are not related and who have long-lasting, affective bonds and provide each other with support and care.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FeedingTubeSystem" id="EAID_80D90439_0FB3_41b6_80B9_200124B8E85A">
-        <documentation>Een sonde is een speciale katheter die gebruikt wordt om:
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een sonde is een speciale katheter die gebruikt wordt om:
 	- vloeibare voeding toe te dienen aan mensen die niet op een normale manier kunnen eten of drinken,
 	- medicatie toe te dienen,
 	- maagsap af te laten lopen (hevelen) of af te zuigen.
-
 Sondes kunnen op verschillende wijzen ingebracht worden. Een sonde kan, via de neus, worden ingebracht in de maag of darm (duodenum, jejunum).  
-Percutane endoscopische gastrostomie (PEG) is een techniek om een sondeslang in de maag te leggen via de buikwand. Deze dunne slang wordt gebruikt om een pati?nt te voeden die gedurende lange tijd geen voeding  op de normale wijze tot zich kan nemen (PEG-sonde).
-{en-US}A feeding tube is a special catheter used to: 
- 
- - administer liquid food to people who are incapable of oral intake of food or liquid, 
- - administer medication, 
- - drain (siphon) or pump out gastric juice. 
- 
- 
-There are different ways to place a feeding tube. A feeding tube can be inserted through the nose, in the stomach or in the intestines (duodenum, jejunum).   
-Percutaneous endoscopic gastrostomy (PEG) is a technique in which a feeding tube is placed into the stomach through the abdominal wall. This thin tube (PEG tube) is used to feed a patient who is incapable of oral food intake for a prolonged period of time.</documentation>
+Percutane endoscopische gastrostomie (PEG) is een techniek om een sondeslang in de maag te leggen via de buikwand. Deze dunne slang wordt gebruikt om een pati&amp;#235;nt te voeden die gedurende lange tijd geen voeding  op de normale wijze tot zich kan nemen (PEG-sonde).
+{&lt;/nl-NL>&lt;en-US>A feeding tube is a special catheter used to: 
+	- administer liquid food to people who are incapable of oral intake of food or liquid,
+	- administer medication,
+	- drain (siphon) or pump out gastric juice.
+There are different ways to place a feeding tube. A feeding tube can be inserted through the nose, in the stomach or in the intestines (duodenum, jejunum). Percutaneous endoscopic gastrostomy (PEG) is a technique in which a feeding tube is placed into the stomach through the abdominal wall. This thin tube (PEG tube) is used to feed a patient who is incapable of oral food intake for a prolonged period of time.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FreedomRestrictingMeasures" id="EAID_1A35DD0C_A862_4bcc_A7BF_0D8E37D5BE07">
         <documentation>&lt;languages xml:space=&quot;preserve&quot;>
@@ -3434,408 +3407,327 @@ Het risicogedrag van de betrokkene, dat de aanleiding vormt voor de maatregelen,
 &lt;en-US>Medical restraints are (physical or verbal) measures used to restrict the freedom of the patient in question. 
 In hospitals, these often include the use of side rails, a cushion belt (around the waist), limb restraints or a Posey bed. Medical restraints are often used in combination with sedatives. 
 Medical restraints may only be implemented under strict conditions. The Vereniging Verpleegkundigen &amp; Verzorgenden Nederland (V&amp;VN) [Dutch Nurses and Carers Association] published a set of guidelines for nurses to implement these restraints in hospitals. 
-The patient?s high-risk behavior providing cause for the restraints is not described in this concept.&lt;/en-US>
+The patient's high-risk behavior providing cause for the restraints is not described in this concept.&lt;/en-US>
 &lt;/languages></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FreedomRestrictingMeasuresHealthcare" id="EAID_930B0A8F_3352_4358_A005_67C2B4E580DE">
-        <documentation>Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust zijn/haar vrijheid te beperken. Onder deze definitie vallen vele vormen van vrijheidsbeperking, zoals (niet uitputtend)
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust zijn/haar vrijheid te beperken. Onder deze definitie vallen vele vormen van vrijheidsbeperking, zoals (niet uitputtend)
 	- dwangbehandeling
 	- beperking in bewegingsvrijheid (bv. onrustband)
 	- huisregels
-
-Het toepassen van vrijheidsbeperkende maatregelen is aan strikte voorwaarden gebonden. De Wet Bijzondere Opnemingen in Psychiatrische Ziekenhuizen (Wet BOPZ) beschermt de rechten van cli?nten die niet vrijwillig zijn opgenomen in de geestelijke gezondheidszorg, de gehandicaptenzorg en in de psychogeriatrie. De wet is uitsluitend van toepassing in BOPZ-aangemerkte instellingen en geldt ook voor sommige (gesloten) afdelingen in het verzorgingshuis.
+Het toepassen van vrijheidsbeperkende maatregelen is aan strikte voorwaarden gebonden. De Wet Bijzondere Opnemingen in Psychiatrische Ziekenhuizen (Wet BOPZ) beschermt de rechten van cli&amp;#235;nten die niet vrijwillig zijn opgenomen in de geestelijke gezondheidszorg, de gehandicaptenzorg en in de psychogeriatrie. De wet is uitsluitend van toepassing in BOPZ-aangemerkte instellingen en geldt ook voor sommige (gesloten) afdelingen in het verzorgingshuis.
 Voor de registratie van de maatregelen wordt binnen de GGZ instellingen gebruik gemaakt van een landelijk registratiesysteem, de Argusregistratie.
 Het riscicogedrag van de betrokkene, dat de aanleiding vormt voor de maatregelen, wordt niet in dit concept beschreven.
-{en-US}Medical restraints are (physical or verbal) measures used to restrict the freedom of the patient in question. Many forms of medical restraints fall under this definition, including but not limited to: 
- 
- - involuntary treatment 
- - physical restraints (such as a cushion belt) 
- - house rules 
- 
- 
-Medical restraints may only be implemented under strict conditions. The ?Wet BOPZ? [Dutch Psychiatric Hospitals (Compulsory Admissions) Act] protects the rights of clients who are involuntarily admitted into mental healthcare, services for the disabled and in geriatric psychiatry. The act only applies in ?BOPZ?-marked facilities and also applies to some (closed) wards in retirement homes. 
-Mental healthcare facilities use a national registration system to register the restraints called Argus registration.</documentation>
+{&lt;/nl-NL>&lt;en-US>Medical restraints are (physical or verbal) measures used to restrict the freedom of the patient in question. Many forms of medical restraints fall under this definition, including but not limited to: 
+	- involuntary treatment
+	- physical restraints (such as a cushion belt)
+	- house rules
+Medical restraints may only be implemented under strict conditions. The 'Wet BOPZ' [Dutch Psychiatric Hospitals (Compulsory Admissions) Act] protects the rights of clients who are involuntarily admitted into mental healthcare, services for the disabled and in geriatric psychiatry. The act only applies in 'BOPZ'-marked facilities and also applies to some (closed) wards in retirement homes. 
+Mental healthcare facilities use a national registration system to register the restraints called Argus registration.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="FunctionalOrMentalStatus" id="EAID_86983F8E_45A1_47d7_811C_BFB2C01E6062">
-        <documentation>De functionele of mentale status geeft inzicht in de functionele en mentale beperkingen van de pati?nt.
-{en-US}The functional or mental status provides insight into the patient?s functional and mental limitations.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De functionele of mentale status geeft inzicht in de functionele en mentale beperkingen van de pati&amp;#235;nt.
+{&lt;/nl-NL>&lt;en-US>The functional or mental status provides insight into the patient's functional and mental limitations.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="GeneralMeasurement" id="EAID_863A3C18_E127_4c79_A775_BD66768C8F08">
-        <documentation>Een algemene meting legt de uitkomst vast van een meting of bepaling die bij een pat?nt is uitgevoerd. De bouwsteen wordt gebruikt om de uitslagen van metingen vast te leggen waarvoor geen specifieke bouwstenen zijn geformuleerd. De bouwsteen is niet bedoeld voor laboratorium bepalingen die uitgevoerd worden op materiaal dat bij de pati?nt is afgenomen.
-{en-US}A general measurement determines the result of a measurement or determination made for a patient. The information model is used to record the measurement results for which no specific information models have yet been formulated. The information model is not intended for laboratory determinations to be carried out on the material taken from the patient.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een algemene meting legt de uitkomst vast van een meting of bepaling die bij een pati&amp;#235;nt is uitgevoerd. De bouwsteen wordt gebruikt om de uitslagen van metingen vast te leggen waarvoor geen specifieke bouwstenen zijn geformuleerd. De bouwsteen is niet bedoeld voor laboratorium bepalingen die uitgevoerd worden op materiaal dat bij de pati&amp;#235;nt is afgenomen.
+{&lt;/nl-NL>&lt;en-US>A general measurement determines the result of a measurement or determination made for a patient. The information model is used to record the measurement results for which no specific information models have yet been formulated. The information model is not intended for laboratory determinations to be carried out on the material taken from the patient.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="GeneralMentalFunctions" id="EAID_4344875F_1EDA_4f9f_B35B_8C0787A56F68">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Belangrijke onderdelen van de algemene mentale functies van de hersenen zijn intellectuele functies, ori?ntatie en bewustzijn. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+Belangrijke onderdelen van de algemene mentale functies van de hersenen zijn intellectuele functies, ori&amp;#235;ntatie en bewustzijn. 
 Als er sprake is van stoornis in intellectuele functies t.g.v. verstandelijke beperking wordt dit niet beschreven in deze bouwsteen maar als medische diagnose vastgelegd.
-Stoornissen in ori?ntatie en bewustzijn in combinatie met stoornissen in aandacht, geheugen en waarneming worden gezien als belangrijke symptomen voor de mogelijke aanwezigheid van een delier. Laatstgenoemde stoornissen worden vastgelegd in de bouwsteen SpecifiekeMentaleFuncties.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Important parts of the brain?s general mental functions are intellectual functions, orientation and consciousness.  
+Stoornissen in ori&amp;#235;ntatie en bewustzijn in combinatie met stoornissen in aandacht, geheugen en waarneming worden gezien als belangrijke symptomen voor de mogelijke aanwezigheid van een delier. Laatstgenoemde stoornissen worden vastgelegd in de bouwsteen SpecifiekeMentaleFuncties.
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
+Important parts of the brain's general mental functions are intellectual functions, orientation and consciousness.  
 If there is a disorder in the intellectual functions as a result of a mental disability, it is not described in this information model but is recorded as a medical diagnosis. 
-Disorders in orientation and consciousness combined with disorders in attention, memory and observation are seen as important symptoms for the potential presence of a delirium. The latter disorders are recorded in the SpecificMentalFunctions information model.</documentation>
+Disorders in orientation and consciousness combined with disorders in attention, memory and observation are seen as important symptoms for the potential presence of a delirium. The latter disorders are recorded in the SpecificMentalFunctions information model.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="GlasgowComaScale" id="EAID_0D29A944_5958_4331_8063_DF6EDD9698B4">
-        <documentation>Vijftienpuntschaal waarmee het bewustzijnsniveau van een persoon, van volkomen helder tot diep bewusteloos, kan worden weergegeven in een cijfer, de zogenaamde EMV-score.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Vijftienpuntschaal waarmee het bewustzijnsniveau van een persoon, van volkomen helder tot diep bewusteloos, kan worden weergegeven in een cijfer, de zogenaamde EMV-score.
 De Glasgow comascore ofwel EMV (Eye-Motor-Verbal) score is een maat voor de mate van het bewustzijn, gebaseerd op oog-, verbale en bewegingsreacties op specifieke voorgeschreven hoorbare en voelbare prikkels.
-{en-US}Fifteen-point scale for expressing a person?s level of consciousness, from fully awake to deep unconsciousness, in a number: the so-called EMV score. 
-The Glasgow Coma Scale score or EMV (Eye-Motor-Verbal) score is a scale to measure the extent of consciousness, based on eye, verbal and motor responses to specific prescribed sound and pain stimuli.</documentation>
+{&lt;/nl-NL>&lt;en-US>Fifteen-point scale for expressing a person's level of consciousness, from fully awake to deep unconsciousness, in a number: the so-called EMV score. 
+The Glasgow Coma Scale score or EMV (Eye-Motor-Verbal) score is a scale to measure the extent of consciousness, based on eye, verbal and motor responses to specific prescribed sound and pain stimuli.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HealthProfessional" id="EAID_66BDA099_A9EA_44c2_858E_96F19641C7A8">
-        <documentation>Een zorgverlener is een persoon die bevoegd is tot handelingen op het gebied van de individuele gezondheidszorg.
-{en-US}A healthcare provider is a person authorized to act in individual healthcare.</documentation>
+        <documentation>A healthcare provider is a person authorized to act in individual healthcare.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HealthcareProvider" id="EAID_D4E8A831_5E30_4cc2_B4BB_108897D9598A">
-        <documentation>Een zorgaanbieder is een organisatie die medische-, paramedische- en/of verpleegkundige zorg aanbiedt, en ook daadwerkelijk verleent, aan cli?nten/pati?nten. Voorbeelden zijn: ziekenhuis, verpleeghuis, huisartsenpraktijk.
-{en-US}A healthcare provider is an organization that offers and provides medical, paramedic and/or nursing care to patients/clients. Examples include: hospitals, nursing homes, doctor?s offices.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een zorgaanbieder is een organisatie die medische-, paramedische- en/of verpleegkundige zorg aanbiedt, en ook daadwerkelijk verleent, aan cli&amp;#235;nten/pati&amp;#235;nten. Voorbeelden zijn: ziekenhuis, verpleeghuis, huisartsenpraktijk.
+{&lt;/nl-NL>&lt;en-US>A healthcare provider is an organization that offers and provides medical, paramedic and/or nursing care to patients/clients. Examples include: hospitals, nursing homes, doctor's offices.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HearingFunction" id="EAID_A124A136_4131_48e4_9327_F45C51C22D94">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Horen is het vermogen om geluid waar te nemen, met als doel het communiseren met anderen, het localiseren van een geluidsbron en het herkennen van geluiden. Het gaat daarbij om de waarneming van de geluidsgolven en niet om de verwerking er van in de hersenen.
-Een stoornis van de hoorfunctie kan leiden tot onder andere communicatieproblemen.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Hearing is the ability to observe sound, with the purpose of communicating with others, localizing the source of the sound and recognizing certain sounds. This pertains to observing the sound waves, and not processing the sounds in the brain. 
 A hearing disorder can lead to things including communication problems.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HeartRate" id="EAID_A9AF5E09_BABE_45c8_A11E_254B25596CEB">
-        <documentation>De hartfrequentie is het aantal slagen per minuut dat het hart maakt.
-{en-US}The heart frequency is the number of heartbeats per minute.</documentation>
+        <documentation>The heart frequency is the number of heartbeats per minute.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HelpFromOthers" id="EAID_7591D443_87CB_48be_9EFF_00D260CDF27D">
-        <documentation>Bij de zorg voor een pati?nt met een aandoening of beperking zijn, met name in de thuissituatie, vaak meerdere personen of instanties betrokken. Hun inzet maakt het voor de pati?nt mogelijk in meer of mindere mate zelfstandig te functioneren. Het gaat hierbij niet alleen om mantelzorgers, maar ook om professionele hulp zoals geboden door thuiszorg instanties, verpleegkundigen, verzorgenden en helpenden.
-Behandelende artsen en personeel van de organisatie waarin een pati?nt is opgenomen vallen niet onder dit concept.
-{en-US}There are often multiple people or parties involved in the care for a patient with a disorder or disability, particularly in the event of home care. Their efforts enable the patient to function more or less independently. This includes not only caregivers, but also professional help such as that offered by home care organizations, nurses, aids and helpers. 
+        <documentation>There are often multiple people or parties involved in the care for a patient with a disorder or disability, particularly in the event of home care. Their efforts enable the patient to function more or less independently. This includes not only caregivers, but also professional help such as that offered by home care organizations, nurses, aids and helpers. 
 Current doctors and staff from the facility to which a patient is admitted do not fall under this concept.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="HelpWithMedication" id="EAID_69F8332F_DDEE_48a3_8C62_099FB96A9CAE">
-        <documentation>Hulp bij medicatie beschrijft de mate waarin de pati?nt zelfstandig in staat is om medicatie te gebruiken en is een onderdeel van zelfverzorging. Het gaat hierbij uitsluitend om het aspect van zelfredzaamheid en niet om de specificatie van de medicatie.
-{en-US}Help with medication describes the extent to which the patient is independently capable of using medication and is a part of self-care. This only concerns the aspect of independence and not the specifications of the medication.</documentation>
+        <documentation>Help with medication describes the extent to which the patient is independently capable of using medication and is a part of self-care. This only concerns the aspect of independence and not the specifications of the medication.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="IllnessPerception" id="EAID_84869AA1_364C_42ed_BDA3_87D7F1DA5FBF">
-        <documentation>Een langdurige of levenbedreigende ziekte is in vrijwel alle gevallen een traumatisch ervaring voor de pati?nt en zijn omgeving. Iedere pati?nt gaat op zijn eigen manier hiermee om. De manier waarop iemand met problemen en stress omgaat, wordt ook wel coping genoemd. Ziektebeleving gaat in op zowel de inschatting door de pati?nt van zijn situatie als op de wijze waarop de pati?nt en zijn omgeving met deze situatie omgaan (copingstrategie?n).
-{en-US}In nearly all cases, a lengthy or life-threatening illness is a traumatic experience for the patient and their environment. Every patient deals with this in their own way. The way in which a person deals with problems and stress is also referred to as coping. Illness perception entails both the way the patient sees their situation and the way in which the patient and their environment deal with the situation (coping strategies).n</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een langdurige of levenbedreigende ziekte is in vrijwel alle gevallen een traumatisch ervaring voor de pati&amp;#235;nt en zijn omgeving. Iedere pati&amp;#235;nt gaat op zijn eigen manier hiermee om. De manier waarop iemand met problemen en stress omgaat, wordt ook wel coping genoemd. Ziektebeleving gaat in op zowel de inschatting door de pati&amp;#235;nt van zijn situatie als op de wijze waarop de pati&amp;#235;nt en zijn omgeving met deze situatie omgaan (copingstrategie&amp;#235;n).
+{&lt;/nl-NL>&lt;en-US>In nearly all cases, a lengthy or life-threatening illness is a traumatic experience for the patient and their environment. Every patient deals with this in their own way. The way in which a person deals with problems and stress is also referred to as coping. Illness perception entails both the way the patient sees their situation and the way in which the patient and their environment deal with the situation (coping strategies). &lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Infusion" id="EAID_A1778A8F_994F_4583_BC64_D31FB9F289B8">
-        <documentation>Een infuus is een apparaat waarmee vloeistof langzaam in een bloedvat wordt gespoten. Het infuus bestaat uit een aantal delen.
-Tot het infuus wordt behoort:
-	- de canule (perifeer) of de katheter (centraal) die perifeer of centraal wordt ingebracht bij de pati?nt;
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een infuus is een apparaat waarmee vloeistof langzaam in een bloedvat wordt gespoten. Het infuus bestaat uit een aantal delen.
+Tot het infuus behoort:
+	- de canule (perifeer) of de katheter (centraal) die perifeer of centraal wordt ingebracht bij de pati&amp;#235;nt;
 	- het toedieningssysteem dat aangesloten is op de canule/katheter waardoor de vloeistof loopt die wordt toegediend;
-	- de infuuszak waar de vloeistof zich in bevindt. 
-Op ??n canule/katheter kunnen meerdere toedieningssystemen zijn aangesloten. Daarnaast kan een centraal veneuze katheter meerdere lumina bevatten.
-Naast veneuze katheters zijn er ook arteri?le en epidurale katheters.
-{en-US}A drip is a machine that slowly injects fluid into a blood vessel. The drip has a number of components. 
+	- de infuuszak waar de vloeistof zich in bevindt.
+Op &amp;#233;&amp;#233;n canule/katheter kunnen meerdere toedieningssystemen zijn aangesloten. Daarnaast kan een centraal veneuze katheter meerdere lumina bevatten.
+Naast veneuze katheters zijn er ook arteri&amp;#235;le en epidurale katheters.
+{&lt;/nl-NL>&lt;en-US>A drip is a machine that slowly injects fluid into a blood vessel. The drip has a number of components. 
 The drip contains: 
- 
- - the (peripheral) cannula or the (central) catheter put into the patient peripherally or centrally; 
- - the administering system connected to the cannula/catheter allowing the administered fluid to run; 
- - the drip bag containing the fluid.  
- 
+	- the (peripheral) cannula or the (central) catheter put into the patient peripherally or centrally;
+	- the administering system connected to the cannula/catheter allowing the administered fluid to run;
+	- the drip bag containing the fluid. 
+
 Multiple administering systems may be connected to one cannula/catheter. Furthermore, a central venous catheter may have multiple lumens. 
-Arterial and epidural catheters also exist in addition to venous catheters.</documentation>
+Arterial and epidural catheters also exist in addition to venous catheters.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="LaboratoryTestResult" id="EAID_CA2B1D00_0CDC_434b_8037_B1583E7E6A77">
-        <documentation>Een laboratoriumuitslag beschrijft het resultaat van een laboratoriumbepaling. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een laboratoriumuitslag beschrijft het resultaat van een laboratoriumbepaling. 
 Behalve de uitkomsten van testen met een enkelvoudig resultaat kunnen ook de uitkomsten van meer complexe testen met meervoudige resultaten of 'panel' vastgelegd worden.
-{en-US}A laboratory result describes the result of a laboratory analysis.  
-In addition to the results of tests with a singular result, the results of more complex tests with multiple results or a ?panel? can also be recorded.</documentation>
+{&lt;/nl-NL>&lt;en-US>A laboratory result describes the result of a laboratory analysis.  
+In addition to the results of tests with a singular result, the results of more complex tests with multiple results or a 'panel' can also be recorded.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="LanguageProficiency" id="EAID_6FBEA9AB_9C7B_454b_B258_D0B4E48D1420">
-        <documentation>Taalvaardigheid is het vermogen zich uit te drukken in een taal en mededelingen gedaan in die taal te begrijpen. Het gaat daarbij zowel om mondelinge als schriftelijke communicatie.
-{en-US}Linguistic competence is the ability to express oneself in a certain language and understand statements made in that language. This includes both oral and written communication.</documentation>
+        <documentation>Linguistic competence is the ability to express oneself in a certain language and understand statements made in that language. This includes both oral and written communication.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="LiveStance" id="EAID_5C46563A_CEF1_4027_861A_5BC7D83DC31F">
-        <documentation>De levens- en/of geloofsovertuiging van de pati?nt.  
-{en-US}Patient?s life stance and/or religion.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De levens- en/of geloofsovertuiging van de pati&amp;#235;nt.  
+{&lt;/nl-NL>&lt;en-US>Patient's life stance and/or religion.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="LivingSituation" id="EAID_8D597B4F_2FA4_442d_ACCF_567BAD339FFB">
-        <documentation>De woonsituatie is de fysieke omgeving waarin de pati?nt normaliter woont, slaapt, kleding bewaart, enz.
-{en-US}The living situation is the physical environment in which the patient normally lives, sleeps, keeps their clothing, etc.</documentation>
+        <documentation>The living situation is the physical environment in which the patient normally lives, sleeps, keeps their clothing, etc.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MUSTScore" id="EAID_D08A9FBD_6FF4_47f2_9BDA_6FC450E00D39">
-        <documentation>De Malnutrition Universal Screening Tool (MUST) is  een (gevalideerd) diagnostisch screeningsinstrument voor het bepalen van de mate van ondervoeding van de pati?nt. 
-Voor dit screeningsinstrument wordt bij elke pati?nt de Body Mass Index (BMI) en het 
-percentage gewichtsverlies berekend en wordt de pati?nt een ziektefactor toegekend. De MUST ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding.
-
-(Bron: Richtlijn Behandeling en screening ondervoeding.)
-{en-US}The Malnutrition Universal Screening Tool (MUST) is a (validated) diagnostic screening tool for determining the extent of a patient?s malnutrition.  
-For this screening tool, every patient?s Body Mass Index (BMI) and  
-weight loss percentage is calculated, after which the patient is assigned a disease factor. The MUST helps to recognize and treat malnutrition at an early stage. 
- 
-(Source: Guidelines for Screening and Treating Malnutrition.)</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De Malnutrition Universal Screening Tool (MUST) is  een (gevalideerd) diagnostisch screeningsinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. 
+Voor dit screeningsinstrument wordt bij elke pati&amp;#235;nt de Body Mass Index (BMI) en het percentage gewichtsverlies berekend en wordt de pati&amp;#235;nt een ziektefactor toegekend. De MUST ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding. (Bron: Richtlijn Behandeling en screening ondervoeding.)
+{&lt;/nl-NL>&lt;en-US>The Malnutrition Universal Screening Tool (MUST) is a (validated) diagnostic screening tool for determining the extent of a patient's malnutrition. 
+For this screening tool, every patient's Body Mass Index (BMI) and weight loss percentage is calculated, after which the patient is assigned a disease factor. The MUST helps to recognize and treat malnutrition at an early stage. (Source: Guidelines for Screening and Treating Malnutrition.)&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Malnutrition" id="EAID_C0CBB366_7CF7_49be_B81D_2B5140D16CA5">
-        <documentation>Ondervoeding is een voedingstoestand, waarbij een disbalans van energie, eiwit en andere voedingsstoffen leidt tot meetbare nadelige effecten op lichaamssamenstelling
-en functioneren. Dit komt met name door een klinisch relevante afname van de spiermassa. 
-Met name zieke mensen en kwetsbare ouderen lopen kans om ondervoed te raken. 
-Een hulpmiddel bij het vaststellen van (risico op) ondervoeding zijn gevalideerde screeningsinstrumenten als de MUST en de SNAQ questionaire.
-
-(Bron: NHG, Landelijke Eerstelijns Samenwerkings Afspraak Ondervoeding)
-{en-US}Malnutrition is a nutritional condition in which the patient has an imbalance of energy, protein and other nutrients leading to measurable negative effects on the body?s composition  
-and functioning. This is largely caused by a clinically relevant reduction in muscle mass.  
-Ill and vulnerable elderly people are particularly prone to malnutrition.  
-Aids in determining (the risk of) malnutrition are validated screening tools such as the MUST and SNAQ questionnaire. 
- 
-(Source: NHG, National Primary Care Collaboration Agreement on Malnutrition)</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Ondervoeding is een voedingstoestand, waarbij een disbalans van energie, eiwit en andere voedingsstoffen leidt tot meetbare nadelige effecten op lichaamssamenstelling en functioneren. Dit komt met name door een klinisch relevante afname van de spiermassa. 
+Met name zieke mensen en kwetsbare ouderen lopen kans om ondervoed te raken. Een hulpmiddel bij het vaststellen van (risico op) ondervoeding zijn gevalideerde screeningsinstrumenten als de MUST en de SNAQ questionaire. (Bron: NHG, Landelijke Eerstelijns Samenwerkings Afspraak Ondervoeding)
+{&lt;/nl-NL>&lt;en-US>Malnutrition is a nutritional condition in which the patient has an imbalance of energy, protein and other nutrients leading to measurable negative effects on the body's composition and functioning. This is largely caused by a clinically relevant reduction in muscle mass.  
+Ill and vulnerable elderly people are particularly prone to malnutrition. Aids in determining (the risk of) malnutrition are validated screening tools such as the MUST and SNAQ questionnaire. (Source: NHG, National Primary Care Collaboration Agreement on Malnutrition)&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MaritalStatus" id="EAID_3BA136E4_C5C1_4fe2_961A_DAF1B75D92E1">
-        <documentation>Burgerlijke staat is de formele positie van een mens in de zin en betekenis van het burgerlijk wetboek. Te onderscheiden vallen huwelijkse staat en partnerregistratie (geregistreerd partnerschap).
-{en-US}Marital status is a person?s formal position as defined by the Dutch civil code. There is a distinction between marriage and civil union.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Burgerlijke staat is de formele positie van een mens in de zin en betekenis van het burgerlijk wetboek. Te onderscheiden vallen huwelijkse staat en partnerregistratie (geregistreerd partnerschap).
+{&lt;/nl-NL>&lt;en-US>Marital status is a person's formal position as defined by the Dutch civil code. There is a distinction between marriage and civil union.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MedicalDevice" id="EAID_5E9BD9F2_D106_4d22_9EB2_618BE4FF2CF6">
-        <documentation>Medische hulpmiddelen kunnen worden omschreven als de inwendig ge?mplanteerde en uitwendige apparatuur en/of hulpmiddelen die de pati?nt gebruikt of heeft gebruikt om de gevolgen van functionele beperkingen van orgaansystemen te verminderen of om de behandeling van een ziekte mogelijk te maken.
-{en-US}Medical aids are any internally implanted and external devices and/or aids used by the patient (in the past) to reduce the effects of functional limitations in organ systems or to facilitate the treatment of a disease.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Medische hulpmiddelen kunnen worden omschreven als de inwendig ge&amp;#239;mplanteerde en uitwendige apparatuur en/of hulpmiddelen die de pati&amp;#235;nt gebruikt of heeft gebruikt om de gevolgen van functionele beperkingen van orgaansystemen te verminderen of om de behandeling van een ziekte mogelijk te maken.
+{&lt;/nl-NL>&lt;en-US>Medical aids are any internally implanted and external devices and/or aids used by the patient (in the past) to reduce the effects of functional limitations in organ systems or to facilitate the treatment of a disease.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MedicationAdministration" id="EAID_B588AA28_6BB0_4174_B763_2DEC80406D6A">
-        <documentation>Een medicatietoediening beschrijft de werkelijke toediening van een medicament. Dit kan gaan om het eenvoudig doorslikken van een tablet, het opbrengen van een zalf of pasta, of een langdurende infusie. 
-De toediening kan verwijzen naar een medicatievoorschrift, maar kan ook betrekking hebben op thuismedicatie.
-{en-US}Administration of medication describes the actual administration of the medication. This can be simply swallowing a tablet, applying ointment or paste, or an infusion that takes a considerable amount of time.  
+        <documentation>Administration of medication describes the actual administration of the medication. This can be simply swallowing a tablet, applying ointment or paste, or an infusion that takes a considerable amount of time.  
 The administration can refer to a medication prescription, but can also refer to home medication.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MedicationDispense" id="EAID_54F50B36_313C_4086_8C25_63D4D351C113">
-        <documentation>Medicatie verstrekking beschrijft de levering van een medicatieproduct aan een specifieke pati?nt (of de toediener of een vertegenwoordiger), met de bedoeling dat het gebruikt wordt volgens een meegeleverde instructie (meestal als uitvoering van het verstrekkingsverzoek in een medicatievoorschrift). 
-Een verstrekking vindt plaats op het moment dat de pati?nt (of de andere genoemden) het product fysiek ontvangt.
-
-
-{en-US}Medication supply describes the supply of a medicinal product to a specific patient (or the administerer or a representative), with the intention of it being used according to the included instructions (usually to honor the supply request in a medication prescription).  
-Medication supply takes place when the patient (or any of the others listed above) physically receives the product.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Medicatie verstrekking beschrijft de levering van een medicatieproduct aan een specifieke pati&amp;#235;nt (of de toediener of een vertegenwoordiger), met de bedoeling dat het gebruikt wordt volgens een meegeleverde instructie (meestal als uitvoering van het verstrekkingsverzoek in een medicatievoorschrift). 
+Een verstrekking vindt plaats op het moment dat de pati&amp;#235;nt (of de andere genoemden) het product fysiek ontvangt.
+{&lt;/nl-NL>&lt;en-US>Medication supply describes the supply of a medicinal product to a specific patient (or the administerer or a representative), with the intention of it being used according to the included instructions (usually to honor the supply request in a medication prescription).  
+Medication supply takes place when the patient (or any of the others listed above) physically receives the product.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MedicationPrescription" id="EAID_B34AD5C3_8D86_4f20_8298_687AB35CD588">
-        <documentation>Een medicatievoorschrift is een afspraak of order voor het gebruik van medicatie, waarin beschreven worden: het voorgeschreven product, instructies voor het gebruik of toediening en (optioneel) een verzoek tot aflevering.
-Van ieder voorgeschreven product wordt de dosisinformatie weergeven: de startdatum en tijd en eventuele stopdatum en tijd of totaal aantal giften, toedieningsschema (frequentie of interval, toedieningstijden, relatie met maaltijden e.d.), de keerdosis, toedieningssnelheid of ?duur (voor infusen), en de toedieningsweg. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een medicatievoorschrift is een afspraak of order voor het gebruik van medicatie, waarin beschreven worden: het voorgeschreven product, instructies voor het gebruik of toediening en (optioneel) een verzoek tot aflevering.
+Van ieder voorgeschreven product wordt de dosisinformatie weergeven: de startdatum en tijd en eventuele stopdatum en tijd of totaal aantal giften, toedieningsschema (frequentie of interval, toedieningstijden, relatie met maaltijden e.d.), de keerdosis, toedieningssnelheid of -duur (voor infusen), en de toedieningsweg. 
 Ook wordt eventueel aangegeven of het 'zo nodig' medicatie betreft en onder welke voorwaarde het middel dan gebruikt dient te worden en hoe hoog dan de afgesproken maximale dosis in een periode is. 
 Zo mogelijk wordt de reden of indicatie van starten/stoppen/wijzigen van het gebruik vermeld.
 Ook medicatie waarvan het gebruik tijdelijk onderbroken is, kan worden vermeld.
-Wanneer het voorschrift ook de bestelling bevat om een middel aan pati?nt of een toediener af te verstrekken, dan kan het voorschrift een recept genoemd worden.
-{en-US}A medication prescription is an agreement or order for the use of medication in which the following are described: the prescribed product, instructions for use or administration and (optionally) a request for delivery. 
+Wanneer het voorschrift ook de bestelling bevat om een middel aan pati&amp;#235;nt of een toediener af te verstrekken, dan kan het voorschrift een recept genoemd worden.
+{&lt;/nl-NL>&lt;en-US>A medication prescription is an agreement or order for the use of medication in which the following are described: the prescribed product, instructions for use or administration and (optionally) a request for delivery. 
 The dose information is given for every prescribed product: the start date and time, and if possible stop date and time or total number of administrations, administering schedule (frequency or interval, administering times, link with meals etc.), the number of doses, administering speed or time (for drips), and the route of administration.  
-An indication can also be included of whether the medication is only to be administered ?as needed? and under which conditions the product is to be used, and how high the agreed maximum dose is in a certain period.  
+An indication can also be included of whether the medication is only to be administered 'as needed' and under which conditions the product is to be used, and how high the agreed maximum dose is in a certain period.  
 If possible, the reason or indication of starting/stopping/changes in use is to be included. 
 Medication that has been discontinued temporarily can be included as well. 
-If the prescription also contains the order to provide a product to a patient or to an administerer, it can officially be referred to as a prescription.</documentation>
+If the prescription also contains the order to pr&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MedicationUse" id="EAID_DBE6A892_0D12_496c_B6E6_70033AEE6C7F">
-        <documentation>MedicatieGebruik beschrijft de inname of toediening van een medicament, veelal in relatie tot een voorschrift, maar ook op eigen initiatief. Het beschrijft het patroon van inname van medicatie, zoals gerapporteerd door de pati?nt zelf, een mantelzorger of een zorgverlener. Het vastleggen van medicatie gebruik geeft naast het gebruik van voorgeschreven medicatie ook inzicht in het gebruik van thuismedicatie.
-{en-US}MedicationUse describes taking or administering the medication, often in relation to a prescription, but also on the person?s own initiative. This describes the pattern of medication use, as reported by the patient themselves, a caregiver or healthcare provider. Documenting medication use provides insight into the use of prescribed medication as well as the use of medication at home.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>MedicatieGebruik beschrijft de inname of toediening van een medicament, veelal in relatie tot een voorschrift, maar ook op eigen initiatief. Het beschrijft het patroon van inname van medicatie, zoals gerapporteerd door de pati&amp;#235;nt zelf, een mantelzorger of een zorgverlener. Het vastleggen van medicatie gebruik geeft naast het gebruik van voorgeschreven medicatie ook inzicht in het gebruik van thuismedicatie.
+{&lt;/nl-NL>&lt;en-US>MedicationUse describes taking or administering the medication, often in relation to a prescription, but also on the person's own initiative. This describes the pattern of medication use, as reported by the patient themselves, a caregiver or healthcare provider. Documenting medication use provides insight into the use of prescribed medication as well as the use of medication at home.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="MenstrualCycle" id="EAID_A4487DE3_BBC0_4091_BFB9_92E1E4E76AE6">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 De menstruatiecyclus is een periodieke verandering in het lichaam van de geslachtsrijpe vrouw tussen de puberteit en de menopauze. De cyclus heeft te maken met de eicelrijping en het klaarmaken van het lichaam voor mogelijke zwangerschap.
 Door verschillende oorzaken  kunnen er afwijkingen of verstoringen van de cyclus optreden.
-Het concept gaat met name in op de stoornissen en beschrijft niet of de pati?nt in staat zelfstandig de verzorging bij menstruatie uit te voeren. Dit wordt beschreven in de bouwsteen VermogenTotToiletgang 
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
-The menstrual cycle is a periodical change in sexually mature women?s bodies between puberty and menopause. The cycle has to do with egg cell maturation and getting the body ready for potential pregnancy. 
+Het concept gaat met name in op de stoornissen en beschrijft niet of de pati&amp;#235;nt in staat is zelfstandig de verzorging bij menstruatie uit te voeren. Dit wordt beschreven in de bouwsteen VermogenTotToiletgang 
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
+The menstrual cycle is a periodical change in sexually mature women's bodies between puberty and menopause. The cycle has to do with egg cell maturation and getting the body ready for potential pregnancy. 
 Various causes can lead to deviations or disruptions in the cycle. 
-The concept mainly focuses on the disorders and does not describe whether the patient is capable of independently taking care of their menstrual hygiene. This is described in the ToiletUse information model.</documentation>
+The concept mainly focuses on the disorders and does not describe whether the patient is capable of independently taking care of their menstrual hygiene. This is described in the ToiletUse information model.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Mobility" id="EAID_FFCEDD41_0DB2_4c55_B155_F8124EBE56D5">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Mobiliteit beschrijft mogelijkheden en eventuele beperkingen t.a.v. alle aspecten van mobiliteit, zoals het veranderen van lichaamshouding, lopen en voortbewegen, eventueel met behulp van hulpmiddelen.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Mobility describes the abilities and any limitations in all aspects of mobility, such as changing position, walking and moving forward, in some cases with the help of an aid.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Nationality" id="EAID_47D4B7EE_3AF0_46e7_955D_EC723CC443DE">
-        <documentation>De nationaliteit wordt gebruikt als aanduiding voor het land van staatsburgerschap.
-{en-US}Nationality is used as an indication of the country of citizenship.</documentation>
+        <documentation>Nationality is used as an indication of the country of citizenship.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="NursingIntervention" id="EAID_A5C6BA9A_AC3E_49ec_8497_8FD6E2DC5ECA">
-        <documentation>Een verpleegkundige interventie is de verzorging en/of behandeling die een verpleegkundige uitvoert op basis van een deskundig oordeel en klinische kennis. Het is een onderdeel van het verpleegkundige proces; interventies worden bepaald naar aanleiding van ge?ndiceerde zorgproblemen (verpleegkundige diagnoses) en op grond van behandeldoelen. De interventies worden geconcretiseerd in verpleegkundige acties.
-{en-US}A nursing intervention is the care and/or treatment carried out by a nurse based on an expert opinion and clinical knowledge. It is part of the nursing process; interventions are determined as a result of indexed healthcare problems (nursing diagnoses) and based on treatment goals. The interventions are outlined in the nursing procedures.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een verpleegkundige interventie is de verzorging en/of behandeling die een verpleegkundige uitvoert op basis van een deskundig oordeel en klinische kennis. Het is een onderdeel van het verpleegkundige proces; interventies worden bepaald naar aanleiding van ge&amp;#239;ndiceerde zorgproblemen (verpleegkundige diagnoses) en op grond van behandeldoelen. De interventies worden geconcretiseerd in verpleegkundige acties.
+{&lt;/nl-NL>&lt;en-US>A nursing intervention is the care and/or treatment carried out by a nurse based on an expert opinion and clinical knowledge. It is part of the nursing process; interventions are determined as a result of indexed healthcare problems (nursing diagnoses) and based on treatment goals. The interventions are outlined in the nursing procedures.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="NutritionAdvice" id="EAID_E62D63B4_1C85_429a_BC53_0DBD9903C32A">
-        <documentation>Een voedingsadvies is een beschrijving van voeding voor de pati?nt, die aan specifieke eisen moet voldoen in verband met de gezondheidstoestand van de pati?nt. Allergie?n en overgevoeligheden of kauw- en slikproblemen kunnen aanleiding zijn voor speciale voeding.
-{en-US}Voeg hier de Engelse definitie in</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een voedingsadvies is een beschrijving van voeding voor de pati&amp;#235;nt, die aan specifieke eisen moet voldoen in verband met de gezondheidstoestand van de pati&amp;#235;nt. Allergie&amp;#235;n en overgevoeligheden of kauw- en slikproblemen kunnen aanleiding zijn voor speciale voeding.
+{&lt;/nl-NL>&lt;en-US>A nutritional advice is a description of nourishment for the patient, which must meet specific requirements in view of the health condition of the patient. Allergies and food intolerances or chewing and swallowing problems may be a reason for special nutrition.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="O2Saturation" id="EAID_EF6745B6_0787_4b3a_A226_9D0E01F8B0AB">
-        <documentation>De arteri?le zuurstofsaturatie, kortweg saturatie, is een graadmeter voor de hoeveelheid zuurstof die aan het hemoglobine in de rode bloedcellen in de arteri?n of slagaders gebonden is. De meting wordt meestal uitgevoerd als een transcutane meting met een saturatiemeter of pulsoximeter. De saturatie wordt uitgedrukt als een percentage en is bij gezonde personen meer dan 95%. 
-
-
-{en-US}Arterial oxygen saturation, also referred to as saturation, is an indicator for the amount of oxygen bound to the hemoglobin in the red blood cells of the arteries. The measurement is usually carried out as a transcutaneous measurement with a blood oxygen monitor or pulse oximeter. The saturation level is expressed as a percentage and should be over 95% in healthy people.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De arteri&amp;#235;le zuurstofsaturatie, kortweg saturatie, is een graadmeter voor de hoeveelheid zuurstof die aan het hemoglobine in de rode bloedcellen in de arteri&amp;#235;n of slagaders gebonden is. De meting wordt meestal uitgevoerd als een transcutane meting met een saturatiemeter of pulsoximeter. De saturatie wordt uitgedrukt als een percentage en is bij gezonde personen meer dan 95%. 
+{&lt;/nl-NL>&lt;en-US>Arterial oxygen saturation, also referred to as saturation, is an indicator for the amount of oxygen bound to the hemoglobin in the red blood cells of the arteries. The measurement is usually carried out as a transcutaneous measurement with a blood oxygen monitor or pulse oximeter. The saturation level is expressed as a percentage and should be over 95% in healthy people.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="OutcomeOfCare" id="EAID_7AA118AF_A046_4116_843F_CDFD21BA5144">
-        <documentation>Het concept Uitkomst van zorg (zorgresultaten) beschrijft de vastgestelde status van de pati?nt met betrekking tot een bepaald probleem. Het geeft door vergelijking met het behandeldoel inzicht in de effectiviteit van verpleegkundige interventies/activiteiten die ingezet zijn met betrekking tot dit probleem. Het is een onderdeel van het verpleegkundig proces, samen met verpleegkundige diagnoses/problemen, behandeldoel en verpleegkundige interventies.
-Er zijn verschillende classificatie systemen die een zorgresulaten beschrijven met een meetwaarde, zoals NOC (Nursing Outcome Classification), Omaha System, ICF (International Classification of Functioning, Disability and Health). Zo mogelijk wordt gebruik gemaakt van ??n van deze indelingen.
-{en-US}The Healthcare Results (healthcare results) concept describes the determined status of the patient in terms of a certain problem. Comparing the healthcare result with the treatment goal provides insight into the effectivity of the nursing interventions/activities carried out for this problem. It is a part of the nursing process, together with nursing diagnoses/problems, the treatment goal and nursing interventions. 
-There are different classification systems that describe healthcare results with a measurement value, such as the NOC (Nursing Outcome Classification), Omaha System, and ICF (International Classification of Functioning, Disability and Health). One of these classifications is to be used if possible.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het concept Uitkomst van zorg (zorgresultaten) beschrijft de vastgestelde status van de pati&amp;#235;nt met betrekking tot een bepaald probleem. Het geeft door vergelijking met het behandeldoel inzicht in de effectiviteit van verpleegkundige interventies/activiteiten die ingezet zijn met betrekking tot dit probleem. Het is een onderdeel van het verpleegkundig proces, samen met verpleegkundige diagnoses/problemen, behandeldoel en verpleegkundige interventies.
+Er zijn verschillende classificatie systemen die zorgresulaten beschrijven met een meetwaarde, zoals NOC (Nursing Outcome Classification), Omaha System, ICF (International Classification of Functioning, Disability and Health). Zo mogelijk wordt gebruik gemaakt van &amp;#233;&amp;#233;n van deze indelingen.
+{&lt;/nl-NL>&lt;en-US>The Healthcare Results (healthcare results) concept describes the determined status of the patient in terms of a certain problem. Comparing the healthcare result with the treatment goal provides insight into the effectivity of the nursing interventions/activities carried out for this problem. It is a part of the nursing process, together with nursing diagnoses/problems, the treatment goal and nursing interventions. 
+There are different classification systems that describe healthcare results with a measurement value, such as the NOC (Nursing Outcome Classification), Omaha System, and ICF (International Classification of Functioning, Disability and Health). One of these classifications is to be used if possible.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="PainPerception" id="EAID_33E6D611_A658_4f8e_81B7_FF6A415EC3E6">
-        <documentation>Pijnbeleving geeft een zo compleet mogelijk beeld van de door de pati?nt ervaren pijn. Daartoe wordt niet alleen de mate van pijn maar ook de context waarin de pijn ervaren wordt beschreven. De mate van pijn wordt vastgelegd met de Numeric Rating Scale (NRS) of de Visual Analogue Score (VAS).
-{en-US}Pain experience provides an indication of the pain experienced by the patient that is as comprehensive as possible. This includes not only the extent of the pain but also the context in which the pain is experienced. The extent of pain is recorded using the Numeric Rating Scale (NRS) or the Visual Analogue Score (VAS).</documentation>
+        <documentation>Pain experience provides an indication of the pain experienced by the patient that is as comprehensive as possible. This includes not only the extent of the pain but also the context in which the pain is experienced. The extent of pain is recorded using the Numeric Rating Scale (NRS) or the Visual Analogue Score (VAS).</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="PainScore" id="EAID_4BF99CFF_6E91_4dae_8137_275D355E5E01">
-        <documentation>De pijnscore is een algemene maat voor de pijnbeleving, geen beschrijving van specifieke, gelocaliseerde pijn.
-
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De pijnscore is een algemene maat voor de pijnbeleving, geen beschrijving van specifieke, gelocaliseerde pijn.
 Als goed reproduceerbare maat voor de beleving van pijn worden gebruikt:
-
-1) NRS (Numeric Rating Scale) waarbij de pati?nt een cijfer geeft aan de pijn op een schaal van 1 (geen pijn) en 10 (ondraaglijke pijn).
-
-2) VAS (Visual Analogue Score) , waarbij de pati?nt op een lat met een lijn aangeeft hoe de pijn ervaren wordt en op de achterkant van de lat staat een schaal van 0 (geen pijn) tot 10 (ondraaglijke pijn).
-
+1) NRS (Numeric Rating Scale) waarbij de pati&amp;#235;nt een cijfer geeft aan de pijn op een schaal van 1 (geen pijn) en 10 (ondraaglijke pijn).
+2) VAS (Visual Analogue Score) , waarbij de pati&amp;#235;nt op een lat met een lijn aangeeft hoe de pijn ervaren wordt en op de achterkant van de lat staat een schaal van 0 (geen pijn) tot 10 (ondraaglijke pijn).
 De uitslag van beide scores hebben dezelfde betekenis, maar de visueel analoge methode (VAS) wordt als betrouwbaarder aangemerkt dan de NRS pijnscore.
-
-
-{en-US}The pain score is a general measurement for pain experience, not a description of specific, localized pain. 
- 
+{&lt;/nl-NL>&lt;en-US>The pain score is a general measurement for pain experience, not a description of specific, localized pain. 
 The following are used as an easily reproducible measurement for pain experience: 
- 
 1) NRS (Numeric Rating Scale) in which the patient gives the pain a number on a scale of 1 (no pain) to 10 (unbearable pain). 
- 
 2) VAS (Visual Analogue Score), in which the patient points to a bar with a line to indicate the pain they feel. The back of the bar has a scale from 0 (no pain) to 10 (unbearable pain) on it. 
- 
-The results of both scores have the same meaning, but the visual analogue method (VAS) is seen as more reliable than the NRS pain score.</documentation>
+The results of both scores have the same meaning, but the visual analogue method (VAS) is seen as more reliable than the NRS pain score.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="ParticipationInSociety" id="EAID_21765188_5F03_4d43_9277_CF332DDB82EC">
-        <documentation>Participatie in de maatschappij gaat in op deelname aan maatschappelijke activiteiten die pati?nt in het dagelijks leven onderneemt, zoals het uitoefenen van een beroep en hobby activiteiten. Daarnaast beschrijft participatie in de maatschappij het sociale netwerk van de pati?nt.
-{en-US}Participation in society pertains to the patient?s initiative to participate in social activities in daily life, such as practicing a profession and hobbies. Participation in society also describes the patient?s social network.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Participatie in de maatschappij gaat in op deelname aan maatschappelijke activiteiten die pati&amp;#235;nt in het dagelijks leven onderneemt, zoals het uitoefenen van een beroep en hobby activiteiten. Daarnaast beschrijft participatie in de maatschappij het sociale netwerk van de pati&amp;#235;nt.
+{&lt;/nl-NL>&lt;en-US>Participation in society pertains to the patient's initiative to participate in social activities in daily life, such as practicing a profession and hobbies. Participation in society also describes the patient's social network.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Patient" id="EAID_E4929F68_541A_4d40_86E5_18BC2EC32CD6">
-        <documentation>Een persoon die medische zorg ontvangt.
-{en-US}A person who receives medical care.</documentation>
+        <documentation>A person who receives medical care.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Payer" id="EAID_341AED0F_E200_48c1_98EF_730396AB7892">
-        <documentation>Betalers zijn organisaties of individuen die betalen voor de aan de pati?nt geleverde zorg. Deze organisaties of individuen kunnen zijn: instellingen of personen die financieel garant staan of verantwoordelijk zijn voor de pati?nt (zoals ouders van minderjarigen), organisaties met directe financi?le verantwoordelijkheid, combinaties van deze of de pati?nt zelf.
-{en-US}Payers are organizations or individuals that pay for the healthcare supplied to the patient. These organizations or individuals can be: facilities or people who financially guarantee or who are responsible for the patient (such as parents or guardians of minors), organizations with direct financial responsibility, combinations of these or the patient themselves.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Betalers zijn organisaties of individuen die betalen voor de aan de pati&amp;#235;nt geleverde zorg. Deze organisaties of individuen kunnen zijn: instellingen of personen die financieel garant staan of verantwoordelijk zijn voor de pati&amp;#235;nt (zoals ouders van minderjarigen), organisaties met directe financi&amp;#235;le verantwoordelijkheid, combinaties van deze of de pati&amp;#235;nt zelf.
+{&lt;/nl-NL>&lt;en-US>Payers are organizations or individuals that pay for the healthcare supplied to the patient. These organizations or individuals can be: facilities or people who financially guarantee or who are responsible for the patient (such as parents or guardians of minors), organizations with direct financial responsibility, combinations of these or the patient themselves.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="PlannedCareActivity" id="EAID_AB4E6FDC_6914_44d6_9C9A_0A896B3FB287">
-        <documentation>Alle geplande afspraken, verwijzingen, behandelingen en diagnostische procedures, uitstaande orders en orders waarvan de uitslag nog niet bekend is, relevant voor de zorg van de pati?nt, kunnen worden vermeld. Ook kunnen hier Clinical reminders worden geplaatst. Dit zijn uitgestelde orders, die nog niet actief zijn. (Bijvoorbeeld: let op! pati?nt moet nog een booster vaccinatie hebben over x weken; let op! controleer de volgende keer de wangslijmvliezen). Het concept GeplandeZorgActiviteit is een regel uit het behandelplan. 
-Hiermee kan elke ontvanger, raadpleger of zorginstelling inzicht krijgen in de geplande zorg voor deze pati?nt.
-{en-US}All planned appointments, referrals, treatments and diagnostic procedures, open orders and orders of which the results are not yet known that are relevant to the patient?s care may be included. Clinical reminders can also be included here. These are postponed orders that are not yet active. (For example: please note! patient still needs a booster vaccination in x weeks; or please note! check the oral mucosa next time). The PlannedCareActivity concept is a line from the treatment plan.  
-This gives every recipient, user or healthcare facility insight into the planned care for this patient.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Alle geplande afspraken, verwijzingen, behandelingen en diagnostische procedures, uitstaande orders en orders waarvan de uitslag nog niet bekend is, relevant voor de zorg van de pati&amp;#235;nt, kunnen worden vermeld. Ook kunnen hier Clinical reminders worden geplaatst. Dit zijn uitgestelde orders, die nog niet actief zijn. (Bijvoorbeeld: let op! pati&amp;#235;nt moet nog een booster vaccinatie hebben over x weken; let op! controleer de volgende keer de wangslijmvliezen). Het concept GeplandeZorgActiviteit is een regel uit het behandelplan. 
+Hiermee kan elke ontvanger, raadpleger of zorginstelling inzicht krijgen in de geplande zorg voor deze pati&amp;#235;nt.
+{&lt;/nl-NL>&lt;en-US>All planned appointments, referrals, treatments and diagnostic procedures, open orders and orders of which the results are not yet known that are relevant to the patient's care may be included. Clinical reminders can also be included here. These are postponed orders that are not yet active. (For example: please note! patient still needs a booster vaccination in x weeks; or please note! check the oral mucosa next time). The PlannedCareActivity concept is a line from the treatment plan.  
+This gives every recipient, user or healthcare facility insight into the planned care for this patient.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Pregnacy" id="EAID_385D3FA2_2EC8_412c_8C7A_8A1998D7F45C">
-        <documentation>Zwangerschap of graviditeit is de toestand waarin een vrouw een bevruchte eicel, en vervolgens embryo en foetus, in zich draagt. Een zwangerschapsduur tussen 37 en 42 weken wordt als normaal beschouwd. De periode van 37 tot 42 weken wordt de &quot;? terme periode&quot; genoemd. De term graviditeit wordt ook gebruikt voor het aantal malen dat een vrouw zwanger is geweest. Samen met de pariteit, het aantal keren dat een vrouw bevallen is, geeft dit inzicht in de obstetrische voorgeschiedenis van de pati?nt.
-{en-US}Pregnancy or gravidity is the condition in which a woman carries a fertilized egg, which grows into an embryo and then a fetus. A pregnancy of between 37 and 42 weeks is considered normal. ?Term pregnancy? is 37 to 42 weeks. The term gravidity is also used for the number of times a woman has been pregnant. This and parity - the number of times a woman has given birth - provides insight into the patient?s obstetric history.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Zwangerschap of graviditeit is de toestand waarin een vrouw een bevruchte eicel, en vervolgens embryo en foetus, in zich draagt. Een zwangerschapsduur tussen 37 en 42 weken wordt als normaal beschouwd. De periode van 37 tot 42 weken wordt de &quot;&amp;#224; terme periode&quot; genoemd. De term graviditeit wordt ook gebruikt voor het aantal malen dat een vrouw zwanger is geweest. Samen met de pariteit, het aantal keren dat een vrouw bevallen is, geeft dit inzicht in de obstetrische voorgeschiedenis van de pati&amp;#235;nt.
+{&lt;/nl-NL>&lt;en-US>Pregnancy or gravidity is the condition in which a woman carries a fertilized egg, which grows into an embryo and then a fetus. A pregnancy of between 37 and 42 weeks is considered normal. &quot;Term pregnancy&quot; is 37 to 42 weeks. The term gravidity is also used for the number of times a woman has been pregnant. This and parity - the number of times a woman has given birth - provides insight into the patient's obstetric history.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="PressureUlcer" id="EAID_8FCDFF10_7C37_4503_9E4B_77F72B94323A">
-        <documentation>Een decubituswond is een gelokaliseerde beschadiging van de huid en/of onderliggend weefsel, meestal ter hoogte van een botuitsteeksel, als gevolg van druk of druk in samenhang met schuifkracht.
-Decubitus gaat gepaard met veel ziektelast en vermindert de kwaliteit van leven voor pati?nten. Adequate risico-inschatting, preventie en behandeling van decubitus leiden tot een lagere incidentie en prevalentie van decubitus. 
-{en-US}A decubitus wound is localized damage to the skin and/or underlying tissue, often over a bony prominence, as a result of pressure or pressure combined with friction. 
+        <documentation>A decubitus wound is localized damage to the skin and/or underlying tissue, often over a bony prominence, as a result of pressure or pressure combined with friction. 
 A decubitus wound involves a major disease burden and reduces the quality of life for a patient. Adequate risk evaluation, prevention and treatment of decubitus wounds can lead to a fewer incidences and prevalence of decubitus wounds.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Procedure" id="EAID_F4BFFB4E_8AB1_4c5e_9A0D_FF90BEAB2852">
-        <documentation>Het concept Verrichting vermeldt een therapeutische verrichting, die de pati?nt heeft ondergaan. Indien relevant kunnen ook diagnostische verrichtingen vermeld worden. 
-Een verrichting kan een simpele bloeddrukmeting zijn maar ook een complexe hartoperatie.
-{en-US}The concept Procedure indicates a therapeutic procedure undergone by the patient. If relevant, diagnostic procedures can be listed as well.  
+        <documentation>The concept Procedure indicates a therapeutic procedure undergone by the patient. If relevant, diagnostic procedures can be listed as well.  
 A procedure can be a simple blood pressure measurement, but also a complex heart surgery.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="PulseRate" id="EAID_42D24BFA_6035_4576_9129_2B0E2AA1878B">
-        <documentation>De polsfrequentie is het aantal palpatie per minuut gemeten aan een slagader.
-{en-US}The pulse rate is the number of palpations per minute measured at an artery.</documentation>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De polsfrequentie is het aantal palpaties per minuut gemeten aan een slagader.
+{&lt;/nl-NL>&lt;en-US>The pulse rate is the number of palpations per minute measured at an artery.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Respiration" id="EAID_CF0E1D8E_80E9_406e_BBC1_BD020291D6D3">
-        <documentation>Bij de ademhaling of respiratie stroomt er lucht naar en van de longen, waar de gasuitwisseling plaatsvindt, waarbij zuurstof vanuit de lucht wordt opgenomen in het bloed en koolstofdioxide wordt afgegeven aan de lucht. Observaties van de spontane ademhaling zoals deze meestal geregistreerd worden als onderdeel van de observatie van de vitale functies.
-{en-US} During breathing or respiration, air flows to and from the lungs, where gas exchange occurs, absorbing oxygen from the air into the blood and exhaling carbon dioxide into the air. Observations of spontaneous breathing, usually registered as part of the observation of vital functions.</documentation>
+        <documentation> During breathing or respiration, air flows to and from the lungs, where gas exchange occurs, absorbing oxygen from the air into the blood and exhaling carbon dioxide into the air. Observations of spontaneous breathing, usually registered as part of the observation of vital functions.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="SNAQScore" id="EAID_2F690EE4_77C5_43e3_B02F_B0E8050E7879">
-        <documentation>De Short Nutritional Assessment Questionnaire (SNAQ) is een (gevalideerd) meetinstrument voor het bepalen van de mate van ondervoeding van de pati?nt. Het instrument bestaat uit drie vragen waaraan een score wordt toegekend. De totaalsom van deze score bepaalt de mate van ondervoeding. 
-De SNAQ ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>De Short Nutritional Assessment Questionnaire (SNAQ) is een (gevalideerd) meetinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. Het instrument bestaat uit drie vragen waaraan een score wordt toegekend. De totaalsom van deze score bepaalt de mate van ondervoeding. De SNAQ ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding.
 Er zijn drie varianten van het meetinstrument voor verschillende zorgsettingen ontwikkeld, te weten ziekenhuis, verzorgings- en verpleeghuizen en zelfstandig wonende ouderen. Dit concept beschrijft het instrument dat bedoeld is voor de ziekenhuissetting.
-{en-US}The Short Nutritional Assessment Questionnaire (SNAQ) is a (validated) measuring tool for determining the extent of a patient?s malnutrition. The tool comprises three questions, each of which is assigned a score. The total score determines the extent of malnutrition.  
-The SNAQ helps to recognize and treat malnutrition at an early stage. 
-Three varieties of the measuring tool were developed for different care settings: hospitals, nursing and retirement homes and independently living seniors. This concept describes the tool intended for the hospital setting.</documentation>
+{&lt;/nl-NL>&lt;en-US>The Short Nutritional Assessment Questionnaire (SNAQ) is a (validated) measuring tool for determining the extent of a patient's malnutrition. The tool comprises three questions, each of which is assigned a score. The total score determines the extent of malnutrition. The SNAQ helps to recognize and treat malnutrition at an early stage. 
+Three varieties of the measuring tool were developed for different care settings: hospitals, nursing and retirement homes and independently living seniors. This concept describes the tool intended for the hospital setting.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="SensoryObservationFunction" id="EAID_7037C829_C4D1_4bc2_B9AA_AD53A11A1061">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zintuiglijke waarneming, ook wel perceptie genoemd, is het proces van het verwerven, registreren, interpreteren, selecteren en ordenen van zintuiglijke informatie.
-De waarneming treedt op bij het aanbieden van externe prikkels aan prikkel-specifieke receptoren, de zintuigen. Voorbeelden van prikkels zijn geuren, warmte en druk.
-Het concept beperkt zich tot de functie van de zintuigen en eventuele stoornis van deze functie en omvat niet de interpretatie van de waarneming in de hersenen.
-Voor de gehoorfunctie en visuele functie zijn aparte bouwstenen beschikbaar.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Sensory observation, also known as perception, is the process of obtaining, registering, interpreting, selecting and ordering sensory information. 
 The observation occurs when offering external stimuli to stimulus-specific receptors: the senses. Examples of stimuli include smells, heat and pressure. 
 The concept is limited to the function of the senses and any disorders of this function and does not include the interpretation of the observation in the brain. 
 Other information models are available for the hearing function and visual function.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="SkinDisorder" id="EAID_ADE3F023_4145_4f38_8FE6_CD5A5A2A0CBC">
-        <documentation>Een huidaandoening is een door een nader aan te duiden oorzaak ontstane verstoring van het orgaan huid.
-{en-US}A skin condition is a disturbance of the organ skin caused by a source to be specified later on.</documentation>
+        <documentation>A skin condition is a disturbance of the organ skin caused by a source to be specified later on.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Sleepfunction" id="EAID_3C19346D_DF6C_43a5_AE96_F414F7C07A6F">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Slaap is de periode van inactiviteit en afwezigheid van wakend bewustzijn, waarbij het lichaam tot rust komt en de fysiologische en psychologische activiteit minder is.
-Door verschillende oorzaken kunnen slaapproblemen en stoornissen van de verschillende aspecten van slaap, zoals inslapen, doorslapen en het dag-/nachtritme voorkomen.
-Slaapfunctie richt zich met name op de problemen en stoornissen.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+        <documentation>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Sleep is the period of inactivity and absence of waking consciousness in which the body relaxes and has lowered physiological and psychological activity. 
 Varying causes can lead to sleeping problems and disorders in the various aspects of sleep, such as falling asleep, sleeping soundly and maintaining a day-time/night-time sleeping pattern. 
 Sleeping mainly involves problems and disorders.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="SpecificMentalFunctions" id="EAID_59661E34_1A77_4a72_8099_964E7C770228">
-        <documentation>&lt;/languages>&lt;languages xml:space=&quot;preserve&quot;>
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>
 &lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Belangrijke onderdelen van de specifieke mentale functies van de hersenen zijn aandacht, stemming, denken en geheugen. 
-Stoornissen in aandacht, geheugen en waarneming samen met ori?ntatie en bewustzijn uit bouwsteen algemene mentale functies gezien als belangrijke symptomen voor het ontstaan van een delier.
-
+Stoornissen in aandacht, geheugen en waarneming samen met ori&amp;#235;ntatie en bewustzijn uit bouwsteen algemene mentale functies gezien als belangrijke symptomen voor het ontstaan van een delier.
 Het concept specifieke mentale functies omvat niet het gedrag dat het gevolg is van een stoornis in de mentale functie.&lt;/nl-NL>
 &lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Important parts of the brain?s specific mental functions are attention, mood, thought and memory. 
+Important parts of the brain's specific mental functions are attention, mood, thought and memory. 
 Disorders in attention, memory and observation combined with orientation and consciousness from the GeneralMentalFunctions information model are seen as important symptoms for a delirium. 
-
 The concept specific mental functions does not contain behavior resulting from a mental disorder.
-&lt;/en-US></documentation>
+&lt;/en-US>&lt;/languages></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Stoma" id="EAID_2CAFFCDC_FB91_4ecb_9769_ACCCDDBD3770">
-        <documentation>Een stoma is een onnatuurlijke, chirurgisch aangelegde opening die een lichaamsholte verbindt met de buitenwereld. Een stoma wordt onder andere aangelegd als uitgang voor ontlasting of urine wanneer deze stoffen het lichaam niet op natuurlijke wijze kunnen verlaten. Bij een tracheostoma dient de stoma om ademhaling mogelijk te maken wanneer dat niet meer via de mond, neus- en keelholte kan.
-{en-US}A stoma is an unnatural, surgically created opening connecting a body cavity with the outside world. A stoma is created e.g. as an exit opening for feces or urine in the event that they cannot leave the body naturally. In the case of a tracheostomy, the stoma is intended to facilitate breathing if that is no longer possible via the oral, nasal and throat cavity.</documentation>
+        <documentation>A stoma is an unnatural, surgically created opening connecting a body cavity with the outside world. A stoma is created e.g. as an exit opening for feces or urine in the event that they cannot leave the body naturally. In the case of a tracheostomy, the stoma is intended to facilitate breathing if that is no longer possible via the oral, nasal and throat cavity.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="TabaccoUse" id="EAID_7488D6C2_5508_40bf_9ED5_323B48887916">
-        <documentation>Tabak is een product afkomstig van de bladeren van de tabaksplant dat als genotmiddel wordt gerookt. Rookbare vormen van tabak zijn shag, sigaretten, sigaren en pijptabak. Deze bouwsteen beschrijft de bij de pati?nt uitgevraagde gegevens over het gebruik van tabak. 
-{en-US}Tobacco is a product that comes from the leaves of the tobacco plant, which is smoked as a drug. Smokable forms of tobacco include rolling tobacco, cigarettes, cigars and pipe tobacco. This information model describes the information asked of the patient about their use of tobacco.</documentation>
+        <documentation>Tobacco is a product that comes from the leaves of the tobacco plant, which is smoked as a drug. Smokable forms of tobacco include rolling tobacco, cigarettes, cigars and pipe tobacco. This information model describes the information asked of the patient about their use of tobacco.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="TextResult" id="EAID_47703088_48BF_4cfa_85B7_8B171860DA4A">
-        <documentation>Een tekstuitslag beschrijft de bevindingen en interpretatie van diagnostische of therapeutische verrichtingen, uitgevoerd op pati?nten of monsters afkomstig van de pati?nt. 
-{en-US}Textual results describe the findings and interpretation of diagnostic or therapeutic procedures carried out on patients or on specimens from the patient.</documentation>
+        <documentation>Textual results describe the findings and interpretation of diagnostic or therapeutic procedures carried out on patients or on specimens from the patient.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="TreatmentDirective" id="EAID_8C13F249_D648_4281_A515_CE41758F5859">
-        <documentation>Een behandelaanwijzing bevat een afgesproken beperking in de behandeling gebaseerd op de mondelinge of schriftelijke wilsverklaring van de pati?nt. 
-{en-US}A treatment instruction includes an agreed constraint in the treatment based on the oral or written living will of the patient.</documentation>
+        <documentation>A treatment instruction includes an agreed constraint in the treatment based on the oral or written living will of the patient.</documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="TreatmentObjective" id="EAID_29FF811B_FEEF_4b36_B28F_7029F1940082">
-        <documentation>Het behandeldoel omschrijft het gewenste resultaat van de behandeling/interventies met betrekking tot het benoemde probleem van de pati?nt. Naast de streefwaarde wordt bij het te bereiken doel ook een streefdatum aangegeven. Vergelijking van het behandeldoel met de uitkomsten van zorg geeft inzicht in de effectiviteit van de behandeling/interventies. 
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Het behandeldoel omschrijft het gewenste resultaat van de behandeling/interventies met betrekking tot het benoemde probleem van de pati&amp;#235;nt. Naast de streefwaarde wordt bij het te bereiken doel ook een streefdatum aangegeven. Vergelijking van het behandeldoel met de uitkomsten van zorg geeft inzicht in de effectiviteit van de behandeling/interventies. 
 Voor het verpleegkundig proces wordt het probleem uitgedrukt als verpleegkundige diagnose. Het behandeldoel is samen met verpleegkundige diagnoses, verpleegkundige interventies en uitkomsten van zorg, onderdeel van het verpleegkundig proces.
-{en-US}The treatment goal describes the desired result of the treatment/interventions in terms of the patient?s diagnosed problem. The goal and target date are entered in addition to the target value. Comparing the healthcare results to the treatment goal provides insight into the effectivity of the treatment/interventions.  
-In the nursing process, the problem is expressed as a nursing diagnosis. The treatment goal, nursing diagnoses, nursing interventions and healthcare results are part of the nursing process.</documentation>
+{&lt;/nl-NL>&lt;en-US>The treatment goal describes the desired result of the treatment/interventions in terms of the patient's diagnosed problem. The goal and target date are entered in addition to the target value. Comparing the healthcare results to the treatment goal provides insight into the effectivity of the treatment/interventions.  
+In the nursing process, the problem is expressed as a nursing diagnosis. The treatment goal, nursing diagnoses, nursing interventions and healthcare results are part of the nursing process.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Vaccination" id="EAID_8302B248_A649_45e0_A9D5_2A06EE819DC3">
-        <documentation>Immunisatie kan worden gedefinieerd als ?Het opwekken van natuurlijke immuniteit tegen ziekteverwekkers door middel van vaccinatie (actieve immunisatie) of door toediening van immunoglobulinen (passieve immunisatie)?.
-
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Immunisatie kan worden gedefinieerd als 'Het opwekken van natuurlijke immuniteit tegen ziekteverwekkers door middel van vaccinatie (actieve immunisatie) of door toediening van immunoglobulinen (passieve immunisatie)'.
 In deze bouwsteen worden alleen de vaccinaties opgenomen. De toediening van immunoglobulines maakt deel uit van het medicatieoverzicht. Vaccinaties hebben levenslang relevantie.
-
 De meeste vaccinaties worden in Nederland uitgevoerd in het kader van het Rijksvaccinatieprogramma (RVP). RVP informatie is vooral van belang bij kinderen. 
-
-Vaccinaties zijn ook relevant bij volwassen pati?nten zoals transplantatiepati?nten, dialysepati?nten en pati?nten met een status na miltextirpatie. Daarnaast zijn er specifieke indicaties voor de vaccinatie van risicogroepen, zoals reizigers, professionals die met bloed in aanraking komen of pati?nten met verwondingen, een verminderde afweer of verhoogd risico.
-{en-US}Immunization can be defined as ?Generating natural immunity against pathogens by means of vaccination (active immunization) or by administering immunoglobulins (passive immunization)?. 
- 
+Vaccinaties zijn ook relevant bij volwassen pati&amp;#235;nten zoals transplantatiepati&amp;#235;nten, dialysepati&amp;#235;nten en pati&amp;#235;nten met een status na miltextirpatie. Daarnaast zijn er specifieke indicaties voor de vaccinatie van risicogroepen, zoals reizigers, professionals die met bloed in aanraking komen of pati&amp;#235;nten met verwondingen, een verminderde afweer of verhoogd risico.
+{&lt;/nl-NL>&lt;en-US>Immunization can be defined as 'Generating natural immunity against pathogens by means of vaccination (active immunization) or by administering immunoglobulins (passive immunization)'. 
 Only vaccinations are included in this information model. Administering immunoglobulins is part of the medication overview. Vaccinations have lifelong relevance. 
- 
 Most vaccinations are carried out in the Netherlands as part of the RVP (Rijksvaccinatieprogramma, National Immunisation Program). RVP information is especially important for children.  
- 
-Vaccinations are also relevant for adult patients such as transplant patients, dialysis patients and patients with a post-splenectomy status. In addition, there are specific indications for the vaccination of risk groups, such as travelers, professionals who come into contact with blood or patients with wounds, weakened immune systems or heightened risk.</documentation>
+Vaccinations are also relevant for adult patients such as transplant patients, dialysis patients and patients with a post-splenectomy status. In addition, there are specific indications for the vaccination of risk groups, such as travelers, professionals who come into contact with blood or patients with wounds, weakened immune systems or heightened risk.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="VisualFunction" id="EAID_03E311D4_DD34_432e_9E9A_EF2A281CB367">
-        <documentation>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
-Zien is het vermogen om belichte objecten waar te nemen, met als doel zich te ori?renteren op voorwerpen en personen in een belichte omgeving.  Het gaat daarbij om de waarneming van de lichtprikkels en niet om de verwerking er van in de hersenen.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+Zien is het vermogen om belichte objecten waar te nemen, met als doel zich te ori&amp;#235;renteren op voorwerpen en personen in een belichte omgeving.  Het gaat daarbij om de waarneming van de lichtprikkels en niet om de verwerking er van in de hersenen.
 Een stoornis van de gezichtsfunctie kan leiden tot onder andere orientatieproblemen.
-{en-US}! Attention: this information model is undergoing major revision. A new version will be available after summer.
+{&lt;/nl-NL>&lt;en-US>! Attention: this information model is undergoing major revision. A new version will be available after summer.
 Sight is the ability to observe lit objects, with the goal of orienting yourself on objects and people in a lit environment.  This pertains to observing the light stimuli, and not processing them in the brain. 
-A sight disorder can lead to things including orientation problems.</documentation>
+A sight disorder can lead to things including orientation problems.&lt;/en-US>&lt;/language></documentation>
       </element>
       <element xsi:type="archimate:DataObject" name="Wound" id="EAID_9F032D0C_9CD3_40fd_AC1D_308128AEBA86">
-        <documentation>Een wond is een onderbreking van de continu?teit van de huid, veelal veroorzaakt door externe invloeden.
-Een veelgebruikte model om de wondkenmerken vast te leggen is het TIME (Tissue?, ?Infection?, ?Moisture?, ?Edge?) model, waarbij de wond systematisch wordt beschreven. Bij wondweefsel (T uit het TIME model) wordt gebruik gemaakt van de indeling van het WCS model (Woundcare Consultant Society,  WCS Kenniscentrum Wondzorg). Het WCS model is niet geschikt voor de beschrijving oncologische ulcera. Hiervoor bestaat een andere classificatie.
+        <documentation>&lt;languages xml:space=&quot;preserve&quot;>&lt;nl-NL>Een wond is een onderbreking van de continu&amp;#239;teit van de huid, veelal veroorzaakt door externe invloeden.
+Een veelgebruikte model om de wondkenmerken vast te leggen is het TIME ('Tissue', 'Infection', 'Moisture', 'Edge') model, waarbij de wond systematisch wordt beschreven. Bij wondweefsel (T uit het TIME model) wordt gebruik gemaakt van de indeling van het WCS model (Woundcare Consultant Society,  WCS Kenniscentrum Wondzorg). Het WCS model is niet geschikt voor de beschrijving oncologische ulcera. Hiervoor bestaat een andere classificatie.
 Oncologische ulcera zijn huiddefecten die zijn ontstaan door het tumorproces. Zij onderscheiden zich van oncologische wonden die ontstaan ten gevolge van de behandeling van kanker, bijvoorbeeld radiotherapie, chemotherapie of chirurgie.
-
 Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de betreffende bouwstenen gebruikt worden.
-{en-US}A wound is an interruption of the continuity of the skin, often caused by external influences. 
-A commonly used model for documenting the wound properties is the TIME (?Tissue?, ?Infection?, ?Moisture?, ?Edge?) model, which can be used to systematically describe the wound. For wound tissue (T in the TIME model), the structure of the WCS model (Woundcare Consultant Society, WCS Kenniscentrum Wondzorg) is used. The WCS model is not suited for describing oncological ulcers. There is a separate classification for that. 
+{&lt;/nl-NL>&lt;en-US>A wound is an interruption of the continuity of the skin, often caused by external influences. 
+A commonly used model for documenting the wound properties is the TIME ('Tissue', 'Infection', 'Moisture', 'Edge') model, which can be used to systematically describe the wound. For wound tissue (T in the TIME model), the structure of the WCS model (Woundcare Consultant Society, WCS Kenniscentrum Wondzorg) is used. The WCS model is not suited for describing oncological ulcers. There is a separate classification for that. 
 Oncological ulcers are skin defects which result from the tumor process. They are different from wounds resulting from cancer treatment, such as radiotherapy, chemotherapy or surgery. 
- 
-The concept does not describe decubitus wounds and burn wounds. For these, the relevant information models can be used.</documentation>
+The concept does not describe decubitus wounds and burn wounds. For these, the relevant information models can be used.&lt;/en-US>&lt;/language></documentation>
       </element>
     </folder>
   </folder>
-  <folder name="Technology &amp; Physical" id="id-ce5be12f59ba46b6a32ea8df40db5de6" type="technology"/>
-  <folder name="Motivation" id="id-28c32319eca84ef589ab5f45a278184c" type="motivation">
-    <folder name="Principles" id="id-515b6d9d046343d2a8b5289881320c95">
-      <folder name="Base principles" id="id-2c64bba4cfc14fdf8b9802c30306e813">
+  <folder name="Technology &amp; Physical" id="id-19ac3e60d8f94cc5b82103ca0dfb0df7" type="technology"/>
+  <folder name="Motivation" id="id-d541252fc76047969776e579b8b14919" type="motivation">
+    <folder name="Principles" id="id-44596dec76754c3d867952cc6490e443">
+      <folder name="Base principles" id="id-bc4204a2d956420393b86ca5598aaf04">
         <element xsi:type="archimate:Principle" name="Basic Principle 1: The Patient Comes First" id="EAID_152D3194_8605_4ed8_A7A2_4C61FC89F851">
           <documentation>
 *Motivation
@@ -3937,7 +3829,7 @@ By realizing the desired transparency with unambiguous, anonymous data from the 
 —  Use semantic standards and the healthcare information building blocks</documentation>
         </element>
       </folder>
-      <folder name="Derived principles" id="id-60643142a60a485584bb2ebe22c62bb5">
+      <folder name="Derived principles" id="id-50d9b6c18d834119867d150fd1aedd87">
         <element xsi:type="archimate:Principle" name="(Re)design of processes is based on value for the patient (outcomes-based)." id="EAID_A64929DA_9F7A_4806_BF2F_E491985AEF7A">
           <documentation>
 * Reason/Dilemma
@@ -4153,9 +4045,9 @@ Process modeling according to a generic process model stimulates reuse and recog
       </folder>
     </folder>
   </folder>
-  <folder name="Implementation &amp; Migration" id="id-35702e43143f46b0945e990ce91ba5b1" type="implementation_migration"/>
-  <folder name="Other" id="id-c72de3831a0d45eaa30c589b41634e8e" type="other">
-    <folder name="Domains" id="id-42ea37ac3dee4652b61513cb9e7f5691">
+  <folder name="Implementation &amp; Migration" id="id-4c18d38d3785494d9ab1d38a014b58a8" type="implementation_migration"/>
+  <folder name="Other" id="id-3cc0256c1dd24092b4440118131796da" type="other">
+    <folder name="Domains" id="id-8989c3a5aff842a28089e73e3985971e">
       <element xsi:type="archimate:Grouping" name="WORKPLACE &amp; COLLABORATION" id="EAID_FD3F250B_4AE3_46f8_B3D5_0283A13658DD">
         <property key="SortKey" value="FD"/>
       </element>
@@ -4170,7 +4062,7 @@ Process modeling according to a generic process model stimulates reuse and recog
       </element>
     </folder>
   </folder>
-  <folder name="Relations" id="id-6a25b2cd06cd4265b01d5fd9bc0b68a8" type="relations">
+  <folder name="Relations" id="id-36f393fdfa1644939b218dc94d9bf8f2" type="relations">
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_50F7EEA6_8977_400c_A8F8_49AC50C6AB21" source="EAID_F89371F5_711B_461c_BCBF_B15E5E035CAA" target="EAID_0786FB7C_8145_4ba1_BB94_C8BCE869FF0F"/>
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_37E88C45_F962_43ad_A2E2_272693CC2C0A" source="EAID_ED3BC090_330A_4140_9793_62CE97347881" target="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9"/>
     <element xsi:type="archimate:TriggeringRelationship" id="EAID_355A8504_55E0_45ea_A9B8_8CCD8F89B475" source="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9" target="EAID_C3604AD3_4A3D_4d78_8C5B_4483D8C6CB82"/>
@@ -5112,8 +5004,8 @@ Process modeling according to a generic process model stimulates reuse and recog
     <element xsi:type="archimate:RealizationRelationship" id="EAID_0C842854_8DCB_420d_B1EB_EE4A888DC87E" source="EAID_34877F48_987E_4bc2_9CBB_645F824BC3D1" target="EAID_89F17C86_E587_49bc_8F65_5901049A49D7"/>
     <element xsi:type="archimate:AggregationRelationship" id="EAID_6A40E751_8B45_4712_A761_7A856F31D27E" source="EAID_4E7586B8_AAA8_41e1_987B_24813544BD1B" target="EAID_C6EBE2B0_AF94_474a_8711_76D94C95DB9C"/>
   </folder>
-  <folder name="Views" id="id-aac92ca746fd42279455e21d4de96fec" type="diagrams"/>
+  <folder name="Views" id="id-98a7be7479d3453b8bd580eae8ef7f2d" type="diagrams"/>
   <property key="MAX::ImportDate" value="4/24/2014 15:28:00"/>
-  <property key="MAX::ExportDate" value="13-1-2022 22:18:34"/>
-  <property key="MAX::ExportFile" value="Z:\EAP\ZiRA\zira-1.0-elements-nl+en.max"/>
+  <property key="MAX::ExportDate" value="14-6-2023 09:46:20"/>
+  <property key="MAX::ExportFile" value="Z:\EAP\ZiRA v1.2\zira-1.2-elements-nl+en.max"/>
 </archimate:model>

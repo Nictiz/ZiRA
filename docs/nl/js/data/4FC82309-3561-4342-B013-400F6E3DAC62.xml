@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0:1", "", "Introductie", "EARoot/EA1.html", "188.png", "153", "0", "", "Custom diagram0","{9809EEDB-40D3-4e21-9000-7D106C1F9297}");
+tocTab[tocTab.length] = new Array("0.1", "1", "ZIRA Metamodel", "EARoot/EA1/EA18.html", "4.png", "", "", "{912AEF65-CA5A-4f7e-884D-75B79FFC33C4}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Views / Diagrammen", "EARoot/EA2/EA84.html", "4.png", "", "", "{F5906349-24BB-42a9-9285-BBE2BBD41E54}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Elementen", "EARoot/EA3/EA218.html", "4.png", "", "", "{0BF583DB-5A77-4a00-9AAF-39029BA8F001}", "Package");

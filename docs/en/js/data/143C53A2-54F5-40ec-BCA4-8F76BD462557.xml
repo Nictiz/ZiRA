@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.3.2:1", "", "Prepare contact", "EARoot/EA2/EA3/EA2/EA151.html", "175.png", "106", "0", "", "Logical diagram0","{18479B71-3C9E-4a05-96C1-B949E28BBA7E}");
-tocTab[tocTab.length] = new Array("0.2.3.2:2", "", "Received patient", "EARoot/EA2/EA3/EA2/EA153.html", "175.png", "107", "0", "", "Logical diagram0","{DF734700-2772-469f-9D73-811ECBF44165}");
-tocTab[tocTab.length] = new Array("0.2.3.2:3", "", "Gather additional information", "EARoot/EA2/EA3/EA2/EA155.html", "175.png", "94", "0", "", "Logical diagram0","{77CD39BA-0E14-47bd-9620-A98984A1077E}");
-tocTab[tocTab.length] = new Array("0.2.3.2:4", "", "Review information", "EARoot/EA2/EA3/EA2/EA157.html", "175.png", "95", "0", "", "Logical diagram0","{7A187F51-F839-4e07-A7D9-96500FB27F7F}");
-tocTab[tocTab.length] = new Array("0.2.3.2:5", "", "Diagnose", "EARoot/EA2/EA3/EA2/EA159.html", "175.png", "96", "0", "", "Logical diagram0","{F9922154-DF16-4e23-BBF1-B9FE41DC3451}");
+tocTab[tocTab.length] = new Array("0.2.3.2:1", "", "Prepare contact", "EARoot/EA2/EA3/EA2/EA153.html", "175.png", "106", "0", "", "Logical diagram0","{18479B71-3C9E-4a05-96C1-B949E28BBA7E}");
+tocTab[tocTab.length] = new Array("0.2.3.2:2", "", "Received patient", "EARoot/EA2/EA3/EA2/EA155.html", "175.png", "107", "0", "", "Logical diagram0","{DF734700-2772-469f-9D73-811ECBF44165}");
+tocTab[tocTab.length] = new Array("0.2.3.2:3", "", "Gather additional information", "EARoot/EA2/EA3/EA2/EA157.html", "175.png", "94", "0", "", "Logical diagram0","{77CD39BA-0E14-47bd-9620-A98984A1077E}");
+tocTab[tocTab.length] = new Array("0.2.3.2:4", "", "Review information", "EARoot/EA2/EA3/EA2/EA159.html", "175.png", "95", "0", "", "Logical diagram0","{7A187F51-F839-4e07-A7D9-96500FB27F7F}");
+tocTab[tocTab.length] = new Array("0.2.3.2:5", "", "Diagnose", "EARoot/EA2/EA3/EA2/EA161.html", "175.png", "96", "0", "", "Logical diagram0","{F9922154-DF16-4e23-BBF1-B9FE41DC3451}");

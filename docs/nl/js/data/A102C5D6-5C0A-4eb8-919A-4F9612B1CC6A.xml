@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Bedrijfsproces Vaststellen zorgbehoefte", "EARoot/EA2/EA2/EA122.html", "175.png", "33", "0", "", "Logical diagram0","{557FBFBA-D200-4f5c-BA46-7C3B97963171}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Bedrijfsproces Diagnostiseren", "EARoot/EA2/EA2/EA124.html", "175.png", "40", "0", "", "Logical diagram0","{C1607E32-3E98-43f6-A360-6E75F611C25A}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Bedrijfsproces Uitvoeren Aanvullend onderzoek", "EARoot/EA2/EA2/EA126.html", "175.png", "41", "0", "", "Logical diagram0","{6B8856F2-EC6C-4854-B996-8216090C0EF2}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "Bedrijfsproces Adviseren", "EARoot/EA2/EA2/EA128.html", "175.png", "42", "0", "", "Logical diagram0","{0876C817-F3A6-4381-BBE2-0BB27BA3EA22}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "Bedrijfsproces Opstellen Behandelplan", "EARoot/EA2/EA2/EA130.html", "175.png", "43", "0", "", "Logical diagram0","{77844E6F-6F75-4772-8DDF-20BF389A9EFD}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "Bedrijfsproces Behandelen", "EARoot/EA2/EA2/EA132.html", "175.png", "44", "0", "", "Logical diagram0","{77A54DC1-BE09-42db-B4A4-9389F34CDD22}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "Bedrijfsproces Overdragen", "EARoot/EA2/EA2/EA134.html", "175.png", "45", "0", "", "Logical diagram0","{49A8C7CB-F1DF-4521-8A3D-34F035863AB1}");

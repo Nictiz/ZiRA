@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.2.3.6:1", "", "Treat / Conducting therapy", "EARoot/EA2/EA3/EA6/EA195.html", "175.png", "130", "0", "", "Logical diagram0","{A7C0A97E-3EBC-41e7-82FA-5A1AFF21E256}");
-tocTab[tocTab.length] = new Array("0.2.3.6:2", "", "Treat / Evaluate treatment", "EARoot/EA2/EA3/EA6/EA197.html", "175.png", "131", "0", "", "Logical diagram0","{830E1837-3347-41da-9E3C-96096FC837D7}");
-tocTab[tocTab.length] = new Array("0.2.3.6:3", "", "Treat / Perform Nursing Care", "EARoot/EA2/EA3/EA6/EA199.html", "175.png", "129", "0", "", "Logical diagram0","{CFDC2742-F5FD-4802-9F12-4A1385D8D298}");
-tocTab[tocTab.length] = new Array("0.2.3.6:4", "", "Treat / Performing (other) medical treatment", "EARoot/EA2/EA3/EA6/EA201.html", "175.png", "128", "0", "", "Logical diagram0","{A83B7AB3-702B-40ea-8A62-E4280A3C8AE8}");
-tocTab[tocTab.length] = new Array("0.2.3.6:5", "", "Treat / Prepare treatment", "EARoot/EA2/EA3/EA6/EA203.html", "175.png", "79", "0", "", "Logical diagram0","{ACE2E4AF-AFCC-44e7-BED4-50CBCF40EC61}");
-tocTab[tocTab.length] = new Array("0.2.3.6:6", "", "Treat / Perform operative treatment", "EARoot/EA2/EA3/EA6/EA205.html", "175.png", "78", "0", "", "Logical diagram0","{C54AD03B-2D58-4ee5-9885-5C9DCCB1CC7C}");
-tocTab[tocTab.length] = new Array("0.2.3.6:7", "", "Treat / Conducting drug therapy", "EARoot/EA2/EA3/EA6/EA207.html", "175.png", "127", "0", "", "Logical diagram0","{3DC86A4B-FD57-498e-8B0A-995FB70D7920}");
-tocTab[tocTab.length] = new Array("0.2.3.6:8", "", "Treat / Carry out care", "EARoot/EA2/EA3/EA6/EA209.html", "175.png", "77", "0", "", "Logical diagram0","{BA6FB459-62F9-45ce-B802-C7C017291D29}");
+tocTab[tocTab.length] = new Array("0.2.3.6:1", "", "Treat / Conducting therapy", "EARoot/EA2/EA3/EA6/EA197.html", "175.png", "130", "0", "", "Logical diagram0","{A7C0A97E-3EBC-41e7-82FA-5A1AFF21E256}");
+tocTab[tocTab.length] = new Array("0.2.3.6:2", "", "Treat / Evaluate treatment", "EARoot/EA2/EA3/EA6/EA199.html", "175.png", "131", "0", "", "Logical diagram0","{830E1837-3347-41da-9E3C-96096FC837D7}");
+tocTab[tocTab.length] = new Array("0.2.3.6:3", "", "Treat / Perform Nursing Care", "EARoot/EA2/EA3/EA6/EA201.html", "175.png", "129", "0", "", "Logical diagram0","{CFDC2742-F5FD-4802-9F12-4A1385D8D298}");
+tocTab[tocTab.length] = new Array("0.2.3.6:4", "", "Treat / Performing (other) medical treatment", "EARoot/EA2/EA3/EA6/EA203.html", "175.png", "128", "0", "", "Logical diagram0","{A83B7AB3-702B-40ea-8A62-E4280A3C8AE8}");
+tocTab[tocTab.length] = new Array("0.2.3.6:5", "", "Treat / Prepare treatment", "EARoot/EA2/EA3/EA6/EA205.html", "175.png", "79", "0", "", "Logical diagram0","{ACE2E4AF-AFCC-44e7-BED4-50CBCF40EC61}");
+tocTab[tocTab.length] = new Array("0.2.3.6:6", "", "Treat / Perform operative treatment", "EARoot/EA2/EA3/EA6/EA207.html", "175.png", "78", "0", "", "Logical diagram0","{C54AD03B-2D58-4ee5-9885-5C9DCCB1CC7C}");
+tocTab[tocTab.length] = new Array("0.2.3.6:7", "", "Treat / Conducting drug therapy", "EARoot/EA2/EA3/EA6/EA209.html", "175.png", "127", "0", "", "Logical diagram0","{3DC86A4B-FD57-498e-8B0A-995FB70D7920}");
+tocTab[tocTab.length] = new Array("0.2.3.6:8", "", "Treat / Carry out care", "EARoot/EA2/EA3/EA6/EA211.html", "175.png", "77", "0", "", "Logical diagram0","{BA6FB459-62F9-45ce-B802-C7C017291D29}");

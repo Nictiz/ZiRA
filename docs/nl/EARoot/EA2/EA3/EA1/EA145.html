@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Verwerken verwijzing</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA146.png" usemap="#EA146" border="0" />
+
+<MAP NAME="EA146">
+<area shape="rect" coords="355,258,445,328" href="../../../EA3/EA9/EA846.html" target="_self">
+<area shape="rect" coords="75,398,165,468" href="../../../EA3/EA9/EA904.html" target="_self">
+<area shape="rect" coords="635,248,725,318" href="../../../EA3/EA9/EA847.html" target="_self">
+<area shape="rect" coords="605,98,710,168" href="../../../EA3/EA6/EA482.html" target="_self">
+<area shape="rect" coords="785,98,890,168" href="../../../EA3/EA6/EA585.html" target="_self">
+<area shape="rect" coords="445,98,550,168" href="../../../EA3/EA6/EA564.html" target="_self">
+<area shape="rect" coords="235,338,325,408" href="../../../EA3/EA9/EA903.html" target="_self">
+<area shape="rect" coords="405,488,525,558" href="../../../EA3/EA9/EA893.html" target="_self">
+<area shape="rect" coords="565,338,675,408" href="../../../EA3/EA9/EA772.html" target="_self">
+<area shape="rect" coords="285,95,381,165" href="../../../EA3/EA6/EA483.html" target="_self">
+<area shape="rect" coords="135,98,220,168" href="../../../EA3/EA6/EA458.html" target="_self">
+<area shape="rect" coords="100,45,955,188" href="../../../EA3/EA5/EA2/EA444.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Verwerken verwijzing : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28-12-2016 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">28-2-2022 19:34:12</td>
+		</tr>
+	</table>
+</div>
+ 
+</body>
+</html>

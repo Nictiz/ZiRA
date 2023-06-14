@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Behandelen / Uitvoeren verzorging</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA211.png" usemap="#EA211" border="0" />
+
+<MAP NAME="EA211">
+<area shape="rect" coords="385,255,475,325" href="../../../EA3/EA9/EA907.html" target="_self">
+<area shape="rect" coords="645,205,735,275" href="../../../EA3/EA9/EA906.html" target="_self">
+<area shape="rect" coords="645,315,735,385" href="../../../EA3/EA9/EA900.html" target="_self">
+<area shape="rect" coords="115,265,265,335" href="../../../EA3/EA9/EA905.html" target="_self">
+<area shape="rect" coords="664,75,768,123" href="../../../EA3/EA6/EA469.html" target="_self">
+<area shape="rect" coords="514,76,619,123" href="../../../EA3/EA6/EA608.html" target="_self">
+<area shape="rect" coords="364,75,469,125" href="../../../EA3/EA6/EA614.html" target="_self">
+<area shape="rect" coords="89,70,177,125" href="../../../EA3/EA6/EA604.html" target="_self">
+<area shape="rect" coords="222,73,319,125" href="../../../EA3/EA6/EA574.html" target="_self">
+<area shape="rect" coords="65,35,797,134" href="../../../EA3/EA5/EA2/EA443.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Behandelen / Uitvoeren verzorging : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">14-12-2016 16:44:01</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">28-2-2022 19:53:19</td>
+		</tr>
+	</table>
+</div>
+ 
+</body>
+</html>
