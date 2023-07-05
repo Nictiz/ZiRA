@@ -7,6 +7,9 @@
 	<!--
 		Maak MAX Export van de Content Package!
 
+		[5-jul-2023]
+		Principes nu EN alias en tekst
+
 		[15-mar-2023]
 		applicatiefunctie EN tekst
 
@@ -75,8 +78,8 @@
 				<xsl:for-each select="/max:model/objects/object[stereotype='ArchiMate_Principle']">
 					<line>
 						<type><xsl:if test="parentId=2516">BP</xsl:if><xsl:if test="parentId=2517">AP</xsl:if></type>
-						<principe><xsl:value-of select="name"/></principe>
-						<beschrijving><xsl:value-of select="notes"/></beschrijving>
+						<principe><xsl:value-of select="alias"/></principe>
+						<beschrijving><xsl:value-of select="substring-before(substring-after(notes,'&lt;en-US&gt;'),'&lt;/en-US&gt;')"/></beschrijving>
 					</line>
 				</xsl:for-each>
 			</principes>

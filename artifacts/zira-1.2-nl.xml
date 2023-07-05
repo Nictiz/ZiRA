@@ -3,8 +3,9 @@
    <principes>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 1: De (zorg voor de) klant staat centraal </principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <principe>Basisprincipe 1: De (zorg voor de) klant staat centraal</principe>
+         <beschrijving>
+*Aanleiding/Dilemma
 Uitgangspunt in de zorg is dat de klant centraal staat. Deze ervaart nu echter nog vaak drempels doordat processen vanuit de kant van de zorgverlener worden bedacht en vormgegeven. Dit kan leiden tot belemmeringen voor de patiënt bij de toegang tot de zorg, en bij het begrijpen en beïnvloeden van het zorgproces.
 
 *Rationale
@@ -26,7 +27,8 @@ Het zorgproces wordt beschreven vanuit het perspectief van de afnemer, dus in te
 De patiënt moet kunnen vertrouwen op de zorgverlener. Dit betekent:
 - Zorgverleners moeten de patiënt proactief informeren;
 - De privacy van de patiënt moet gegarandeerd zijn; zorgverleners moeten daar ook verantwoording over kunnen afleggen;
-- De patiënt moet een duidelijk, open en vriendelijk loket / aanspreekpunt hebben voor vragen en klachten.</beschrijving>
+- De patiënt moet een duidelijk, open en vriendelijk loket / aanspreekpunt hebben voor vragen en klachten.
+</beschrijving>
       </line>
       <line>
          <type>BP</type>
@@ -90,7 +92,8 @@ Informatievoorziening moet ondersteunend zijn aan het voortdurend verbeteren en 
       <line>
          <type>BP</type>
          <principe>Basisprincipe 5: De geleverde kwaliteit wordt transparant gemaakt op basis van primaire registratie</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Om regie te kunnen voeren over hun zorgproces hebben patiënten / klanten inzicht nodig in de geleverde kwaliteit van zorg. Alleen dan kunnen zij hun keuzes baseren op de juiste informatie. Maar de registratielasten in de zorg zijn hoog en aanlevering van (extra) kwaliteitsinformatie verhoogt deze last nog. Te registreren gegevens moeten meerwaarde hebben voor de (zorg voor) de patiënt of bijdragen aan het bepalen van de geleverde (kwaliteit van) zorg.
 
 *Rationale
@@ -112,12 +115,14 @@ Door de gewenste transparantie te realiseren met eenduidige, geanonimiseerde geg
    - Niet iets vastleggen wat al vastgelegd is;
    - Structureel aandacht voor uitleg aan zorgverleners over nut en noodzaak hiervan;
    - Structurele ondersteuning van zorgverleners bij het gebruik van systemen;
-   - Gebruik maken van semantische standaarden en de zorginformatiebouwstenen</beschrijving>
+   - Gebruik maken van semantische standaarden en de zorginformatiebouwstenen
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
          <principe>Processen leveren diensten aan klanten / patiënten</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Processen zijn nu gericht op interne efficiëntie.
 
 *Rationale
@@ -125,7 +130,8 @@ Het dienstgericht maken van processen legt de focus op het resultaat en de te le
 
 *Implicaties
 - Uitkomst voor de klant is onze belangrijkste drijfveer in het ontwerp;
-- Een proces levert een dienst. Het belang van de afnemer van de dienst is leidend en preferent boven het belang van de actoren en afdelingen die het proces uitvoeren.</beschrijving>
+- Een proces levert een dienst. Het belang van de afnemer van de dienst is leidend en preferent boven het belang van de actoren en afdelingen die het proces uitvoeren.
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -140,7 +146,8 @@ Het dienstgericht maken van processen legt de focus op het resultaat en de te le
       <line>
          <type>AP</type>
          <principe>Processtandaardisatie op basis van generieke procesmodellen</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Processen zijn vaak op verschillende wijze vormgegeven en weinig uniform. De patiënt herkent geen uniformiteit en voelt zich steeds anders behandeld.
 
 *Rationale
@@ -149,7 +156,9 @@ Procesmodellering volgens een generiek procesmodel stimuleert hergebruik en herk
 *Implicaties
 - Modelleerconventies voor procesontwerp
 - Gemeenschappelijke bibliotheek van processen
-- Procesmodellen hergebruiken</beschrijving>
+- Procesmodellen hergebruiken
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -159,7 +168,8 @@ Procesmodellering volgens een generiek procesmodel stimuleert hergebruik en herk
       <line>
          <type>AP</type>
          <principe>Patiënt / Klant voert zelf regie over het delen van informatie, en heeft inzicht in het gebruik ervan</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Gebrek aan informatie over zijn eigen ziekte, en onvoldoende inzicht in welke zorgverlener toegang heeft gehad tot zijn gegevens, leidt bij de patiënt tot onvoldoende grip op zijn eigen zorgproces.
 
 De keuze van regie op zijn eigen proces is een recht van de patiënt, geen plicht. De regie kan de patiënt overdragen aan een mantelzorger, casemanager of de behandelend arts.  
@@ -169,7 +179,8 @@ De keuze van regie op zijn eigen proces is een recht van de patiënt, geen plich
 - Verhoging effectiviteit van zorg;
 - Patiënt kan zelf invloed uitoefenen.
 
-*Implicaties</beschrijving>
+*Implicaties
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -199,30 +210,37 @@ De keuze van regie op zijn eigen proces is een recht van de patiënt, geen plich
       <line>
          <type>AP</type>
          <principe>Applicaties zijn service georiënteerd en loosely coupled</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 De informatievoorziening past zich onvoldoende snel en flexibel  aan, aan de veranderingen in het benaderen en participeren van de patiënt. De informatievoorziening is te star. Aanpassingen zijn moeizaam en vanwege vele interne afhankelijkheden complex. Gelijke functionaliteit komt voor in meerdere applicaties. Hergebruik van functionaliteit is niet altijd mogelijk. 
 
 *Rationale
 Een meer service-georiënteerde informatievoorziening speelt sneller in op veranderende omstandigheden en nieuwe eisen en wensen.
 
 *Implicaties
-- Applicaties stellen hun functionaliteit en gegevens beschikbaar middels services die gebaseerd zijn op open standaarden. Open standaarden bieden de beste basis voor integratie omdat zij breed worden ondersteund in de markt. Ook voorkomen open standaarden leveranciersafhankelijkheden.</beschrijving>
+- Applicaties stellen hun functionaliteit en gegevens beschikbaar middels services die gebaseerd zijn op open standaarden. Open standaarden bieden de beste basis voor integratie omdat zij breed worden ondersteund in de markt. Ook voorkomen open standaarden leveranciersafhankelijkheden.
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
          <principe>Transmurale zorgprocessen voldoen / conformeren zich aan landelijke zorgstandaarden en richtlijnen</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Inrichting van transmurale processen is vaak nog maatwerk gericht op een specifieke oplossing en gegevensuitwisseling  waardoor deze oplossing vaak niet herbruikbaar is.
 
 *Rationale
 In de landelijke zorgstandaarden en richtlijnen zijn afspraken gemaakt op de 5 lagen van interoperabiliteit.
 
-*Implicaties</beschrijving>
+*Implicaties
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Interoperabiliteitsafspraken worden tussen betrokken zorgorganisaties gemaakt </principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <principe>Interoperabiliteitsafspraken worden tussen betrokken zorgorganisaties gemaakt</principe>
+         <beschrijving>
+*Aanleiding/Dilemma
 Interoperabiliteit mislukt nog te vaak door een eenzijdige aanpak. De aandacht is óf te eenzijdig gericht op infrastructuur (technisch) óf informatie (datasets). Soms zijn alleen beleidsmatige afspraken gemaakt maar faalt de implementatie.  
 
 *Rationale
@@ -231,12 +249,15 @@ Alle aspecten vertegenwoordigd in de vijf lagen van het interoperabiliteitsmodel
 *Implicaties
 - In ICT-terminologie betekent dit dat er concrete ‘use cases’ worden gedefinieerd met bijbehorende actoren, transacties en transactie-informatie;
 - Er worden afspraken gemaakt en vastgelegd op alle vijf lagen van het NICTIZ interoperabiliteitsmodel;
-- Zie ook &lt;a href="$inet://https://www.nictiz.nl/SiteCollectionDocuments/Whitepapers/12017%20Een%20checklist%20voor%20informatie-uitwisseling%20in%20de%20zorg.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Checklist voor informatieuitwisseling in de zorg&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.</beschrijving>
+- Zie ook &lt;a href="$inet://https://www.nictiz.nl/SiteCollectionDocuments/Whitepapers/12017%20Een%20checklist%20voor%20informatie-uitwisseling%20in%20de%20zorg.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Checklist voor informatieuitwisseling in de zorg&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Er worden eenduidige afspraken gemaakt over de soort gegevens die moeten worden uitgewisseld. </principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <principe>Er worden eenduidige afspraken gemaakt over de soort gegevens die moeten worden uitgewisseld.</principe>
+         <beschrijving>
+*Aanleiding/Dilemma
 Gegevens wordt nu nog vaak uitgewisseld zonder overeenstemming over de betekenis van de gegevens. Gegevens wordt daardoor verkeerd geïnterpreteerd.
 
 *Rationale
@@ -244,7 +265,9 @@ Eenduidige afspraken over de gegevens die worden uitgewisseld zijn nodig voor ee
 
 *Implicaties
 - In ICT-termen betekent dit dat een dataset wordt gespecificeerd waarin is vastgelegd welke gegevenstypen nodig zijn en hoe deze worden vastgelegd.
-- Bijvoorbeeld implementatie van informatiestandaarden &lt;a href="$inet://https://www.nictiz.nl/standaardisatie/informatiestandaarden"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.nictiz.nl/standaardisatie/informatiestandaarden&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;</beschrijving>
+- Bijvoorbeeld implementatie van informatiestandaarden &lt;a href="$inet://https://www.nictiz.nl/standaardisatie/informatiestandaarden"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.nictiz.nl/standaardisatie/informatiestandaarden&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -254,14 +277,17 @@ Eenduidige afspraken over de gegevens die worden uitgewisseld zijn nodig voor ee
       <line>
          <type>AP</type>
          <principe>Geïntegreerde systemen in de keten gericht op samenwerking</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Applicaties in de keten zijn vaak alleen ingericht op informatie-uitwisseling en minder op samenwerking in de ketenzorg
 
 *Rationale
 Samenwerking in de keten gaat verder dan alleen het overdragen en uitwisselen van informatie. Voor continuïteit van de ketenzorg is een overzichtelijk integraal overzicht nodig vanuit ordening van gegevens rondom ziektebeelden. Daarnaast is het binnen de keten nuttig als er functionaliteit beschikbaar is om de samenwerking tussen de zorgverleners van de patiënt te ondersteunen (denk aan logboek, chatfunctionaliteit, consentregistratie, audittrail, integratie zelfmonitoring en aansluiting op PGO).
 
 *Implicaties
-- Voor de zorgverleners in de keten is een integraal overzicht beschikbaar waarbij de gegevens zijn geordend rondom het ziektebeeld en de patiënt (en niet rondom de zorgverlener)</beschrijving>
+- Voor de zorgverleners in de keten is een integraal overzicht beschikbaar waarbij de gegevens zijn geordend rondom het ziektebeeld en de patiënt (en niet rondom de zorgverlener)
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -276,7 +302,8 @@ Samenwerking in de keten gaat verder dan alleen het overdragen en uitwisselen va
       <line>
          <type>AP</type>
          <principe>Processen worden ontworpen met het oog op hergebruik van gegevens</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Bij het verwerken van informatie binnen processen wordt vaak nog onvoldoende rekening gehouden met hergebruik van deze gegevens.
 
 *Rationale
@@ -284,7 +311,9 @@ Voor efficiënte processen en verlaging van registratielast is het van belang da
 
 *Implicaties
 - Gebruik van de zorginformatiebouwstenen
-- Gebruik van semantische standaarden en codestelsels</beschrijving>
+- Gebruik van semantische standaarden en codestelsels
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -299,14 +328,16 @@ Voor efficiënte processen en verlaging van registratielast is het van belang da
       <line>
          <type>AP</type>
          <principe>Eén integraal dossier per patiënt met een gedefinieerde gemeenschappelijke basisgegevensset</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Uitwisseling van gegevens wordt belemmerd doordat er geen gemeenschappelijke definitie is over de basisset van zorggegevens.
 
 *Rationale
 Een verzameling van patiëntgegevens die minimaal nodig is om patiënten continuïteit van zorg te kunnen bieden
 
 *Implicaties
-Implementatie van de basisgegevensset zorg (&lt;a href="$inet://https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; )</beschrijving>
+Implementatie van de basisgegevensset zorg (&lt;a href="$inet://https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; )
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -341,7 +372,8 @@ Implementatie van de basisgegevensset zorg (&lt;a href="$inet://https://www.regi
       <line>
          <type>AP</type>
          <principe>De niet-functionele eisen worden geïdentificeerd, gekwalificeerd en vastgesteld</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Tijdens ontwikkeling en innovatie krijgen functionele eisen vaak de meeste aandacht. Niet-functionele eisen zoals kwaliteitscriteria worden ondergewaardeerd.
 
 *Rationale
@@ -353,7 +385,9 @@ Het doel van niet-functionele eisen is:
 - vroegtijdig dimensioneren van het systeem en vergemakkelijken van de inschatting van de kosten;
 - beoordelen van de levensvatbaarheid van het voorgestelde systeem.
 
-*Implicaties</beschrijving>
+*Implicaties
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -368,7 +402,8 @@ Het doel van niet-functionele eisen is:
       <line>
          <type>AP</type>
          <principe>Gegevens zijn een bedrijfsmiddel en worden zorgvuldig beheerd</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Van oudsher zijn gegevens aan één specifieke applicatie gebonden. Binnen de applicatie lag het begrip van deze gegevens besloten. Met steeds meer samenwerking en informatie-uitwisseling is dit niet langer meer geldig.
 
 *Rationale
@@ -377,7 +412,9 @@ Gegevens zijn een waardevol bezit. Ze moeten daarom zodanig beheerd worden, dat 
 *Implicaties
 - Bewaken van de kwaliteit van gegevens;
 - Hanteren van uniforme definities voor gegevens;
-- Inrichten van data governance.</beschrijving>
+- Inrichten van data governance.
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -386,7 +423,7 @@ Gegevens zijn een waardevol bezit. Ze moeten daarom zodanig beheerd worden, dat 
       </line>
       <line>
          <type>AP</type>
-         <principe>Gegevens zijn geclassificeerd op basis van Beschikbaarheid, Integriteit en Vertrouwelijkheid (BIV)  </principe>
+         <principe>Gegevens zijn geclassificeerd op basis van Beschikbaarheid, Integriteit en Vertrouwelijkheid (BIV)</principe>
          <beschrijving/>
       </line>
       <line>
@@ -401,7 +438,7 @@ Gegevens zijn een waardevol bezit. Ze moeten daarom zodanig beheerd worden, dat 
       </line>
       <line>
          <type>AP</type>
-         <principe>Start met de ontwikkeling naar een Services oriented applicatie architectuur </principe>
+         <principe>Start met de ontwikkeling naar een Services oriented applicatie architectuur</principe>
          <beschrijving/>
       </line>
       <line>
@@ -432,7 +469,8 @@ Gegevens zijn een waardevol bezit. Ze moeten daarom zodanig beheerd worden, dat 
       <line>
          <type>AP</type>
          <principe>(Her)ontwerp van processen op basis van waarde voor de patient (uitkomsten, outcome)</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Hoe organiseren we de zorg zó dat teams hun gezamenlijke verantwoordelijkheid voor de beste uitkomsten van zorg kunnen nemen.
 
 *Rationale
@@ -440,7 +478,9 @@ Verbeteren van uitkomst van zorg en de ervaring van patiënten bij het leveren v
 
 *Implicaties
 - De patiënt als partner: versterken van de betrokkenheid van de patiënt (en familie/netwerk) bij zijn behandeling en zorg, én bij de verbetering ervan. Indien gewenst kan de patiënt hierin de regie nemen;
-- Interprofessionele samenwerking: leveren van zorg en verbeteren ervan als gezamenlijke verantwoordelijkheid van álle betrokken professionals in ziekenhuizen, ketens en regionale netwerken.</beschrijving>
+- Interprofessionele samenwerking: leveren van zorg en verbeteren ervan als gezamenlijke verantwoordelijkheid van álle betrokken professionals in ziekenhuizen, ketens en regionale netwerken.
+
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
@@ -495,13 +535,15 @@ Verbeteren van uitkomst van zorg en de ervaring van patiënten bij het leveren v
       <line>
          <type>AP</type>
          <principe>Uitwisselen van gegevens volgens de specificatie van de zorginformatiebouwstenen</principe>
-         <beschrijving>*Aanleiding/Dilemma
+         <beschrijving>
+*Aanleiding/Dilemma
 Voor gegevensuitwisseling is het van belang dat de gegevens die worden gedeeld ook juist geïnterpreteerd worden.
 
 *Rationale
 Een zorginformatiebouwsteen (ZIB) is een model dat helpt om op informatieniveau gegevens op een eenduidige manier vast te leggen, waarbij eenduidigheid betrekking heeft op het vastgelegde gegeven en niet op de interpretatie van dat gegeven in een bepaalde context. 
 
 *Implicaties
+
 </beschrijving>
       </line>
    </principes>
@@ -795,14 +837,14 @@ Dit bevat in specifieke contexten (e.g. SEH) ook de triage.</beschrijving>
          <type>BA</type>
          <bedrijfsfunctie>VERWIJZING &amp; OVERDRACHT</bedrijfsfunctie>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>VERWIJZING &amp; OVERDRACHT</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
@@ -1025,35 +1067,35 @@ Bepalen van de activiteiten en de benodigde informatieverstrekking ten behoeve v
          <type>BF</type>
          <bedrijfsfunctie>KCL ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1563</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>MMI ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1564</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>RADIOLOGIE</bedrijfsfunctie>
+         <bedrijfsfunctie>BEELDVORMING</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1565</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>NUCLEAIR</bedrijfsfunctie>
+         <bedrijfsfunctie>ENDOSCOPIE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1566</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>OVERIGE AANVULLENDE ONDERZOEKEN</bedrijfsfunctie>
+         <bedrijfsfunctie>FUNCTIE ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1567</zira_id>
       </line>
       <line>
@@ -1097,7 +1139,7 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>DIAGNOSTISERING</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</beschrijving>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -1111,7 +1153,7 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>DIAGNOSTISERING</bedrijfsfunctie>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
@@ -1199,7 +1241,7 @@ Resultaat kan zijn de ruwe waarde (uitkomst van meting/onderzoek) en/of hiervan 
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</beschrijving>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -1255,14 +1297,14 @@ Resultaat kan zijn de ruwe waarde (uitkomst van meting/onderzoek) en/of hiervan 
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
@@ -1283,7 +1325,7 @@ Resultaat kan zijn de ruwe waarde (uitkomst van meting/onderzoek) en/of hiervan 
          <type>BA</type>
          <bedrijfsfunctie>ADVISERING</bedrijfsfunctie>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.376</zira_id>
       </line>
       <line>
@@ -1325,7 +1367,7 @@ Resultaat kan zijn de ruwe waarde (uitkomst van meting/onderzoek) en/of hiervan 
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.376</zira_id>
       </line>
       <line>
@@ -1348,7 +1390,7 @@ Vastleggen welke aanvraag gedaan wordt, deze voorzien van alle benodigde informa
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
@@ -1357,7 +1399,7 @@ In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose e
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
@@ -1378,7 +1420,7 @@ In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose e
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
@@ -1865,7 +1907,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>OVERIGE BEHANDELINGEN</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1580</zira_id>
       </line>
       <line>
@@ -1942,7 +1984,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BA</type>
          <bedrijfsfunctie>ZORGLOGISTIEK</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</beschrijving>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -2005,7 +2047,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>UITVOERING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>Het voorbereiden en uitvoeren van alle direct aan het onderwijs gerelateerde activiteiten.</beschrijving>
+         <beschrijving/>
          <zira_id>1586</zira_id>
       </line>
       <line>
@@ -2033,7 +2075,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>TOETSING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1587</zira_id>
       </line>
       <line>
@@ -2047,7 +2089,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>ONDERSTEUNING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>Administratief, inhoudelijk, ondersteuning van onderwijs</beschrijving>
+         <beschrijving/>
          <zira_id>1589</zira_id>
       </line>
       <line>
@@ -2103,7 +2145,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>PERSONEEL &amp; ORGANISATIE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1591</zira_id>
       </line>
       <line>
@@ -2342,7 +2384,7 @@ ICT-diensten zijn o.a. presentatieaggregatie (Portals), zoekengine, aanbieden Bu
          <type>BF</type>
          <bedrijfsfunctie>PLANNING &amp; CONTROL</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <zira_id>1655</zira_id>
       </line>
       <line>
@@ -2358,6 +2400,20 @@ ICT-diensten zijn o.a. presentatieaggregatie (Portals), zoekengine, aanbieden Bu
          <processtap>Bepalen beleid</processtap>
          <beschrijving>Bepalen ziekenhuis- en/of divisiebeleid en specifieke beleidsplannen als medisch, verpleegkundig, afdeling, VKAM (veiligheid, arbeid, kwaliteit en milieu),  etc. op strategisch, tactisch en operationeel niveau</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.103</zira_id>
+      </line>
+      <line>
+         <type>BF</type>
+         <bedrijfsfunctie>BIOPSIE</bedrijfsfunctie>
+         <processtap/>
+         <beschrijving/>
+         <zira_id>2840</zira_id>
+      </line>
+      <line>
+         <type>BF</type>
+         <bedrijfsfunctie>GENETISCH ONDERZOEK</bedrijfsfunctie>
+         <processtap/>
+         <beschrijving/>
+         <zira_id>2841</zira_id>
       </line>
    </functies>
    <processen>
@@ -2554,7 +2610,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Rooster
 Behandelplan</io_in>
          <io_out>Afspraak
@@ -2571,7 +2627,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Locatie
 Afspraak</io_out>
@@ -2636,7 +2692,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Ontvangen patient (wp)</werkproces>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</beschrijving>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <io_in>Afspraak</io_in>
          <io_out>Afspraak</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
@@ -2840,7 +2896,7 @@ Uitslag aanvullend onderzoek</io_out>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Stellen diagnose (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <io_in>Patientdossier
@@ -2958,7 +3014,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Rooster
 Behandelplan</io_in>
          <io_out>Afspraak
@@ -2975,7 +3031,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Locatie
 Afspraak</io_out>
@@ -3003,7 +3059,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Voorbereiden onderzoek (wp)</werkproces>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</beschrijving>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <io_in>Afspraak</io_in>
          <io_out>Afspraak</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
@@ -3213,7 +3269,7 @@ Onderzoeksverslag</io_out>
          <bedrijfsproces>Adviseren (bp)</bedrijfsproces>
          <werkproces>Geven advies (wp)</werkproces>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <io_in>Patientdossier
 Diagnose</io_in>
          <io_out>Behandelmogelijkheden</io_out>
@@ -3287,7 +3343,7 @@ wordt samen met de patient (informeren patient) een mogelijkheid gekozen en daar
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Bepalen behandelplan (wp)</werkproces>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <io_in>Patientdossier
 Diagnose</io_in>
          <io_out>Behandelmogelijkheden</io_out>
@@ -3303,7 +3359,7 @@ BEHANDELPLANNING
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Bepalen behandelplan (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <io_in>Patientdossier
@@ -3436,7 +3492,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Rooster
 Behandelplan</io_in>
          <io_out>Afspraak
@@ -3453,7 +3509,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
          <processtap>Plannen van  de locatie</processtap>
-         <beschrijving>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Locatie
 Afspraak</io_out>

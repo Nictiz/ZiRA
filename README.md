@@ -17,25 +17,28 @@ scripts/zira2xml.js
 
 ### Scripts
 
+XSLT met Saxon HE 11.5 https://github.com/Saxonica/Saxon-HE/releases
+Extract saxon-he-11.5.jar and lib folder
+
 #### Generate spreadsheets: xslt/zira2xls
 
 N.B. artifacts/zira-1.2-elements-nl+en.max is the latest version with SortKey!
 
-> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.2-nl.xml
-> java -jar /home/michael/Develop/saxon9he.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.2-en.xml
+> java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.2-nl.xml
+> java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.2-en.xml
 .. then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet  
 
 #### Generate Graphviz xslt/ziraim2gv
 
-> java -jar /home/michael/Develop/saxon9he.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv.xslt -o:Informatiemodel\ ZORG\ Resultaten.gv
+> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv.xslt -o:Informatiemodel\ ZORG\ Resultaten.gv
 > dot "Informatiemodel ZORG Resultaten.gv" -Tpng > Informatiemodel\ ZORG\ Resultaten.png
 
 #### Generate Graphviz xslt/ziraim2gv: OpenGroup ENGLISH
 
-> java -jar /home/michael/Develop/saxon9he.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Resultaten-en.gv
+> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Resultaten-en.gv
 > dot "Informatiemodel ZORG Resultaten-en.gv" -Tpng > Informatiemodel\ ZORG\ Resultaten-en.png
 
-> java -jar /home/michael/Develop/saxon9he.jar -s:Informatiemodel\ ZORG\ Activiteiten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Activiteiten-en.gv
+> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Activiteiten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Activiteiten-en.gv
 > dot "Informatiemodel ZORG Activiteiten-en.gv" -Tpng > Informatiemodel\ ZORG\ Activiteiten-en.png
 
 =============
@@ -61,4 +64,4 @@ N.B. artifacts/zira-1.2-elements-nl+en.max is the latest version with SortKey!
 N.B. zira.fods is "ZiRA v1.0 Spreadsheet+Matrix July 11 2021+EN.xlsx" converted to Open Office Sheets.
 
 English names lookup table from fods export of zira spreadsheet with english column.
-> java -jar /home/michael/Develop/saxon9he.jar -s:/tmp/zira.fods -xsl:english.xslt -o:english.xml 
+> java -jar xslt/saxon-he-11.5.jar -s:/tmp/zira.fods -xsl:english.xslt -o:english.xml 

@@ -3,505 +3,530 @@
    <principes>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 1: De (zorg voor de) klant staat centraal </principe>
-         <beschrijving>*Aanleiding/Dilemma
-Uitgangspunt in de zorg is dat de klant centraal staat. Deze ervaart nu echter nog vaak drempels doordat processen vanuit de kant van de zorgverlener worden bedacht en vormgegeven. Dit kan leiden tot belemmeringen voor de patiënt bij de toegang tot de zorg, en bij het begrijpen en beïnvloeden van het zorgproces.
+         <principe>Basic Principle 1: The Patient Comes First</principe>
+         <beschrijving>
+*Motivation
+The starting point in healthcare is that the patient comes first. It must be noted, however, that today processes are typically devised and designed by the care provider. This can lead to obstacles for the patient with respect to access to care and understanding and influencing the care process.
 
 *Rationale
-Het ziekenhuis ontleent zijn bestaansrecht aan de behoefte van de klant. De diensten moeten daarom gericht zijn op tevredenheid en optimaal resultaat voor de klant. 
+The hospital derives its raison d’être from the needs of the patient. The services are therefore focused on satisfaction and best results for the patient and the reduction of costs for the hospital (value-based healthcare).
 
-*Implicaties
-Het zorgproces wordt beschreven vanuit het perspectief van de afnemer, dus in termen van diensten voor de patiënt (klant). Dit betekent:
-- Het hele proces is voor de patiënt inzichtelijk;
-- Dienstverlening is gastvrij, servicegericht en stressverminderend.
-&lt;i&gt;
-&lt;/i&gt;Achterliggende processen zijn voor de patiënt niet van belang. Deze moet daar zo min mogelijk mee geconfronteerd worden of daar hinder van ondervinden. Dit betekent:
-- Het belang van de patiënt gaat boven dat van de zorgverleners, bv. op het gebied van de logistiek van het proces;
-- Patiënten worden snel geholpen, niet onnodig doorverwezen en moeten informatie maar één keer hoeven te vertellen. Het klantdossier moet dus volledig zijn, en bij iedere actor bekend zijn (voor zover dit binnen de privacyregels valt).
-&lt;i&gt;
-&lt;/i&gt;De patiënt moet regie kunnen voeren over diens zorgproces. Dit betekent:
-- De patiënt beslist in samenspraak met de zorgverlener mee over zijn eigen zorg, als de patiënt dit wil en kan. Indien de patiënt dit niet kan, is een belangrijke rol weggelegd voor naasten, familie en mantelzorgers;
-- De patiënt moet zonder drempels over alle relevante informatie kunnen beschikken, waaronder de eigen medische gegevens (bv. via een persoonlijke gezondheidsomgeving) en bepaalt met wie de eigen gegevens gedeeld mogen worden.
-
-De patiënt moet kunnen vertrouwen op de zorgverlener. Dit betekent:
-- Zorgverleners moeten de patiënt proactief informeren;
-- De privacy van de patiënt moet gegarandeerd zijn; zorgverleners moeten daar ook verantwoording over kunnen afleggen;
-- De patiënt moet een duidelijk, open en vriendelijk loket / aanspreekpunt hebben voor vragen en klachten.</beschrijving>
+*Implications
+The care process is organized from the perspective of the patient, so in terms of services for the patient, this means:
+·     —  Information about the key care processes should be available to the patient
+      —  Care provision is patient-friendly, service-oriented, and professional
+Many logistical processes underlying the provision of care are not important to communicate to the patient – he or she must be confronted with this as little as possible and not be bothered by it; this means:
+—  The logistical processes should be in the best interest of the patient while also being practical for the provider
+—  Patients are helped quickly, not unnecessarily referred, and need only provide information once – the client file must therefore be complete and known to every actor (insofar as privacy rules are followed)
+The patient decides, in consultation with his or her provider, the course of care, which means:
+—  Healthcare providers proactively inform the patient
+—  Patient privacy is guaranteed; healthcare providers must comply with the healthcare privacy rules and regulations of the country where care is provided
+—  The patient can go to a clear, open, and friendly counter/contact point for questions and complaints
+</beschrijving>
       </line>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 2: Het ziekenhuis werkt nauw samen in de zorgketen</principe>
-         <beschrijving>*Aanleiding/Dilemma
-De zorg is een keten. Zowel intern in het ziekenhuis, als regionaal / transmuraal. De bedrijfsvoering en informatiehuishouding zijn nu nog te veel gericht op efficiëntie binnen de eigen organisatie.
- 
+         <principe>Basic Principle 2: The Hospital Functions in a Network of Care Providers</principe>
+         <beschrijving>*Motivation
+Healthcare is provided in a network of formal and informal care giving. Networks exist in hospitals, in hospital systems, and in larger ecosystems. In a network, caregivers are separated by few if any degrees of separation. Operational and information management are still too focused on efficiency within an organization.
+
 *Rationale
-De zorg voor een patiënt wordt steeds vaker in ketenverband geleverd. Meerdere zorgverleners zijn betrokken bij de zorg rond een patiënt en die werken niet altijd in een ziekenhuis, of in hetzelfde ziekenhuis. Door de bedrijfsvoering en informatiehuishouding op ketensamenwerking in te richten werken de ketenpartners snel en efficiënt samen, ten behoeve van het resultaat voor de patiënt. Zowel de bedrijfsvoering rondom de patiënt als de daarbij benodigde informatie-uitwisseling zijn ingericht op uitwisseling over de grenzen van de zorglijnen heen.
- 
-*Implicaties
-- Zorg ontwikkelt zich steeds meer naar ketenzorg. Samenwerking met ketenpartners in dienst van de patiënt gaat voor het eigen voordeel van het ziekenhuis;
-- Anticiperen en acteren op interne en externe ontwikkelingen en maatschappelijke betrokkenheid is een drijfveer van het ziekenhuis;
-- Informatie-uitwisseling in de zorg is essentieel om kwaliteit en continuïteit van zorg te garanderen. De informatievoorziening moet dus up-to-date zijn, en ingericht op maximale uitwisselbaarheid;
-- Patiëntenzorg, onderzoek en onderwijs versterken en voeden elkaar, daarom werken patiënten, zorgverleners, onderzoekers, docenten en studenten samen. Ook dit vergt adequate informatie-uitwisseling.</beschrijving>
+Typically, patient care is delivered by formal and/or informal caregivers in a network. Several care providers are involved in the care of a patient and they do not always work in a hospital or in the same hospital. By organizing operational management and information management through cooperation, the collaborating partners work together quickly and efficiently for the benefit of the patient. Both the operational management around the patient and the required information exchange are designed for interoperability across the boundaries of care lines.
+
+*Implications
+·     Healthcare is increasingly developing in networked care – cooperation with collaboration partners in the service of the patient
+·     Anticipating and acting on internal and external developments and social involvement is a motivation of the hospital
+·     Information exchange in healthcare is essential to guarantee the quality and continuity of healthcare – information provision must therefore be up-to-date and set up for maximum interchangeability
+·     Patient care, research, and education reinforce and build on each other in a learning healthcare system; patients, healthcare providers, researchers, teachers, and students work together, which also requires adequate information exchange
+</beschrijving>
       </line>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 3: Eenduidige vastlegging van gegevens voor meervoudig gebruik</principe>
-         <beschrijving>*Aanleiding/Dilemma
-De meeste ziekenhuizen ervaren de registratielast als hoog. Dit wordt onder andere veroorzaakt door een inefficiënte gegevenshuishouding: veel gegevens worden onnodig meervoudig uitgevraagd en opgeslagen. Ook worden gegevens vaak niet eenduidig opgeslagen. Dit beperkt de mogelijkheden voor hergebruik (wat weer opnieuw registreren noodzakelijk maakt) en kan leiden tot interpretatiefouten.
+         <principe>Basic Principle 3: Clear and Unambiguous Data Capture at the Point of Care</principe>
+         <beschrijving>*Motivation
+Most hospitals experience data collection as burdensome. This is caused by, among other things, inefficient data management. Frequently, data is requested and stored multiple times, in multiple systems, and multiple places, unnecessarily. This is because data is often not coded using a standardized format. This limits the possibilities for reuse (which makes repeated data collection and entry necessary) and can lead to interpretation errors.
 
 *Rationale
-Gegevens en informatie behoren tot de meest waardevolle middelen in een organisatie. Eenduidige en eenmalige registratie van gegevens reduceert overtypen en daarmee gepaard gaande fouten, voorkomt verwarring over waar de juiste gegevens staan, zorgt dat iedereen over dezelfde gegevens kan beschikken en dat iedereen hetzelfde begrip heeft over de gegevens. Hierdoor stijgt de kwaliteit van de zorg, vooral van de overdracht. Patiënten hoeven niet meer telkens hetzelfde verhaal te vertellen en houden meer regie over hun zorg doordat zorginformatie beter beschikbaar en bruikbaar is.
-Ook wetenschappelijk onderzoek en aanlevering aan kwaliteitsregisters is eenvoudiger.
+Data and information are among the most valuable resources in an organization. Unambiguous and one-time registration of data helps ensure that everyone has access to the same facts, including where key data is located. As a result, scientific research becomes easier. Patients no longer need to tell the same story every time. Because information is more widely available and usable, within boundaries set by safety and security protocols, patients and personal caregivers can exercise more control over care, permissioned providers can access necessary data when and where needed, and the quality of care may increase.
 
-*Implicaties
-- Gegevenshuishouding is FAIR ingericht. Dit betekent:
-   - Findable: Gegevens zijn blijvend eenvoudig (terug) te vinden, identificeerbaar en herleidbaar tot de bron. Data worden snel en flexibel ontsloten waar mogelijk, behoedzaam en gecontroleerd waar nodig;
-   - Accessible: Gegevens worden gedeeld en zijn toegankelijk voor daartoe gemachtigde personen. Autorisaties worden verleend conform wetgeving en beleid. Opslag en ontsluiten van data gebeurt centraal waar mogelijk, lokaal waar nodig;
-   - Interoperable: Eenheid van taal: gegevens hebben een gemeenschappelijke vocabulaire en kennen eenduidige definities. We kiezen voor uniformiteit en (internationale) standaarden waar mogelijk, lokale nuances waar nodig;
-   - Reusable: Gegevens worden eenmalig geregistreerd aan de bron voor meervoudig gebruik. Data uit een domein kan hergebruikt worden in een of meer andere domeinen.
-- Eén integraal beeld voor en van de patiënt (patiënttoegang en -regie , integer, eenduidig, herbruikbaar longitudinaal dossier);
-- Het doel waarvoor gegevens worden verzameld en (her)gebruikt is verenigbaar met het doel waarvoor deze is verzameld (doelbinding). Klanten hebben hierbij inzage in de gegevens die men over hen bijhoudt, wie hier toegang toe heeft, en wie deze heeft bewerkt of geraadpleegd (zie ook WBP).
-- Gegevens worden opgevraagd bij de bron en er wordt zoveel mogelijk gebruik gemaakt van basisregistraties en zorgregisters.
-- Bij twijfel over de juistheid van gegevens in een systeem, moet elke gebruiker (patiënt of zorgverlener) dit bij de bronhouder van dat systeem kunnen melden, waarna deze de gegevens zo nodig aanpast.
-- Gegevens worden gecreëerd conform &lt;a href="$inet://https://www.nictiz.nl/standaardisatie/zorginformatiebouwstenen"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;de specificaties van de zorginformatiebouwstenen&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;, gebruikt en bewaard. 
 
-Rondom dit basisprincipe is voor de ziekenhuizen een programma "Registratie aan de bron" geïnitieerd: &lt;a href="$inet://https://www.registratieaandebron.nl"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.registratieaandebron.nl&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;</beschrijving>
+*Implications
+·     Data management is organized according to FAIR principles; this means:
+—  Findable: data is easy to find (again), identifiable, and traceable to the source; data is accessed quickly, flexibly where possible, cautiously, and checked where necessary
+—  Accessible: data is shared and is accessible to authorized persons; authorization is granted in accordance with legislation and policy; storage and disclosure of data is done centrally where possible, locally where necessary
+—  Interoperable: data has a common vocabulary and clear definitions – we opt for uniformity and (international) standards where possible, and local nuances where necessary
+—  Reusable: data is recorded once at the source for multiple use – data from one domain can be reused in one or more other domains
+·     One integrated longitudinal view of the patient (patient access and management, integrity, unambiguous, reusable longitudinal file)
+·     The purpose for which data is used and reused is compatible with the purpose for which data is collected (purpose limitation); customers have access to the data that they keep about patients, who has access to it, and who has edited it or consulted it
+·     Data is requested from the source and as much as possible use is made of the patient’s master record
+·     When in doubt about the correctness of data in a system, every user (patient or healthcare provider) must be able to report this to the source holder of that system, after which the source holder will adjust the data if necessary
+·     Data is created, used, and stored in accordance with the specifications of the healthcare information building blocks
+Around this basic principle, a program called “Registration at the Source” was started January 2014 in collaboration between Nictiz and the eight University Medical Centers in the Netherlands. For more information, see https://amigo.nictiz.nl/programma/registratie-aan-de-bron.</beschrijving>
       </line>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 4: Informatievoorziening is flexibel, veilig en duurzaam</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Veranderingen gaan steeds sneller en komen uit steeds meer richtingen (o.a. overheid, techniek en gebruikers). Informatievoorziening wordt veelal gezien als belemmerende/vertragende factor als het gaat om het inspelen op deze veranderende omstandigheden en behoeften van de professionals en klanten. 
+         <principe>Basic Principle 4: Information Provision is Flexible, Secure, and Sustainable</principe>
+         <beschrijving>*Motivation
+Change happens faster and comes from more sources (including government, technology, and users) than ever before. Information exchange is often an impediment that delays responses to changing circumstances and needs of professionals and customers.
 
 *Rationale
-Informatievoorziening moet ondersteunend zijn aan het voortdurend verbeteren en innoveren van de zorg.
+The provision of information must support the continuous improvement and innovation of care.
 
-*Implicaties
-- Informatievoorziening is flexibel. Ontkoppeling van proces en gegevens. Robuust in de kern en wendbaar aan de gebruikerskant;
-- Informatievoorziening is steeds meer service-georiënteerd, gebaseerd op loosely coupled componenten. Systemen worden real-time gesynchroniseerd en geïntegreerd via een integratieplatform;
-- Bij gelijktijdig gebruik van meerdere applicaties is de juiste patiëntcontext gegarandeerd;
-- Informatievoorziening maakt gebruik van landelijke richtlijnen, generieke standaarden en bewezen oplossingen.
-- Informatievoorziening is veilig en voldoet aan wet- en regelgevingen en de normen voor informatiebeveiliging. 
-- Er zijn maatregelen ingericht om de continuïteit van de dienst door de keten heen te borgen. 
-- Bevorder het gemeenschappelijk gebruik van toepassingen (ook extra- en transmuraal en in de keten);
-- Hergebruik gaat voor kopen, gaat voor maken;
-- Informatievoorziening wordt duurzaam en milieubewust ingericht.</beschrijving>
+*Implications
+·     The provision of information is flexible
+·     The provision of information is increasingly service-oriented, based on loosely-coupled components; systems are synchronized and integrated in real time via an integration platform
+·     When multiple applications are used, the context of patient data must be clear
+·     Information provision uses national guidelines, generic standards, and proven solutions
+·     Information provision is secure and complies with laws and regulations and the standards for information security
+·     Measures have been put in place to guarantee the continuity of the service throughout the network of care
+·     Promote the shared use of applications
+·     Reuse comes before buying, before making
+·     The provision of information is set up in a sustainable and responsible manner</beschrijving>
       </line>
       <line>
          <type>BP</type>
-         <principe>Basisprincipe 5: De geleverde kwaliteit wordt transparant gemaakt op basis van primaire registratie</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Om regie te kunnen voeren over hun zorgproces hebben patiënten / klanten inzicht nodig in de geleverde kwaliteit van zorg. Alleen dan kunnen zij hun keuzes baseren op de juiste informatie. Maar de registratielasten in de zorg zijn hoog en aanlevering van (extra) kwaliteitsinformatie verhoogt deze last nog. Te registreren gegevens moeten meerwaarde hebben voor de (zorg voor) de patiënt of bijdragen aan het bepalen van de geleverde (kwaliteit van) zorg.
+         <principe>Basic Principle 5: Quality can be Deduced from the Care Process</principe>
+         <beschrijving>
+*Motivation
+To be able to manage their care process, patients/customers need insight into the quality of care provided. Only then can they base their choices on the right information. But the registration burden in healthcare is high and the supply of (extra) quality information increases this burden even more. Data to be recorded must have added value for the (care for) the patient or contribute to determining the (quality of) care provided.
 
 *Rationale
-Door de gewenste transparantie te realiseren met eenduidige, geanonimiseerde gegevens uit de primaire bronregistratie, (tevredenheids)metingen, en daaruit af te leiden informatie, kan de registratielast beperkt worden. Dit geldt ook voor transparantie richting overheid, verzekeraars, of andere bij de zorg betrokken instanties.
+By realizing the desired transparency with unambiguous, anonymous data from the primary source registration, (satisfaction) measurements, and information to be derived from this, the registration burden can be limited. This also applies to transparency towards the government, insurers, or other organizations involved in healthcare.
 
-*Implicaties
-- (Her)ontwerp van processen op basis van waarde voor de patiënt (uitkomsten, outcome)
-- Kwaliteitsregistraties en andere aanleveringen brengen zo min mogelijk extra werk met zich mee. Dit betekent:
-   - De kwaliteitsregistraties zijn gebaseerd op informatie uit het primaire proces;
-   - Verschillende kwaliteitsregistraties vragen vergelijkbare informatie op dezelfde manier uit;
-   - Gegevens vastleggen conform de zorginformatiebouwstenen.
-- Voor volledige transparantie is ook de ervaring van de patiënt nodig. Dit betekent:
-   - Structurele tevredenheid-- en outcome-metingen van de patiënt als onderdeel van het proces;
-   - Opstellen en aanpassen van (PROMS en PREMS) vragenlijsten in overleg met de patiënt, zodat aandacht wordt besteed aan wat zij belangrijk vinden.
-- De technische inrichting van systemen faciliteert dat de administratielast tot een minimum beperkt wordt. Dit betekent:
-   - Gegevens worden eenduidig vastgelegd om meervoudig gebruik mogelijk te maken (zie ook onder basisprincipe 3);
-   - Voor optimale gebruiksvriendelijkheid worden interfaces ontworpen in nauwe samenwerking met eindgebruikers, bv. met behulp van principes uit Interaction Design en User experience design.
-- Zorgverleners leggen eenduidig en eenmalig vast. Dit betekent:
-   - Niet iets vastleggen wat al vastgelegd is;
-   - Structureel aandacht voor uitleg aan zorgverleners over nut en noodzaak hiervan;
-   - Structurele ondersteuning van zorgverleners bij het gebruik van systemen;
-   - Gebruik maken van semantische standaarden en de zorginformatiebouwstenen</beschrijving>
+*Implications
+·     (Re)design of processes based on value for the patient (outcomes, outcome)
+·     Quality registrations and other deliveries entail as little extra work as possible; this means:
+—  The quality records are based on information from the primary process
+—  Different quality registrations request similar information in the same way
+—  Record data in accordance with the healthcare information building blocks
+·     Data capturing details of the patient experience is also required for complete transparency; this means:
+—  Structural satisfaction and outcome measurements of the patient as part of the process
+—  Drawing up and adjusting questionnaires in consultation with the patient, so that attention is paid to what they find important
+·     The technical design of systems should ensure, to the extent possible, that administrative burden is kept to a minimum; this means:
+—  Data is recorded unambiguously to enable multiple use (see also Basic Principle 3)
+—  For optimum user-friendliness, interfaces are designed in close collaboration with end users; e.g., using principles from interaction design and user experience design
+·     Healthcare providers record information clearly and once; this means:
+—  Do not record something that has already been recorded
+—  Providers should be aware of the usefulness and necessity of this
+—  Structural support for caregivers in the use of quality improvement systems
+—  Use semantic standards and the healthcare information building blocks</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Processen leveren diensten aan klanten / patiënten</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Processen zijn nu gericht op interne efficiëntie.
+         <principe>Patients receive services through clearly defined and consistent processes.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Processes are now focused on internal efficiency.
 
-*Rationale
-Het dienstgericht maken van processen legt de focus op het resultaat en de te leveren meerwaarde voor de klant/patiënt en stelt de klant in het proces centraal.
+*Rational
+Making processes service-oriented focuses on the result and the added value to be delivered for the customer/patient and puts the customer at the center of the process.
 
-*Implicaties
-- Uitkomst voor de klant is onze belangrijkste drijfveer in het ontwerp;
-- Een proces levert een dienst. Het belang van de afnemer van de dienst is leidend en preferent boven het belang van de actoren en afdelingen die het proces uitvoeren.</beschrijving>
+*Implications
+- Outcome for the customer is our main driving force in the design;
+- A process provides a service. The interest of the customer of the service is leading and preferable to the interest of the actors and departments that carry out the process.
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Processen zijn beschreven vanuit het perspectief "zorgverlening samen met  de klant"</principe>
+         <principe>Processes are described from the perspective of “providing care together with the patient”.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Processen hebben een eigenaar en een beheerprocedure in de business</principe>
+         <principe>Processes have a designated “owner” and a management procedure in the business.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Processtandaardisatie op basis van generieke procesmodellen</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Processen zijn vaak op verschillende wijze vormgegeven en weinig uniform. De patiënt herkent geen uniformiteit en voelt zich steeds anders behandeld.
+         <principe>The standardization of processes is based on the ZiRA Process Model.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Processes are often designed in different ways and are not uniform. The patient does not recognize uniformity and always feels treated differently.
 
-*Rationale
-Procesmodellering volgens een generiek procesmodel stimuleert hergebruik en herkenbaarheid, en bespaart kosten in ontwerp en inrichting
+*Rational
+Process modeling according to a generic process model stimulates reuse and recognisability, and saves costs in design and layout
 
-*Implicaties
-- Modelleerconventies voor procesontwerp
-- Gemeenschappelijke bibliotheek van processen
-- Procesmodellen hergebruiken</beschrijving>
+*Implications
+- Modeling conventions for process design
+- Common library of processes
+- Reuse process models
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Patiënt / Klant kan zelf informatie aanleveren</principe>
+         <principe>Patient can provide information themselves.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Patiënt / Klant voert zelf regie over het delen van informatie, en heeft inzicht in het gebruik ervan</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Gebrek aan informatie over zijn eigen ziekte, en onvoldoende inzicht in welke zorgverlener toegang heeft gehad tot zijn gegevens, leidt bij de patiënt tot onvoldoende grip op zijn eigen zorgproces.
+         <principe>Patient can decide what information can be shared with other caregivers.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Lack of information about his own illness, and insufficient insight into which care provider has had access to his data, leads to the patient having insufficient control over his own care process.
 
-De keuze van regie op zijn eigen proces is een recht van de patiënt, geen plicht. De regie kan de patiënt overdragen aan een mantelzorger, casemanager of de behandelend arts.  
+The choice of control over his own process is a patient's right, not an obligation. The patient can hand over control to an informal carer, case manager or the attending physician.
 
-*Rationale
-- Verhoging klanttevredenheid;
-- Verhoging effectiviteit van zorg;
-- Patiënt kan zelf invloed uitoefenen.
+*Rational
+- Increase customer satisfaction;
+- Increase effectiveness of care;
+- The patient can exert influence himself.
 
-*Implicaties</beschrijving>
+*Implications
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Patiënt / Klant heeft de mogelijkheid om de kwaliteit van de zorg te beoordelen</principe>
+         <principe>Patient has the opportunity to report their self-assement of the quality of care received.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Patiënt / Klant heeft toegang tot zijn eigen persoonlijke omgeving</principe>
+         <principe>Patient has access to their own information in a personal health record.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Applicaties zijn helpend en intuïtief voor de gebruiker ingericht</principe>
+         <principe>Applications are designed to be intuitive and to help the user.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Gebruikersinterface is meertalig uitgevoerd</principe>
+         <principe>User (patient) interface is multi-lingual.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>De gebruiker werkt vanuit één user interface voor de afhandeling van een werkproces</principe>
+         <principe>Patient uses a single interface for all work processes</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Applicaties zijn service georiënteerd en loosely coupled</principe>
-         <beschrijving>*Aanleiding/Dilemma
-De informatievoorziening past zich onvoldoende snel en flexibel  aan, aan de veranderingen in het benaderen en participeren van de patiënt. De informatievoorziening is te star. Aanpassingen zijn moeizaam en vanwege vele interne afhankelijkheden complex. Gelijke functionaliteit komt voor in meerdere applicaties. Hergebruik van functionaliteit is niet altijd mogelijk. 
+         <principe>Applications are service- oriented and loosely- coupled.</principe>
+         <beschrijving>
+* Reason/Dilemma
+The provision of information does not adapt quickly and flexibly to changes in the approach and participation of the patient. Information provision is too rigid. Adjustments are laborious and complex due to many internal dependencies. Similar functionality occurs in multiple applications. Reuse of functionality is not always possible.
 
-*Rationale
-Een meer service-georiënteerde informatievoorziening speelt sneller in op veranderende omstandigheden en nieuwe eisen en wensen.
+*Rational
+A more service-oriented information provision responds more quickly to changing circumstances and new requirements and wishes.
 
-*Implicaties
-- Applicaties stellen hun functionaliteit en gegevens beschikbaar middels services die gebaseerd zijn op open standaarden. Open standaarden bieden de beste basis voor integratie omdat zij breed worden ondersteund in de markt. Ook voorkomen open standaarden leveranciersafhankelijkheden.</beschrijving>
+*Implications
+- Applications make their functionality and data available through services based on open standards. Open standards provide the best basis for integration because they are widely supported in the market. Open standards also prevent supplier dependencies.
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Transmurale zorgprocessen voldoen / conformeren zich aan landelijke zorgstandaarden en richtlijnen</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Inrichting van transmurale processen is vaak nog maatwerk gericht op een specifieke oplossing en gegevensuitwisseling  waardoor deze oplossing vaak niet herbruikbaar is.
+         <principe>Inter-hospital care processes comply with/conform to care standards and guidelines.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Designing transmural processes is often still custom work aimed at a specific solution and data exchange, which means that this solution is often not reusable.
 
-*Rationale
-In de landelijke zorgstandaarden en richtlijnen zijn afspraken gemaakt op de 5 lagen van interoperabiliteit.
+*Rational
+Agreements have been made on the 5 layers of interoperability in the national care standards and guidelines.
 
-*Implicaties</beschrijving>
+*Implications
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Interoperabiliteitsafspraken worden tussen betrokken zorgorganisaties gemaakt </principe>
-         <beschrijving>*Aanleiding/Dilemma
-Interoperabiliteit mislukt nog te vaak door een eenzijdige aanpak. De aandacht is óf te eenzijdig gericht op infrastructuur (technisch) óf informatie (datasets). Soms zijn alleen beleidsmatige afspraken gemaakt maar faalt de implementatie.  
+         <principe>Interoperability agreements are made between the care organizations involved.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Interoperability still fails too often due to a one-sided approach. Attention is either too one-sidedly focused on infrastructure (technical) or information (datasets). Sometimes only policy agreements have been made, but the implementation fails.
 
-*Rationale
-Alle aspecten vertegenwoordigd in de vijf lagen van het interoperabiliteitsmodel hebben aandacht nodig voor succesvolle implementatie.
+*Rational
+All aspects represented in the five layers of the interoperability model require attention for successful implementation.
 
-*Implicaties
-- In ICT-terminologie betekent dit dat er concrete ‘use cases’ worden gedefinieerd met bijbehorende actoren, transacties en transactie-informatie;
-- Er worden afspraken gemaakt en vastgelegd op alle vijf lagen van het NICTIZ interoperabiliteitsmodel;
-- Zie ook &lt;a href="$inet://https://www.nictiz.nl/SiteCollectionDocuments/Whitepapers/12017%20Een%20checklist%20voor%20informatie-uitwisseling%20in%20de%20zorg.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Checklist voor informatieuitwisseling in de zorg&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.</beschrijving>
+*Implications
+- In ICT terminology this means that concrete 'use cases' are defined with associated actors, transactions and transaction information;
+- Agreements are made and recorded on all five layers of the NICTIZ interoperability model;
+- See also &lt;a href="$inet://https://www.nictiz.nl/SiteCollectionDocuments/Whitepapers/12017%20Een%20checklist%20voor%20informatie-uitwisseling%20in%20de%20zorg.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;Checklist voor informatieuitwisseling in de zorg&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;.
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Er worden eenduidige afspraken gemaakt over de soort gegevens die moeten worden uitgewisseld. </principe>
-         <beschrijving>*Aanleiding/Dilemma
-Gegevens wordt nu nog vaak uitgewisseld zonder overeenstemming over de betekenis van de gegevens. Gegevens wordt daardoor verkeerd geïnterpreteerd.
+         <principe>Clear agreements are made about the type of data to be exchanged.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Data is now often exchanged without agreement on the meaning of the data. Data is therefore misinterpreted.
 
-*Rationale
-Eenduidige afspraken over de gegevens die worden uitgewisseld zijn nodig voor een juist begrip en interpretatie van de gegevens. Zonder deze afspraken kan informatie-uitwisseling een risico zijn voor de patiëntveiligheid. 
+*Rational
+Unambiguous agreements about the data that are exchanged are necessary for a correct understanding and interpretation of the data. Without these agreements, information exchange can pose a risk to patient safety.
 
-*Implicaties
-- In ICT-termen betekent dit dat een dataset wordt gespecificeerd waarin is vastgelegd welke gegevenstypen nodig zijn en hoe deze worden vastgelegd.
-- Bijvoorbeeld implementatie van informatiestandaarden &lt;a href="$inet://https://www.nictiz.nl/standaardisatie/informatiestandaarden"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.nictiz.nl/standaardisatie/informatiestandaarden&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;</beschrijving>
+*Implications
+- In ICT terms, this means specifying a dataset that specifies which data types are needed and how they are captured.
+- For example, implementation of information standards &lt;a href="$inet://https://www.nictiz.nl/standaardisatie/informatiestandaarden"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.nictiz.nl/standaardisatie/informatiestandaarden&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Patiënt / Klant heeft toegang tot zijn (transmuraal) dossier</principe>
+         <principe>Patient/customer has access to his (inter-hospital) health records</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Geïntegreerde systemen in de keten gericht op samenwerking</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Applicaties in de keten zijn vaak alleen ingericht op informatie-uitwisseling en minder op samenwerking in de ketenzorg
+         <principe>Relevant systems for participating care organizations in interoperability agreements are configured to integrate appropriately.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Applications in the chain are often only designed for information exchange and less for collaboration in chain care
 
-*Rationale
-Samenwerking in de keten gaat verder dan alleen het overdragen en uitwisselen van informatie. Voor continuïteit van de ketenzorg is een overzichtelijk integraal overzicht nodig vanuit ordening van gegevens rondom ziektebeelden. Daarnaast is het binnen de keten nuttig als er functionaliteit beschikbaar is om de samenwerking tussen de zorgverleners van de patiënt te ondersteunen (denk aan logboek, chatfunctionaliteit, consentregistratie, audittrail, integratie zelfmonitoring en aansluiting op PGO).
+*Rational
+Collaboration in the chain goes further than just transferring and exchanging information. Continuity of chain care requires a clear, integrated overview based on the organization of data relating to clinical pictures. In addition, it is useful within the chain if functionality is available to support the collaboration between the patient's healthcare providers (e.g. logbook, chat functionality, consent registration, audit trail, integration of self-monitoring and connection to PHE).
 
-*Implicaties
-- Voor de zorgverleners in de keten is een integraal overzicht beschikbaar waarbij de gegevens zijn geordend rondom het ziektebeeld en de patiënt (en niet rondom de zorgverlener)</beschrijving>
+*Implications
+- An integrated overview is available for the care providers in the chain, in which the data are arranged around the clinical picture and the patient (and not around the care provider)
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Systemen worden real-time gesynchroniseerd zodat informatie online beschikbaar is</principe>
+         <principe>Systems are synchronized in real time and produce timely information online.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Fysieke communicatie vindt plaats door aansluiten op bestaande infrastructurele uitwisselings-mechanismen (XDS, LSP, e.d)</principe>
+         <principe>Physical communication takes place by connecting to existing infrastructural exchange mechanisms.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Processen worden ontworpen met het oog op hergebruik van gegevens</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Bij het verwerken van informatie binnen processen wordt vaak nog onvoldoende rekening gehouden met hergebruik van deze gegevens.
+         <principe>Processes are designed with data reuse in mind.</principe>
+         <beschrijving>
+* Reason/Dilemma
+When processing information within processes, the reuse of this data is often insufficiently taken into account.
 
-*Rationale
-Voor efficiënte processen en verlaging van registratielast is het van belang dat gegevens eenduidig worden ingevoerd, zodat deze meervoudig gebruikt kunnen worden.
+*Rational
+For efficient processes and reduction of the registration burden, it is important that data is entered unambiguously, so that it can be used multiple times.
 
-*Implicaties
-- Gebruik van de zorginformatiebouwstenen
-- Gebruik van semantische standaarden en codestelsels</beschrijving>
+*Implications
+- Use of the healthcare information building blocks
+- Use of semantic standards and code systems
+</beschrijving>
       </line>
       <line>
          <type>AP</type>
-         <principe>Registratie aan de bron</principe>
+         <principe>Registration at the source.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Gegevens worden eenmalig vastgelegd en gedeeld voor meervoudig gebruik</principe>
+         <principe>Data is recorded once and shared for multiple uses.</principe>
          <beschrijving/>
       </line>
       <line>
          <type>AP</type>
-         <principe>Eén integraal dossier per patiënt met een gedefinieerde gemeenschappelijke basisgegevensset</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Uitwisseling van gegevens wordt belemmerd doordat er geen gemeenschappelijke definitie is over de basisset van zorggegevens.
+         <principe>One longitudinal file per patient with a defined common basic data set.</principe>
+         <beschrijving>
 
-*Rationale
-Een verzameling van patiëntgegevens die minimaal nodig is om patiënten continuïteit van zorg te kunnen bieden
+* Reason/Dilemma
+Data sharing is hampered by the lack of a common definition of the basic set of healthcare data.
 
-*Implicaties
-Implementatie van de basisgegevensset zorg (&lt;a href="$inet://https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; )</beschrijving>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Gegevens uit het zorgproces moeten kunnen worden gebruikt voor afgeleide doelstellingen als stuurindicatoren, kwaliteitsindicatoren, administratie en financiën, en onderzoek, uiteraard binnen de regels van doelbinding</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Elk gegeven heeft een eigenaar die verantwoordelijk is voor de kwaliteit</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Gegevens worden opgevraagd bij de bron en er wordt zoveel mogelijk gebruik gemaakt van basisregistraties en zorgregisters</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Voor iedere generieke functionaliteit één applicatie(service)</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Systemen worden real-time gesynchroniseerd</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Processen zijn geclassificeerd op basis van Beschikbaarheid, Integriteit en Vertrouwelijkheid (BIV)</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>De niet-functionele eisen worden geïdentificeerd, gekwalificeerd en vastgesteld</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Tijdens ontwikkeling en innovatie krijgen functionele eisen vaak de meeste aandacht. Niet-functionele eisen zoals kwaliteitscriteria worden ondergewaardeerd.
+*Rational
+A collection of patient data that is minimally required to provide patients with continuity of care
 
-*Rationale
-Niet-functionele eisen bepalen de kwaliteit van het systeem. Ze zijn essentieel voor de gebruikersacceptatie, omdat hiermee onder andere de gebruikersvriendelijkheid, performance, herbruikbaarheid, uitbreidbaarheid, schaalbaarheid, betrouwbaarheid, onderhoudbaarheid, toekomstvastheid, effectiviteit en efficiënte bepaald wordt.
+*Implications
+Implementation of the basic dataset care (&lt;a href="$inet://https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://www.registratieaandebron.nl/pdf/Basisgegevensset_Zorg_v1_0.pdf&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; )
+</beschrijving>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Data from the care process can be used for derived objectives, such as governance, control, quality indicators, administration, finance, and research.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Each data object has a designated “owner” who is responsible for its quality.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Data is requested from the source and registers are used as much as possible.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>One application (service) for each generic functionality.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Systems are synchronized in real time.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Processes are classified on the basis of availability, integrity, and confidentiality.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>The non-functional requirements are identified, qualified, and determined.</principe>
+         <beschrijving>
+* Reason/Dilemma
+During development and innovation, functional requirements often receive the most attention. Non-functional requirements such as quality criteria are undervalued.
 
-Het doel van niet-functionele eisen is:
-- specificeren van de gewenste kwaliteitseigenschappen;
-- definiëren van beperkingen en ontwerpcriteria van het systeem (bv. veilig en overdraagbaar);
-- vroegtijdig dimensioneren van het systeem en vergemakkelijken van de inschatting van de kosten;
-- beoordelen van de levensvatbaarheid van het voorgestelde systeem.
+*Rational
+Non-functional requirements determine the quality of the system. They are essential for user acceptance, because they determine, among other things, user-friendliness, performance, reusability, extensibility, scalability, reliability, maintainability, future-proofness, effectiveness and efficiency.
 
-*Implicaties</beschrijving>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Bij kritische bedrijfsfuncties wordt functiescheiding toegepast</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Processen zijn gestandaardiseerd en flexibel en bevatten herbruikbare werkprocessen en processtappen</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Gegevens zijn een bedrijfsmiddel en worden zorgvuldig beheerd</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Van oudsher zijn gegevens aan één specifieke applicatie gebonden. Binnen de applicatie lag het begrip van deze gegevens besloten. Met steeds meer samenwerking en informatie-uitwisseling is dit niet langer meer geldig.
+The purpose of non-functional requirements is:
+- specifying the desired quality characteristics;
+- define constraints and design criteria of the system (e.g. secure and transferable);
+- early sizing of the system and facilitating cost estimation;
+- assess the viability of the proposed system.
 
-*Rationale
-Gegevens zijn een waardevol bezit. Ze moeten daarom zodanig beheerd worden, dat de afnemers in een organisatie (of keten) op een veilige manier, op het juiste moment over de juiste gegevens van de juiste kwaliteit beschikken. Gegevens staan aan de basis van informatie, kennis en besluiten, en zijn daarmee van cruciaal belang voor het correct en efficiënt functioneren van de zorg.
+*Implications
+</beschrijving>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Segregation of duties is applied in critical business functions.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Processes are standardized and flexible and contain reusable work processes and business activities.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Data is a business asset and is carefully managed.</principe>
+         <beschrijving>
+* Reason/Dilemma
+Traditionally, data has been tied to one specific application. The understanding of this data lay within the application. With more and more cooperation and information exchange, this is no longer valid.
 
-*Implicaties
-- Bewaken van de kwaliteit van gegevens;
-- Hanteren van uniforme definities voor gegevens;
-- Inrichten van data governance.</beschrijving>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Gegevens zijn beschermd tegen ongeautoriseerde toegang en gebruik</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Gegevens zijn geclassificeerd op basis van Beschikbaarheid, Integriteit en Vertrouwelijkheid (BIV)  </principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Transacties worden gelogd</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Patiëntgegevens mogen zonder toestemming van de patiënt niet voor andere doeleinden worden gebruikt. (ook niet binnen de eigen organisatie)</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Start met de ontwikkeling naar een Services oriented applicatie architectuur </principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Virtualiseer applicatieservices</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Denk aan de cloud bij backend applicaties</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Denk mobile bij frontend applicaties</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Maximale ontkoppeling tussen de technische componenten</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Beperk de technische diversiteit</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>(Her)ontwerp van processen op basis van waarde voor de patient (uitkomsten, outcome)</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Hoe organiseren we de zorg zó dat teams hun gezamenlijke verantwoordelijkheid voor de beste uitkomsten van zorg kunnen nemen.
+*Rational
+Data is a valuable asset. They must therefore be managed in such a way that the customers in an organization (or chain) have access to the right data of the right quality at the right time, in a safe manner. Data is the basis of information, knowledge and decisions, and is therefore of crucial importance for the correct and efficient functioning of healthcare.
 
-*Rationale
-Verbeteren van uitkomst van zorg en de ervaring van patiënten bij het leveren van zorg.
+*Implications
+- Monitoring the quality of data;
+- Using uniform definitions for data;
+- Setting up data governance.
+</beschrijving>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Data is protected from unauthorized access and use.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Data is classified on the basis of availability, integrity, and confidentiality.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Transactions are logged.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Patient data may not be used for other purposes without the patient’s consent.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Start developing a services-oriented application architecture.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Virtualize application services.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Think of the cloud with back-end applications.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Think mobile with front- end applications.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Maximum disconnection between the technical components.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Limit technnical diversity.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>(Re)design of processes is based on value for the patient (outcomes-based).</principe>
+         <beschrijving>
+* Reason/Dilemma
+How do we organize care in such a way that teams can take joint responsibility for the best outcomes of care.
 
-*Implicaties
-- De patiënt als partner: versterken van de betrokkenheid van de patiënt (en familie/netwerk) bij zijn behandeling en zorg, én bij de verbetering ervan. Indien gewenst kan de patiënt hierin de regie nemen;
-- Interprofessionele samenwerking: leveren van zorg en verbeteren ervan als gezamenlijke verantwoordelijkheid van álle betrokken professionals in ziekenhuizen, ketens en regionale netwerken.</beschrijving>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Benodigde informatie kan vastgelegd worden op logische momenten tijdens het zorgproces</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Zorgverleners krijgen adequate uitleg en instructie over systemen, en kunnen op ieder moment uitleg hierover raadplegen</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Bij het opstellen van eigen vragenlijsten worden patiënten en zorgverleners betrokken, en wordt gebruik gemaakt van standaarden (bv. zibs)</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Informatie afkomstig uit zorgsystemen wordt voor patiënten in begrijpelijke taal beschikbaar gemaakt</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Kwaliteitsinformatie afkomstig uit zorgsystemen wordt (geanonimiseerd, geaggregeerd) voor patiënten beschikbaar gemaakt</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Systemen kunnen informatie gestandaardiseerd vastleggen en uitleveren</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Systemen worden gebruikersvriendelijk, volgens principes van User Interaction ingericht</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Systemen kunnen onderling berichten uitwisselen, op een veilige manier</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Berichtenverkeer vindt plaats op basis van standaarden (bv. HL7 CDA, HL7 FHIR)</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Aanleveringen kunnen geautomatiseerd plaatsvinden</principe>
-         <beschrijving/>
-      </line>
-      <line>
-         <type>AP</type>
-         <principe>Uitwisselen van gegevens volgens de specificatie van de zorginformatiebouwstenen</principe>
-         <beschrijving>*Aanleiding/Dilemma
-Voor gegevensuitwisseling is het van belang dat de gegevens die worden gedeeld ook juist geïnterpreteerd worden.
+*Rational
+Improving the outcome of care and the patient experience in delivering care.
 
-*Rationale
-Een zorginformatiebouwsteen (ZIB) is een model dat helpt om op informatieniveau gegevens op een eenduidige manier vast te leggen, waarbij eenduidigheid betrekking heeft op het vastgelegde gegeven en niet op de interpretatie van dat gegeven in een bepaalde context. 
+*Implications
+- The patient as a partner: strengthening the involvement of the patient (and family/network) in his treatment and care, and in improving it. If desired, the patient can take the lead in this;
+- Interprofessional cooperation: providing care and improving it as the joint responsibility of all professionals involved in hospitals, chains and regional networks.
+</beschrijving>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Necessary information can be recorded at logical moments during the care process</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Healthare providers can obtain adequate explanations and instructions about systems at any time.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Patients and healthcare providers are involved in designing questionnaires, and determining what standards are used (e.g., healthcare building blocks)</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Information from healthcare systems is made available to patients in understandable language.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Quality information from healthcare systems is made available to patients (anonymized and aggregated).</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Systems can record and deliver information in a standardized manner.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Systems are designed to be user-friendly, according to the principles of “user interaction”.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Systems can exchange messages among themselves in a secure manner.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Message traffic takes place on the basis of standards (e.g., HL7 CDA, HL7 FHIR)</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Exchange of data according to the specification of the healthare information building blocks.</principe>
+         <beschrijving/>
+      </line>
+      <line>
+         <type>AP</type>
+         <principe>Exchange of data according to the specification of the healthcare information building blocks or other data exchange standard.</principe>
+         <beschrijving>
+* Reason/Dilemma
+For data exchange, it is important that the data that is shared is also interpreted correctly.
 
-*Implicaties
+*Rational
+A healthcare information building block (ZIB) is a model that helps to record data in an unambiguous manner at an information level, where clarity relates to the recorded data and not to the interpretation of that data in a certain context.
+
+*Implications
 </beschrijving>
       </line>
    </principes>
@@ -1077,9 +1102,9 @@ Start of the treatment relationship as a hospital.</beschrijving>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>CLINICAL CHEMISTRT LAB RESEARCH</bedrijfsfunctie>
+         <bedrijfsfunctie>ANALYSIS OF BODY FLUIDS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1563</zira_id>
       </line>
@@ -1087,31 +1112,31 @@ Start of the treatment relationship as a hospital.</beschrijving>
          <type>BF</type>
          <bedrijfsfunctie>MICROBIOLOGY AND IMMUNOLOGY LAB RESEARCH</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1564</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>RADIOLOGY</bedrijfsfunctie>
+         <bedrijfsfunctie>IMAGING</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1565</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>NUCLEAR</bedrijfsfunctie>
+         <bedrijfsfunctie>ENDOSCOPY</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1566</zira_id>
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>OTHER ADDITIONAL INVESTIGATIONS</bedrijfsfunctie>
+         <bedrijfsfunctie>MEASUREMENT OF BODY FUNCTIONS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1567</zira_id>
       </line>
@@ -2017,7 +2042,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
          <type>BF</type>
          <bedrijfsfunctie>OTHER TREATMENTS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1580</zira_id>
       </line>
@@ -2175,15 +2200,15 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>IMPLEMENTATION OF EDUCATION</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING PERFORMANCE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>Preparing and executing all activities directly related to education.</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1586</zira_id>
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>IMPLEMENTATION OF EDUCATION</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING PERFORMANCE</bedrijfsfunctie>
          <processtap>Provide education</processtap>
          <beschrijving>Giving different forms of education: e-learning, giving lectures, practicum, teaching in a simulated setting (simulating medical procedures), enabling practical experience, evaluation of practical experience.</beschrijving>
          <sort_key>.</sort_key>
@@ -2191,7 +2216,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>IMPLEMENTATION OF EDUCATION</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING PERFORMANCE</bedrijfsfunctie>
          <processtap>Receive education</processtap>
          <beschrijving>Received various forms of education.</beschrijving>
          <sort_key>.</sort_key>
@@ -2199,7 +2224,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>IMPLEMENTATION OF EDUCATION</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING PERFORMANCE</bedrijfsfunctie>
          <processtap>Guide participants</processtap>
          <beschrijving>Guiding, coaching, counseling, including informal means of imparting knowledge and experience.</beschrijving>
          <sort_key>.</sort_key>
@@ -2207,15 +2232,15 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>EDUCATION TESTING</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING EVALUATION</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1587</zira_id>
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>EDUCATION TESTING</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING EVALUATION</bedrijfsfunctie>
          <processtap>Content assessment of education</processtap>
          <beschrijving>Individual assessment of the quality of education (sometimes quantity) based on established criteria.</beschrijving>
          <sort_key>.</sort_key>
@@ -2223,15 +2248,15 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BF</type>
-         <bedrijfsfunctie>EDUCATION SUPPORT</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING SUPPORT</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>Administrative, substantive, educational support</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1589</zira_id>
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>EDUCATION SUPPORT</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING SUPPORT</bedrijfsfunctie>
          <processtap>Plan resources for education</processtap>
          <beschrijving>Plan necessary resources, such as rooms, e-learning facilities, medical library, viewing rooms, etc. and registration, recruitment of students, information, etc.</beschrijving>
          <sort_key>.</sort_key>
@@ -2239,7 +2264,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>EDUCATION SUPPORT</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING SUPPORT</bedrijfsfunctie>
          <processtap>Recruiting participants</processtap>
          <beschrijving>Selecting students on the basis of transparent criteria.</beschrijving>
          <sort_key>.</sort_key>
@@ -2247,7 +2272,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
       </line>
       <line>
          <type>BA</type>
-         <bedrijfsfunctie>EDUCATION SUPPORT</bedrijfsfunctie>
+         <bedrijfsfunctie>TEACHING SUPPORT</bedrijfsfunctie>
          <processtap>Manage participant data</processtap>
          <beschrijving>Collecting, analyzing, and using student data to improve current and future educational efforts.</beschrijving>
          <sort_key>.</sort_key>
@@ -2289,7 +2314,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
          <type>BF</type>
          <bedrijfsfunctie>HUMAN RESOURCE MANGEMENT</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1591</zira_id>
       </line>
@@ -2561,7 +2586,7 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
          <type>BF</type>
          <bedrijfsfunctie>PLANNING &amp; CONTROL</bedrijfsfunctie>
          <processtap/>
-         <beschrijving>undefined</beschrijving>
+         <beschrijving/>
          <sort_key/>
          <zira_id>1655</zira_id>
       </line>
@@ -2580,6 +2605,22 @@ In the outpatient situation, a request for dispensing is made to the pharmacy. T
          <beschrijving>Determining hospital and/or division policy and specific policy plans such as medical, nursing, department, safety, labor, quality, and environment at strategic, tactical, and operational level.</beschrijving>
          <sort_key>.</sort_key>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.103</zira_id>
+      </line>
+      <line>
+         <type>BF</type>
+         <bedrijfsfunctie>BIOPSY</bedrijfsfunctie>
+         <processtap/>
+         <beschrijving/>
+         <sort_key/>
+         <zira_id>2840</zira_id>
+      </line>
+      <line>
+         <type>BF</type>
+         <bedrijfsfunctie>ANALYSIS OF GENETIC MATERIAL</bedrijfsfunctie>
+         <processtap/>
+         <beschrijving/>
+         <sort_key/>
+         <zira_id>2841</zira_id>
       </line>
    </functies>
    <processen>
@@ -5446,7 +5487,7 @@ Data relationship education and care process
 Education participant
 Education program</informatieobjecten>
          <bedrijfsfuncties>EDUCATION DEVELOPMENT
-IMPLEMENTATION OF EDUCATION</bedrijfsfuncties>
+TEACHING PERFORMANCE</bedrijfsfuncties>
          <domeinen_sortkey>D_A
 D_B</domeinen_sortkey>
          <zira_id>AF-106</zira_id>
@@ -5462,7 +5503,7 @@ Receive education
 Guide participants</bedrijfsactiviteiten>
          <informatieobjecten>Education participant
 Education program</informatieobjecten>
-         <bedrijfsfuncties>IMPLEMENTATION OF EDUCATION</bedrijfsfuncties>
+         <bedrijfsfuncties>TEACHING PERFORMANCE</bedrijfsfuncties>
          <domeinen_sortkey>D_B</domeinen_sortkey>
          <zira_id>AF-108</zira_id>
       </line>
@@ -5474,7 +5515,7 @@ Education program</informatieobjecten>
          <referenties/>
          <bedrijfsactiviteiten>Content assessment of education</bedrijfsactiviteiten>
          <informatieobjecten>Educational qualification</informatieobjecten>
-         <bedrijfsfuncties>EDUCATION TESTING</bedrijfsfuncties>
+         <bedrijfsfuncties>TEACHING EVALUATION</bedrijfsfuncties>
          <domeinen_sortkey>D_C</domeinen_sortkey>
          <zira_id>AF-110</zira_id>
       </line>
@@ -5487,7 +5528,7 @@ Education program</informatieobjecten>
          <bedrijfsactiviteiten>Recruiting participants
 Manage participant data</bedrijfsactiviteiten>
          <informatieobjecten/>
-         <bedrijfsfuncties>EDUCATION SUPPORT</bedrijfsfuncties>
+         <bedrijfsfuncties>TEACHING SUPPORT</bedrijfsfuncties>
          <domeinen_sortkey>D_D</domeinen_sortkey>
          <zira_id>AF-112</zira_id>
       </line>
@@ -5502,7 +5543,7 @@ Manage participant data</bedrijfsactiviteiten>
 Timetable
 Education program
 Care Team</informatieobjecten>
-         <bedrijfsfuncties>EDUCATION SUPPORT</bedrijfsfuncties>
+         <bedrijfsfuncties>TEACHING SUPPORT</bedrijfsfuncties>
          <domeinen_sortkey>D_D</domeinen_sortkey>
          <zira_id>AF-114</zira_id>
       </line>

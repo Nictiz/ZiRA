@@ -7,6 +7,9 @@
 	<!--
 		Maak MAX Export van de Content Package!
 
+		[5-jul-2023]
+		Principes nu NL tekst
+
 		[15-mar-2023]
 		applicatiefunctie NL tekst
 
@@ -73,7 +76,7 @@
 					<line>
 						<type><xsl:if test="parentId=2516">BP</xsl:if><xsl:if test="parentId=2517">AP</xsl:if></type>
 						<principe><xsl:value-of select="name"/></principe>
-						<beschrijving><xsl:value-of select="notes"/></beschrijving>
+						<beschrijving><xsl:value-of select="substring-before(substring-after(notes,'&lt;nl-NL&gt;'),'&lt;/nl-NL&gt;')"/></beschrijving>
 					</line>
 				</xsl:for-each>
 			</principes>

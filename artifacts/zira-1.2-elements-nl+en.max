@@ -4217,7 +4217,7 @@ Default: true
       <id>2.16.840.1.113883.2.4.3.11.29.3.376</id>
       <name>Bepalen behandelmogelijkheden</name>
       <alias>Determine treatment options</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.&lt;/nl-NL&gt;&lt;en-US&gt;Determining which treatments are possible for the patient's care needs on the basis of all available data.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining which treatments are possible for the patient’s care needs on the basis of all available data.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.&lt;/nl-NL&gt;&lt;en-US&gt;Determining which treatments are possible for the patient's care needs on the basis of all available data.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining which treatments are possible for the patient’s care needs on the basis of all available data.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>372</parentId>
@@ -4628,7 +4628,7 @@ Default: true
       <id>2.16.840.1.113883.2.4.3.11.29.3.402</id>
       <name>Ontvangen patiënt</name>
       <alias>Receive patient</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.&lt;/nl-NL&gt;&lt;en-US&gt;Receiving the patient.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.&lt;/nl-NL&gt;&lt;en-US&gt;Receiving the patient.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>372</parentId>
@@ -5365,7 +5365,7 @@ Default: true
       <id>2.16.840.1.113883.2.4.3.11.29.3.135</id>
       <name>Informeren patiënt</name>
       <alias>Inform patient</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces&lt;/nl-NL&gt;&lt;en-US&gt;Informing and advising on, for example, the nature, approach and risk of further examination, treatment options, or surgery that the patient undergoes.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
@@ -5922,7 +5922,7 @@ Default: true
       <id>2.16.840.1.113883.2.4.3.11.29.3.166</id>
       <name>Plannen van  de locatie</name>
       <alias>Plan location</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Determining and planning the desired use of spaces and rooms.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>372</parentId>
@@ -6230,7 +6230,7 @@ Default: true
       <id>2.16.840.1.113883.2.4.3.11.29.3.165</id>
       <name>Plannen middelen</name>
       <alias>Plan resources</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;&lt;/nl-NL&gt;&lt;en-US&gt;Planning the desired deployment of resources such as equipment, instruments, blood products, food and beds.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>372</parentId>
