@@ -26,7 +26,8 @@ N.B. artifacts/zira-1.2-elements-nl+en.max is the latest version with SortKey!
 
 > java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.2-nl.xml
 > java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.2-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.2-en.xml
-.. then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet  
+.. then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet
+.. export matrixes as CSV, import and paste in, then sort in lookup sortkeys!
 
 #### Generate Graphviz xslt/ziraim2gv
 
