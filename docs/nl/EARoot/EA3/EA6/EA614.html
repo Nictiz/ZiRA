@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Voorbereiden verzorging</title>
+<title>Voorbereiden operatie</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Voorbereiden verzorging", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Voorbereiden operatie", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:17:42</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:24</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:28</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:41</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA132.html">Bedrijfsproces Behandelen</a>, <a href="../../EA2/EA3/EA6/EA210.html">Behandelen / Uitvoeren verzorging</a>, <a href="../../EA2/EA1/EA115.html">Bedrijfsfunctie + WP + BA behandeling</a>, <a href="../../EA2/EA1/EA105.html">Bedrijfsfunctie + BA behandeling</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA134.html">Bedrijfsproces Behandelen</a>, <a href="../../EA2/EA3/EA6/EA206.html">Behandelen / Uitvoeren operatieve behandeling</a>, Lifecycle Operatie, <a href="../../EA2/EA1/EA117.html">Bedrijfsfunctie + WP + BA behandeling</a>, <a href="../../EA2/EA1/EA107.html">Bedrijfsfunctie + BA behandeling</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Het verzamelen van de middelen die nodig zijn om op de zorgvraag te reageren.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Zorgdragen voor logistieke voorbereiding (o.a. bestellen bloedproducten, protheses e.d.) en voorafgaand aan de operatie klaarzetten van benodigde materialen.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -68,23 +68,23 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA668.html">«ArchiMate_BusinessFunction» VERZORGING</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA674.html">«ArchiMate_Grouping» Verzorging</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA624.html">«ArchiMate_BusinessFunction» BEHANDELING</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA443.html">«ArchiMate_BusinessProcess» Uitvoeren verzorging (wp)</a><br />
+						<a href="../EA5/EA2/EA442.html">«ArchiMate_BusinessProcess» Uitvoeren operatieve behandeling (wp)</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA654.html">«ArchiMate_BusinessFunction» OPERATIE</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA626.html">«ArchiMate_BusinessFunction» BEHANDELING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA706.html">«ArchiMate_Grouping» Operatie</a><br />
+						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -96,7 +96,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA256.html">«ArchiMate_ApplicationFunction» Verzorgingondersteuning (PatientServices)</a><br />
+						<a href="../EA1/EA255.html">«ArchiMate_ApplicationFunction» Operatie</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -110,7 +110,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA608.html">Verzorgen patiënt</a><br />
+						<a href="EA592.html">Uitvoeren operatie</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -126,7 +126,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA574.html">Plannen verzorging</a><br />
+						<a href="EA593.html">Uitvoeren preoperatieve screening</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -146,11 +146,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.393</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">NIEUW</td>
-				<td width="50%" class="TableRow" valign="top">true</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.139</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -181,7 +177,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA907.html">«ArchiMate_BusinessObject» Verzorgplan</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA837.html">«ArchiMate_BusinessObject» Operatie</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA855.html">«ArchiMate_BusinessObject» Preoperatieve-screeningverslag</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

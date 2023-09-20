@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informeren patiënt</title>
+<title>Identificeren patiënt</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Informeren patiënt", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Identificeren patiënt", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:24</td>
+			<td width="85%" class="ObjectDetailsValue">24-3-2017 09:36:23</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:12</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA124.html">Bedrijfsproces Diagnostiseren</a>, <a href="../../EA2/EA2/EA130.html">Bedrijfsproces Opstellen Behandelplan</a>, <a href="../../EA2/EA3/EA2/EA160.html">Stellen diagnose</a>, <a href="../../EA2/EA3/EA5/EA189.html">Bepalen behandelplan</a>, <a href="../../EA2/EA1/EA113.html">Bedrijfsfunctie + WP + BA behandelplanning</a>, <a href="../../EA2/EA1/EA99.html">Bedrijfsfunctie + BA diagnose</a>, <a href="../../EA2/EA1/EA109.html">Bedrijfsfunctie + WP + BA diagnose</a>, <a href="../../EA2/EA1/EA103.html">Bedrijfsfunctie + BA behandelplanning</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA126.html">Bedrijfsproces Diagnostiseren</a>, <a href="../../EA2/EA3/EA3/EA171.html">Aanvullend Onderzoek / Voorbereiden onderzoek</a>, <a href="../../EA2/EA3/EA2/EA156.html">Ontvangen patient</a>, <a href="../../EA2/EA1/EA101.html">Bedrijfsfunctie + BA diagnose</a>, <a href="../../EA2/EA1/EA111.html">Bedrijfsfunctie + WP + BA diagnose</a>, Michael</td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">#lt;languages xml:space=&quot;preserve&quot;#gt;#lt;nl-NL#gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat&lt;br/&gt;&lt;br/&gt;In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Identificeren, kan leiden tot wijziging in patientgegevens.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -58,7 +58,6 @@ function nameClassifier(name, separator)
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
-			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -67,27 +66,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA680.html">«ArchiMate_Grouping» Behandelplan</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA425.html">«ArchiMate_BusinessProcess» Bepalen behandelplan (wp)</a><br />
+						<a href="../EA5/EA2/EA432.html">«ArchiMate_BusinessProcess» Ontvangen patient (wp)</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA625.html">«ArchiMate_BusinessFunction» BEHANDELPLANNING</a><br />
+						<a href="../EA7/EA630.html">«ArchiMate_BusinessFunction» DIAGNOSTISERING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA436.html">«ArchiMate_BusinessProcess» Stellen diagnose (wp)</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../EA8/EA701.html">«ArchiMate_Grouping» Zorgrelatie</a><br />
+						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA628.html">«ArchiMate_BusinessFunction» DIAGNOSTISERING</a><br />
+						<a href="../EA7/EA673.html">«ArchiMate_BusinessFunction» ZORGRELATIE</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -101,7 +95,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA599.html">Verkrijgen informed consent</a><br />
+						<a href="EA485.html">Beheren patiëntgegevens</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -117,14 +111,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA503.html">Bepalen diagnose</a><br />
-						Activity «ArchiMate_Triggering» 
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA501.html">Bepalen behandelmogelijkheden</a><br />
+						<a href="EA553.html">Ontvangen patiënt</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -144,7 +131,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.135</td>
+				<td width="50%" class="TableRow" valign="top">2191</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -170,47 +157,7 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>		<div class="ItemBody" id="LinksTable">
-			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Connection</td>
-					<td width="10%" class="TableHeading">Direction</td>
-					<td width="40%" class="TableHeading">Notes</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA848.html">«ArchiMate_BusinessObject» Patientfolder</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA752.html">«ArchiMate_BusinessObject» Behandelmogelijkheden</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA767.html">«ArchiMate_BusinessObject» Diagnose</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA847.html">«ArchiMate_BusinessObject» Patientdossier</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+		</div>	</div>
 <div class="pageFooter"></div>
  
 </body>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informatieobjecten::Verpleegplan</title>
+<title>Informatieobjecten::Verpleegkundige Diagnose</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,27 +34,26 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Verpleegplan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Verpleegkundige Diagnose", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12-1-2017 10:46:30</td>
+			<td width="85%" class="ObjectDetailsValue">23-3-2017 10:49:19</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:56:10</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:33:18</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA6/EA202.html">Behandelen / Uitvoeren verpleegkundige zorg</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA82.html">Informatiemodel ZORG Activiteiten</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA82.html">Informatiemodel ZORG Resultaten</a>, <a href="../../EA2/EA3/EA6/EA204.html">Behandelen / Uitvoeren verpleegkundige zorg</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Vastlegging van het plan t.a.v. de te leveren verpleegkundige zorg aan de patiënt met als doel het verlichten of wegnemen van&#160;&#160;gezondheidsklachten of gebreken.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Vastlegging van de naam van de ziekte of aandoening waaraan iemand verondersteld wordt te lijden, gesteld door de verpleegkundige.&lt;br/&gt;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
-			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -66,31 +65,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA708.html">«ArchiMate_Grouping» Verpleging</a><br />
+						<a href="../EA8/EA710.html">«ArchiMate_Grouping» Verpleging</a><br />
 						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="AssociationsFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA872.html">«ArchiMate_BusinessObject» Scoren</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA811.html">«ArchiMate_BusinessObject» Meten</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA785.html">«ArchiMate_BusinessObject» Interventie</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -103,15 +79,7 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1969</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">RDZ_ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.274</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">ZiRA:isAggregatie</td>
-				<td width="50%" class="TableRow" valign="top">1</td>
+				<td width="50%" class="TableRow" valign="top">2163</td>
 			</tr>	
 
 	</table>
@@ -138,133 +106,70 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA512.html">«ArchiMate_BusinessProcess» Bepalen verpleegdoel (outcome)</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA977.html">«ArchiMate_DataObject» nl.zorg.OverdrachtValrisico</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA975.html">«ArchiMate_DataObject» nl.zorg.OverdrachtConcern</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA967.html">«ArchiMate_DataObject» nl.zorg.Mobiliteit</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA999.html">«ArchiMate_DataObject» nl.zorg.VermogenTotToiletgang</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA974.html">«ArchiMate_DataObject» nl.zorg.OverdrachtGeplandeZorgActiviteit</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA997.html">«ArchiMate_DataObject» nl.zorg.VermogenTotHaarverzorging</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1000.html">«ArchiMate_DataObject» nl.zorg.VerpleegkundigeInterventie</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA995.html">«ArchiMate_DataObject» nl.zorg.VermogenTotDrinken</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1003.html">«ArchiMate_DataObject» nl.zorg.VrijheidsbeperkendeMaatregelenGGZ</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA971.html">«ArchiMate_DataObject» nl.zorg.Ondervoeding</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA979.html">«ArchiMate_DataObject» nl.zorg.ParticipatieInMaatschappij</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA593.html">«ArchiMate_BusinessProcess» Uitvoeren verpleegplan</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA514.html">«ArchiMate_BusinessProcess» Bepalen verpleegplan</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA991.html">«ArchiMate_DataObject» nl.zorg.UitkomstVanZorg</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1002.html">«ArchiMate_DataObject» nl.zorg.VrijheidsbeperkendeMaatregelen</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA943.html">«ArchiMate_DataObject» nl.zorg.DecubitusWond</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1005.html">«ArchiMate_DataObject» nl.zorg.Wond</a></td>
-					<td width="10%" class="TableRow" valign="top">DataObject</td>
-					<td width="10%" class="TableRow" valign="top">Abstraction</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA753.html">«ArchiMate_BusinessObject» Behandelplan</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.html">«ArchiMate_BusinessObject» Diagnose</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1004.html">«ArchiMate_DataObject» nl.zorg.Wilsverklaring</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA996.html">«ArchiMate_DataObject» nl.zorg.VermogenTotEten</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA931.html">«ArchiMate_DataObject» nl.zorg.BarthelIndex</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1001.html">«ArchiMate_DataObject» nl.zorg.VermogenTotZichWassen</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA932.html">«ArchiMate_DataObject» nl.zorg.BehandelAanwijzing</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1000.html">«ArchiMate_DataObject» nl.zorg.VermogenTotZichKleden</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA937.html">«ArchiMate_DataObject» nl.zorg.Brandwond</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA515.html">«ArchiMate_BusinessProcess» Bepalen verpleegkundige diagnose</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA998.html">«ArchiMate_DataObject» nl.zorg.VermogenTotMondverzorging</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

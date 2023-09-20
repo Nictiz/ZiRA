@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informatieobjecten::Operatie</title>
+<title>Informatieobjecten::Ontslag</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Operatie", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Ontslag", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14-12-2016 16:44:00</td>
+			<td width="85%" class="ObjectDetailsValue">11-1-2017 14:18:06</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:59</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:33:08</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA6/EA206.html">Behandelen / Uitvoeren operatieve behandeling</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA82.html">Informatiemodel ZORG Activiteiten</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA7/EA217.html">Overdragen / Overdragen patiënt</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA84.html">Informatiemodel ZORG Activiteiten</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Beschrijving van de beoogde dan wel uitgevoerde operatieve ingreep.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Verzoek tot beëindigen van de zorgverlening.&lt;br/&gt;&lt;br/&gt;Dit resulteert in een informatieobject Uitwisselingsinformatie of Overdrachtsinformatie&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA704.html">«ArchiMate_Grouping» Operatie</a><br />
+						<a href="../EA8/EA705.html">«ArchiMate_Grouping» Verwijzing & Overdracht</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -79,11 +79,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1714</td>
+				<td width="50%" class="TableRow" valign="top">1948</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">RDZ_ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.259</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.277</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">ZiRA:isActiviteit</td>
@@ -114,44 +114,9 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA591.html">«ArchiMate_BusinessProcess» Uitvoeren preoperatieve screening</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA751.html">«ArchiMate_BusinessObject» Behandeling</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA843.html">«ArchiMate_BusinessObject» Overdracht</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA561.html">«ArchiMate_BusinessProcess» Opstellen operatieverslag</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA590.html">«ArchiMate_BusinessProcess» Uitvoeren operatie</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA612.html">«ArchiMate_BusinessProcess» Voorbereiden operatie</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA590.html">«ArchiMate_BusinessProcess» Uitvoeren operatie</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

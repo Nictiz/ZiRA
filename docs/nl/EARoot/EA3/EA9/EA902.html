@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informatieobjecten::Vervoersmiddel</title>
+<title>Informatieobjecten::Verslag</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Vervoersmiddel", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Verslag", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:27</td>
+			<td width="85%" class="ObjectDetailsValue">14-12-2016 16:44:01</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:56:11</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:33:18</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA78.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA6/EA210.html">Behandelen / Uitvoeren verzorging</a>, <a href="../../EA2/EA3/EA6/EA206.html">Behandelen / Uitvoeren operatieve behandeling</a>, <a href="../../EA2/EA3/EA3/EA175.html">Aanvullend Onderzoek / Beoordelen resultaat</a>, Informatiemodel (pruts), <a href="../../EA2/EA82.html">Informatiemodel ZORG Resultaten</a>, <a href="../../EA2/EA3/EA6/EA200.html">Behandelen / Uitvoeren (overige) medische behandeling</a>, <a href="../../EA2/EA3/EA6/EA204.html">Behandelen / Uitvoeren verpleegkundige zorg</a>, <a href="../../EA2/EA3/EA6/EA202.html">Behandelen / Uitvoeren therapie</a>, <a href="../../EA2/EA3/EA6/EA212.html">Behandelen / Evalueren behandeling</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a>, Michael</td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Vervoersmiddel met onderhoudstatus, type, identificatienummer, stalling/parkeergegevens, leasecontract&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Registratie van een specifiek aanvullend diagnostisch onderzoek&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA702.html">«ArchiMate_Grouping» Vastgoed en middelen beheer</a><br />
+						<a href="../EA8/EA711.html">«ArchiMate_Grouping» Aanvullend onderzoek [per type]</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -79,7 +79,7 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.317</td>
+				<td width="50%" class="TableRow" valign="top">1723</td>
 			</tr>	
 
 	</table>
@@ -106,9 +106,107 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA489.html">«ArchiMate_BusinessProcess» Beheren vervoersmiddelen</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA744.html">«ArchiMate_BusinessObject» Adviesverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA748.html">«ArchiMate_BusinessObject» Anamneseverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA978.html">«ArchiMate_DataObject» nl.zorg.OverdrachtTekstUitslag</a></td>
+					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA756.html">«ArchiMate_BusinessObject» Behandelverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA887.html">«ArchiMate_BusinessObject» Therapieverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA833.html">«ArchiMate_BusinessObject» Onderzoeksverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA749.html">«ArchiMate_BusinessObject» Anesthesieverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA855.html">«ArchiMate_BusinessObject» Preoperatieve-screeningverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA772.html">«ArchiMate_BusinessObject» Evaluatieverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA867.html">«ArchiMate_BusinessObject» Resultaat</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA754.html">«ArchiMate_BusinessObject» Behandelmogelijkheden</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA908.html">«ArchiMate_BusinessObject» Verzorgingsverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA844.html">«ArchiMate_BusinessObject» Overdracht / transferbeleid</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA898.html">«ArchiMate_BusinessObject» Verpleegkundige Evaluatie</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA838.html">«ArchiMate_BusinessObject» Operatieverslag</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

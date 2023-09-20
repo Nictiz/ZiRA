@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Bepalen therapieplan</title>
+<title>Bepalen therapeutische diagnose</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Bepalen therapieplan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Bepalen therapeutische diagnose", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:07</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:24</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA132.html">Bedrijfsproces Behandelen</a>, <a href="../../EA2/EA3/EA6/EA200.html">Behandelen / Uitvoeren therapie</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA134.html">Bedrijfsproces Behandelen</a>, <a href="../../EA2/EA3/EA6/EA202.html">Behandelen / Uitvoeren therapie</a>, <a href="../../EA2/EA1/EA117.html">Bedrijfsfunctie + WP + BA behandeling</a>, <a href="../../EA2/EA1/EA107.html">Bedrijfsfunctie + BA behandeling</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Besluiten tot een verpleegplan en dit vastleggen zodat dit kan worden gebruikt in de communicatie met de patiënt en met andere zorgverleners,&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">de diagnose volgens de therapeut&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -68,17 +68,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA441.html">«ArchiMate_BusinessProcess» Uitvoeren therapie (wp)</a><br />
+						<a href="../EA5/EA2/EA443.html">«ArchiMate_BusinessProcess» Uitvoeren therapie (wp)</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA706.html">«ArchiMate_Grouping» Therapie</a><br />
+						<a href="../EA8/EA708.html">«ArchiMate_Grouping» Therapie</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA659.html">«ArchiMate_BusinessFunction» THERAPIE</a><br />
+						<a href="../EA7/EA661.html">«ArchiMate_BusinessFunction» THERAPIE</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA626.html">«ArchiMate_BusinessFunction» BEHANDELING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -91,12 +96,12 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA251.html">«ArchiMate_ApplicationFunction» Dossiervoering</a><br />
+						<a href="../EA1/EA253.html">«ArchiMate_ApplicationFunction» Dossiervoering</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA251.html">«ArchiMate_ApplicationFunction» Dossiervoering</a><br />
+						<a href="../EA1/EA253.html">«ArchiMate_ApplicationFunction» Dossiervoering</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -110,7 +115,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA592.html">Uitvoeren therapie</a><br />
+						<a href="EA512.html">Bepalen therapiedoel</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -126,7 +131,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA510.html">Bepalen therapiedoel</a><br />
+						<a href="EA468.html">Afnemen therapeutische anamnese</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -146,7 +151,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.381</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.379</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">NIEUW</td>
@@ -165,11 +170,6 @@ function nameClassifier(name, separator)
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">Archimate2::Business</td>
-			</tr>
-
-			<tr>
 				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>
 			</tr>
@@ -186,7 +186,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA884.html">«ArchiMate_BusinessObject» Therapieplan</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA884.html">«ArchiMate_BusinessObject» Therapeutische Diagnose</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

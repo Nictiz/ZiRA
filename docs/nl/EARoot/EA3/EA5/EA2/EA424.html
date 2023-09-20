@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Beoordelen resultaat (wp)</title>
+<title>Beoordelen informatie (wp)</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,23 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Beoordelen resultaat (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Beoordelen informatie (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:12</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:11</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:54:47</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:11</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA126.html">Bedrijfsproces Uitvoeren Aanvullend onderzoek</a>, <a href="../../../EA2/EA3/EA3/EA173.html">Aanvullend Onderzoek / Beoordelen resultaat</a>, <a href="../../../EA2/EA1/EA117.html">Bedrijfsfunctie + WP + BA aanvullend Onderzoek</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA126.html">Bedrijfsproces Diagnostiseren</a>, <a href="../../../EA2/EA3/EA2/EA160.html">Beoordelen informatie</a>, Bedrijfsfunctiemodel + WP, <a href="../../../EA2/EA1/EA111.html">Bedrijfsfunctie + WP + BA diagnose</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">pre-conditie: informatie is beschikbaar&lt;br/&gt;post-conditie: informatie beoordeeld en beoordeling verwerkt&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
@@ -66,13 +67,13 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA621.html">«ArchiMate_BusinessFunction» AANVULLEND ONDERZOEK</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
+						<a href="../EA1/EA415.html">«ArchiMate_BusinessProcess» Diagnosticeren (bp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA414.html">«ArchiMate_BusinessProcess» Uitvoeren aanvullend Onderzoek (bp)</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA630.html">«ArchiMate_BusinessFunction» DIAGNOSTISERING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -84,8 +85,23 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA494.html">«ArchiMate_BusinessProcess» Beoordelen resultaat aanvullend onderzoek</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA6/EA497.html">«ArchiMate_BusinessProcess» Beoordelen resultaat collegiaal of extern consult</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA495.html">«ArchiMate_BusinessProcess» Beoordelen patiëntendossier</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA498.html">«ArchiMate_BusinessProcess» Beoordelen uitslag (aanvullend of eigen) onderzoek</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA500.html">«ArchiMate_BusinessProcess» Beoordelen zelfmanagementinformatie</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -98,7 +114,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA435.html">Rapporteren resultaat (wp)</a><br />
+						<a href="EA438.html">Stellen diagnose (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -114,7 +130,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA439.html">Uitvoeren onderzoek (wp)</a><br />
+						<a href="EA447.html">Verzamelen aanvullende informatie (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -134,7 +150,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1072</td>
+				<td width="50%" class="TableRow" valign="top">1066</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>BIOPSY</title>
+<title>CARE BILLING</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,28 +34,66 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("BIOPSY", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CARE BILLING", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">24-5-2023 11:03:19</td>
+			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:22</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:13:48</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:42:31</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA73.html">Business function model </a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Business function model </a>, <a href="../../EA2/EA1/EA119.html">Business function + WP + BA care support</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">#lt;languages xml:space=&quot;preserve&quot;#gt;#lt;nl-NL#gt;Het uitvoeren en verslagleggen van biopsie.#lt;/nl-NL#gt;#lt;en-US#gt;Tissue samples are removed and examined, usually with a microscope. The examination often focuses on finding abnormal cells that may provide evidence of inflammation or of a disorder, such as cancer. Tissues that are commonly examined include skin, breast, lung, liver, kidney, and bone..#lt;/en-US#gt;#lt;/languages#gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">collection of data for invoicing (DBC registration and invoicing). The handling of the invoice itself is part of the financial administration.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA700.html">«ArchiMate_Grouping» Care support</a><br />
+						Grouping «ArchiMate_Association» 
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA713.html">«ArchiMate_Grouping» Care billing</a><br />
+						Grouping «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA525.html">«ArchiMate_BusinessProcess» Invoicing healthcare product</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA596.html">«ArchiMate_BusinessProcess» Recording transaction</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -65,6 +103,10 @@ function nameClassifier(name, separator)
 					<tr>
 				<td width="50%" class="TableRow" valign="top">atomic</td>
 				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
+				<td width="50%" class="TableRow" valign="top">1583</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Dataobjects (HCIMs)::MedicationAdministration</title>
+<title>Dataobjects (HCIMs)::MedicationDispense</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MedicationAdministration", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MedicationDispense", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:15</td>
+			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:13</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:14:44</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:39:45</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Administration of medication describes the actual administration of the medication. This can be simply swallowing a tablet, applying ointment or paste, or an infusion that takes a considerable amount of time.&#160;&#160;&lt;br/&gt;The administration can refer to a medication prescription, but can also refer to home medication.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">#lt;languages xml:space=&quot;preserve&quot;#gt;#lt;nl-NL#gt;Medicatie verstrekking beschrijft de levering van een medicatieproduct aan een specifieke pati&#235;nt (of de toediener of een vertegenwoordiger), met de bedoeling dat het gebruikt wordt volgens een meegeleverde instructie (meestal als uitvoering van het verstrekkingsverzoek in een medicatievoorschrift). &lt;br/&gt;Een verstrekking vindt plaats op het moment dat de pati&#235;nt (of de andere genoemden) het product fysiek ontvangt.&lt;br/&gt;{#lt;/nl-NL#gt;#lt;en-US#gt;Medication supply describes the supply of a medicinal product to a specific patient (or the administerer or a representative), with the intention of it being used according to the included instructions (usually to honor the supply request in a medication prescription).&#160;&#160;&lt;br/&gt;Medication supply takes place when the patient (or any of the others listed above) physically receives the product.#lt;/en-US#gt;#lt;/language#gt;&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,21 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA824.html">«ArchiMate_BusinessObject» Medication Administration</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA766.html">«ArchiMate_BusinessObject» Current medication overview</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA737.html">«ArchiMate_BusinessObject» Administration agreement</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA825.html">«ArchiMate_BusinessObject» Medication dispense</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

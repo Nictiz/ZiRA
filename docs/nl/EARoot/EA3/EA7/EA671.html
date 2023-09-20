@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ZORGRELATIE</title>
+<title>ZORGFACTURATIE</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ZORGRELATIE", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ZORGFACTURATIE", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:21</td>
+			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:22</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:36</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:48</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Bedrijfsfunctiemodel</a>, <a href="../../EA2/EA1/EA119.html">Bedrijfsfunctie + WP + BA zorgondersteuning</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Bedrijfsfunctiemodel</a>, Bedrijfsfunctiemodel + WP, <a href="../../EA2/EA1/EA121.html">Bedrijfsfunctie + WP + BA zorgondersteuning</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Onderhouden en identificeren van zorgrelaties, inclusief patiënten, zorgverleners en zorgverzekeraars&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">verzamelen van gegevens ten behoeve van de facturering (DBC-registratie en facturatie). De afhandeling van de factuur zelf is onderdeel van de financiële administratie.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,12 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA699.html">«ArchiMate_Grouping» Zorgrelatie</a><br />
-						Grouping «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA700.html">«ArchiMate_Grouping» ZORGONDERSTEUNING</a><br />
+						<a href="../EA8/EA702.html">«ArchiMate_Grouping» ZORGONDERSTEUNING</a><br />
 						Grouping «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -83,27 +78,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA477.html">«ArchiMate_BusinessProcess» Beheren gegevens zorgverzekeraars</a><br />
+						<a href="../EA8/EA715.html">«ArchiMate_Grouping» Zorgfacturatie</a><br />
+						Grouping «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA597.html">«ArchiMate_BusinessProcess» Vastleggen verrichting</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA536.html">«ArchiMate_BusinessProcess» Identificeren patiënt</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA475.html">«ArchiMate_BusinessProcess» Beheren gegevens zorgaanbieders</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA483.html">«ArchiMate_BusinessProcess» Beheren patiëntgegevens</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA476.html">«ArchiMate_BusinessProcess» Beheren gegevens zorgverleners</a><br />
+						<a href="../EA6/EA535.html">«ArchiMate_BusinessProcess» Factureren zorgproduct</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -121,7 +106,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1581</td>
+				<td width="50%" class="TableRow" valign="top">1583</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

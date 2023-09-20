@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Plan contact</title>
+<title>Plan diagnostic testing</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Plan contact", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Plan diagnostic testing", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,19 +42,20 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:13:22</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:42:03</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA123.html">Business process Determining care needs</a>, <a href="../../../EA2/EA3/EA1/EA150.html">Plan contact</a>, <a href="../../../EA2/EA1/EA108.html">Business function + WP + BA (chain) cooperation</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA126.html">Business process Conduct Additional diagnostic testing</a>, <a href="../../../EA2/EA3/EA3/EA167.html">Additional Diagnostic Testing / Plan diagnostic testing</a>, <a href="../../../EA2/EA1/EA117.html">Business function + WP + BA additional diagnostic testing</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Pre condition: there is a question to make an appointment, for example from a referral, but that is not necessary. &lt;br/&gt;&lt;br/&gt;Post condition: of this work process is an appointment for a patient with persons (care provider) at a location and possibly resources.&lt;br/&gt;&lt;br/&gt;An appointment is an intended contact.&lt;br/&gt;&lt;br/&gt;You need the referral information to determine which care providers, but that has been done in the current WPs! Granting a care provider is another BA.&lt;br/&gt;&lt;br/&gt;So &quot;&quot;Planning persons&quot;&quot; is more than just caregivers.&lt;br/&gt;&lt;br/&gt;In Schedule appointment, the patient and healthcare provider are determined whether this has already been done when processing the referral.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Process Steps Planning people, resources and location can also be executed simultaneously.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
@@ -66,13 +67,13 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA413.html">«ArchiMate_BusinessProcess» Determine care needs</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../../EA7/EA622.html">«ArchiMate_BusinessFunction» ADDITIONAL DIAGNOSTIC TESTING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA657.html">«ArchiMate_BusinessFunction» REFERRALS & TRANSFERS</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
+						<a href="../EA1/EA414.html">«ArchiMate_BusinessProcess» Conduct additional diagnostic testing</a><br />
+						BusinessProcess &nbsp;
 					</td>
 				</tr>
 			</table>
@@ -84,25 +85,46 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA571.html">«ArchiMate_BusinessProcess» Plan location</a><br />
+						<a href="../../EA6/EA571.html">«ArchiMate_BusinessProcess» Plan people</a><br />
+						BusinessProcess &nbsp;
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA569.html">«ArchiMate_BusinessProcess» Plan diagnostic testing</a><br />
+						BusinessProcess &nbsp;
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA572.html">«ArchiMate_BusinessProcess» Plan resources</a><br />
+						BusinessProcess &nbsp;
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA586.html">«ArchiMate_BusinessProcess» Process application</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA572.html">«ArchiMate_BusinessProcess» Plan people</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA573.html">«ArchiMate_BusinessProcess» Plan resources</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA606.html">«ArchiMate_BusinessProcess» Schedule appointment</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../../EA6/EA570.html">«ArchiMate_BusinessProcess» Plan location</a><br />
+						BusinessProcess &nbsp;
 					</td>
 				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA442.html">Prepare diagnostic testing</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+
 			</table>
 		</div>
 		<div class="ItemBody" id="FlowFromTable">
@@ -113,7 +135,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA430.html">Determine care needs</a><br />
+						<a href="EA421.html">Assess diagnostic testing request</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -133,7 +155,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1062</td>
+				<td width="50%" class="TableRow" valign="top">1069</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -151,11 +173,6 @@ function nameClassifier(name, separator)
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">Archimate2::Business</td>
-			</tr>
-
 			<tr>
 				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>

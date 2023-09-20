@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domains::MANAGEMENT</title>
+<title>Domains::Strategy & governance</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MANAGEMENT", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Strategy & governance", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,19 +42,38 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:13:55</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:39:01</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA73.html">Business function model </a>, <a href="../../EA2/EA71.html">Domains</a>, <a href="../../EA2/EA79.html">Domains with BA en IO</a>, <a href="../../EA2/EA75.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA70.html">Domains</a>, <a href="../../EA2/EA78.html">Domains with BA en IO</a>, <a href="../../EA1.html">Introduction</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA664.html">«ArchiMate_BusinessFunction» STRATEGY & GOVERNANCE</a><br />
+						BusinessFunction «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA677.html">«ArchiMate_Grouping» MANAGEMENT</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -62,73 +81,28 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA683.html">«ArchiMate_Grouping» Planning & Control</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA9/EA920.html">«ArchiMate_BusinessObject» Vision</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA665.html">«ArchiMate_BusinessFunction» STRATEGY & GOVERNANCE</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA9/EA897.html">«ArchiMate_BusinessObject» Strategy</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA693.html">«ArchiMate_Grouping» Quality management</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA9/EA829.html">«ArchiMate_BusinessObject» Mission</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA622.html">«ArchiMate_BusinessFunction» ACCOUNTABILITY</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA6/EA489.html">«ArchiMate_BusinessProcess» Determine mission and vision</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA694.html">«ArchiMate_Grouping» Performance management</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA652.html">«ArchiMate_BusinessFunction» PERFORMANCE MANAGEMENT</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA640.html">«ArchiMate_BusinessFunction» INNOVATION</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA656.html">«ArchiMate_BusinessFunction» QUALITY MANAGEMENT</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA679.html">«ArchiMate_Grouping» Strategy & governance</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA689.html">«ArchiMate_Grouping» Innovation</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA653.html">«ArchiMate_BusinessFunction» PLANNING & CONTROL</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA694.html">«ArchiMate_Grouping» Performance management</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA697.html">«ArchiMate_Grouping» Marketing</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA695.html">«ArchiMate_Grouping» Accountability</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA6/EA495.html">«ArchiMate_BusinessProcess» Determine Strategy</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -141,11 +115,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.0.1</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.1</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">A</td>
+				<td width="50%" class="TableRow" valign="top">A_A</td>
 			</tr>	
 
 	</table>

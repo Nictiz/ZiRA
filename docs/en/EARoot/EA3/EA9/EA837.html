@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informationobjects::Objective</title>
+<title>Informationobjects::Order</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Objective", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Order", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26-4-2017 13:25:08</td>
+			<td width="85%" class="ObjectDetailsValue">23-12-2016 09:37:56</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:14:10</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:42:58</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA79.html">Domains with BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA2/EA156.html">Collect additional information</a>, <a href="../../EA2/EA3/EA1/EA149.html">Plan contact</a>, <a href="../../EA2/EA3/EA5/EA191.html">Request treatment activity</a>, <a href="../../EA2/EA3/EA5/EA193.html">Plan treatment activity</a>, <a href="../../EA2/EA3/EA7/EA215.html">Transfer / Transfer patient</a>, <a href="../../EA2/EA3/EA6/EA198.html">Treat / Carry out (other) medical treatment</a>, <a href="../../EA2/EA3/EA6/EA202.html">Treat / Perform Nursing Care</a>, <a href="../../EA2/EA3/EA6/EA200.html">Treat / Conduct therapy</a>, <a href="../../EA2/EA78.html">Domains with BA en IO</a>, <a href="../../EA2/EA82.html">Information model CARE Activities</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Provide (additional) control to the processes within an organization, including financial planning, monitoring and adjusting the time and commitment of people.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">An order is synonymous with a request for something (an activity).&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,8 +65,13 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA683.html">«ArchiMate_Grouping» Planning & Control</a><br />
+						<a href="../EA8/EA676.html">«ArchiMate_Grouping» Diagnosis</a><br />
 						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA917.html">«ArchiMate_BusinessObject» Treatment plan</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -79,7 +84,7 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2479</td>
+				<td width="50%" class="TableRow" valign="top">1811</td>
 			</tr>	
 
 	</table>
@@ -106,14 +111,105 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA544.html">«ArchiMate_BusinessProcess» Manage policy</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA869.html">«ArchiMate_BusinessObject» Referral order</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA735.html">«ArchiMate_BusinessObject» Activity</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA599.html">«ArchiMate_BusinessProcess» Request activity</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA494.html">«ArchiMate_BusinessProcess» Determine policy</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA757.html">«ArchiMate_BusinessObject» Collegiate consultation</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA750.html">«ArchiMate_BusinessObject» Care</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA832.html">«ArchiMate_BusinessObject» Nursing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA568.html">«ArchiMate_BusinessProcess» Plan activity</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA568.html">«ArchiMate_BusinessProcess» Plan activity</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA915.html">«ArchiMate_BusinessObject» Treatment</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA738.html">«ArchiMate_BusinessObject» Advice</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA586.html">«ArchiMate_BusinessProcess» Process application</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA746.html">«ArchiMate_BusinessObject» Appointment request</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA881.html">«ArchiMate_BusinessObject» Research request</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA862.html">«ArchiMate_BusinessObject» Provision request</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA586.html">«ArchiMate_BusinessProcess» Process application</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Business Process Advise</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA129.png" usemap="#EA129" border="0" />
+
+<MAP NAME="EA129">
+<area shape="rect" coords="590,363,695,433" href="../../EA3/EA6/EA457.html" target="_self">
+<area shape="rect" coords="320,363,425,433" href="../../EA3/EA6/EA500.html" target="_self">
+<area shape="rect" coords="100,363,226,433" href="../../EA3/EA6/EA501.html" target="_self">
+<area shape="rect" coords="333,193,438,263" href="../../EA3/EA6/EA604.html" target="_self">
+<area shape="rect" coords="74,193,179,263" href="../../EA3/EA6/EA450.html" target="_self">
+<area shape="rect" coords="32,322,740,453" href="../EA3/EA4/EA186.html" target="_self">
+<area shape="rect" coords="32,147,740,279" href="../EA3/EA4/EA184.html" target="_self">
+<area shape="rect" coords="10,103,767,493" href="../../EA3/EA5/EA1/EA415.html" target="_self">
+<area shape="rect" coords="343,10,433,55" href="../../EA3/EA4/EA402.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Business Process Advise : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2-8-2016 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">20-9-2023 10:02:23</td>
+		</tr>
+	</table>
+</div>
+ 
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Patient monitoring</title>
+<title>Decision support</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Patient monitoring", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Decision support", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">20-11-2017 23:24:28</td>
+			<td width="85%" class="ObjectDetailsValue">20-11-2017 23:24:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:12:57</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:41:38</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA75.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Application functions</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Functionality for patient monitoring (e.g. medical alarm, monitoring, wandering detection, fall detection, etc.)&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Healthcare decision support functionality&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -64,12 +64,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA522.html">«ArchiMate_BusinessProcess» Implementing a nursing plan</a><br />
+						<a href="../EA6/EA486.html">«ArchiMate_BusinessProcess» Determine care needs</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA471.html">«ArchiMate_BusinessProcess» Carry out treatment</a><br />
+						<a href="../EA6/EA500.html">«ArchiMate_BusinessProcess» Determine treatment advice</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA506.html">«ArchiMate_BusinessProcess» Develop treatment plan</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -86,8 +91,12 @@ function nameClassifier(name, separator)
 				<td width="50%" class="TableRow" valign="top">false</td>
 			</tr>	
 			<tr>
-				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">AF-64</td>
+				<td width="50%" class="TableRow" valign="top">ExternalReference</td>
+				<td width="50%" class="TableRow" valign="top">CPS3 Support Clinical Documentation</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">ExternalReference</td>
+				<td width="50%" class="TableRow" valign="top">CP7. Manage Future Care</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

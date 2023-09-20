@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Identify patient</title>
+<title>Implementing a nursing plan</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,30 +34,32 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Identify patient", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Implementing a nursing plan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">24-3-2017 09:36:23</td>
+			<td width="85%" class="ObjectDetailsValue">26-8-2016 12:56:34</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:13:36</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:42:16</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA125.html">Business Process Diagnosis</a>, <a href="../../EA2/EA3/EA3/EA170.html">Additional Diagnostic Testing / Preparing diagnostic testing</a>, <a href="../../EA2/EA3/EA2/EA155.html">Received patient</a>, <a href="../../EA2/EA1/EA100.html">Business function + BA diagnosis</a>, <a href="../../EA2/EA1/EA110.html">Operating function + WP + BA diagnosis</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA132.html">Business Process Treate</a>, <a href="../../EA2/EA3/EA6/EA202.html">Treat / Perform Nursing Care</a>, <a href="../../EA2/EA1/EA115.html">Business function + WP + BA treatment </a>, <a href="../../EA2/EA1/EA105.html">Business function + BA treatment </a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Identifying, can lead to changes in patient data.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Implementing the nursing plan.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 		<div class="ItemBody" id="AssociationsToTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -66,23 +68,41 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA635.html">«ArchiMate_BusinessFunction» HEALTHCARE RELATIONSHIPS</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
+						<a href="../EA5/EA2/EA436.html">«ArchiMate_BusinessProcess» Perform nursing care</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA700.html">«ArchiMate_Grouping» Healthcare relationships</a><br />
+						<a href="../EA8/EA708.html">«ArchiMate_Grouping» Nursing</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA631.html">«ArchiMate_BusinessFunction» DIAGNOSIS</a><br />
+						<a href="../EA7/EA647.html">«ArchiMate_BusinessFunction» NURSING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA446.html">«ArchiMate_BusinessProcess» Receive patient</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../EA7/EA670.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA254.html">«ArchiMate_ApplicationFunction» Patient monitoring</a><br />
+						ApplicationFunction «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA1/EA260.html">«ArchiMate_ApplicationFunction» Quality control</a><br />
+						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
 			</table>
@@ -95,7 +115,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA541.html">Manage patient data</a><br />
+						<a href="EA516.html">Evaluate nursing results</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -111,7 +131,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA596.html">Receive patient</a><br />
+						<a href="EA492.html">Determine nursing plan</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -131,7 +151,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2191</td>
+				<td width="50%" class="TableRow" valign="top">1469</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -157,7 +177,40 @@ function nameClassifier(name, separator)
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA835.html">«ArchiMate_BusinessObject» Nursing plan</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA820.html">«ArchiMate_BusinessObject» Measurement</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA822.html">«ArchiMate_BusinessObject» Medical Index Scores</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
 <div class="pageFooter"></div>
  
 </body>

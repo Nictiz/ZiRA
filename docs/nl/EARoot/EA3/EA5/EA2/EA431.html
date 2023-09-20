@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Overdragen patient (wp)</title>
+<title>Geven advies (wp)</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Overdragen patient (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Geven advies (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,11 +42,11 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:54:49</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:12</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA134.html">Bedrijfsproces Overdragen</a>, <a href="../../../EA2/EA3/EA7/EA215.html">Overdragen / Overdragen patiënt</a>, <a href="../../../EA2/EA1/EA107.html">Bedrijfsfunctie + WP + BA  (keten)samenwerking</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA130.html">Bedrijfsproces Adviseren</a>, <a href="../../../EA2/EA3/EA4/EA188.html">Geven advies</a>, Bedrijfsfunctiemodel + WP, <a href="../../../EA2/EA1/EA113.html">Bedrijfsfunctie + WP + BA adviseren</a>, Checkdiagram</td>
 		</tr>
 	</table>
 	
@@ -65,13 +65,13 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA667.html">«ArchiMate_BusinessFunction» VERWIJZING & OVERDRACHT</a><br />
+						<a href="../../EA7/EA624.html">«ArchiMate_BusinessFunction» ADVISERING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA418.html">«ArchiMate_BusinessProcess» Overdragen (bp)</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../EA1/EA417.html">«ArchiMate_BusinessProcess» Adviseren (bp)</a><br />
+						BusinessProcess &nbsp;
 					</td>
 				</tr>
 			</table>
@@ -83,12 +83,17 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA562.html">«ArchiMate_BusinessProcess» Opstellen overdracht</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../../EA6/EA503.html">«ArchiMate_BusinessProcess» Bepalen behandelmogelijkheden</a><br />
+						BusinessProcess &nbsp;
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA6/EA517.html">«ArchiMate_BusinessProcess» Beschikbaar stellen patiëntinformatie</a><br />
+						<a href="../../EA6/EA502.html">«ArchiMate_BusinessProcess» Bepalen behandeladvies</a><br />
+						BusinessProcess &nbsp;
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA6/EA464.html">«ArchiMate_BusinessProcess» Adviseren patiënt</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -102,7 +107,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA426.html">Bepalen transferbeleid (wp)</a><br />
+						<a href="EA423.html">Beoordelen advies aanvraag (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -122,7 +127,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1089</td>
+				<td width="50%" class="TableRow" valign="top">1075</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -140,6 +145,11 @@ function nameClassifier(name, separator)
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">Archimate2::Business</td>
+			</tr>
+
 			<tr>
 				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>

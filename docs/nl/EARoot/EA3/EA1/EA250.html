@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Dossierraadpleging</title>
+<title>Interactie externe bronnen</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Dossierraadpleging", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Interactie externe bronnen", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:54:18</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:31:45</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Applicatiefuncties</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA76.html">Applicatiefuncties</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Functionaliteit voor het raadplegen van het dossier via verschillende views als patientgeschiedenis, decursus, samenvatting, problems, diagnoses, allergies etc.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Functionaliteit voor informatieuitwisseling met derden voor het verzamelen van additionele gegevens&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -64,22 +64,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA493.html">«ArchiMate_BusinessProcess» Beoordelen patiëntendossier</a><br />
-						BusinessProcess «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA497.html">«ArchiMate_BusinessProcess» Beoordelen verwijzing</a><br />
-						BusinessProcess «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA501.html">«ArchiMate_BusinessProcess» Bepalen behandelmogelijkheden</a><br />
-						BusinessProcess «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA610.html">«ArchiMate_BusinessProcess» Voorbereiden contact</a><br />
+						<a href="../EA6/EA566.html">«ArchiMate_BusinessProcess» Opvragen / Ontvangen extra informatie</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -97,7 +82,11 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">ExternalReference</td>
-				<td width="50%" class="TableRow" valign="top">CP.1 Manage Clinical History</td>
+				<td width="50%" class="TableRow" valign="top">CPS.2 Support externally-sourced Information</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">ExternalReference</td>
+				<td width="50%" class="TableRow" valign="top">CP.2 Render externally-sourced Information</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domeinen::ZORGONDERSTEUNING</title>
+<title>Domeinen::AANVULLEND ONDERZOEK</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ZORGONDERSTEUNING", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("AANVULLEND ONDERZOEK", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -46,15 +46,29 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Bedrijfsfunctiemodel</a>, <a href="../../EA2/EA70.html">Domeinen</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA74.html">Applicatiefuncties</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Bedrijfsfunctiemodel</a>, Bedrijfsfunctiemodel + WP, <a href="../../EA2/EA72.html">Domeinen</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA76.html">Applicatiefuncties</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA691.html">«ArchiMate_Grouping» ZORG</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -62,42 +76,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA669.html">«ArchiMate_BusinessFunction» ZORGFACTURATIE</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA712.html">«ArchiMate_Grouping» Zorglogistiek</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA713.html">«ArchiMate_Grouping» Zorgfacturatie</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA711.html">«ArchiMate_Grouping» Resourceplanning</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA257.html">«ArchiMate_ApplicationFunction» Patientadministratie</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA670.html">«ArchiMate_BusinessFunction» ZORGLOGISTIEK</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA671.html">«ArchiMate_BusinessFunction» ZORGRELATIE</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA699.html">«ArchiMate_Grouping» Zorgrelatie</a><br />
+						<a href="EA711.html">«ArchiMate_Grouping» Aanvullend onderzoek [per type]</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -111,11 +90,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.0.4</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.1.5</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">CE</td>
+				<td width="50%" class="TableRow" valign="top">CD</td>
 			</tr>	
 
 	</table>

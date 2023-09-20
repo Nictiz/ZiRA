@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ZIRA Metamodel::Informatiedomein</title>
+<title>ZIRA Metamodel::Doelgroep</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,25 +34,26 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Informatiedomein", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Doelgroep", " : "))</script> : Public  &lt;&lt;ArchiMate_Actor&gt;&gt; Actor</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16-12-2015 15:10:44</td>
+			<td width="85%" class="ObjectDetailsValue">18-12-2015 21:25:18</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">28-2-2022 17:21:12</td>
+			<td class="ObjectDetailsValue">28-2-2022 17:16:49</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA10.html">ZIRA Metamodel</a>, <a href="EA16.html">ZiRA Novius 5lim</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
 		<div class="ItemBody" id="AssociationsFromTable">
@@ -62,23 +63,29 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA56.html">«ArchiMate_BusinessFunction» Bedrijfsfunctie</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA66.html">«ArchiMate_BusinessProcess» Bedrijfsactiviteit</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA67.html">«ArchiMate_BusinessObject» Informatieobject</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
+						<a href="EA54.html">«ArchiMate_BusinessRole» Afnemer</a><br />
+						BusinessRole &nbsp;
 					</td>
 				</tr>
 			</table>
 		</div>
-		<div class="ItemBody" id="CustomPropertiesTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">actorkind</td>
+				<td width="50%" class="TableRow" valign="top">standard</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">iconstyle</td>
+				<td width="50%" class="TableRow" valign="top">false</td>
+			</tr>	
+
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -86,12 +93,7 @@ function nameClassifier(name, separator)
 				</tr>
 			<tr>
 				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">Archimate2::Business</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
-				<td width="70%" class="TableRow">true</td>
+				<td width="70%" class="TableRow">Archimate::Archimate</td>
 			</tr>
 
 

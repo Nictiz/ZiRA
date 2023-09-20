@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Dataobjecten Zorg (ZIB's)::nl.zorg.Pijnscore</title>
+<title>Dataobjecten Zorg (ZIB's)::nl.zorg.Patient</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("nl.zorg.Pijnscore", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("nl.zorg.Patient", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">25-5-2023 16:53:35</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:33:30</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">#lt;languages xml:space=&quot;preserve&quot;#gt;#lt;nl-NL#gt;De pijnscore is een algemene maat voor de pijnbeleving, geen beschrijving van specifieke, gelocaliseerde pijn.&lt;br/&gt;Als goed reproduceerbare maat voor de beleving van pijn worden gebruikt:&lt;br/&gt;1) NRS (Numeric Rating Scale) waarbij de pati&#235;nt een cijfer geeft aan de pijn op een schaal van 1 (geen pijn) en 10 (ondraaglijke pijn).&lt;br/&gt;2) VAS (Visual Analogue Score) , waarbij de pati&#235;nt op een lat met een lijn aangeeft hoe de pijn ervaren wordt en op de achterkant van de lat staat een schaal van 0 (geen pijn) tot 10 (ondraaglijke pijn).&lt;br/&gt;De uitslag van beide scores hebben dezelfde betekenis, maar de visueel analoge methode (VAS) wordt als betrouwbaarder aangemerkt dan de NRS pijnscore.&lt;br/&gt;{#lt;/nl-NL#gt;#lt;en-US#gt;The pain score is a general measurement for pain experience, not a description of specific, localized pain. &lt;br/&gt;The following are used as an easily reproducible measurement for pain experience: &lt;br/&gt;1) NRS (Numeric Rating Scale) in which the patient gives the pain a number on a scale of 1 (no pain) to 10 (unbearable pain). &lt;br/&gt;2) VAS (Visual Analogue Score), in which the patient points to a bar with a line to indicate the pain they feel. The back of the bar has a scale from 0 (no pain) to 10 (unbearable pain) on it. &lt;br/&gt;The results of both scores have the same meaning, but the visual analogue method (VAS) is seen as more reliable than the NRS pain score.#lt;/en-US#gt;#lt;/language#gt;&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Een persoon die medische zorg ontvangt.&lt;br/&gt;{&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,21 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA871.html">«ArchiMate_BusinessObject» Score</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA848.html">«ArchiMate_BusinessObject» Patient</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA852.html">«ArchiMate_BusinessObject» Persoon</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA745.html">«ArchiMate_BusinessObject» Afspraak</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

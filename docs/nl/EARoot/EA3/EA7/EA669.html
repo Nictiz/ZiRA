@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ZORGFACTURATIE</title>
+<title>VERWIJZING & OVERDRACHT</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ZORGFACTURATIE", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("VERWIJZING & OVERDRACHT", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessFunction&gt;&gt; BusinessFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:22</td>
+			<td width="85%" class="ObjectDetailsValue">26-10-2016 11:31:20</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:36</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:48</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Bedrijfsfunctiemodel</a>, <a href="../../EA2/EA1/EA119.html">Bedrijfsfunctie + WP + BA zorgondersteuning</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Bedrijfsfunctiemodel</a>, Bedrijfsfunctiemodel + WP, <a href="../../EA2/EA1/EA99.html">Bedrijfsfunctie + BA  (keten)samenwerking</a>, <a href="../../EA2/EA1/EA109.html">Bedrijfsfunctie + WP + BA  (keten)samenwerking</a>, Michael</td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">verzamelen van gegevens ten behoeve van de facturering (DBC-registratie en facturatie). De afhandeling van de factuur zelf is onderdeel van de financiële administratie.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">verwijzingen en overdracht van en naar andere zorgverleners inclusief de hiervoor benodigde informatieuitwisseling&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA700.html">«ArchiMate_Grouping» ZORGONDERSTEUNING</a><br />
+						<a href="../EA8/EA677.html">«ArchiMate_Grouping» (KETEN)SAMENWERKING</a><br />
 						Grouping «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -78,17 +78,117 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA713.html">«ArchiMate_Grouping» Zorgfacturatie</a><br />
-						Grouping «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA533.html">«ArchiMate_BusinessProcess» Factureren zorgproduct</a><br />
+						<a href="../EA6/EA573.html">«ArchiMate_BusinessProcess» Plannen personen</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA595.html">«ArchiMate_BusinessProcess» Vastleggen verrichting</a><br />
+						<a href="../EA5/EA2/EA433.html">«ArchiMate_BusinessProcess» Overdragen patient (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA484.html">«ArchiMate_BusinessProcess» Beheren patientdossier</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA485.html">«ArchiMate_BusinessProcess» Beheren patiëntgegevens</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA519.html">«ArchiMate_BusinessProcess» Beschikbaar stellen patiëntinformatie</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA566.html">«ArchiMate_BusinessProcess» Opvragen / Ontvangen extra informatie</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA435.html">«ArchiMate_BusinessProcess» Plannen contact (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA517.html">«ArchiMate_BusinessProcess» Bepalen zorgbehoefte</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA508.html">«ArchiMate_BusinessProcess» Bepalen overdracht / transferbeleid</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA570.html">«ArchiMate_BusinessProcess» Plannen middelen</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA564.html">«ArchiMate_BusinessProcess» Opstellen overdracht</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA569.html">«ArchiMate_BusinessProcess» Plannen afspraak</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA587.html">«ArchiMate_BusinessProcess» Toewijzen aan zorgverlener</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA446.html">«ArchiMate_BusinessProcess» Verwerken verwijzing (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA460.html">«ArchiMate_BusinessProcess» Accepteren verwijzing</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA705.html">«ArchiMate_Grouping» Verwijzing & Overdracht</a><br />
+						Grouping «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA429.html">«ArchiMate_BusinessProcess» Bepalen zorgbehoefte (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA1/EA414.html">«ArchiMate_BusinessProcess» Vaststellen Zorgbehoefte (bp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA608.html">«ArchiMate_BusinessProcess» Verwijzen patiënt</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA499.html">«ArchiMate_BusinessProcess» Beoordelen verwijzing</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA575.html">«ArchiMate_BusinessProcess» Plannen van  de locatie</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA2/EA428.html">«ArchiMate_BusinessProcess» Bepalen transferbeleid (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA1/EA420.html">«ArchiMate_BusinessProcess» Overdragen (bp)</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -106,7 +206,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1583</td>
+				<td width="50%" class="TableRow" valign="top">1555</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

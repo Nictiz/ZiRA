@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domeinen::BEDRIJFSONDERSTEUNING</title>
+<title>Domeinen::Verantwoording</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("BEDRIJFSONDERSTEUNING", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Verantwoording", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,19 +42,38 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-4-2022 15:48:57</td>
+			<td class="ObjectDetailsValue">24-5-2023 11:10:35</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Bedrijfsfunctiemodel</a>, <a href="../../EA2/EA70.html">Domeinen</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA74.html">Applicatiefuncties</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA72.html">Domeinen</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA680.html">«ArchiMate_Grouping» STURING</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA667.html">«ArchiMate_BusinessFunction» VERANTWOORDING</a><br />
+						BusinessFunction «ArchiMate_Association» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -62,123 +81,43 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA637.html">«ArchiMate_BusinessFunction» JURIDISCHE ONDERSTEUNING</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA9/EA789.html">«ArchiMate_BusinessObject» Jaarplan</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA630.html">«ArchiMate_BusinessFunction» FINANCIELE ADMINISTRATIE</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA9/EA790.html">«ArchiMate_BusinessObject» Jaarverslag</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA728.html">«ArchiMate_Grouping» Personeel en organisatie</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA6/EA529.html">«ArchiMate_BusinessProcess» Controleren  wet- en regelgeving</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA664.html">«ArchiMate_BusinessFunction» VEILIGHEID EN MILIEU</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA6/EA453.html">«ArchiMate_BusinessProcess» Aanleveren gegevens aan externe partijen</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA634.html">«ArchiMate_BusinessFunction» ICT</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA6/EA599.html">«ArchiMate_BusinessProcess» Verantwoorden maatschappelijk ondernemerschap</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA724.html">«ArchiMate_Grouping» Inkoop en goederenlogistiek</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA9/EA914.html">«ArchiMate_BusinessObject» Voortgangsrapportage</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA656.html">«ArchiMate_BusinessFunction» PERSONEEL & ORGANISATIE</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA6/EA600.html">«ArchiMate_BusinessProcess» Verantwoorden prestaties</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA643.html">«ArchiMate_BusinessFunction» MEDISCHE TECHNOLOGIE</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA733.html">«ArchiMate_Grouping» Veiligheid en Milieu</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA663.html">«ArchiMate_BusinessFunction» VASTGOED EN MIDDELEN BEHEER</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA635.html">«ArchiMate_BusinessFunction» INKOOP EN GOEDERENLOGISTIEK</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA702.html">«ArchiMate_Grouping» Vastgoed en middelen beheer</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA627.html">«ArchiMate_BusinessFunction» COMMUNICATIE EN VOORLICHTING</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA289.html">«ArchiMate_ApplicationFunction» Tijdsregistratie</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA294.html">«ArchiMate_ApplicationFunction» Relatiebeheer</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA732.html">«ArchiMate_Grouping» Juridische ondersteuning</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA730.html">«ArchiMate_Grouping» ICT</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA639.html">«ArchiMate_BusinessFunction» KENNISMANAGEMENT</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA726.html">«ArchiMate_Grouping» Communicatie en Voorlichting</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA725.html">«ArchiMate_Grouping» Kennismanagement</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA731.html">«ArchiMate_Grouping» Medische technologie</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA729.html">«ArchiMate_Grouping» Financiële ondersteuning</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA727.html">«ArchiMate_Grouping» Hospitality</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA633.html">«ArchiMate_BusinessFunction» HOSPITALITY</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA9/EA738.html">«ArchiMate_BusinessObject» Aanlevering</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -191,11 +130,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.0.7</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.4</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">E</td>
+				<td width="50%" class="TableRow" valign="top">A_F</td>
 			</tr>	
 
 	</table>

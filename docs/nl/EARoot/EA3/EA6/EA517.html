@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Beschikbaar stellen patiëntinformatie</title>
+<title>Bepalen zorgbehoefte</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Beschikbaar stellen patiëntinformatie", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Bepalen zorgbehoefte", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:24</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:17:42</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:55:09</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:32:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA134.html">Bedrijfsproces Overdragen</a>, <a href="../../EA2/EA3/EA7/EA215.html">Overdragen / Overdragen patiënt</a>, <a href="../../EA2/EA1/EA97.html">Bedrijfsfunctie + BA  (keten)samenwerking</a>, <a href="../../EA2/EA1/EA107.html">Bedrijfsfunctie + WP + BA  (keten)samenwerking</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA2/EA124.html">Bedrijfsproces Vaststellen zorgbehoefte</a>, <a href="../../EA2/EA3/EA1/EA149.html">Bepalen zorgbehoefte</a>, <a href="../../EA2/EA1/EA99.html">Bedrijfsfunctie + BA  (keten)samenwerking</a>, <a href="../../EA2/EA1/EA109.html">Bedrijfsfunctie + WP + BA  (keten)samenwerking</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Het op digitaal of op papier, verstrekken of versturen van medische informatie over een patiënt aan externe zorgverleners.&lt;br/&gt;&lt;br/&gt;Uitwisselen kan ook beschikbaar stellen kan zijn en e.g. via notificatie.&lt;br/&gt;Verslag is zoals het nu gaat, maar zou ook beschikbaarstellen kunnen zijn e.g. via bijvoorbeeld XDS / MedEx artsenportaal.&lt;br/&gt;Zie ook &quot;IO Uitwisselingsinformatie&quot;.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Het vaststellen van de zorgbehoefte van de patient en bepalen hoe deze geleverd kan worden&lt;br/&gt;Dit bevat in specifieke contexten (e.g. SEH) ook de triage.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -67,18 +67,18 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA703.html">«ArchiMate_Grouping» Verwijzing & Overdracht</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA7/EA669.html">«ArchiMate_BusinessFunction» VERWIJZING & OVERDRACHT</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA2/EA431.html">«ArchiMate_BusinessProcess» Overdragen patient (wp)</a><br />
+						<a href="../EA5/EA2/EA429.html">«ArchiMate_BusinessProcess» Bepalen zorgbehoefte (wp)</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA667.html">«ArchiMate_BusinessFunction» VERWIJZING & OVERDRACHT</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
+						<a href="../EA8/EA705.html">«ArchiMate_Grouping» Verwijzing & Overdracht</a><br />
+						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -90,7 +90,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA247.html">«ArchiMate_ApplicationFunction» Dossieruitwisseling</a><br />
+						<a href="../EA1/EA257.html">«ArchiMate_ApplicationFunction» Beslissingsondersteuning</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -104,7 +104,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA562.html">Opstellen overdracht</a><br />
+						<a href="EA499.html">Beoordelen verwijzing</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -124,7 +124,11 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.121</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.369</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">NIEUW</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -138,6 +142,11 @@ function nameClassifier(name, separator)
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">Archimate2::Business</td>
+			</tr>
+
 			<tr>
 				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>
@@ -155,10 +164,10 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA893.html">«ArchiMate_BusinessObject» Uitwisselingsinformatie</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA9/EA921.html">«ArchiMate_BusinessObject» Zorgbehoefte</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

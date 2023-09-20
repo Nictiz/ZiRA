@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informationobjects::Diagnosis</title>
+<title>Informationobjects::Diagnostics Results</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Diagnosis", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Diagnostics Results", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-1-2017 11:13:09</td>
+			<td width="85%" class="ObjectDetailsValue">24-3-2017 10:30:06</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 10:14:10</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:42:48</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA2/EA161.html">Diagnose</a>, <a href="../../EA2/EA3/EA5/EA190.html">Determine treatment plan</a>, <a href="../../EA2/EA81.html">Information Model CARE Results</a>, <a href="../../EA2/EA3/EA6/EA201.html">Treat / Perform Nursing Care</a>, <a href="../../EA2/EA3/EA6/EA197.html">Treat / Conducting therapy</a>, <a href="../../EA2/EA79.html">Domains with BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA3/EA171.html">Additional Diagnostic Testing / Conduct diagnostic testing</a>, <a href="../../EA2/EA3/EA3/EA173.html">Additional Diagnostic Testing / Assess result</a>, <a href="../../EA2/EA3/EA2/EA158.html">Assess information</a>, <a href="../../EA2/EA80.html">Information Model CARE Results</a>, <a href="../../EA2/EA78.html">Domains with BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Recording the name of the disease or condition that a person is believed to be suffering from, as stated by the physician.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Any result from a diagnostic tests&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA677.html">«ArchiMate_Grouping» Diagnosis</a><br />
+						<a href="../EA8/EA676.html">«ArchiMate_Grouping» Diagnosis</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -79,11 +79,7 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1983</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">RDZ_ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.255</td>
+				<td width="50%" class="TableRow" valign="top">2192</td>
 			</tr>	
 
 	</table>
@@ -110,52 +106,59 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA885.html">«ArchiMate_BusinessObject» Result</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA831.html">«ArchiMate_BusinessObject» Nurse Diagnosis</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA479.html">«ArchiMate_BusinessProcess» Conduct Additional Diagnostic Testing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA993.html">«ArchiMate_DataObject» PlannedCareActivity</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA957.html">«ArchiMate_DataObject» GeneralMeasurement</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA488.html">«ArchiMate_BusinessProcess» Determine diagnosis</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA463.html">«ArchiMate_BusinessProcess» Assess results of additional diagnostic testing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA464.html">«ArchiMate_BusinessProcess» Assess results of additional or own research</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA502.html">«ArchiMate_BusinessProcess» Determine treatment options</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA463.html">«ArchiMate_BusinessProcess» Assess results of additional diagnostic testing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA464.html">«ArchiMate_BusinessProcess» Assess results of additional or own research</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA525.html">«ArchiMate_BusinessProcess» Inform patient</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA907.html">«ArchiMate_BusinessObject» Therapeutic Diagnosis</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA884.html">«ArchiMate_BusinessObject» Result</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA1005.html">«ArchiMate_DataObject» TextResult</a></td>
+					<td width="10%" class="TableRow" valign="top">DataObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informatieobjecten::Therapieplan</title>
+<title>Informatieobjecten::Therapeutische Diagnose</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Therapieplan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Therapeutische Diagnose", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">23-3-2017 11:36:52</td>
+			<td width="85%" class="ObjectDetailsValue">23-3-2017 11:34:50</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14-6-2023 09:56:07</td>
+			<td class="ObjectDetailsValue">20-9-2023 10:33:16</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA6/EA200.html">Behandelen / Uitvoeren therapie</a>, <a href="../../EA2/EA78.html">Domeinen met BA en IO</a>, <a href="../../EA2/EA82.html">Informatiemodel ZORG Activiteiten</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA82.html">Informatiemodel ZORG Resultaten</a>, <a href="../../EA2/EA3/EA6/EA202.html">Behandelen / Uitvoeren therapie</a>, <a href="../../EA2/EA80.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Vastlegging van het plan t.a.v. de te leveren paramedische zorg aan de patiënt, met als doel het verlichten of wegnemen van&#160;&#160;gezondheidsklachten of gebreken..&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Vastlegging van de naam van de ziekte of aandoening waaraan iemand verondersteld wordt te lijden.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA706.html">«ArchiMate_Grouping» Therapie</a><br />
+						<a href="../EA8/EA708.html">«ArchiMate_Grouping» Therapie</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -79,11 +79,7 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2179</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">ZiRA:isAggregatie</td>
-				<td width="50%" class="TableRow" valign="top">1</td>
+				<td width="50%" class="TableRow" valign="top">2176</td>
 			</tr>	
 
 	</table>
@@ -110,38 +106,31 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA510.html">«ArchiMate_BusinessProcess» Bepalen therapiedoel</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA512.html">«ArchiMate_BusinessProcess» Bepalen therapiedoel</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA974.html">«ArchiMate_DataObject» nl.zorg.OverdrachtGeplandeZorgActiviteit</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA10/EA975.html">«ArchiMate_DataObject» nl.zorg.OverdrachtConcern</a></td>
 					<td width="10%" class="TableRow" valign="top">DataObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA753.html">«ArchiMate_BusinessObject» Behandelplan</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA592.html">«ArchiMate_BusinessProcess» Uitvoeren therapie</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA511.html">«ArchiMate_BusinessProcess» Bepalen therapieplan</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA6/EA511.html">«ArchiMate_BusinessProcess» Bepalen therapeutische diagnose</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA769.html">«ArchiMate_BusinessObject» Diagnose</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
