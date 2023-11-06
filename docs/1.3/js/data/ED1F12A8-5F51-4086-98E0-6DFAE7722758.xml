@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.2.4.1", "1", "Vaststellen zorgbehoefte", "EARoot/EA2/EA4/EA1/EA182.html", "4.png", "", "", "{B3E9B728-8E43-4795-885C-B60F293FD05F}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.2", "1", "Diagnostisering", "EARoot/EA2/EA4/EA2/EA193.html", "4.png", "", "", "{143C53A2-54F5-40ec-BCA4-8F76BD462557}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.3", "1", "Aanvullend Onderzoek", "EARoot/EA2/EA4/EA3/EA208.html", "4.png", "", "", "{32C177EC-4AB1-452f-B192-667826E03C42}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.4", "1", "Advisering", "EARoot/EA2/EA4/EA4/EA219.html", "4.png", "", "", "{4EE1DAF6-0327-44c0-BDC2-A5E6020CF259}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.5", "1", "Opstellen behandelplan", "EARoot/EA2/EA4/EA5/EA226.html", "4.png", "", "", "{D331FAA1-0BCD-4506-9703-B93C9D7BCABA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.6", "1", "Behandelen", "EARoot/EA2/EA4/EA6/EA243.html", "4.png", "", "", "{CBC06075-AEC3-4534-8741-91EABD67490E}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.7", "1", "Overdragen", "EARoot/EA2/EA4/EA7/EA248.html", "4.png", "", "", "{672BFEE3-D743-4ca5-9DCF-A2261E78E6FE}", "Package");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.6.1", "1", "Bedrijfsprocessen", "EARoot/EA3/EA6/EA1/EA427.html", "4.png", "", "", "{EDB4C789-C932-4128-9980-09465079B051}", "Package");
+tocTab[tocTab.length] = new Array("0.3.6.2", "1", "Werkprocessen", "EARoot/EA3/EA6/EA2/EA435.html", "4.png", "", "", "{FF0D6BA7-DB43-4f6c-99FB-B3A98A52A385}", "Package");
