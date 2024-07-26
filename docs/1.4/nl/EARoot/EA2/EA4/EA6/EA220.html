@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bepalen behandelplan</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA221.png" usemap="#EA221" border="0" />
+
+<MAP NAME="EA221">
+<area shape="rect" coords="117,105,222,175" href="../../../EA3/EA7/EA521.html" target="_self">
+<area shape="rect" coords="615,385,705,455" href="../../../EA3/EA8/EA779.html" target="_self">
+<area shape="rect" coords="245,275,365,345" href="../../../EA3/EA8/EA676.html" target="_self">
+<area shape="rect" coords="575,275,665,345" href="../../../EA3/EA8/EA707.html" target="_self">
+<area shape="rect" coords="345,385,435,455" href="../../../EA3/EA8/EA796.html" target="_self">
+<area shape="rect" coords="425,275,515,345" href="../../../EA3/EA8/EA778.html" target="_self">
+<area shape="rect" coords="705,275,795,345" href="../../../EA3/EA8/EA677.html" target="_self">
+<area shape="rect" coords="75,295,165,365" href="../../../EA3/EA8/EA691.html" target="_self">
+<area shape="rect" coords="475,385,575,455" href="../../../EA3/EA8/EA842.html" target="_self">
+<area shape="rect" coords="685,101,792,171" href="../../../EA3/EA7/EA633.html" target="_self">
+<area shape="rect" coords="535,103,640,173" href="../../../EA3/EA7/EA636.html" target="_self">
+<area shape="rect" coords="395,105,500,175" href="../../../EA3/EA7/EA571.html" target="_self">
+<area shape="rect" coords="262,105,374,175" href="../../../EA3/EA7/EA529.html" target="_self">
+<area shape="rect" coords="98,59,845,186" href="../../../EA3/EA6/EA2/EA447.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Bepalen behandelplan : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">29-12-2016 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">27-3-2024 16:33:25</td>
+		</tr>
+	</table>
+</div>
+ 
+</body>
+</html>
