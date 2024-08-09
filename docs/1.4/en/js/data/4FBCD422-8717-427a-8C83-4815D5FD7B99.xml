@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.3.1.1:1", "", "", "EARoot/EA3/EA1/EA1/EA264.html", "82.png", "E2924", "0", "", "Artifact0","{3E6F82E3-C4E4-46a9-97C3-A8BCAC5CC8D8}");
+tocTab[tocTab.length] = new Array("0.3.1.1:2", "", "", "EARoot/EA3/EA1/EA1/EA265.html", "82.png", "E2907", "0", "", "Artifact0","{F55F7421-E5BF-4e09-9FEE-799A5C2CF352}");
+tocTab[tocTab.length] = new Array("0.3.1.1:3", "", "Continuous", "EARoot/EA3/EA1/EA1/EA266.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2884", "0", "", "Class0","{B15EC175-7F30-4c10-B0B1-C4A611F7C07B}");
+tocTab[tocTab.length] = new Array("0.3.1.1:4", "", "Data Driven", "EARoot/EA3/EA1/EA1/EA267.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2891", "0", "", "Class0","{CCAB99F4-4CE8-46a1-A9CD-CEB139DC562E}");
+tocTab[tocTab.length] = new Array("0.3.1.1:5", "", "Flexible", "EARoot/EA3/EA1/EA1/EA268.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2888", "0", "", "Class0","{322A3361-ABED-45b4-97E9-6BB6371D0805}");
+tocTab[tocTab.length] = new Array("0.3.1.1:6", "", "Innovative", "EARoot/EA3/EA1/EA1/EA269.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2892", "0", "", "Class0","{41C5211F-6278-4793-80C7-D29222182222}");
+tocTab[tocTab.length] = new Array("0.3.1.1:7", "", "People Central", "EARoot/EA3/EA1/EA1/EA270.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2885", "0", "", "Class0","{EBE0A5C4-E038-405b-9A01-8E851BFA7C6D}");
+tocTab[tocTab.length] = new Array("0.3.1.1:8", "", "Safe and Trusted", "EARoot/EA3/EA1/EA1/EA271.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2882", "0", "", "Class0","{84E56A02-45D6-41ff-BB3B-987F98D32545}");
+tocTab[tocTab.length] = new Array("0.3.1.1:9", "", "Simple", "EARoot/EA3/EA1/EA1/EA272.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2889", "0", "", "Class0","{1D4BC46E-45C0-43f7-A479-79EC3511F777}");
+tocTab[tocTab.length] = new Array("0.3.1.1:10", "", "Standardized", "EARoot/EA3/EA1/EA1/EA273.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2887", "0", "", "Class0","{5B9CD2F1-41BC-4f5e-80B8-3BFA0CCD0756}");
+tocTab[tocTab.length] = new Array("0.3.1.1:11", "", "Sustainable", "EARoot/EA3/EA1/EA1/EA274.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2883", "0", "", "Class0","{9D5AF9CC-8436-417a-B5D3-48AEF39804A3}");
+tocTab[tocTab.length] = new Array("0.3.1.1:12", "", "Together", "EARoot/EA3/EA1/EA1/EA275.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2886", "0", "", "Class0","{19C2F0EB-C60F-416f-A7D7-E113A8A10C53}");
+tocTab[tocTab.length] = new Array("0.3.1.1:13", "", "Under Ownership", "EARoot/EA3/EA1/EA1/EA276.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2890", "0", "", "Class0","{A3AF9CE3-E882-485f-A0FA-7D8139C72605}");
+tocTab[tocTab.length] = new Array("0.3.1.1:14", "", "Valuable", "EARoot/EA3/EA1/EA1/EA277.html", "9F0DDA8A-5_ArchiMate_Principle.png", "E2878", "0", "", "Class0","{3AAC98E2-AF5C-4f43-93B3-A383F2A827F8}");
+tocTab[tocTab.length] = new Array("0.3.1.1.1", "1", "", "EARoot/EA3/EA1/EA1/EA1/EA278.html", "4.png", "", "", "{6EC2453F-E52B-42b4-83CE-75EE463DBA53}", "Package");

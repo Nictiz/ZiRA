@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.3.4:1", "", "Additional diagnostic testing", "EARoot/EA3/EA4/EA367.html", "959A9A49-8_ArchiMate_BusinessService.png", "E858", "0", "", "Activity0","{3602D752-4FE9-4fd6-8483-5B9C54417069}");
+tocTab[tocTab.length] = new Array("0.3.4:2", "", "Advise", "EARoot/EA3/EA4/EA368.html", "959A9A49-8_ArchiMate_BusinessService.png", "E859", "0", "", "Activity0","{2974F1AF-FD7C-476f-B45D-1E7AABC43B16}");
+tocTab[tocTab.length] = new Array("0.3.4:3", "", "Determine healthcare needs", "EARoot/EA3/EA4/EA369.html", "959A9A49-8_ArchiMate_BusinessService.png", "E856", "0", "", "Activity0","{0D97CE43-91F0-4430-B673-B1E537AE445F}");
+tocTab[tocTab.length] = new Array("0.3.4:4", "", "Diagnostics", "EARoot/EA3/EA4/EA370.html", "959A9A49-8_ArchiMate_BusinessService.png", "E857", "0", "", "Activity0","{8239F53E-60CE-4885-B74C-EA97A6E3DFC7}");
+tocTab[tocTab.length] = new Array("0.3.4:5", "", "MDC", "EARoot/EA3/EA4/EA371.html", "959A9A49-8_ArchiMate_BusinessService.png", "E2973", "0", "", "Activity0","{C03BEEF6-F73D-43a4-8F96-465C4E8A0AB5}");
+tocTab[tocTab.length] = new Array("0.3.4:6", "", "MDC", "EARoot/EA3/EA4/EA372.html", "9F0DDA8A-5_ArchiMate_BusinessService.png", "E2932", "0", "", "Activity0","{BE4240BB-6409-4bc2-81EB-B7EDB54F8D31}");
+tocTab[tocTab.length] = new Array("0.3.4:7", "", "Transfer", "EARoot/EA3/EA4/EA373.html", "959A9A49-8_ArchiMate_BusinessService.png", "E862", "0", "", "Activity0","{229FB972-4685-4c0f-AF7C-ECEF9B5A7A5A}");
+tocTab[tocTab.length] = new Array("0.3.4:8", "", "Treatment", "EARoot/EA3/EA4/EA374.html", "959A9A49-8_ArchiMate_BusinessService.png", "E861", "0", "", "Activity0","{7B4B673F-A974-439a-B380-C1D416E1DD7C}");
+tocTab[tocTab.length] = new Array("0.3.4:9", "", "Treatment plan", "EARoot/EA3/EA4/EA375.html", "959A9A49-8_ArchiMate_BusinessService.png", "E860", "0", "", "Activity0","{E279FBED-2C6E-4d75-85C6-50321C0AA3C2}");

@@ -6,8 +6,8 @@
  * Purpose: Select Notes in configured language
  * Date: 24-feb-2022
  */
-const LANGUAGE = "en-US";
-//const LANGUAGE = "nl-NL";
+//const LANGUAGE = "en-US";
+const LANGUAGE = "nl-NL";
  
 	function moveNext()
 	{
@@ -77,17 +77,19 @@ function EnumerateElements( indent, elements )
 		Session.Output( indent + currentElement.Name );
 
 		var notes = currentElement.Notes;
+		notes = notes.replace( /&lt;/g, "<" ); // EA14 dubble escapes e.g. MDO BP
+		notes = notes.replace( /&gt;/g, ">" ); // EA14 dubble escapes e.g. MDO BP
 		var after = notes.indexOf( "<" + LANGUAGE + ">" );
 		var before = notes.indexOf( "</" + LANGUAGE + ">" );
 		if (after != -1) 
 		{
-			var notes_en = notes.substring(after + 7, before);
-			if ( notes_en == "undefined" )
+			notes = notes.substring(after + 7, before);
+			if ( notes == "undefined" )
 			{
-				notes_en = "";
+				notes = "";
 			}
-			Session.Output( after + "," + before + "," + notes_en );
-			currentElement.Notes = notes_en;
+			Session.Output( after + "," + before + "," + notes );
+			currentElement.Notes = notes;
 			currentElement.Update();
 		}
 		

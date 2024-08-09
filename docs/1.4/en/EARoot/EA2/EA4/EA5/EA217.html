@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Give advice</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA218.png" usemap="#EA218" border="0" />
+
+<MAP NAME="EA218">
+<area shape="rect" coords="445,85,550,155" href="../../../EA3/EA7/EA490.html" target="_self">
+<area shape="rect" coords="45,246,165,316" href="../../../EA3/EA8/EA676.html" target="_self">
+<area shape="rect" coords="105,85,231,155" href="../../../EA3/EA7/EA529.html" target="_self">
+<area shape="rect" coords="155,346,245,416" href="../../../EA3/EA8/EA778.html" target="_self">
+<area shape="rect" coords="305,286,395,356" href="../../../EA3/EA8/EA665.html" target="_self">
+<area shape="rect" coords="285,86,390,156" href="../../../EA3/EA7/EA528.html" target="_self">
+<area shape="rect" coords="75,45,595,176" href="../../../EA3/EA6/EA2/EA456.html" target="_self">
+<area shape="rect" coords="435,256,525,326" href="../../../EA3/EA8/EA666.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Give advice : Business Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8-2-2017 09:37:23</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">28-2-2022 19:49:07</td>
+		</tr>
+	</table>
+</div>
+ 
+</body>
+</html>

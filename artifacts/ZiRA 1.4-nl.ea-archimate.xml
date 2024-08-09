@@ -68,9 +68,6 @@
 		<element identifier="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18" xsi:type="Grouping">
 			<name xml:lang="nl">Informatiedomein</name>
 		</element>
-		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
-			<name xml:lang="nl">Informatieobject</name>
-		</element>
 		<element identifier="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Bedrijfsactiviteit</name>
 			<properties>
@@ -90,6 +87,9 @@
 					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
+		</element>
+		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
+			<name xml:lang="nl">Informatieobject</name>
 		</element>
 		<element identifier="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="ApplicationFunction">
 			<name xml:lang="nl">Applicatiefunctie</name>
@@ -152,51 +152,51 @@
 		</element>
 		<element identifier="EAID_B15EC175_7F30_4c10_B0B1_C4A611F7C07B" xsi:type="Principle">
 			<name xml:lang="nl">Continu</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Bij alles wat we doen, waarborgen we de continu&amp;#239;teit van zorg door risico’s zo vroeg mogelijk te signaleren en te mitigeren. &lt;/nl-NL&gt;&lt;en-US&gt;In all our work we guarantee continuity of care by identifying and mitigating risks as early as possible.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Bij alles wat we doen, waarborgen we de continu&amp;#239;teit van zorg door risico’s zo vroeg mogelijk te signaleren en te mitigeren. </documentation>
 		</element>
 		<element identifier="EAID_CCAB99F4_4CE8_46a1_A9CD_CEB139DC562E" xsi:type="Principle">
 			<name xml:lang="nl">Datagedreven</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; We leggen informatie zodanig vast dat deze optimaal hergebruikt kan worden binnen werkprocessen en voor sturing, onderzoek en ontwikkeling van nieuwe en betere behandelingen.&lt;/nl-NL&gt;&lt;en-US&gt;We record information in such a way that it can be optimally reused within work processes and for the management, research and development of new and better treatments.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> We leggen informatie zodanig vast dat deze optimaal hergebruikt kan worden binnen werkprocessen en voor sturing, onderzoek en ontwikkeling van nieuwe en betere behandelingen.</documentation>
 		</element>
 		<element identifier="EAID_9D5AF9CC_8436_417a_B5D3_48AEF39804A3" xsi:type="Principle">
 			<name xml:lang="nl">Duurzaam</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Met toekomstbestendige zorg vermijden we verspilling, borgen we beschikbaarheid van informatie, mensen en materialen en houden we rekening met de toekomst van onze planeet.&lt;/nl-NL&gt;&lt;en-US&gt; With future-proof care we avoid waste, guarantee the availability of information, people and materials and take the future of our planet into account.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Met toekomstbestendige zorg vermijden we verspilling, borgen we beschikbaarheid van informatie, mensen en materialen en houden we rekening met de toekomst van onze planeet.</documentation>
 		</element>
 		<element identifier="EAID_1D4BC46E_45C0_43f7_A479_79EC3511F777" xsi:type="Principle">
 			<name xml:lang="nl">Eenvoudig</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Voor alle vraagstukken die we willen oplossen, kiezen we de eenvoudigste oplossing waarmee aan de essentie van de vraag voldaan wordt.&lt;/nl-NL&gt;&lt;en-US&gt;For all issues we want to solve, we choose the simplest solution to meet the essence of the demand.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Voor alle vraagstukken die we willen oplossen, kiezen we de eenvoudigste oplossing waarmee aan de essentie van de vraag voldaan wordt.</documentation>
 		</element>
 		<element identifier="EAID_322A3361_ABED_45b4_97E9_6BB6371D0805" xsi:type="Principle">
 			<name xml:lang="nl">Flexibel</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Oplossingen zijn uitbreidbaar, aanpasbaar en vervangbaar. Ze zijn modulair opgebouwd en bestaan uit herkenbare autonome eenheden, met duidelijk gedefinieerde functies en interfaces.&lt;/nl-NL&gt;&lt;en-US&gt; Solutions are extensible, customizable and replaceable. They are modular and consist of recognizable autonomous units, with clear defined functions and interfaces.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Oplossingen zijn uitbreidbaar, aanpasbaar en vervangbaar. Ze zijn modulair opgebouwd en bestaan uit herkenbare autonome eenheden, met duidelijk gedefinieerde functies en interfaces.</documentation>
 		</element>
 		<element identifier="EAID_5B9CD2F1_41BC_4f5e_80B8_3BFA0CCD0756" xsi:type="Principle">
 			<name xml:lang="nl">Gestandaardiseerd</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Processen, informatie, systemen, producten en diensten voldoen aan open (markt)standaarden en zijn gebaseerd op best practices.&lt;/nl-NL&gt;&lt;en-US&gt; In all our work we coordinate with stakeholders. In healthcare networks we work together with patients, healthcare providers and professionals within and outside our organization.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Processen, informatie, systemen, producten en diensten voldoen aan open (markt)standaarden en zijn gebaseerd op best practices.</documentation>
 		</element>
 		<element identifier="EAID_41C5211F_6278_4793_80C7_D29222182222" xsi:type="Principle">
 			<name xml:lang="nl">Innovatief</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; We zetten in op innovatieve initiatieven die gericht zijn op passende zorg voor de pati&amp;#235;nt, effici&amp;#235;nte processen en inzet van personeel en betaalbare oplossingen.&lt;/nl-NL&gt;&lt;en-US&gt;We are committed to innovative initiatives that are targeted on appropriate care for the patient, efficient processes and deployment of personnel and affordable solutions.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> We zetten in op innovatieve initiatieven die gericht zijn op passende zorg voor de pati&amp;#235;nt, effici&amp;#235;nte processen en inzet van personeel en betaalbare oplossingen.</documentation>
 		</element>
 		<element identifier="EAID_EBE0A5C4_E038_405b_9A01_8E851BFA7C6D" xsi:type="Principle">
 			<name xml:lang="nl">Mens centraal</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; De mens staat centraal. Bij alles wat we doen, werken we voor en met mensen.&lt;/nl-NL&gt;&lt;en-US&gt; People are central. In everything we do, we work for and with people.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> De mens staat centraal. Bij alles wat we doen, werken we voor en met mensen.</documentation>
 		</element>
 		<element identifier="EAID_A3AF9CE3_E882_485f_A0FA_7D8139C72605" xsi:type="Principle">
 			<name xml:lang="nl">Onder eigenaarschap</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Alle processen, middelen, data, beleid, als ook veranderinitiatieven in de organisatie, hebben een eigenaar.&lt;/nl-NL&gt;&lt;en-US&gt;All processes, resources, data, policies, as well as change initiatives in the organization, have an owner.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Alle processen, middelen, data, beleid, als ook veranderinitiatieven in de organisatie, hebben een eigenaar.</documentation>
 		</element>
 		<element identifier="EAID_19C2F0EB_C60F_416f_A7D7_E113A8A10C53" xsi:type="Principle">
 			<name xml:lang="nl">Samen</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Bij alles wat we doen stemmen we met alle belanghebbenden af. In zorgnetwerken werken we samen met pati&amp;#235;nten, zorgverleners en professionals binnen en buiten onze organisatie.&lt;/nl-NL&gt;&lt;en-US&gt; In all our work we coordinate with stakeholders. In healthcare networks we work together with patients, healthcare providers and professionals within and outside our organization.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Bij alles wat we doen stemmen we met alle belanghebbenden af. In zorgnetwerken werken we samen met pati&amp;#235;nten, zorgverleners en professionals binnen en buiten onze organisatie.</documentation>
 		</element>
 		<element identifier="EAID_84E56A02_45D6_41ff_BB3B_987F98D32545" xsi:type="Principle">
 			<name xml:lang="nl">Veilig en vertrouwd</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Pati&amp;#235;nten, medewerkers en bezoekers kunnen erop vertrouwen dat in alles wat we doen hun veiligheid voorop staat en privacy geborgd is.&lt;/nl-NL&gt;&lt;en-US&gt; Patients, employees and visitors can rely on that in everything we do, their safety comes first and privacy is guaranteed.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Pati&amp;#235;nten, medewerkers en bezoekers kunnen erop vertrouwen dat in alles wat we doen hun veiligheid voorop staat en privacy geborgd is.</documentation>
 		</element>
 		<element identifier="EAID_3AAC98E2_AF5C_4f43_93B3_A383F2A827F8" xsi:type="Principle">
 			<name xml:lang="nl">Waardevol</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt; Binnen de organisatie doen we alleen dingen die waarde toevoegen. We borgen dat alle veranderinitiatieven worden getoetst aan de doelen van de organisatie.&lt;/nl-NL&gt;&lt;en-US&gt; Within the organization we only do things that add value. We guarantee that all change initiatives are tested against the goals of the organization.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl"> Binnen de organisatie doen we alleen dingen die waarde toevoegen. We borgen dat alle veranderinitiatieven worden getoetst aan de doelen van de organisatie.</documentation>
 		</element>
 		<element identifier="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" xsi:type="Grouping">
 			<name xml:lang="nl">Multidisciplinaire samenwerking</name>
@@ -338,7 +338,7 @@
 		</element>
 		<element identifier="EAID_D5C0FCB1_07A8_4cbf_9EA2_91960669D3C6" xsi:type="BusinessFunction">
 			<name xml:lang="nl">BEELDVORMING</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van beeldvormend onderzoek zoals radiologie en nucleair.&lt;/nl-NL&gt;&lt;en-US&gt;These tests provide a picture of the inside of the body—in its entirety or only of certain parts.  Ordinary x-rays are the most common imaging tests. Others include ultrasonography, radioisotope (nuclear) scanning, computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), and angiography.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van beeldvormend onderzoek zoals radiologie en nucleair.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -392,7 +392,7 @@
 		</element>
 		<element identifier="EAID_32BA6426_3A22_4a0f_A264_6F23615C3454" xsi:type="BusinessFunction">
 			<name xml:lang="nl">BIOPSIE</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van biopsie.&lt;/nl-NL&gt;&lt;en-US&gt;Tissue samples are removed and examined, usually with a microscope. The examination often focuses on finding abnormal cells that may provide evidence of inflammation or of a disorder, such as cancer. Tissues that are commonly examined include skin, breast, lung, liver, kidney, and bone..&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van biopsie.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -443,18 +443,7 @@
 		</element>
 		<element identifier="EAID_8EC05132_E6A8_4ba5_97B0_E0EECB25009E" xsi:type="BusinessFunction">
 			<name xml:lang="nl">ENDOSCOPIE</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van endoscopisch onderzoek.&lt;/nl-NL&gt;&lt;en-US&gt;"A viewing tube (endoscope) is used to directly observe the inside of body organs or spaces (cavities). Most often, a flexible endoscope is used, but in some cases, a rigid one is more useful. The tip of the endoscope is usually equipped with a light and a camera, so the examiner watches the images on a television monitor rather than looking directly through the endoscope. Tools are often passed through a channel in the endoscope. One type of tool is used to cut and remove tissue samples.
-Endoscopy usually consists of passing the viewing tube through an existing body opening, such as the following:
-·      Nose: To examine the voice box (laryngoscopy) or the lungs (bronchoscopy)
-·      Mouth: To examine the esophagus (esophagoscopy), stomach (gastroscopy), and small intestine (upper gastrointestinal endoscopy)
-·      Anus: To examine the large intestine, rectum, and anus (coloscopy)
-·      Urethra: To examine the bladder (cystoscopy)
-·      Vagina: To examine the uterus (hysteroscopy)
-However, sometimes an opening in the body must be created. A small cut (incision) is made through the skin and the layers of tissue beneath the skin, so that the endoscope can be passed into a body cavity. Such incisions are used to view the inside of the following:
-·      Joints (arthroscopy)
-·      Abdominal cavity (laparoscopy)
-·      Area of the chest between the lungs (mediastinoscopy)
-·      Lungs and pleura (thoracoscopy)"&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van endoscopisch onderzoek.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -490,7 +479,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_04B66FEB_21DD_4f59_82CD_4CC545FC395E" xsi:type="BusinessFunction">
 			<name xml:lang="nl">FUNCTIE ONDERZOEK</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van functieonderzoeken. &lt;/nl-NL&gt;&lt;en-US&gt;Often, body functions are measured by recording and analyzing the activity of various organs. For example, electrical activity of the heart is measured with electrocardiography (ECG), and electrical activity of the brain is measured with electroencephalography (EEG). The lungs’ ability to hold air, to move air in and out, and to exchange oxygen and carbon dioxide is measured with pulmonary function tests.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van functieonderzoeken. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -508,10 +497,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_A1DC1A56_828A_4d2b_93B1_AD37AC3F85E3" xsi:type="BusinessFunction">
 			<name xml:lang="nl">GENETISCH ONDERZOEK</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van genetisch onderzoek.&lt;/nl-NL&gt;&lt;en-US&gt;Usually, cells from skin, blood, or bone marrow are analyzed. Cells are examined to check for abnormalities of chromosomes, genes (including DNA), or both. Genetic testing may be done in the following:
-·    Fetuses: To determine whether they have a genetic disorder
-·    Children and young adults: To determine whether they have a disorder or are at risk of developing a disorder
-·    Adults: Sometimes to help determine the likelihood that their relatives, such as children or grandchildren, will develop certain disorders.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van genetisch onderzoek.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -616,7 +602,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_9B676AD4_E58B_44fd_94A6_A1722C83F5D0" xsi:type="BusinessFunction">
 			<name xml:lang="nl">KCL ONDERZOEK</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van klinisch chemisch laboratorium (KCL) onderzoek.&lt;/nl-NL&gt;&lt;en-US&gt;The most commonly analyzed fluids are: blood, urine, fluid that surrounds the spinal cord and brain (cerebraospinal fluid), fluid within a joint (synovial fluid). Less often, sweat, saliva and fluid from the digestive tract are analyzed. Sometimes the fluids analyzed are present only if a disorder is present, as when fluid collects in the abdomen, causing ascites, or in the space between the two-layered membrane covering the lungs and lining the chest wall (pleura), casing pleural effusion. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van klinisch chemisch laboratorium (KCL) onderzoek.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -724,7 +710,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_8BF3D3B6_2125_4730_B431_C413E6874DC3" xsi:type="BusinessFunction">
 			<name xml:lang="nl">MMI ONDERZOEK</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het uitvoeren en verslagleggen van microbiologisch en immunologisch labonderzoek.&lt;/nl-NL&gt;&lt;en-US&gt;Conducting and reporting microbiological and immunological lab research&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het uitvoeren en verslagleggen van microbiologisch en immunologisch labonderzoek.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -742,7 +728,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_3504480F_308C_4082_B4D2_8F3E995C0765" xsi:type="BusinessFunction">
 			<name xml:lang="nl">MULTIDISCIPLINAIRE SAMENWERKING</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Samenwerking tussen meerdere specialistische disciplines ihkv passende zorg en netwerkzorg. Kan plaatsvinden in meerdere echelons en daarmee zowel intra- als transmuraal.&lt;/nl-NL&gt;&lt;en-US&gt;Collaboration between multiple specialist disciplines in connection with appropriate care and network care. Can take place in multiple echelons and therefore both intramural and transmural. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Samenwerking tussen meerdere specialistische disciplines ihkv passende zorg en netwerkzorg. Kan plaatsvinden in meerdere echelons en daarmee zowel intra- als transmuraal.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -757,7 +743,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_5FCA7F37_A126_48f5_A5DE_BF4F2FC46C4D" xsi:type="BusinessFunction">
 			<name xml:lang="nl">ONDERSTEUNING ONDERWIJS</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Administratief, inhoudelijk, ondersteuning van onderwijs&lt;/nl-NL&gt;&lt;en-US&gt;Administrative, substantive, educational support&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Administratief, inhoudelijk, ondersteuning van onderwijs</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -901,7 +887,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_FE5A29D3_0EE8_406d_A949_E207AA6DF1AB" xsi:type="BusinessFunction">
 			<name xml:lang="nl">OVERIGE BEHANDELINGEN</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Behandeling niet afgedekt door de overig soorten van behandeling.&lt;/nl-NL&gt;&lt;en-US&gt;Type of treatment not covered in the other five treatment business function categories.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Behandeling niet afgedekt door de overig soorten van behandeling.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -955,7 +941,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_650B8A94_437F_4034_80DC_87AEFDB89C1F" xsi:type="BusinessFunction">
 			<name xml:lang="nl">PERSONEEL &amp; ORGANISATIE</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het management van personeelszaken binnen het ziekenhuis.&lt;/nl-NL&gt;&lt;en-US&gt;Human resources management within the hospital.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het management van personeelszaken binnen het ziekenhuis.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -973,7 +959,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_4436AF01_50C1_4d61_920D_4B4C6FD4D372" xsi:type="BusinessFunction">
 			<name xml:lang="nl">PLANNING &amp; CONTROL</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het geheel van activiteiten om te bepalen wat er in een bepaalde periode moet gebeuren (planning), de rapportage daarover en de benodigde bijsturing en uiteindelijke verantwoording over de behaalde resultaat (control).&lt;/nl-NL&gt;&lt;en-US&gt;The whole of activities to determine what needs to be done in a certain period (planning), the reporting on this and the necessary adjustments and ultimate accountability for the result achieved (control).&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het geheel van activiteiten om te bepalen wat er in een bepaalde periode moet gebeuren (planning), de rapportage daarover en de benodigde bijsturing en uiteindelijke verantwoording over de behaalde resultaat (control).</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1027,7 +1013,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_3895D5AF_2109_49e8_A3BA_A2A294173D84" xsi:type="BusinessFunction">
 			<name xml:lang="nl">TOETSING ONDERWIJS</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het testen van de resultaten van het onderwijs.&lt;/nl-NL&gt;&lt;en-US&gt;Evaluating the impact of teaching&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het testen van de resultaten van het onderwijs.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1045,7 +1031,7 @@ However, sometimes an opening in the body must be created. A small cut (incision
 		</element>
 		<element identifier="EAID_C0746DC8_2A70_461c_A4C2_9F94B3B9F214" xsi:type="BusinessFunction">
 			<name xml:lang="nl">UITVOERING ONDERWIJS</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het voorbereiden en uitvoeren van alle direct aan het onderwijs gerelateerde activiteiten.&lt;/nl-NL&gt;&lt;en-US&gt;Preparing and executing all activities directly related to education.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het voorbereiden en uitvoeren van alle direct aan het onderwijs gerelateerde activiteiten.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1287,7 +1273,7 @@ Post-conditie: er is een contact gepland</documentation>
 		</element>
 		<element identifier="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Uitvoeren Multidisciplinair Overleg (bp)</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het bespreken en vaststellen van diagnose, behandelplan en/of behandeling in een gezamenlijke bespreking van zorgverleners vanuit verschillende disciplines om een zo goed mogelijk passende behandeling aan de pati&amp;#235;nt te kunnen bieden en de kwaliteit van de zorg te waarborgen . Dit proces kan binnen &amp;#233;&amp;#233;n organisatie plaatsvinden, maar ook met gespecialiseerde expertise vanuit meerdere centra (echelonnering). MDO’s vinden doorgaans periodiek (bv wekelijks)en vooraf gepland plaats. &lt;/nl-NL&gt;&lt;en-US&gt;Discussing and determining diagnosis, treatment plan and/or treatment in a joint discussion of healthcare providers from different disciplines in order to be able to offer the best possible appropriate treatment to the patient and to guarantee the quality of care. This process can take place within a single organization, but also with specialized expertise from multiple centers (echeloning). MDOs usually take place periodically (e.g. weekly) and pre-planned. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het bespreken en vaststellen van diagnose, behandelplan en/of behandeling in een gezamenlijke bespreking van zorgverleners vanuit verschillende disciplines om een zo goed mogelijk passende behandeling aan de pati&amp;#235;nt te kunnen bieden en de kwaliteit van de zorg te waarborgen . Dit proces kan binnen &amp;#233;&amp;#233;n organisatie plaatsvinden, maar ook met gespecialiseerde expertise vanuit meerdere centra (echelonnering). MDO’s vinden doorgaans periodiek (bv wekelijks)en vooraf gepland plaats. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1902,7 +1888,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_23DD50D2_5DA7_4a8c_9BC0_BEFF6BCF2B7E" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Voorbereiden MDO (wp)</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het voorbereiden door en informeren van alle bij het MDO betrokken personen. &lt;/nl-NL&gt;&lt;en-US&gt;Preparing and informing all persons involved in the MSC. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het voorbereiden door en informeren van alle bij het MDO betrokken personen. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1914,7 +1900,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Bespreken en verslagleggen MDO (wp)</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. &lt;/nl-NL&gt;&lt;en-US&gt;Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1926,7 +1912,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Terugkoppelen MDO advies (wp)</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. &lt;/nl-NL&gt;&lt;en-US&gt; The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1938,7 +1924,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_D11CB662_B1C6_4e64_B1BB_C36C4DD95746" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Aanbieden hotelservice</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Verlenen en administratief vastleggen van een gewenste dienst zoals: parkeergelegenheid, maaltijden, catering, winkels, (vergader)ruimte, telecomfaciliteiten, mobiliteitsmiddelen, afval, repro, post, beheer bedrijfskleding en bedlinnen, etc. Omvat o.a. ook het verbeteren van bestaande diensten en het afhandelen van storingen.&lt;/nl-NL&gt;&lt;en-US&gt;Providing and administrative recording of a desired service such as: parking, meals, catering, shops, (meeting) space, telecom facilities, mobility equipment, waste, repro, mail, management of work clothing and bed linen, etc. Also includes improving existing services and handling malfunctions.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Verlenen en administratief vastleggen van een gewenste dienst zoals: parkeergelegenheid, maaltijden, catering, winkels, (vergader)ruimte, telecomfaciliteiten, mobiliteitsmiddelen, afval, repro, post, beheer bedrijfskleding en bedlinnen, etc. Omvat o.a. ook het verbeteren van bestaande diensten en het afhandelen van storingen.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1953,7 +1939,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_8D2010F4_20BB_4369_93C8_2A1BAB25BD11" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Aanleveren gegevens aan externe partijen</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het verstrekken van gegevens aan externe partijen zoals ministeries, RIVM, GGD, Vektis, verzekeraars, etc.&lt;/nl-NL&gt;&lt;en-US&gt;Providing data to external parties, such as those involved in the continuum of care, insurers, registries, and governmental entities with jurisdiction.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het verstrekken van gegevens aan externe partijen zoals ministeries, RIVM, GGD, Vektis, verzekeraars, etc.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -1968,7 +1954,7 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 		</element>
 		<element identifier="EAID_4C1D46A5_9057_4a6d_9D9D_D675E64A43E9" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Aanmelden patientcasus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het aanmelden van de pati&amp;#235;ntcasus door de (hoofd)behandelaar voor bespreking in een MDO. Dit kan een casus van een externe pati&amp;#235;nt betreffen en/of door een externe aanvrager gebeuren.&lt;/nl-NL&gt;&lt;en-US&gt;Registration of the patient case by the (main) practitioner for discussion in an MDC. This can be a case of an external patient and/or done by an external applicant.. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het aanmelden van de pati&amp;#235;ntcasus door de (hoofd)behandelaar voor bespreking in een MDO. Dit kan een casus van een externe pati&amp;#235;nt betreffen en/of door een externe aanvrager gebeuren.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -2094,7 +2080,7 @@ Aanvang van de behandelrelatie als ziekenhuis. </documentation>
 		</element>
 		<element identifier="EAID_8083CD84_E572_4c68_A0B3_5725EE8DB67D" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Accorderen behandeladvies</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het verslag met daarin het advies ten aanzien van de behandeling wordt (meestal) tijdens het MDO genoteerd en geaccordeerd door de aanwezigen.&lt;/nl-NL&gt;&lt;en-US&gt;The report containing the advice regarding the treatment is (usually) noted and approved by those present during the MDC. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het verslag met daarin het advies ten aanzien van de behandeling wordt (meestal) tijdens het MDO genoteerd en geaccordeerd door de aanwezigen.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -2287,7 +2273,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
 		</element>
 		<element identifier="EAID_1A7A571B_EB61_46e0_8AFD_864676E0F8EF" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Begeleiden deelnemers</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;</documentation>
+			<documentation xml:lang="nl">Begeleiden, coachen, adviseren, inclusief informele overdracht van kennis en ervaring.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -2767,7 +2753,7 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
 		</element>
 		<element identifier="EAID_3202F2E2_59CD_4003_804D_568E16597F2D" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Bepalen behandelmogelijkheden</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</documentation>
+			<documentation xml:lang="nl">Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3034,7 +3020,7 @@ Dit bevat in specifieke contexten (e.g. SEH) ook de triage.</documentation>
 		</element>
 		<element identifier="EAID_53B1AF61_476D_4465_8026_E2A4A146F213" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Beschikbaarstellen patientgegevens</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het koppelen/aanwijzen/verwijzen/linken van gegevens van de pati&amp;#235;nt waaronder diagnose, onderzoeksverslagen, additionele medische gegevens en verwijzingen naar radiologische beelden. Vaak zijn er afspraken gemaakt over welke gegevens relevant zijn en aangeleverd moeten worden. Kan door meerdere bij het MDO en bij de zorg voor de pati&amp;#235;nt betrokken zorgverleners worden gedaan (behandelend arts, radioloog, patholoog, …).&lt;/nl-NL&gt;&lt;en-US&gt;Linking/pointing/referring patient data including diagnosis, examination reports, additional medical data and references to radiological images. Agreements have often been made about which data is relevant and must be provided. Can be done by several healthcare providers involved in the MDC and in the care of the patient (treating physician, radiologist, pathologist, etc.). &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het koppelen/aanwijzen/verwijzen/linken van gegevens van de pati&amp;#235;nt waaronder diagnose, onderzoeksverslagen, additionele medische gegevens en verwijzingen naar radiologische beelden. Vaak zijn er afspraken gemaakt over welke gegevens relevant zijn en aangeleverd moeten worden. Kan door meerdere bij het MDO en bij de zorg voor de pati&amp;#235;nt betrokken zorgverleners worden gedaan (behandelend arts, radioloog, patholoog, …).</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3083,7 +3069,7 @@ Zie ook "IO Uitwisselingsinformatie".</documentation>
 		</element>
 		<element identifier="EAID_C81FF288_8990_49bf_B1BA_87C427E26554" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Bespreken patientcasus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Bij de bespreking van de casus deelt elke deelnemer zijn inzichten en brengt de laatste stand van de wetenschap, praktijk en ervaringsdeskundigheid vanuit zijn specialisme in. Behandelopties worden besproken. Richtlijnen zijn leidend in de besluitvorming. Eventuele deelname van de pati&amp;#235;nt aan een trial wordt op basis van in- en exclusiecriteria overwogen.&lt;/nl-NL&gt;&lt;en-US&gt;When discussing the case, each participant shares their insights and brings in the latest state of science, practice and experiential expertise from their specialism. Treatment options are discussed. Guidelines are leading in decision-making. Possible participation of the patient in a trial will be considered on the basis of inclusion and exclusion criteria.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Bij de bespreking van de casus deelt elke deelnemer zijn inzichten en brengt de laatste stand van de wetenschap, praktijk en ervaringsdeskundigheid vanuit zijn specialisme in. Behandelopties worden besproken. Richtlijnen zijn leidend in de besluitvorming. Eventuele deelname van de pati&amp;#235;nt aan een trial wordt op basis van in- en exclusiecriteria overwogen.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3185,7 +3171,7 @@ Zie ook "IO Uitwisselingsinformatie".</documentation>
 		</element>
 		<element identifier="EAID_D9DDD03E_0C79_4af0_B8E5_9854994C06F1" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Controleren aanmelding</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De ingediende aanmelding MDO wordt gecontroleerd op juistheid en volledigheid.&lt;/nl-NL&gt;&lt;en-US&gt;The submitted MDC registration will be checked for correctness and completeness.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De ingediende aanmelding MDO wordt gecontroleerd op juistheid en volledigheid.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3245,7 +3231,7 @@ Zie ook "IO Uitwisselingsinformatie".</documentation>
 		</element>
 		<element identifier="EAID_7706F075_58B7_420e_BCE3_37EF9CA7CF67" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Delen MDO informatie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De deelnemers worden ge&amp;#239;nformeerd over de pati&amp;#235;ntcasus op de bespreeklijst en (toegang verleend tot) de beschikbaargestelde informatie over de casus.&lt;/nl-NL&gt;&lt;en-US&gt;The participants will be informed about the patient case on the consultation list and (given access to) the information made available about the case.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De deelnemers worden ge&amp;#239;nformeerd over de pati&amp;#235;ntcasus op de bespreeklijst en (toegang verleend tot) de beschikbaargestelde informatie over de casus.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3369,7 +3355,7 @@ en irt behandeldoelen.</documentation>
 		</element>
 		<element identifier="EAID_C7781644_7E30_4aac_B502_AD3EC484BE7C" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Formuleren vraagstelling</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het opnemen van de vraagstelling van de casus om te bespreken op het MDO (evt. met voorlopige conclusie en voorstel beleid) door de (hoofd)behandelaar/aanvrager.&lt;/nl-NL&gt;&lt;en-US&gt;Recording the question of the case to be discussed at the MDO (possibly with preliminary conclusion and proposal policy) by the (main) practitioner/applicant. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het opnemen van de vraagstelling van de casus om te bespreken op het MDO (evt. met voorlopige conclusie en voorstel beleid) door de (hoofd)behandelaar/aanvrager.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3426,7 +3412,7 @@ en irt behandeldoelen.</documentation>
 		</element>
 		<element identifier="EAID_A3375D61_CF0A_4c8f_BAB1_974567991673" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Informeren patiënt</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+			<documentation xml:lang="nl">In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
 
 In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</documentation>
 			<properties>
@@ -3626,7 +3612,7 @@ In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en
 		</element>
 		<element identifier="EAID_4E43F9FE_C9A9_4819_9E55_9E148688E018" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Ontvangen patiënt</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het ontvangen van de patiënt.</documentation>
+			<documentation xml:lang="nl">Het ontvangen van de patiënt.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3888,7 +3874,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_E6BCFF59_D320_4a01_98AD_5F25FA66EA6C" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Plannen middelen</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</documentation>
+			<documentation xml:lang="nl">Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3962,8 +3948,8 @@ Verwijzen is specialisatie van overdragen.</documentation>
 			</properties>
 		</element>
 		<element identifier="EAID_D25ACA34_8593_47d8_9B5A_5B5CE5F9DD6C" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Plannen van  de locatie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</documentation>
+			<name xml:lang="nl">Plannen van de locatie</name>
+			<documentation xml:lang="nl">Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -3996,7 +3982,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_CA8DBAE3_B2AE_49a2_9E0C_F4AC540B75E5" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Presenteren patientcasus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De (hoofd)behandelaar presenteert de pati&amp;#235;ntcasus.  Relevante informatie wordt toegelicht en getoond.&lt;/nl-NL&gt;&lt;en-US&gt;The (main) practitioner presents the patient case. Relevant information is explained and displayed.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De (hoofd)behandelaar presenteert de pati&amp;#235;ntcasus.  Relevante informatie wordt toegelicht en getoond.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -4143,7 +4129,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_0E0338E3_0157_4bc8_996A_0A8942BC8BFD" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Terugkoppelen aanvrager</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag.&lt;/nl-NL&gt;&lt;en-US&gt;The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -4170,7 +4156,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_C834DF9D_B8BA_4ad3_BECB_8A2A6C4BDDDC" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Toevoegen aan bespreeklijst MDO</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De gecontroleerde aanmelding wordt toegevoegd aan de bespreeklijst van het (eerstvolgende) MDO. De volgorde van pati&amp;#235;nten op de lijst wordt logisch geclusterd. Als er sprake is van echelonnering wordt er tevens bepaald welke soort MDO (intramuraal, transmuraal, …) van toepassing is/bij de vraagstelling van de casus past.&lt;/nl-NL&gt;&lt;en-US&gt;The checked application will be added to the consultation list of the (next) MDC. The order of patients on the list is logically clustered. If there is echeloning, it is also determined which type of MDC (intramural, transmural, etc.) is applicable/fits the question of the case.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De gecontroleerde aanmelding wordt toegevoegd aan de bespreeklijst van het (eerstvolgende) MDO. De volgorde van pati&amp;#235;nten op de lijst wordt logisch geclusterd. Als er sprake is van echelonnering wordt er tevens bepaald welke soort MDO (intramuraal, transmuraal, …) van toepassing is/bij de vraagstelling van de casus past.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -4197,7 +4183,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_114792AB_E7F0_41af_BD00_87383B66E56D" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Uitvoeren aanvullend onderzoek</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Op systematische wijze, volgens een bepaalde methodiek of techniek, verkrijgen van informatie over de lichamelijke of geestelijke gesteldheid van een pati&amp;#235;nt/cli&amp;#235;nt. Het  afnemen van menselijk materiaal en het verzamelen van beeldmateriaal is hier een onderdeel van. &lt;/nl-NL&gt;&lt;en-US&gt;Obtaining information about the physical or mental condition of patient in a systematic manner, according to a specific method or technique. Collecting human material/specimen(s) and collecting visual material.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Op systematische wijze, volgens een bepaalde methodiek of techniek, verkrijgen van informatie over de lichamelijke of geestelijke gesteldheid van een pati&amp;#235;nt/cli&amp;#235;nt. Het  afnemen van menselijk materiaal en het verzamelen van beeldmateriaal is hier een onderdeel van. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -4350,7 +4336,7 @@ Verwijzen is specialisatie van overdragen.</documentation>
 		</element>
 		<element identifier="EAID_6BD088E9_988B_4752_A9AA_48ECCBF457E3" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Vaststellen behandeladvies</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het behandeladvies en -beleid voor de pati&amp;#235;nt wordt gezamenlijk vastgesteld en in het verslag vastgelegd.  Het advies betreft naast beleid ten aanzien van de behandeling eventuele nadere diagnostiek en eventuele deelname aan wetenschappelijke studies of trials.&lt;/nl-NL&gt;&lt;en-US&gt;The treatment advice and policy for the patient is jointly determined and recorded in the report. In addition to policy with regard to treatment, the advice concerns any further diagnostics and possible participation in scientific studies or trials..&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het behandeladvies en -beleid voor de pati&amp;#235;nt wordt gezamenlijk vastgesteld en in het verslag vastgelegd.  Het advies betreft naast beleid ten aanzien van de behandeling eventuele nadere diagnostiek en eventuele deelname aan wetenschappelijke studies of trials.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -4603,7 +4589,7 @@ Verwerking kan bestaan uit het substitueren van de medicatie, toepassen van medi
 		</element>
 		<element identifier="EAID_E2BF5455_896C_4bc6_BE94_727FAA09E6A0" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Voorbereiden MDO</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Elke deelnemer bereid de pati&amp;#235;ntcasus voor vanuit zijn eigen rol. De (hoofd)behandelaar om zijn pati&amp;#235;ntcasus te presenteren, de overige deelnemende specialisten medisch inhoudelijk, de ondersteuner (casemanager, secretariaat) de administratieve en logistieke aspecten.&lt;/nl-NL&gt;&lt;en-US&gt;Each participant prepares the patient case from their own role. The (main) practitioner to present his patient case, the other participating specialists in terms of medical content, the support person (case manager, secretariat) the administrative and logistical aspects.&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Elke deelnemer bereid de pati&amp;#235;ntcasus voor vanuit zijn eigen rol. De (hoofd)behandelaar om zijn pati&amp;#235;ntcasus te presenteren, de overige deelnemende specialisten medisch inhoudelijk, de ondersteuner (casemanager, secretariaat) de administratieve en logistieke aspecten.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -5445,31 +5431,31 @@ Als de patient dan hoofdpijn heeft en je geeft paracetamol, dan is dat een Inter
 		</element>
 		<element identifier="EAID_9BD92148_CE4D_4d85_8C0A_FF5F54D3D641" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO aanmelding</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De registratie van de pati&amp;#235;ntcasus voor het MDO.&lt;/nl-NL&gt;&lt;en-US&gt; The registration of the patient case for the MDC. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">De registratie van de pati&amp;#235;ntcasus voor het MDO.</documentation>
 		</element>
 		<element identifier="EAID_4981BACA_DB5C_479a_9CF2_E58B6917AF0E" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO behandeladvies</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde behandeladvies voor de pati&amp;#235;nt.&lt;/nl-NL&gt;&lt;en-US&gt; Recording of the joint treatment advice for the patient by the MDC participants. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde behandeladvies voor de pati&amp;#235;nt.</documentation>
 		</element>
 		<element identifier="EAID_839B70F6_53F9_45d0_B24E_B3CE962C8228" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO bespreeklijst</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het overzicht met pati&amp;#235;ntcasussen dat tijdens de (eerstvolgende) MDO bijeenkomst wordt besproken.&lt;/nl-NL&gt;&lt;en-US&gt; The overview of patient cases that will be discussed during the (next) MDC meeting. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Het overzicht met pati&amp;#235;ntcasussen dat tijdens de (eerstvolgende) MDO bijeenkomst wordt besproken.</documentation>
 		</element>
 		<element identifier="EAID_786292D9_AAF3_411c_93AA_4A56FC8622B6" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO conclusie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde conclusie over de pati&amp;#235;ntcasus.&lt;/nl-NL&gt;&lt;en-US&gt; Recording of the joint conclusion of the patient case by the MDC participants. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde conclusie over de pati&amp;#235;ntcasus.</documentation>
 		</element>
 		<element identifier="EAID_7F2B6320_B4A4_4b98_9002_2875464B9513" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO formulier</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Document waar de voor het MDO relevante informatie over de pati&amp;#235;nt wordt ingevuld.&lt;/nl-NL&gt;&lt;en-US&gt; Document where the information about the pati&amp;#235;nt relevant to the MDC is filled in. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Document waar de voor het MDO relevante informatie over de pati&amp;#235;nt wordt ingevuld.</documentation>
 		</element>
 		<element identifier="EAID_52DBE012_1CCC_4707_B7E5_D58CE4334E18" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO vraagstelling</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vastlegging van de vraag omtrent de pati&amp;#235;ntcasus die aan het MDO wordt voorgelegd.&lt;/nl-NL&gt;&lt;en-US&gt; Recording of the question regarding the patient case submitted to the MDC. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Vastlegging van de vraag omtrent de pati&amp;#235;ntcasus die aan het MDO wordt voorgelegd.</documentation>
 		</element>
 		<element identifier="EAID_301C9BFB_7A9E_4868_BEB5_22C20C97B0EC" xsi:type="BusinessObject">
 			<name xml:lang="nl">MDO verslag</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vastlegging van de door de MDO deelnemers gezamenlijke conclusie en behandeladvies voor de pati&amp;#235;nt.&lt;/nl-NL&gt;&lt;en-US&gt; Recording of the joint conclusion and treatment advice for the patient by the MDC participants. &lt;/en-US&gt;&lt;/languages&gt;</documentation>
+			<documentation xml:lang="nl">Vastlegging van de door de MDO deelnemers gezamenlijke conclusie en behandeladvies voor de pati&amp;#235;nt.</documentation>
 		</element>
 		<element identifier="EAID_16D5CCB2_52ED_4f45_B2B6_74C822FC2BC4" xsi:type="BusinessObject">
 			<name xml:lang="nl">Medicatieafspraak</name>
@@ -6638,40 +6624,31 @@ Een voorbeelden hiervan is een DBC.</documentation>
 		</element>
 		<element identifier="EAID_50A174AD_61C5_4c93_A9AB_F64272732499" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Alert</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een alert beschrijft een klinisch of administratief feit dat onder de aandacht van de gebruikers van de klinische systemen wordt gebracht , om er bij het vormen van diagnostisch en therapeutisch beleid of bij de omgang met de pati&amp;#235;nt rekening mee te houden, meestal wegens een veiligheidsrisico. 
+			<documentation xml:lang="nl">Een alert beschrijft een klinisch of administratief feit dat onder de aandacht van de gebruikers van de klinische systemen wordt gebracht , om er bij het vormen van diagnostisch en therapeutisch beleid of bij de omgang met de pati&amp;#235;nt rekening mee te houden, meestal wegens een veiligheidsrisico. 
 Aandoeningen, die de overgevoeligheid van het lichaam voor een stof beschrijven, zich uitend in een specifieke fysiologische reactie na blootstelling, worden allergie&amp;#235;n genoemd. Deze worden in een aparte bouwsteen beschreven. 
 Waarschuwingen voor niet allergische aandoeningen kunnen betreffen:
 -een aandoening (conditie of diagnose die beschouwd kan worden als contra-indicatie voor het gebruik van groepen van geneesmiddelen of het ondergaan van een bepaalde therapie), zoals zwangerschap of een verlengd QT-syndroom
 -Verminderde functie van een orgaansysteem (hartfalen, verminder lever- of nierfunctie, verminderde afweer) 
 -Kans op verspreiding van bepaalde micro-organismen (multiresistente bacterie, tuberkelbacterie, HIV, HBV, Ebola virus)
 -Andere risico's
-{&lt;/nl-NL&gt;&lt;en-US&gt;An alert describes a clinical or administrative fact brought to the attention of the users of the clinical systems to be taken into account when shaping diagnostic and therapeutic policy or in dealing with the patient, usually because of a safety risk.  
-Disorders that describe the body's sensitivity to a substance which results in a specific physiological reaction after being exposed to that substance are referred to as allergies. These are described in a separate information model.  
-Warnings for non-allergic disorders can concern: 
-- A disorder (condition or diagnosis which can be considered as a contraindication for the use of groups of medication or undergoing a certain type of therapy), such as pregnancy or long QT syndrome 
-- Impaired functioning of an organ system (heart failure, impaired liver or kidney function, weakened immune system)  
-- Risk of spreading certain microorganisms (multi-resistant bacteria, tubercle bacilli, HIV, HBV, Ebola virus) 
-- Other risks&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_4344875F_1EDA_4f9f_B35B_8C0787A56F68" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.AlgemeneMentaleFuncties</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Belangrijke onderdelen van de algemene mentale functies van de hersenen zijn intellectuele functies, ori&amp;#235;ntatie en bewustzijn. 
 Als er sprake is van stoornis in intellectuele functies t.g.v. verstandelijke beperking wordt dit niet beschreven in deze bouwsteen maar als medische diagnose vastgelegd.
 Stoornissen in ori&amp;#235;ntatie en bewustzijn in combinatie met stoornissen in aandacht, geheugen en waarneming worden gezien als belangrijke symptomen voor de mogelijke aanwezigheid van een delier. Laatstgenoemde stoornissen worden vastgelegd in de bouwsteen SpecifiekeMentaleFuncties.
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Important parts of the brain's general mental functions are intellectual functions, orientation and consciousness.  
-If there is a disorder in the intellectual functions as a result of a mental disability, it is not described in this information model but is recorded as a medical diagnosis. 
-Disorders in orientation and consciousness combined with disorders in attention, memory and observation are seen as important symptoms for the potential presence of a delirium. The latter disorders are recorded in the SpecificMentalFunctions information model.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_863A3C18_E127_4c79_A775_BD66768C8F08" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.AlgemeneMeting</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een algemene meting legt de uitkomst vast van een meting of bepaling die bij een pati&amp;#235;nt is uitgevoerd. De bouwsteen wordt gebruikt om de uitslagen van metingen vast te leggen waarvoor geen specifieke bouwstenen zijn geformuleerd. De bouwsteen is niet bedoeld voor laboratorium bepalingen die uitgevoerd worden op materiaal dat bij de pati&amp;#235;nt is afgenomen.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A general measurement determines the result of a measurement or determination made for a patient. The information model is used to record the measurement results for which no specific information models have yet been formulated. The information model is not intended for laboratory determinations to be carried out on the material taken from the patient.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een algemene meting legt de uitkomst vast van een meting of bepaling die bij een pati&amp;#235;nt is uitgevoerd. De bouwsteen wordt gebruikt om de uitslagen van metingen vast te leggen waarvoor geen specifieke bouwstenen zijn geformuleerd. De bouwsteen is niet bedoeld voor laboratorium bepalingen die uitgevoerd worden op materiaal dat bij de pati&amp;#235;nt is afgenomen.
+{</documentation>
 		</element>
 		<element identifier="EAID_67C5E563_7B78_452b_ABA9_E04F47F426D1" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.AllergieIntolerantie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een allergie of intolerantie beschrijft de geneigdheid tot overgevoeligheid van een pati&amp;#235;nt voor een stof,  zodat na blootstelling een ongewenste fysiologische reactie verwacht wordt, terwijl bij de meeste mensen bij die hoeveelheid geen reactie zou optreden. De waargenomen fysiologische veranderingen zijn meestal het resultaat van een immunologische reactie.  
+			<documentation xml:lang="nl">Een allergie of intolerantie beschrijft de geneigdheid tot overgevoeligheid van een pati&amp;#235;nt voor een stof,  zodat na blootstelling een ongewenste fysiologische reactie verwacht wordt, terwijl bij de meeste mensen bij die hoeveelheid geen reactie zou optreden. De waargenomen fysiologische veranderingen zijn meestal het resultaat van een immunologische reactie.  
 De stoffen kunnen als volgt worden ingedeeld:
 -Geneesmiddel
 -Geneesmiddelgroep
@@ -6682,26 +6659,14 @@ De stoffen kunnen als volgt worden ingedeeld:
 -Planten
 -Chemicali&amp;#235;n
 -Inhalatieallergenen
-{&lt;/nl-NL&gt;&lt;en-US&gt;An allergy or intolerance describes a patient's tendency towards hypersensitivity to a certain substance, so that an unwanted physiological reaction is expected after exposure to the substance, while most people would not exhibit such a reaction to that amount. The observed physiological changes are usually the result of an immunological reaction.   
-The substances can be categorized as follows: 
-- Medicine 
-- Medicine category 
-- Ingredient/addition 
-- Nutrition 
-- Environmental factor 
-- Animal 
-- Plants 
-- Chemicals 
-- Inhaled allergenic&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_9DF3FCC2_1D55_4045_B08E_BF9E9187462E" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.BarthelIndex</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De Barthel-index is een gevalideerd meetinstrument voor het vastleggen en volgen van activiteiten van het dagelijks leven (ADL) van pati&amp;#235;nten en indirect de mate van afhankelijk zijn van hulp. 
+			<documentation xml:lang="nl">De Barthel-index is een gevalideerd meetinstrument voor het vastleggen en volgen van activiteiten van het dagelijks leven (ADL) van pati&amp;#235;nten en indirect de mate van afhankelijk zijn van hulp. 
 De lijst bestaat uit 10 onderdelen: darm, blaas, uiterlijke verzorging, toiletgebruik, eten, transfers (bed-stoel en omgekeerd), mobiliteit, aan- en uitkleden, trappen lopen en baden/douchen waaraan een score wordt toegekend. 
 De totaalscore is de som van de scores van de 10 onderdelen. 
-{&lt;/nl-NL&gt;&lt;en-US&gt;The Barthel ADL index is a validated scale used to measure and track patients' activities of daily living (ADL) and indirectly, the extent to which they are dependent on help.  
-The list comprises 10 variables: bowels, bladder, grooming, toilet use, feeding, transfers (from chair to bed and vice versa), mobility, dressing, climbing stairs and bathing, which are all given a score.  
-The total score is the sum of the scores of the 10 variables.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_8C13F249_D648_4281_A515_CE41758F5859" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.BehandelAanwijzing</name>
@@ -6710,15 +6675,14 @@ The total score is the sum of the scores of the 10 variables.&lt;/en-US&gt;&lt;/
 		</element>
 		<element identifier="EAID_29FF811B_FEEF_4b36_B28F_7029F1940082" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Behandeldoel</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het behandeldoel omschrijft het gewenste resultaat van de behandeling/interventies met betrekking tot het benoemde probleem van de pati&amp;#235;nt. Naast de streefwaarde wordt bij het te bereiken doel ook een streefdatum aangegeven. Vergelijking van het behandeldoel met de uitkomsten van zorg geeft inzicht in de effectiviteit van de behandeling/interventies. 
+			<documentation xml:lang="nl">Het behandeldoel omschrijft het gewenste resultaat van de behandeling/interventies met betrekking tot het benoemde probleem van de pati&amp;#235;nt. Naast de streefwaarde wordt bij het te bereiken doel ook een streefdatum aangegeven. Vergelijking van het behandeldoel met de uitkomsten van zorg geeft inzicht in de effectiviteit van de behandeling/interventies. 
 Voor het verpleegkundig proces wordt het probleem uitgedrukt als verpleegkundige diagnose. Het behandeldoel is samen met verpleegkundige diagnoses, verpleegkundige interventies en uitkomsten van zorg, onderdeel van het verpleegkundig proces.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The treatment goal describes the desired result of the treatment/interventions in terms of the patient's diagnosed problem. The goal and target date are entered in addition to the target value. Comparing the healthcare results to the treatment goal provides insight into the effectivity of the treatment/interventions.  
-In the nursing process, the problem is expressed as a nursing diagnosis. The treatment goal, nursing diagnoses, nursing interventions and healthcare results are part of the nursing process.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_341AED0F_E200_48c1_98EF_730396AB7892" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Betaler</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Betalers zijn organisaties of individuen die betalen voor de aan de pati&amp;#235;nt geleverde zorg. Deze organisaties of individuen kunnen zijn: instellingen of personen die financieel garant staan of verantwoordelijk zijn voor de pati&amp;#235;nt (zoals ouders van minderjarigen), organisaties met directe financi&amp;#235;le verantwoordelijkheid, combinaties van deze of de pati&amp;#235;nt zelf.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Payers are organizations or individuals that pay for the healthcare supplied to the patient. These organizations or individuals can be: facilities or people who financially guarantee or who are responsible for the patient (such as parents or guardians of minors), organizations with direct financial responsibility, combinations of these or the patient themselves.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Betalers zijn organisaties of individuen die betalen voor de aan de pati&amp;#235;nt geleverde zorg. Deze organisaties of individuen kunnen zijn: instellingen of personen die financieel garant staan of verantwoordelijk zijn voor de pati&amp;#235;nt (zoals ouders van minderjarigen), organisaties met directe financi&amp;#235;le verantwoordelijkheid, combinaties van deze of de pati&amp;#235;nt zelf.
+{</documentation>
 		</element>
 		<element identifier="EAID_3F957A02_8664_403a_AC5E_511234083E14" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Blaasfunctie</name>
@@ -6733,50 +6697,39 @@ De primaire functie van de blaas is tijdelijke opslag van urine. Een tweede bela
 		</element>
 		<element identifier="EAID_EB988181_D242_43e9_9C24_7751750E0271" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Brandwond</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een brandwond is een verwonding door invloed van hitte op de huid gedurende een bepaalde tijd en boven een bepaalde kritische temperatuur. Boven deze kritische temperatuur (+/- 40 graden Celsius) treedt beschadiging van de huid op. Er zijn verschillende soorten brandwonden en deze worden  ingedeeld naar de diepte van de brandwond. 
+			<documentation xml:lang="nl">Een brandwond is een verwonding door invloed van hitte op de huid gedurende een bepaalde tijd en boven een bepaalde kritische temperatuur. Boven deze kritische temperatuur (+/- 40 graden Celsius) treedt beschadiging van de huid op. Er zijn verschillende soorten brandwonden en deze worden  ingedeeld naar de diepte van de brandwond. 
 De diepte van de brandwond hangt af van: 
 - de temperatuur van de inwerkende hitte;
 - de tijd dat de hitte inwerkt op de huid; 
 - de oorzaak van de verbranding (bijvoorbeeld hete vloeistof, vuur).
-{&lt;/nl-NL&gt;&lt;en-US&gt;A burn wound is a wound caused by skin being exposed to heat for a certain time above a certain critical temperature. Heat above this critical temperature (+/- 40 degrees Celsius) will cause damage to the skin. There are different types of burn wounds, which are categorized according to the depth of the burn wound.  
-The depth of the burn wound depends on:  
-- the temperature of the impacting heat; 
-- the duration of the impact of heat on the skin;  
-- the source of the burn (e.g. fire, fluid).&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_3BA136E4_C5C1_4fe2_961A_DAF1B75D92E1" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Burgerlijkestaat</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Burgerlijke staat is de formele positie van een mens in de zin en betekenis van het burgerlijk wetboek. Te onderscheiden vallen huwelijkse staat en partnerregistratie (geregistreerd partnerschap).
-{&lt;/nl-NL&gt;&lt;en-US&gt;Marital status is a person's formal position as defined by the Dutch civil code. There is a distinction between marriage and civil union.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Burgerlijke staat is de formele positie van een mens in de zin en betekenis van het burgerlijk wetboek. Te onderscheiden vallen huwelijkse staat en partnerregistratie (geregistreerd partnerschap).
+{</documentation>
 		</element>
 		<element identifier="EAID_B3880E5B_9897_4876_B237_377920E6BC45" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Communicatievaardigheden</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Communicatievaardigheden zijn de vaardigheden van pati&amp;#235;nt m.b.t. het delen van informatie (zowel verbaal als non-verbaal), waarbij een  onderscheid wordt gemaakt tussen het begrijpen van de gecommuniceerde informatie en het zich kunnen uiten, zowel verbaal als non-verbaal. 
 Beperkingen in communicatievaardigheden  kunnen verschillende oorzaken hebben. Het kan een gevolg zijn van hersenletsel, zoals afasie, of een stoornis in de mentale functies. Dit kan een grote impact hebben op de mate waarin iemand informatie begrijpt of de manier waarop iemand zich kan uiten. Ook pati&amp;#235;nten die slechthorend zijn kunnen moeite hebben met communicatie.
 Mate van taalbeheersing is geen onderdeel van communicatievaardigheden.
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Communication skills are a patient's skills in terms of sharing information (both verbally and non-verbally), with a distinction between understanding the communicated information and the ability to express oneself, both verbally and non-verbally.  
-Limitations in communication skills can have various causes. They can result from brain damage, such as aphasia, or mental function disorders. This can have a major impact on the extent to which a person is able to understand information or the way in which a person can express themselves. Hearing impaired patients can also have difficulty in communication. 
-Linguistic competence is not a part of communication skills.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_8207BC59_4CBF_4d26_9D48_0C5CA5F8CCEC" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Contact</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een contact is een interactie, onafhankelijk van de situatie, tussen een pati&amp;#235;nt en een zorgverlener, waarbij de zorgverlener de primaire verantwoordelijkheid heeft de conditie van de pati&amp;#235;nt te diagnosticeren, te evalueren, te behandelen en de pati&amp;#235;nt te informeren. Dit kunnen bezoeken, afspraken of niet face-to-face interacties zijn.
+			<documentation xml:lang="nl">Een contact is een interactie, onafhankelijk van de situatie, tussen een pati&amp;#235;nt en een zorgverlener, waarbij de zorgverlener de primaire verantwoordelijkheid heeft de conditie van de pati&amp;#235;nt te diagnosticeren, te evalueren, te behandelen en de pati&amp;#235;nt te informeren. Dit kunnen bezoeken, afspraken of niet face-to-face interacties zijn.
 
 Contacten kunnen huisarts- of praktijkbezoeken, thuisbezoeken, opnames (in bijvoorbeeld ziekenhuizen, verpleeg/verzorgingstehuizen, psychiatrische inrichtingen of revalidatieklinieken) of andere relevante contacten betreffen. Het betreft alleen historische contacten. De toekomstige contacten kunnen vastgelegd worden in de bouwsteen GeplandeZorgActiviteit.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A contact is any interaction, regardless of the situation, between a patient and the healthcare provider, in which the healthcare provider has primary responsibility for diagnosing, evaluating and treating the patient's condition and informing the patient. These can be visits, appointments or non face-to-face interactions. 
-
-Contacts can be visits to the general practitioner or other practices, home visits, admissions (in hospitals, nursing homes or care homes, psychiatric institutions or convalescent homes) or other relevant contacts. This only includes past contacts. Future contacts can be documented in the PlannedCareActivity information model.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_98898F64_38BF_4c6e_9FFC_67C2CBD958AA" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Contactpersoon</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een contactpersoon is een persoon anders dan zorgverleners, die betrokken zijn bij de zorg voor de pati&amp;#235;nt, zoals familieleden, mantelzorgers, geestelijke verzorgers, voogden en wettelijkelijk vertegenwoordigers.
+			<documentation xml:lang="nl">Een contactpersoon is een persoon anders dan zorgverleners, die betrokken zijn bij de zorg voor de pati&amp;#235;nt, zoals familieleden, mantelzorgers, geestelijke verzorgers, voogden en wettelijkelijk vertegenwoordigers.
 
 Naast identificerende gegevens als naam kunnen ook adres- en contactgegevens worden toegevoegd. Daarnaast kan relatie tot de pati&amp;#235;nt en rol die de persoon heeft, meegegeven worden.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A contact is a different person than a healthcare provider who is involved in the patient's care, such as family members, caregivers, mental caretakers, guardians and legal representatives. 
-
-In addition to identification information such as the name, address and contact information can also be entered. The relationship to the patient and the role this person has can be entered as well.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_82D867CC_7C16_4a7c_9A80_EC32D96952F1" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Darmfunctie</name>
@@ -6811,12 +6764,10 @@ Een stoornis van de hoorfunctie kan leiden tot onder andere communicatieprobleme
 		</element>
 		<element identifier="EAID_03E311D4_DD34_432e_9E9A_EF2A281CB367" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.FunctieZien</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Zien is het vermogen om belichte objecten waar te nemen, met als doel zich te ori&amp;#235;renteren op voorwerpen en personen in een belichte omgeving.  Het gaat daarbij om de waarneming van de lichtprikkels en niet om de verwerking er van in de hersenen.
 Een stoornis van de gezichtsfunctie kan leiden tot onder andere orientatieproblemen.
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Sight is the ability to observe lit objects, with the goal of orienting yourself on objects and people in a lit environment.  This pertains to observing the light stimuli, and not processing them in the brain. 
-A sight disorder can lead to things including orientation problems.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_7037C829_C4D1_4bc2_B9AA_AD53A11A1061" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.FunctieZintuiglijkeWaarneming</name>
@@ -6829,8 +6780,8 @@ Voor de gehoorfunctie en visuele functie zijn aparte bouwstenen beschikbaar.
 		</element>
 		<element identifier="EAID_86983F8E_45A1_47d7_811C_BFB2C01E6062" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.FunctioneleOfMentaleStatus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De functionele of mentale status geeft inzicht in de functionele en mentale beperkingen van de pati&amp;#235;nt.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The functional or mental status provides insight into the patient's functional and mental limitations.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">De functionele of mentale status geeft inzicht in de functionele en mentale beperkingen van de pati&amp;#235;nt.
+{</documentation>
 		</element>
 		<element identifier="EAID_32689E62_5253_4d7e_9F5F_7D99A8262F6C" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Gezinssituatie</name>
@@ -6840,10 +6791,9 @@ Tegenwoordig wordt de term breder gebruikt voor alle samenlevingsvormen die een 
 		</element>
 		<element identifier="EAID_0D29A944_5958_4331_8063_DF6EDD9698B4" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.GlasgowComaScale</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vijftienpuntschaal waarmee het bewustzijnsniveau van een persoon, van volkomen helder tot diep bewusteloos, kan worden weergegeven in een cijfer, de zogenaamde EMV-score.
+			<documentation xml:lang="nl">Vijftienpuntschaal waarmee het bewustzijnsniveau van een persoon, van volkomen helder tot diep bewusteloos, kan worden weergegeven in een cijfer, de zogenaamde EMV-score.
 De Glasgow comascore ofwel EMV (Eye-Motor-Verbal) score is een maat voor de mate van het bewustzijn, gebaseerd op oog-, verbale en bewegingsreacties op specifieke voorgeschreven hoorbare en voelbare prikkels.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Fifteen-point scale for expressing a person's level of consciousness, from fully awake to deep unconsciousness, in a number: the so-called EMV score. 
-The Glasgow Coma Scale score or EMV (Eye-Motor-Verbal) score is a scale to measure the extent of consciousness, based on eye, verbal and motor responses to specific prescribed sound and pain stimuli.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_A9AF5E09_BABE_45c8_A11E_254B25596CEB" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Hartfrequentie</name>
@@ -6868,26 +6818,19 @@ Behandelende artsen en personeel van de organisatie waarin een patiënt is opgeno
 		</element>
 		<element identifier="EAID_A1778A8F_994F_4583_BC64_D31FB9F289B8" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Infuus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een infuus is een apparaat waarmee vloeistof langzaam in een bloedvat wordt gespoten. Het infuus bestaat uit een aantal delen.
+			<documentation xml:lang="nl">Een infuus is een apparaat waarmee vloeistof langzaam in een bloedvat wordt gespoten. Het infuus bestaat uit een aantal delen.
 Tot het infuus behoort:
 	- de canule (perifeer) of de katheter (centraal) die perifeer of centraal wordt ingebracht bij de pati&amp;#235;nt;
 	- het toedieningssysteem dat aangesloten is op de canule/katheter waardoor de vloeistof loopt die wordt toegediend;
 	- de infuuszak waar de vloeistof zich in bevindt.
 Op &amp;#233;&amp;#233;n canule/katheter kunnen meerdere toedieningssystemen zijn aangesloten. Daarnaast kan een centraal veneuze katheter meerdere lumina bevatten.
 Naast veneuze katheters zijn er ook arteri&amp;#235;le en epidurale katheters.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A drip is a machine that slowly injects fluid into a blood vessel. The drip has a number of components. 
-The drip contains: 
-	- the (peripheral) cannula or the (central) catheter put into the patient peripherally or centrally;
-	- the administering system connected to the cannula/catheter allowing the administered fluid to run;
-	- the drip bag containing the fluid. 
-
-Multiple administering systems may be connected to one cannula/catheter. Furthermore, a central venous catheter may have multiple lumens. 
-Arterial and epidural catheters also exist in addition to venous catheters.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_5C46563A_CEF1_4027_861A_5BC7D83DC31F" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Levensovertuiging</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De levens- en/of geloofsovertuiging van de pati&amp;#235;nt.  
-{&lt;/nl-NL&gt;&lt;en-US&gt;Patient's life stance and/or religion.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">De levens- en/of geloofsovertuiging van de pati&amp;#235;nt.  
+{</documentation>
 		</element>
 		<element identifier="EAID_813771AE_BC5B_4abb_8027_4A4D2ABE4105" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Lichaamsgewicht</name>
@@ -6896,25 +6839,24 @@ Arterial and epidural catheters also exist in addition to venous catheters.&lt;/
 		</element>
 		<element identifier="EAID_16725738_900A_4874_8801_4CDE53094AC0" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Lichaamslengte</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De lichaamslengte van een persoon.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A person's body height.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">De lichaamslengte van een persoon.
+{</documentation>
 		</element>
 		<element identifier="EAID_734A396B_03C1_4f6b_A916_B069E720FBFD" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Lichaamstemperatuur</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het meten en vastleggen van de lichaamstemperatuur van een persoon als surrogaat voor de centrale lichaamstemperatuur (de hoogste temperatuur midden in de romp) van een persoon
-{&lt;/nl-NL&gt;&lt;en-US&gt;Measuring and documenting the body temperature of a person as a surrogate for a person's central body temperature (the highest temperature at the centre of the torso)&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Het meten en vastleggen van de lichaamstemperatuur van een persoon als surrogaat voor de centrale lichaamstemperatuur (de hoogste temperatuur midden in de romp) van een persoon
+{</documentation>
 		</element>
 		<element identifier="EAID_D08A9FBD_6FF4_47f2_9BDA_6FC450E00D39" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MUSTScore</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De Malnutrition Universal Screening Tool (MUST) is  een (gevalideerd) diagnostisch screeningsinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. 
+			<documentation xml:lang="nl">De Malnutrition Universal Screening Tool (MUST) is  een (gevalideerd) diagnostisch screeningsinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. 
 Voor dit screeningsinstrument wordt bij elke pati&amp;#235;nt de Body Mass Index (BMI) en het percentage gewichtsverlies berekend en wordt de pati&amp;#235;nt een ziektefactor toegekend. De MUST ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding. (Bron: Richtlijn Behandeling en screening ondervoeding.)
-{&lt;/nl-NL&gt;&lt;en-US&gt;The Malnutrition Universal Screening Tool (MUST) is a (validated) diagnostic screening tool for determining the extent of a patient's malnutrition. 
-For this screening tool, every patient's Body Mass Index (BMI) and weight loss percentage is calculated, after which the patient is assigned a disease factor. The MUST helps to recognize and treat malnutrition at an early stage. (Source: Guidelines for Screening and Treating Malnutrition.)&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_DBE6A892_0D12_496c_B6E6_70033AEE6C7F" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MedicatieGebruik</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;MedicatieGebruik beschrijft de inname of toediening van een medicament, veelal in relatie tot een voorschrift, maar ook op eigen initiatief. Het beschrijft het patroon van inname van medicatie, zoals gerapporteerd door de pati&amp;#235;nt zelf, een mantelzorger of een zorgverlener. Het vastleggen van medicatie gebruik geeft naast het gebruik van voorgeschreven medicatie ook inzicht in het gebruik van thuismedicatie.
-{&lt;/nl-NL&gt;&lt;en-US&gt;MedicationUse describes taking or administering the medication, often in relation to a prescription, but also on the person's own initiative. This describes the pattern of medication use, as reported by the patient themselves, a caregiver or healthcare provider. Documenting medication use provides insight into the use of prescribed medication as well as the use of medication at home.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">MedicatieGebruik beschrijft de inname of toediening van een medicament, veelal in relatie tot een voorschrift, maar ook op eigen initiatief. Het beschrijft het patroon van inname van medicatie, zoals gerapporteerd door de pati&amp;#235;nt zelf, een mantelzorger of een zorgverlener. Het vastleggen van medicatie gebruik geeft naast het gebruik van voorgeschreven medicatie ook inzicht in het gebruik van thuismedicatie.
+{</documentation>
 		</element>
 		<element identifier="EAID_B588AA28_6BB0_4174_B763_2DEC80406D6A" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MedicatieToediening</name>
@@ -6924,41 +6866,32 @@ De toediening kan verwijzen naar een medicatievoorschrift, maar kan ook betrekki
 		</element>
 		<element identifier="EAID_54F50B36_313C_4086_8C25_63D4D351C113" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MedicatieVerstrekking</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Medicatie verstrekking beschrijft de levering van een medicatieproduct aan een specifieke pati&amp;#235;nt (of de toediener of een vertegenwoordiger), met de bedoeling dat het gebruikt wordt volgens een meegeleverde instructie (meestal als uitvoering van het verstrekkingsverzoek in een medicatievoorschrift). 
+			<documentation xml:lang="nl">Medicatie verstrekking beschrijft de levering van een medicatieproduct aan een specifieke pati&amp;#235;nt (of de toediener of een vertegenwoordiger), met de bedoeling dat het gebruikt wordt volgens een meegeleverde instructie (meestal als uitvoering van het verstrekkingsverzoek in een medicatievoorschrift). 
 Een verstrekking vindt plaats op het moment dat de pati&amp;#235;nt (of de andere genoemden) het product fysiek ontvangt.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Medication supply describes the supply of a medicinal product to a specific patient (or the administerer or a representative), with the intention of it being used according to the included instructions (usually to honor the supply request in a medication prescription).  
-Medication supply takes place when the patient (or any of the others listed above) physically receives the product.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_B34AD5C3_8D86_4f20_8298_687AB35CD588" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MedicatieVoorschrift</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een medicatievoorschrift is een afspraak of order voor het gebruik van medicatie, waarin beschreven worden: het voorgeschreven product, instructies voor het gebruik of toediening en (optioneel) een verzoek tot aflevering.
+			<documentation xml:lang="nl">Een medicatievoorschrift is een afspraak of order voor het gebruik van medicatie, waarin beschreven worden: het voorgeschreven product, instructies voor het gebruik of toediening en (optioneel) een verzoek tot aflevering.
 Van ieder voorgeschreven product wordt de dosisinformatie weergeven: de startdatum en tijd en eventuele stopdatum en tijd of totaal aantal giften, toedieningsschema (frequentie of interval, toedieningstijden, relatie met maaltijden e.d.), de keerdosis, toedieningssnelheid of -duur (voor infusen), en de toedieningsweg. 
 Ook wordt eventueel aangegeven of het 'zo nodig' medicatie betreft en onder welke voorwaarde het middel dan gebruikt dient te worden en hoe hoog dan de afgesproken maximale dosis in een periode is. 
 Zo mogelijk wordt de reden of indicatie van starten/stoppen/wijzigen van het gebruik vermeld.
 Ook medicatie waarvan het gebruik tijdelijk onderbroken is, kan worden vermeld.
 Wanneer het voorschrift ook de bestelling bevat om een middel aan pati&amp;#235;nt of een toediener af te verstrekken, dan kan het voorschrift een recept genoemd worden.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A medication prescription is an agreement or order for the use of medication in which the following are described: the prescribed product, instructions for use or administration and (optionally) a request for delivery. 
-The dose information is given for every prescribed product: the start date and time, and if possible stop date and time or total number of administrations, administering schedule (frequency or interval, administering times, link with meals etc.), the number of doses, administering speed or time (for drips), and the route of administration.  
-An indication can also be included of whether the medication is only to be administered 'as needed' and under which conditions the product is to be used, and how high the agreed maximum dose is in a certain period.  
-If possible, the reason or indication of starting/stopping/changes in use is to be included. 
-Medication that has been discontinued temporarily can be included as well. 
-If the prescription also contains the order to pr&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_5E9BD9F2_D106_4d22_9EB2_618BE4FF2CF6" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.MedischHulpmiddel</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Medische hulpmiddelen kunnen worden omschreven als de inwendig ge&amp;#239;mplanteerde en uitwendige apparatuur en/of hulpmiddelen die de pati&amp;#235;nt gebruikt of heeft gebruikt om de gevolgen van functionele beperkingen van orgaansystemen te verminderen of om de behandeling van een ziekte mogelijk te maken.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Medical aids are any internally implanted and external devices and/or aids used by the patient (in the past) to reduce the effects of functional limitations in organ systems or to facilitate the treatment of a disease.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Medische hulpmiddelen kunnen worden omschreven als de inwendig ge&amp;#239;mplanteerde en uitwendige apparatuur en/of hulpmiddelen die de pati&amp;#235;nt gebruikt of heeft gebruikt om de gevolgen van functionele beperkingen van orgaansystemen te verminderen of om de behandeling van een ziekte mogelijk te maken.
+{</documentation>
 		</element>
 		<element identifier="EAID_A4487DE3_BBC0_4091_BFB9_92E1E4E76AE6" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Menstruatiecyclus</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 De menstruatiecyclus is een periodieke verandering in het lichaam van de geslachtsrijpe vrouw tussen de puberteit en de menopauze. De cyclus heeft te maken met de eicelrijping en het klaarmaken van het lichaam voor mogelijke zwangerschap.
 Door verschillende oorzaken  kunnen er afwijkingen of verstoringen van de cyclus optreden.
 Het concept gaat met name in op de stoornissen en beschrijft niet of de pati&amp;#235;nt in staat is zelfstandig de verzorging bij menstruatie uit te voeren. Dit wordt beschreven in de bouwsteen VermogenTotToiletgang 
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-The menstrual cycle is a periodical change in sexually mature women's bodies between puberty and menopause. The cycle has to do with egg cell maturation and getting the body ready for potential pregnancy. 
-Various causes can lead to deviations or disruptions in the cycle. 
-The concept mainly focuses on the disorders and does not describe whether the patient is capable of independently taking care of their menstrual hygiene. This is described in the ToiletUse information model.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_FFCEDD41_0DB2_4c55_B155_F8124EBE56D5" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Mobiliteit</name>
@@ -6973,15 +6906,14 @@ Mobiliteit beschrijft mogelijkheden en eventuele beperkingen t.a.v. alle aspecte
 		</element>
 		<element identifier="EAID_EF6745B6_0787_4b3a_A226_9D0E01F8B0AB" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.O2Saturatie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De arteri&amp;#235;le zuurstofsaturatie, kortweg saturatie, is een graadmeter voor de hoeveelheid zuurstof die aan het hemoglobine in de rode bloedcellen in de arteri&amp;#235;n of slagaders gebonden is. De meting wordt meestal uitgevoerd als een transcutane meting met een saturatiemeter of pulsoximeter. De saturatie wordt uitgedrukt als een percentage en is bij gezonde personen meer dan 95%. 
-{&lt;/nl-NL&gt;&lt;en-US&gt;Arterial oxygen saturation, also referred to as saturation, is an indicator for the amount of oxygen bound to the hemoglobin in the red blood cells of the arteries. The measurement is usually carried out as a transcutaneous measurement with a blood oxygen monitor or pulse oximeter. The saturation level is expressed as a percentage and should be over 95% in healthy people.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">De arteri&amp;#235;le zuurstofsaturatie, kortweg saturatie, is een graadmeter voor de hoeveelheid zuurstof die aan het hemoglobine in de rode bloedcellen in de arteri&amp;#235;n of slagaders gebonden is. De meting wordt meestal uitgevoerd als een transcutane meting met een saturatiemeter of pulsoximeter. De saturatie wordt uitgedrukt als een percentage en is bij gezonde personen meer dan 95%. 
+{</documentation>
 		</element>
 		<element identifier="EAID_C0CBB366_7CF7_49be_B81D_2B5140D16CA5" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Ondervoeding</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Ondervoeding is een voedingstoestand, waarbij een disbalans van energie, eiwit en andere voedingsstoffen leidt tot meetbare nadelige effecten op lichaamssamenstelling en functioneren. Dit komt met name door een klinisch relevante afname van de spiermassa. 
+			<documentation xml:lang="nl">Ondervoeding is een voedingstoestand, waarbij een disbalans van energie, eiwit en andere voedingsstoffen leidt tot meetbare nadelige effecten op lichaamssamenstelling en functioneren. Dit komt met name door een klinisch relevante afname van de spiermassa. 
 Met name zieke mensen en kwetsbare ouderen lopen kans om ondervoed te raken. Een hulpmiddel bij het vaststellen van (risico op) ondervoeding zijn gevalideerde screeningsinstrumenten als de MUST en de SNAQ questionaire. (Bron: NHG, Landelijke Eerstelijns Samenwerkings Afspraak Ondervoeding)
-{&lt;/nl-NL&gt;&lt;en-US&gt;Malnutrition is a nutritional condition in which the patient has an imbalance of energy, protein and other nutrients leading to measurable negative effects on the body's composition and functioning. This is largely caused by a clinically relevant reduction in muscle mass.  
-Ill and vulnerable elderly people are particularly prone to malnutrition. Aids in determining (the risk of) malnutrition are validated screening tools such as the MUST and SNAQ questionnaire. (Source: NHG, National Primary Care Collaboration Agreement on Malnutrition)&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_51A732A9_C701_4d6b_9AB5_2C146E6ED883" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Opleiding</name>
@@ -6990,7 +6922,7 @@ Ill and vulnerable elderly people are particularly prone to malnutrition. Aids i
 		</element>
 		<element identifier="EAID_DABDC3B2_A18F_4edb_99FC_262FE6B9562D" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.OverdrachtConcern</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Bij het vastleggen van relevante gezondheidsproblemen van de pati&amp;#235;nt zijn twee aspecten van belang: enerzijds de waarneming van het probleem (de klacht, het symptoom, de diagnose enz.) zelf en anderzijds de beoordeling of het actief beleid vergt. Deze beoordeling door de zorgverlener ligt vast in het 'Concern', het punt van aandacht. Het is mogelijk om Problemen, die onderling samenhangen, onder te brengen onder &amp;#233;&amp;#233;n Concern.
+			<documentation xml:lang="nl">Bij het vastleggen van relevante gezondheidsproblemen van de pati&amp;#235;nt zijn twee aspecten van belang: enerzijds de waarneming van het probleem (de klacht, het symptoom, de diagnose enz.) zelf en anderzijds de beoordeling of het actief beleid vergt. Deze beoordeling door de zorgverlener ligt vast in het 'Concern', het punt van aandacht. Het is mogelijk om Problemen, die onderling samenhangen, onder te brengen onder &amp;#233;&amp;#233;n Concern.
 Het onderscheid tussen vastgestelde problemen en de aandacht die deze vergen, maakt het mogelijk aan te geven waarop medisch of verpleegkundig beleid van toepassing dan wel noodzakelijk is. Als voorbeeld kan een goed ingestelde diabetes worden genoemd; deze vereist geen actief beleid van de zorgverlener.
 Een probleem beschrijft een toestand met betrekking tot de gezondheid en/of het welzijn van een individu. Deze toestand kan zijn benoemd door de betroffene (de pati&amp;#235;nt) zelf (een klacht), of door zijn of haar zorgverlener (onder andere een diagnose). De toestand kan aanleiding zijn voor diagnostisch of therapeutisch beleid.
 Een probleem omvat allerlei soorten medische of verpleegkundige gegevens, die een gezondheidsprobleem representeren. Een probleem kan verschillende typen gezondheidsproblemen representeren:
@@ -7003,23 +6935,19 @@ Een probleem omvat allerlei soorten medische of verpleegkundige gegevens, die ee
 	- Een complicatie (Complication): Iedere diagnose die door de zorgverlener gezien wordt als een onvoorzien en ongewenst gevolg van medisch handelen. Voorbeelden: wondinfectie na chirurgie, gehoorverlies door antibioticagebruik.  
 	- Een aandachtspunt (Problem): iedere omstandigheid die relevant is bij de medische behandeling, maar niet in &amp;#233;&amp;#233;n van de genoemde categorie&amp;#235;n past. Voorbeelden: pati&amp;#235;nt verblijft in Nederland zonder rechtmatige status en is niet verzekerd, pati&amp;#235;nt kan geen glucosecontrole uitvoeren.
 In de eerste lijn vervult het concept Episode de rol van Concern. 
-{&lt;/nl-NL&gt;&lt;en-US&gt;Determining relevant health issues of the patient involves two important aspects: observing the problem itself on the one hand (complaints, symptoms, diagnosis, etc.) and evaluation of whether or not an active policy is required on the other. This evaluation by the healthcare provider is documented in the 'Concern', the point of attention. Multiple, linked Problems can be subsumed under a single Concern. 
-The difference between recorded problems and the attention they require enables an indication of which issues medical or nursing policy applies to, or in which issues policy is necessary. An example is well-managed diabetes; this requires no active policy of the healthcare provider. 
-A problem describes a situation with regard to an individual's health and/or welfare. This situation can be described by the person involved (the patient) themselves (in the form of a complaint), or by their healthcare provider (in the form of a diagnosis, for example). The situation can form cause for &lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_AB4E6FDC_6914_44d6_9C9A_0A896B3FB287" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.OverdrachtGeplandeZorgActiviteit</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Alle geplande afspraken, verwijzingen, behandelingen en diagnostische procedures, uitstaande orders en orders waarvan de uitslag nog niet bekend is, relevant voor de zorg van de pati&amp;#235;nt, kunnen worden vermeld. Ook kunnen hier Clinical reminders worden geplaatst. Dit zijn uitgestelde orders, die nog niet actief zijn. (Bijvoorbeeld: let op! pati&amp;#235;nt moet nog een booster vaccinatie hebben over x weken; let op! controleer de volgende keer de wangslijmvliezen). Het concept GeplandeZorgActiviteit is een regel uit het behandelplan. 
+			<documentation xml:lang="nl">Alle geplande afspraken, verwijzingen, behandelingen en diagnostische procedures, uitstaande orders en orders waarvan de uitslag nog niet bekend is, relevant voor de zorg van de pati&amp;#235;nt, kunnen worden vermeld. Ook kunnen hier Clinical reminders worden geplaatst. Dit zijn uitgestelde orders, die nog niet actief zijn. (Bijvoorbeeld: let op! pati&amp;#235;nt moet nog een booster vaccinatie hebben over x weken; let op! controleer de volgende keer de wangslijmvliezen). Het concept GeplandeZorgActiviteit is een regel uit het behandelplan. 
 Hiermee kan elke ontvanger, raadpleger of zorginstelling inzicht krijgen in de geplande zorg voor deze pati&amp;#235;nt.
-{&lt;/nl-NL&gt;&lt;en-US&gt;All planned appointments, referrals, treatments and diagnostic procedures, open orders and orders of which the results are not yet known that are relevant to the patient's care may be included. Clinical reminders can also be included here. These are postponed orders that are not yet active. (For example: please note! patient still needs a booster vaccination in x weeks; or please note! check the oral mucosa next time). The PlannedCareActivity concept is a line from the treatment plan.  
-This gives every recipient, user or healthcare facility insight into the planned care for this patient.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_CA2B1D00_0CDC_434b_8037_B1583E7E6A77" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.OverdrachtLaboratoriumUitslag</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een laboratoriumuitslag beschrijft het resultaat van een laboratoriumbepaling. 
+			<documentation xml:lang="nl">Een laboratoriumuitslag beschrijft het resultaat van een laboratoriumbepaling. 
 Behalve de uitkomsten van testen met een enkelvoudig resultaat kunnen ook de uitkomsten van meer complexe testen met meervoudige resultaten of 'panel' vastgelegd worden.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A laboratory result describes the result of a laboratory analysis.  
-In addition to the results of tests with a singular result, the results of more complex tests with multiple results or a 'panel' can also be recorded.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_47703088_48BF_4cfa_85B7_8B171860DA4A" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.OverdrachtTekstUitslag</name>
@@ -7040,8 +6968,8 @@ Een verrichting kan een simpele bloeddrukmeting zijn maar ook een complexe harto
 		</element>
 		<element identifier="EAID_21765188_5F03_4d43_9277_CF332DDB82EC" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.ParticipatieInMaatschappij</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Participatie in de maatschappij gaat in op deelname aan maatschappelijke activiteiten die pati&amp;#235;nt in het dagelijks leven onderneemt, zoals het uitoefenen van een beroep en hobby activiteiten. Daarnaast beschrijft participatie in de maatschappij het sociale netwerk van de pati&amp;#235;nt.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Participation in society pertains to the patient's initiative to participate in social activities in daily life, such as practicing a profession and hobbies. Participation in society also describes the patient's social network.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Participatie in de maatschappij gaat in op deelname aan maatschappelijke activiteiten die pati&amp;#235;nt in het dagelijks leven onderneemt, zoals het uitoefenen van een beroep en hobby activiteiten. Daarnaast beschrijft participatie in de maatschappij het sociale netwerk van de pati&amp;#235;nt.
+{</documentation>
 		</element>
 		<element identifier="EAID_E4929F68_541A_4d40_86E5_18BC2EC32CD6" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Patient</name>
@@ -7055,28 +6983,23 @@ Een verrichting kan een simpele bloeddrukmeting zijn maar ook een complexe harto
 		</element>
 		<element identifier="EAID_4BF99CFF_6E91_4dae_8137_275D355E5E01" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Pijnscore</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De pijnscore is een algemene maat voor de pijnbeleving, geen beschrijving van specifieke, gelocaliseerde pijn.
+			<documentation xml:lang="nl">De pijnscore is een algemene maat voor de pijnbeleving, geen beschrijving van specifieke, gelocaliseerde pijn.
 Als goed reproduceerbare maat voor de beleving van pijn worden gebruikt:
 1) NRS (Numeric Rating Scale) waarbij de pati&amp;#235;nt een cijfer geeft aan de pijn op een schaal van 1 (geen pijn) en 10 (ondraaglijke pijn).
 2) VAS (Visual Analogue Score) , waarbij de pati&amp;#235;nt op een lat met een lijn aangeeft hoe de pijn ervaren wordt en op de achterkant van de lat staat een schaal van 0 (geen pijn) tot 10 (ondraaglijke pijn).
 De uitslag van beide scores hebben dezelfde betekenis, maar de visueel analoge methode (VAS) wordt als betrouwbaarder aangemerkt dan de NRS pijnscore.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The pain score is a general measurement for pain experience, not a description of specific, localized pain. 
-The following are used as an easily reproducible measurement for pain experience: 
-1) NRS (Numeric Rating Scale) in which the patient gives the pain a number on a scale of 1 (no pain) to 10 (unbearable pain). 
-2) VAS (Visual Analogue Score), in which the patient points to a bar with a line to indicate the pain they feel. The back of the bar has a scale from 0 (no pain) to 10 (unbearable pain) on it. 
-The results of both scores have the same meaning, but the visual analogue method (VAS) is seen as more reliable than the NRS pain score.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_42D24BFA_6035_4576_9129_2B0E2AA1878B" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Polsfrequentie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De polsfrequentie is het aantal palpaties per minuut gemeten aan een slagader.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The pulse rate is the number of palpations per minute measured at an artery.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">De polsfrequentie is het aantal palpaties per minuut gemeten aan een slagader.
+{</documentation>
 		</element>
 		<element identifier="EAID_2F690EE4_77C5_43e3_B02F_B0E8050E7879" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.SNAQScore</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;De Short Nutritional Assessment Questionnaire (SNAQ) is een (gevalideerd) meetinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. Het instrument bestaat uit drie vragen waaraan een score wordt toegekend. De totaalsom van deze score bepaalt de mate van ondervoeding. De SNAQ ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding.
+			<documentation xml:lang="nl">De Short Nutritional Assessment Questionnaire (SNAQ) is een (gevalideerd) meetinstrument voor het bepalen van de mate van ondervoeding van de pati&amp;#235;nt. Het instrument bestaat uit drie vragen waaraan een score wordt toegekend. De totaalsom van deze score bepaalt de mate van ondervoeding. De SNAQ ondersteunt het vroegtijdig herkennen en behandelen van ondervoeding.
 Er zijn drie varianten van het meetinstrument voor verschillende zorgsettingen ontwikkeld, te weten ziekenhuis, verzorgings- en verpleeghuizen en zelfstandig wonende ouderen. Dit concept beschrijft het instrument dat bedoeld is voor de ziekenhuissetting.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The Short Nutritional Assessment Questionnaire (SNAQ) is a (validated) measuring tool for determining the extent of a patient's malnutrition. The tool comprises three questions, each of which is assigned a score. The total score determines the extent of malnutrition. The SNAQ helps to recognize and treat malnutrition at an early stage. 
-Three varieties of the measuring tool were developed for different care settings: hospitals, nursing and retirement homes and independently living seniors. This concept describes the tool intended for the hospital setting.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_3C19346D_DF6C_43a5_AE96_F414F7C07A6F" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Slaapfunctie</name>
@@ -7088,30 +7011,20 @@ Slaapfunctie richt zich met name op de problemen en stoornissen.
 		</element>
 		<element identifier="EAID_80D90439_0FB3_41b6_80B9_200124B8E85A" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.SondeSysteem</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een sonde is een speciale katheter die gebruikt wordt om:
+			<documentation xml:lang="nl">Een sonde is een speciale katheter die gebruikt wordt om:
 	- vloeibare voeding toe te dienen aan mensen die niet op een normale manier kunnen eten of drinken,
 	- medicatie toe te dienen,
 	- maagsap af te laten lopen (hevelen) of af te zuigen.
 Sondes kunnen op verschillende wijzen ingebracht worden. Een sonde kan, via de neus, worden ingebracht in de maag of darm (duodenum, jejunum).  
 Percutane endoscopische gastrostomie (PEG) is een techniek om een sondeslang in de maag te leggen via de buikwand. Deze dunne slang wordt gebruikt om een pati&amp;#235;nt te voeden die gedurende lange tijd geen voeding  op de normale wijze tot zich kan nemen (PEG-sonde).
-{&lt;/nl-NL&gt;&lt;en-US&gt;A feeding tube is a special catheter used to: 
-	- administer liquid food to people who are incapable of oral intake of food or liquid,
-	- administer medication,
-	- drain (siphon) or pump out gastric juice.
-There are different ways to place a feeding tube. A feeding tube can be inserted through the nose, in the stomach or in the intestines (duodenum, jejunum). Percutaneous endoscopic gastrostomy (PEG) is a technique in which a feeding tube is placed into the stomach through the abdominal wall. This thin tube (PEG tube) is used to feed a patient who is incapable of oral food intake for a prolonged period of time.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_59661E34_1A77_4a72_8099_964E7C770228" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.SpecifiekeMentaleFuncties</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;
-&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Belangrijke onderdelen van de specifieke mentale functies van de hersenen zijn aandacht, stemming, denken en geheugen. 
 Stoornissen in aandacht, geheugen en waarneming samen met ori&amp;#235;ntatie en bewustzijn uit bouwsteen algemene mentale functies gezien als belangrijke symptomen voor het ontstaan van een delier.
-Het concept specifieke mentale functies omvat niet het gedrag dat het gevolg is van een stoornis in de mentale functie.&lt;/nl-NL&gt;
-&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-Important parts of the brain's specific mental functions are attention, mood, thought and memory. 
-Disorders in attention, memory and observation combined with orientation and consciousness from the GeneralMentalFunctions information model are seen as important symptoms for a delirium. 
-The concept specific mental functions does not contain behavior resulting from a mental disorder.
-&lt;/en-US&gt;&lt;/languages&gt;</documentation>
+Het concept specifieke mentale functies omvat niet het gedrag dat het gevolg is van een stoornis in de mentale functie.</documentation>
 		</element>
 		<element identifier="EAID_2CAFFCDC_FB91_4ecb_9769_ACCCDDBD3770" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Stoma</name>
@@ -7130,21 +7043,17 @@ The concept specific mental functions does not contain behavior resulting from a
 		</element>
 		<element identifier="EAID_7AA118AF_A046_4116_843F_CDFD21BA5144" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.UitkomstVanZorg</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Het concept Uitkomst van zorg (zorgresultaten) beschrijft de vastgestelde status van de pati&amp;#235;nt met betrekking tot een bepaald probleem. Het geeft door vergelijking met het behandeldoel inzicht in de effectiviteit van verpleegkundige interventies/activiteiten die ingezet zijn met betrekking tot dit probleem. Het is een onderdeel van het verpleegkundig proces, samen met verpleegkundige diagnoses/problemen, behandeldoel en verpleegkundige interventies.
+			<documentation xml:lang="nl">Het concept Uitkomst van zorg (zorgresultaten) beschrijft de vastgestelde status van de pati&amp;#235;nt met betrekking tot een bepaald probleem. Het geeft door vergelijking met het behandeldoel inzicht in de effectiviteit van verpleegkundige interventies/activiteiten die ingezet zijn met betrekking tot dit probleem. Het is een onderdeel van het verpleegkundig proces, samen met verpleegkundige diagnoses/problemen, behandeldoel en verpleegkundige interventies.
 Er zijn verschillende classificatie systemen die zorgresulaten beschrijven met een meetwaarde, zoals NOC (Nursing Outcome Classification), Omaha System, ICF (International Classification of Functioning, Disability and Health). Zo mogelijk wordt gebruik gemaakt van &amp;#233;&amp;#233;n van deze indelingen.
-{&lt;/nl-NL&gt;&lt;en-US&gt;The Healthcare Results (healthcare results) concept describes the determined status of the patient in terms of a certain problem. Comparing the healthcare result with the treatment goal provides insight into the effectivity of the nursing interventions/activities carried out for this problem. It is a part of the nursing process, together with nursing diagnoses/problems, the treatment goal and nursing interventions. 
-There are different classification systems that describe healthcare results with a measurement value, such as the NOC (Nursing Outcome Classification), Omaha System, and ICF (International Classification of Functioning, Disability and Health). One of these classifications is to be used if possible.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_8302B248_A649_45e0_A9D5_2A06EE819DC3" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Vaccinatie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Immunisatie kan worden gedefinieerd als 'Het opwekken van natuurlijke immuniteit tegen ziekteverwekkers door middel van vaccinatie (actieve immunisatie) of door toediening van immunoglobulinen (passieve immunisatie)'.
+			<documentation xml:lang="nl">Immunisatie kan worden gedefinieerd als 'Het opwekken van natuurlijke immuniteit tegen ziekteverwekkers door middel van vaccinatie (actieve immunisatie) of door toediening van immunoglobulinen (passieve immunisatie)'.
 In deze bouwsteen worden alleen de vaccinaties opgenomen. De toediening van immunoglobulines maakt deel uit van het medicatieoverzicht. Vaccinaties hebben levenslang relevantie.
 De meeste vaccinaties worden in Nederland uitgevoerd in het kader van het Rijksvaccinatieprogramma (RVP). RVP informatie is vooral van belang bij kinderen. 
 Vaccinaties zijn ook relevant bij volwassen pati&amp;#235;nten zoals transplantatiepati&amp;#235;nten, dialysepati&amp;#235;nten en pati&amp;#235;nten met een status na miltextirpatie. Daarnaast zijn er specifieke indicaties voor de vaccinatie van risicogroepen, zoals reizigers, professionals die met bloed in aanraking komen of pati&amp;#235;nten met verwondingen, een verminderde afweer of verhoogd risico.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Immunization can be defined as 'Generating natural immunity against pathogens by means of vaccination (active immunization) or by administering immunoglobulins (passive immunization)'. 
-Only vaccinations are included in this information model. Administering immunoglobulins is part of the medication overview. Vaccinations have lifelong relevance. 
-Most vaccinations are carried out in the Netherlands as part of the RVP (Rijksvaccinatieprogramma, National Immunisation Program). RVP information is especially important for children.  
-Vaccinations are also relevant for adult patients such as transplant patients, dialysis patients and patients with a post-splenectomy status. In addition, there are specific indications for the vaccination of risk groups, such as travelers, professionals who come into contact with blood or patients with wounds, weakened immune systems or heightened risk.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_5BA0C1CC_0D69_4edd_AB8D_9AC7775E56C6" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VermogenTotDrinken</name>
@@ -7162,23 +7071,18 @@ Deze activiteit wordt samen met activiteiten zoals onder andere drinken, zich kl
 		</element>
 		<element identifier="EAID_2399B866_9939_44db_AEE0_8919513FD83C" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VermogenTotHaarverzorging</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Zelfstandig het haar en indien van toepassing de baard of snor kunnen verzorgen is een onderdeel van zelfzorg. Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied. Het wassen van het haar valt hier niet onder; dit valt onder vermogen om zich te wassen.
 Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid.
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-A patient being able to independently do their hair (and beard or mustache, if applicable) is a part of self-care. Limitations in this ability indicate a reduced ability to cope for oneself. Washing hair does not fall into this category; it falls under the ability to wash oneself. 
-This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_C85962F1_7530_48e2_8D7D_5AA95B8753CA" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VermogenTotMondverzorging</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
+			<documentation xml:lang="nl">! Let op: deze bouwsteen ondergaat momenteel een substantiele revisie. Een nieuwe versie zal na de zomer beschikbaar zijn.
 Zelfstandig de mond kunnen verzorgen is een onderdeel van zelfzorg. Het gaat hierbij om tweemaal daags poetsen van de tanden en kiezen met fluoride tandpasta en/of het reinigen van het (gedeeltelijk) kunstgebit en het reinigen van een kaak zonder tanden of kiezen (edentate kaak) en het verzorgen van het mondslijmvlies. 
 Beperkingen in dit vermogen duiden op een verminderde zelfredzaamheid op dit gebied.
 Deze activiteit wordt samen met activiteiten zoals onder andere eten, zich kleden en zich wassen, ook aangeduid als algemene dagelijkse levensverrichtingen (ADL). Dit zijn de handelingen die mensen dagelijks in het gewone leven verrichten. De mate waarin een persoon al deze activiteiten zelfstandig kan verrichten zijn een maat voor de totale zelfredzaamheid. (Bron: Instructiekaart Mondverzorging, 2011)
-{&lt;/nl-NL&gt;&lt;en-US&gt;! Attention: this information model is undergoing major revision. A new version will be available after summer.
-The ability to keep up one's own dental hygiene is part of self-care. This includes brushing teeth twice a day with fluoride toothpaste and/or cleaning (partial) dentures, cleaning jaws without teeth (edentulous jaws) and taking care of the mucous membrane of the mouth.  
-Limitations in this ability indicate a reduced ability to cope for oneself. 
-This activity and activities such as those including eating, getting dressed and bathing are also known as activities of daily living (ADL). These are the activities people go through in daily life. The extent to which a person is able to do all these activities by themselves is a measure for their total ability to do things independently. (Source: Instruction card for oral hygiene, 2011)&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_B3B1CB21_B7F5_46b3_8324_2B4F7FA92211" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VermogenTotToiletgang</name>
@@ -7203,58 +7107,44 @@ Deze activiteit wordt samen met activiteiten zoals onder andere eten, drinken en
 		</element>
 		<element identifier="EAID_A5C6BA9A_AC3E_49ec_8497_8FD6E2DC5ECA" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VerpleegkundigeInterventie</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een verpleegkundige interventie is de verzorging en/of behandeling die een verpleegkundige uitvoert op basis van een deskundig oordeel en klinische kennis. Het is een onderdeel van het verpleegkundige proces; interventies worden bepaald naar aanleiding van ge&amp;#239;ndiceerde zorgproblemen (verpleegkundige diagnoses) en op grond van behandeldoelen. De interventies worden geconcretiseerd in verpleegkundige acties.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A nursing intervention is the care and/or treatment carried out by a nurse based on an expert opinion and clinical knowledge. It is part of the nursing process; interventions are determined as a result of indexed healthcare problems (nursing diagnoses) and based on treatment goals. The interventions are outlined in the nursing procedures.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een verpleegkundige interventie is de verzorging en/of behandeling die een verpleegkundige uitvoert op basis van een deskundig oordeel en klinische kennis. Het is een onderdeel van het verpleegkundige proces; interventies worden bepaald naar aanleiding van ge&amp;#239;ndiceerde zorgproblemen (verpleegkundige diagnoses) en op grond van behandeldoelen. De interventies worden geconcretiseerd in verpleegkundige acties.
+{</documentation>
 		</element>
 		<element identifier="EAID_E62D63B4_1C85_429a_BC53_0DBD9903C32A" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Voedingsadvies</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een voedingsadvies is een beschrijving van voeding voor de pati&amp;#235;nt, die aan specifieke eisen moet voldoen in verband met de gezondheidstoestand van de pati&amp;#235;nt. Allergie&amp;#235;n en overgevoeligheden of kauw- en slikproblemen kunnen aanleiding zijn voor speciale voeding.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A nutritional advice is a description of nourishment for the patient, which must meet specific requirements in view of the health condition of the patient. Allergies and food intolerances or chewing and swallowing problems may be a reason for special nutrition.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een voedingsadvies is een beschrijving van voeding voor de pati&amp;#235;nt, die aan specifieke eisen moet voldoen in verband met de gezondheidstoestand van de pati&amp;#235;nt. Allergie&amp;#235;n en overgevoeligheden of kauw- en slikproblemen kunnen aanleiding zijn voor speciale voeding.
+{</documentation>
 		</element>
 		<element identifier="EAID_1A35DD0C_A862_4bcc_A7BF_0D8E37D5BE07" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VrijheidsbeperkendeMaatregelen</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;
-&lt;nl-NL&gt;Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust in zijn/haar vrijheid te beperken.
+			<documentation xml:lang="nl">Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust in zijn/haar vrijheid te beperken.
 In het ziekenhuis gaat het meestal om het gebruik van bedhekken, een onrustband (band om de taille), pols- of enkelbanden of een tentbed. Meestal wordt in combinatie met vrijheidsbeperkende interventies ook rustgevende medicatie toegediend.
 Het toepassen van vrijheidsbeperkende maatregelen is aan strikte voorwaarden gebonden. Voor het toepassen ervan in ziekenhuizen door verpleegkundigen heeft de Verpleegkundigen &amp; Verzorgenden Nederland (V&amp;VN) een richtlijn gepubliceerd.
-Het risicogedrag van de betrokkene, dat de aanleiding vormt voor de maatregelen, wordt niet in dit concept beschreven.&lt;/nl-NL&gt;
-&lt;en-US&gt;Medical restraints are (physical or verbal) measures used to restrict the freedom of the patient in question. 
-In hospitals, these often include the use of side rails, a cushion belt (around the waist), limb restraints or a Posey bed. Medical restraints are often used in combination with sedatives. 
-Medical restraints may only be implemented under strict conditions. The Vereniging Verpleegkundigen &amp; Verzorgenden Nederland (V&amp;VN) [Dutch Nurses and Carers Association] published a set of guidelines for nurses to implement these restraints in hospitals. 
-The patient's high-risk behavior providing cause for the restraints is not described in this concept.&lt;/en-US&gt;
-&lt;/languages&gt;</documentation>
+Het risicogedrag van de betrokkene, dat de aanleiding vormt voor de maatregelen, wordt niet in dit concept beschreven.</documentation>
 		</element>
 		<element identifier="EAID_930B0A8F_3352_4358_A005_67C2B4E580DE" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.VrijheidsbeperkendeMaatregelenGGZ</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust zijn/haar vrijheid te beperken. Onder deze definitie vallen vele vormen van vrijheidsbeperking, zoals (niet uitputtend)
+			<documentation xml:lang="nl">Vrijheidsbeperkende maatregelen zijn maatregelen (fysiek of verbaal) die gebruikt worden om de betrokkene bewust zijn/haar vrijheid te beperken. Onder deze definitie vallen vele vormen van vrijheidsbeperking, zoals (niet uitputtend)
 	- dwangbehandeling
 	- beperking in bewegingsvrijheid (bv. onrustband)
 	- huisregels
 Het toepassen van vrijheidsbeperkende maatregelen is aan strikte voorwaarden gebonden. De Wet Bijzondere Opnemingen in Psychiatrische Ziekenhuizen (Wet BOPZ) beschermt de rechten van cli&amp;#235;nten die niet vrijwillig zijn opgenomen in de geestelijke gezondheidszorg, de gehandicaptenzorg en in de psychogeriatrie. De wet is uitsluitend van toepassing in BOPZ-aangemerkte instellingen en geldt ook voor sommige (gesloten) afdelingen in het verzorgingshuis.
 Voor de registratie van de maatregelen wordt binnen de GGZ instellingen gebruik gemaakt van een landelijk registratiesysteem, de Argusregistratie.
 Het riscicogedrag van de betrokkene, dat de aanleiding vormt voor de maatregelen, wordt niet in dit concept beschreven.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Medical restraints are (physical or verbal) measures used to restrict the freedom of the patient in question. Many forms of medical restraints fall under this definition, including but not limited to: 
-	- involuntary treatment
-	- physical restraints (such as a cushion belt)
-	- house rules
-Medical restraints may only be implemented under strict conditions. The 'Wet BOPZ' [Dutch Psychiatric Hospitals (Compulsory Admissions) Act] protects the rights of clients who are involuntarily admitted into mental healthcare, services for the disabled and in geriatric psychiatry. The act only applies in 'BOPZ'-marked facilities and also applies to some (closed) wards in retirement homes. 
-Mental healthcare facilities use a national registration system to register the restraints called Argus registration.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_3F587FD1_AA2D_4091_9882_35974108C8F6" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Wilsverklaring</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een wilsverklaring is een mondelinge of schriftelijke omschrijving van de wens van de pati&amp;#235;nt ten aanzien van toekomstig medisch handelen of het levenseinde. Een wilsverklaring is vooral voor situaties waarin de pati&amp;#235;nt niet meer over deze beslissingen kan praten met de zorgverlener.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A living will is a verbal or written description of the patient's wishes with regard to future medical action or end of their life. A living will is mainly used for situations in which the patient is no longer able to speak about these decisions with their healthcare provider.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een wilsverklaring is een mondelinge of schriftelijke omschrijving van de wens van de pati&amp;#235;nt ten aanzien van toekomstig medisch handelen of het levenseinde. Een wilsverklaring is vooral voor situaties waarin de pati&amp;#235;nt niet meer over deze beslissingen kan praten met de zorgverlener.
+{</documentation>
 		</element>
 		<element identifier="EAID_9F032D0C_9CD3_40fd_AC1D_308128AEBA86" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Wond</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een wond is een onderbreking van de continu&amp;#239;teit van de huid, veelal veroorzaakt door externe invloeden.
+			<documentation xml:lang="nl">Een wond is een onderbreking van de continu&amp;#239;teit van de huid, veelal veroorzaakt door externe invloeden.
 Een veelgebruikte model om de wondkenmerken vast te leggen is het TIME ('Tissue', 'Infection', 'Moisture', 'Edge') model, waarbij de wond systematisch wordt beschreven. Bij wondweefsel (T uit het TIME model) wordt gebruik gemaakt van de indeling van het WCS model (Woundcare Consultant Society,  WCS Kenniscentrum Wondzorg). Het WCS model is niet geschikt voor de beschrijving oncologische ulcera. Hiervoor bestaat een andere classificatie.
 Oncologische ulcera zijn huiddefecten die zijn ontstaan door het tumorproces. Zij onderscheiden zich van oncologische wonden die ontstaan ten gevolge van de behandeling van kanker, bijvoorbeeld radiotherapie, chemotherapie of chirurgie.
 Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de betreffende bouwstenen gebruikt worden.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A wound is an interruption of the continuity of the skin, often caused by external influences. 
-A commonly used model for documenting the wound properties is the TIME ('Tissue', 'Infection', 'Moisture', 'Edge') model, which can be used to systematically describe the wound. For wound tissue (T in the TIME model), the structure of the WCS model (Woundcare Consultant Society, WCS Kenniscentrum Wondzorg) is used. The WCS model is not suited for describing oncological ulcers. There is a separate classification for that. 
-Oncological ulcers are skin defects which result from the tumor process. They are different from wounds resulting from cancer treatment, such as radiotherapy, chemotherapy or surgery. 
-The concept does not describe decubitus wounds and burn wounds. For these, the relevant information models can be used.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+{</documentation>
 		</element>
 		<element identifier="EAID_8D597B4F_2FA4_442d_ACCF_567BAD339FFB" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Woonsituatie</name>
@@ -7263,13 +7153,13 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 		</element>
 		<element identifier="EAID_84869AA1_364C_42ed_BDA3_87D7F1DA5FBF" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Ziektebeleving</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een langdurige of levenbedreigende ziekte is in vrijwel alle gevallen een traumatisch ervaring voor de pati&amp;#235;nt en zijn omgeving. Iedere pati&amp;#235;nt gaat op zijn eigen manier hiermee om. De manier waarop iemand met problemen en stress omgaat, wordt ook wel coping genoemd. Ziektebeleving gaat in op zowel de inschatting door de pati&amp;#235;nt van zijn situatie als op de wijze waarop de pati&amp;#235;nt en zijn omgeving met deze situatie omgaan (copingstrategie&amp;#235;n).
-{&lt;/nl-NL&gt;&lt;en-US&gt;In nearly all cases, a lengthy or life-threatening illness is a traumatic experience for the patient and their environment. Every patient deals with this in their own way. The way in which a person deals with problems and stress is also referred to as coping. Illness perception entails both the way the patient sees their situation and the way in which the patient and their environment deal with the situation (coping strategies). &lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een langdurige of levenbedreigende ziekte is in vrijwel alle gevallen een traumatisch ervaring voor de pati&amp;#235;nt en zijn omgeving. Iedere pati&amp;#235;nt gaat op zijn eigen manier hiermee om. De manier waarop iemand met problemen en stress omgaat, wordt ook wel coping genoemd. Ziektebeleving gaat in op zowel de inschatting door de pati&amp;#235;nt van zijn situatie als op de wijze waarop de pati&amp;#235;nt en zijn omgeving met deze situatie omgaan (copingstrategie&amp;#235;n).
+{</documentation>
 		</element>
 		<element identifier="EAID_D4E8A831_5E30_4cc2_B4BB_108897D9598A" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Zorgaanbieder</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Een zorgaanbieder is een organisatie die medische-, paramedische- en/of verpleegkundige zorg aanbiedt, en ook daadwerkelijk verleent, aan cli&amp;#235;nten/pati&amp;#235;nten. Voorbeelden zijn: ziekenhuis, verpleeghuis, huisartsenpraktijk.
-{&lt;/nl-NL&gt;&lt;en-US&gt;A healthcare provider is an organization that offers and provides medical, paramedic and/or nursing care to patients/clients. Examples include: hospitals, nursing homes, doctor's offices.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Een zorgaanbieder is een organisatie die medische-, paramedische- en/of verpleegkundige zorg aanbiedt, en ook daadwerkelijk verleent, aan cli&amp;#235;nten/pati&amp;#235;nten. Voorbeelden zijn: ziekenhuis, verpleeghuis, huisartsenpraktijk.
+{</documentation>
 		</element>
 		<element identifier="EAID_66BDA099_A9EA_44c2_858E_96F19641C7A8" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Zorgverlener</name>
@@ -7278,8 +7168,8 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 		</element>
 		<element identifier="EAID_385D3FA2_2EC8_412c_8C7A_8A1998D7F45C" xsi:type="DataObject">
 			<name xml:lang="nl">nl.zorg.Zwangerschap</name>
-			<documentation xml:lang="nl">&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Zwangerschap of graviditeit is de toestand waarin een vrouw een bevruchte eicel, en vervolgens embryo en foetus, in zich draagt. Een zwangerschapsduur tussen 37 en 42 weken wordt als normaal beschouwd. De periode van 37 tot 42 weken wordt de "&amp;#224; terme periode" genoemd. De term graviditeit wordt ook gebruikt voor het aantal malen dat een vrouw zwanger is geweest. Samen met de pariteit, het aantal keren dat een vrouw bevallen is, geeft dit inzicht in de obstetrische voorgeschiedenis van de pati&amp;#235;nt.
-{&lt;/nl-NL&gt;&lt;en-US&gt;Pregnancy or gravidity is the condition in which a woman carries a fertilized egg, which grows into an embryo and then a fetus. A pregnancy of between 37 and 42 weeks is considered normal. "Term pregnancy" is 37 to 42 weeks. The term gravidity is also used for the number of times a woman has been pregnant. This and parity - the number of times a woman has given birth - provides insight into the patient's obstetric history.&lt;/en-US&gt;&lt;/language&gt;</documentation>
+			<documentation xml:lang="nl">Zwangerschap of graviditeit is de toestand waarin een vrouw een bevruchte eicel, en vervolgens embryo en foetus, in zich draagt. Een zwangerschapsduur tussen 37 en 42 weken wordt als normaal beschouwd. De periode van 37 tot 42 weken wordt de "&amp;#224; terme periode" genoemd. De term graviditeit wordt ook gebruikt voor het aantal malen dat een vrouw zwanger is geweest. Samen met de pariteit, het aantal keren dat een vrouw bevallen is, geeft dit inzicht in de obstetrische voorgeschiedenis van de pati&amp;#235;nt.
+{</documentation>
 		</element>
 		<element identifier="EAID_7F87AA7E_33EF_4b14_B8C4_9369228E010F" xsi:type="ApplicationFunction">
 			<name xml:lang="nl">Beleid &amp; Innovatie</name>
@@ -10432,8 +10322,8 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 			<item identifierRef="EAID_25DFF1DC_EDAA_4abe_8873_7D812BAFC585"/>
 			<item identifierRef="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4"/>
 			<item identifierRef="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18">
-				<item identifierRef="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F"/>
 				<item identifierRef="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2"/>
+				<item identifierRef="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F"/>
 			</item>
 			<item identifierRef="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A"/>
 			<item identifierRef="EAID_0899E8A0_D693_43b8_83FA_8C3FEF7E68EC"/>

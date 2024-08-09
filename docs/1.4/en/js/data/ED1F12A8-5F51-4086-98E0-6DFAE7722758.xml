@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2.4.1", "1", "Determining care needs", "EARoot/EA2/EA4/EA1/EA173.html", "4.png", "", "", "{B3E9B728-8E43-4795-885C-B60F293FD05F}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.2", "1", "Diagnose", "EARoot/EA2/EA4/EA2/EA184.html", "4.png", "", "", "{143C53A2-54F5-40ec-BCA4-8F76BD462557}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.3", "1", "Additional Diagnostic Testing", "EARoot/EA2/EA4/EA3/EA199.html", "4.png", "", "", "{32C177EC-4AB1-452f-B192-667826E03C42}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.4", "1", "", "EARoot/EA2/EA4/EA4/EA214.html", "4.png", "", "", "{C089AE54-5E42-401f-AB08-695A75619481}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.5", "1", "Advise", "EARoot/EA2/EA4/EA5/EA219.html", "4.png", "", "", "{4EE1DAF6-0327-44c0-BDC2-A5E6020CF259}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.6", "1", "Establish a treatment plan", "EARoot/EA2/EA4/EA6/EA226.html", "4.png", "", "", "{D331FAA1-0BCD-4506-9703-B93C9D7BCABA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.7", "1", "Treat", "EARoot/EA2/EA4/EA7/EA243.html", "4.png", "", "", "{CBC06075-AEC3-4534-8741-91EABD67490E}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4.8", "1", "Transfer", "EARoot/EA2/EA4/EA8/EA248.html", "4.png", "", "", "{672BFEE3-D743-4ca5-9DCF-A2261E78E6FE}", "Package");
