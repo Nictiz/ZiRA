@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="9-8-2024 10:17:24" xmlns="http://www.umcg.nl/MAX">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="9-8-2024 14:05:40" xmlns="http://www.umcg.nl/MAX">
   <objects xmlns="">
     <object>
       <id>2</id>
@@ -19,133 +19,133 @@
       <stereotype />
       <type>Package</type>
       <parentId>2</parentId>
-      <modified>2022-03-09T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2842</id>
       <name>Architectuurprincipes</name>
-      <alias />
+      <alias>Architecture Principles</alias>
       <stereotype />
       <type>Package</type>
       <parentId>2515</parentId>
-      <modified>2023-09-28T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2843</id>
       <name>Implicaties</name>
-      <alias />
+      <alias>Implications</alias>
       <stereotype />
       <type>Package</type>
       <parentId>2842</parentId>
-      <modified>2023-09-28T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2893</id>
       <name>Principe Waardevol.png</name>
-      <alias />
+      <alias>Principle Valuable.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2896</id>
-      <name>Principe Veilig en vetrouwd.png</name>
-      <alias />
+      <name>Principe Veilig en vertrouwd.png</name>
+      <alias>Principle Safe and Trusted.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2897</id>
       <name>Principe Duurzaam.png</name>
-      <alias />
+      <alias>Principle Sustainable.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2898</id>
       <name>Principe Continu.png</name>
-      <alias />
+      <alias>Principle Continuous.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2899</id>
       <name>Principe Mens centraal.png</name>
-      <alias />
+      <alias>Principle People central.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2900</id>
       <name>Principe Samen.png</name>
-      <alias />
+      <alias>Principle Together.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2901</id>
       <name>Principe Gestandaardiseerd.png</name>
-      <alias />
+      <alias>Principle  Standardized.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2902</id>
       <name>Principe Flexibel.png</name>
-      <alias />
+      <alias>Principle Flexible.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2903</id>
       <name>Principe Eenvoudig.png</name>
-      <alias />
+      <alias>Principle Simple.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2904</id>
       <name>Principe Onder eigenaarschap.png</name>
-      <alias />
+      <alias>Principle Under Ownership.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2905</id>
       <name>Principe Datagedreven.png</name>
-      <alias />
+      <alias>Principle Data Driven.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2906</id>
       <name>Principe Innovatief.png</name>
-      <alias />
+      <alias>Principle Innovative.png</alias>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2843</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2878</id>
@@ -272,21 +272,23 @@
     </object>
     <object>
       <id>2907</id>
-      <name>Overzicht Achitectuurprincipes</name>
+      <name>Overzicht Achitectuurprincipes NL</name>
       <alias />
+      <notes>View Architecture Principles NL</notes>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2842</parentId>
-      <modified>2023-11-05T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>2924</id>
-      <name>ZiRA Architectuurprincipes v1.3-EN.png</name>
+      <name>Overzicht Architectuurprincipes EN</name>
       <alias />
+      <notes>View Architecture Principles EN</notes>
       <stereotype>Image</stereotype>
       <type>Artifact</type>
       <parentId>2842</parentId>
-      <modified>2024-07-09T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
     </object>
     <object>
       <id>1798</id>
@@ -535,8 +537,8 @@ Exploiteren ziekenhuis faciliteiten
       <alias>Multidisciplinairy collaboration</alias>
       <stereotype>ArchiMate_Grouping</stereotype>
       <type>Component</type>
-      <parentId>2.16.840.1.113883.2.4.3.11.29.0.2</parentId>
-      <modified>2024-07-16T00:00:00</modified>
+      <parentId>374</parentId>
+      <modified>2024-08-09T00:00:00</modified>
       <tag name="SortKey" value="CAB"></tag>
     </object>
     <object>
@@ -545,8 +547,8 @@ Exploiteren ziekenhuis faciliteiten
       <alias>COLLABORATION</alias>
       <stereotype>ArchiMate_Grouping</stereotype>
       <type>Class</type>
-      <parentId>2.16.840.1.113883.2.4.3.11.29.0.3</parentId>
-      <modified>2024-07-10T00:00:00</modified>
+      <parentId>374</parentId>
+      <modified>2024-08-09T00:00:00</modified>
       <tag name="SortKey" value="CA"></tag>
     </object>
     <object>
@@ -595,8 +597,8 @@ Exploiteren ziekenhuis faciliteiten
       <alias>Treatmentplan</alias>
       <stereotype>ArchiMate_Grouping</stereotype>
       <type>Class</type>
-      <parentId>2.16.840.1.113883.2.4.3.11.29.1.3</parentId>
-      <modified>2024-07-18T00:00:00</modified>
+      <parentId>374</parentId>
+      <modified>2024-08-09T00:00:00</modified>
       <tag name="SortKey" value="CBC"></tag>
     </object>
     <object>
@@ -1199,15 +1201,6 @@ Exploiteren ziekenhuis faciliteiten
       <type>Activity</type>
       <parentId>817</parentId>
       <modified>2022-03-09T00:00:00</modified>
-    </object>
-    <object>
-      <id>2932</id>
-      <name>MDO</name>
-      <alias>MDC</alias>
-      <stereotype>ArchiMate_BusinessService</stereotype>
-      <type>Activity</type>
-      <parentId>817</parentId>
-      <modified>2024-07-09T00:00:00</modified>
     </object>
     <object>
       <id>2973</id>
@@ -2393,15 +2386,144 @@ Default: true
       <modified>2022-03-09T00:00:00</modified>
     </object>
     <object>
-      <id>1060</id>
-      <name>Verwerken verwijzing (wp)</name>
-      <alias>Process referral request</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Ontvangen en verwerken van een verzoek  (zowel digitaal als papier) van een patiënt/zorgverlener om een zorgverlener binnen de instelling in te schakelen.
-&lt;/nl-NL&gt;&lt;en-US&gt;Receiving and processing a request (digital and/or paper) from a patient or healthcare provider for service(s) within a hospital.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>2975</id>
+      <name>Aanmelden MDO (wp)</name>
+      <alias>Register MDC (wp)</alias>
+      <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;Het aanmelden van de pati&amp;#235;nt voor een MDO overleg. De specifieke pati&amp;#235;ntcasus wordt bij de aanmelding toegelicht. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt;Registering the patient for an MDC consultation. The specific patient case will be explained at the time of registration. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2024-08-09T00:00:00</modified>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1078</id>
+      <name>Aanvragen behandelactiviteit (wp)</name>
+      <alias>Request treatment activity</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;pre-conditie: behandelplan bestaat uit activiteiten die moeten worden geordered
+post-conditie: een order voor de activiteit is aangemaakt&lt;/nl-NL&gt;&lt;en-US&gt;pre-condition: treatment plan consists of activities that must be ordered
+post-condition: an order for the activity has been created&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
       <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1074</id>
+      <name>Beoordelen advies aanvraag (wp)</name>
+      <alias>Assess advice request</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1066</id>
+      <name>Beoordelen informatie (wp)</name>
+      <alias>Assess information</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;pre-conditie: informatie is beschikbaar
+post-conditie: informatie beoordeeld en beoordeling verwerkt&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: information is available.Post-condition: information reviewed and review processed.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1068</id>
+      <name>Beoordelen onderzoekaanvraag (wp)</name>
+      <alias>Assess diagnostic testing request</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1072</id>
+      <name>Beoordelen resultaat (wp)</name>
+      <alias>Assess results</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1077</id>
+      <name>Bepalen behandelplan (wp)</name>
+      <alias>Determine treatment plan</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: er is een (voorlopig/werk) diagnose bepaald
+Post-conditie: er is een (specifiek) behandelplan bepaald
+
+Na bepalen behandelmogelijkeden (MDO?) voor diagnose,
+wordt samen met de patient (informeren patient) een mogelijkheid gekozen en daar wordt dan concent voor gevraagd en vervolgens worden de details ingevuld (behandelplan).&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: a (provisional/work) diagnosis has been determined
+Post-condition: a (specific) treatment plan has been determined
+
+After determining treatment options (MDO?) for diagnosis,
+an option is chosen together with the patient (informing the patient) and concent is asked for it and then the details are filled in (treatment plan).&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1088</id>
+      <name>Bepalen transferbeleid (wp)</name>
+      <alias>Determine transfer policy</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
       <tag name="atomic" value="false">Values: true,false
 Default: false
 </tag>
@@ -2414,6 +2536,111 @@ Default: true
       <name>Bepalen zorgbehoefte (wp)</name>
       <alias>Determine care needs</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Post-conditie: dat je weet wat je gaat doen met de verwijzing.&lt;/nl-NL&gt;&lt;en-US&gt;Post-condition: that you know what you are going to do with the referral.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>2985</id>
+      <name>Bespreken en verslagleggen MDO (wp)</name>
+      <alias>Discuss and report MDC (wp)</alias>
+      <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt;Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;
+</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2024-07-18T00:00:00</modified>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1087</id>
+      <name>Evalueren behandeling (wp)</name>
+      <alias>Evaluate treatment</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Uitgevoerde Behandeling
+Post-conditie: Geëvalueerde Behandeling
+&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: Performed Treatment
+Post-condition: Evaluated Treatment&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1075</id>
+      <name>Geven advies (wp)</name>
+      <alias>Give advice</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1064</id>
+      <name>Ontvangen patient (wp)</name>
+      <alias>Receive patient</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1089</id>
+      <name>Overdragen patient (wp)</name>
+      <alias>Transfer patient</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1079</id>
+      <name>Plannen behandelactiviteit (wp)</name>
+      <alias>Plan treatment activity</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
@@ -2462,10 +2689,14 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1063</id>
-      <name>Voorbereiden contact (wp)</name>
-      <alias>Prepare contact</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>1069</id>
+      <name>Plannen onderzoek (wp)</name>
+      <alias>Plan diagnostic testing</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Processtappen Plannen personen, middelen en locatie kunnen ook gelijktijdig worden uitgevoerd
+
+pre-conditie:
+post-conditie:
+&lt;/nl-NL&gt;&lt;en-US&gt;Process Steps Planning people, resources and location can also be executed simultaneously.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
@@ -2479,45 +2710,10 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1064</id>
-      <name>Ontvangen patient (wp)</name>
-      <alias>Receive patient</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1065</id>
-      <name>Verzamelen aanvullende informatie (wp)</name>
-      <alias>Collect additional information</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1066</id>
-      <name>Beoordelen informatie (wp)</name>
-      <alias>Assess information</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;pre-conditie: informatie is beschikbaar
-post-conditie: informatie beoordeeld en beoordeling verwerkt&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: information is available.Post-condition: information reviewed and review processed.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>1073</id>
+      <name>Rapporteren resultaat (wp)</name>
+      <alias>Report results</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;hier mist nog BA Vrijgeven resultaat tussen Opstellen verslag en Notificeren van aanvrager&lt;/nl-NL&gt;&lt;en-US&gt;BA Release result is still missing between Drafting report and Notifying applicant.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
@@ -2548,15 +2744,14 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1068</id>
-      <name>Beoordelen onderzoekaanvraag (wp)</name>
-      <alias>Assess diagnostic testing request</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>2990</id>
+      <name>Terugkoppelen MDO advies (wp)</name>
+      <alias>Feedback MDC advice (wp)</alias>
+      <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt; The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <modified>2024-08-09T00:00:00</modified>
       <tag name="atomic" value="false">Values: true,false
 Default: false
 </tag>
@@ -2565,14 +2760,14 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1069</id>
-      <name>Plannen onderzoek (wp)</name>
-      <alias>Plan diagnostic testing</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Processtappen Plannen personen, middelen en locatie kunnen ook gelijktijdig worden uitgevoerd
+      <id>1081</id>
+      <name>Uitvoeren (overige) medische behandeling (wp)</name>
+      <alias>Carry out (other) medical treatment</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Voorbereide (overige) medische behandeling
+Post-conditie: Uitgevoerde/afgeronde (overige) medische behandeling
+&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: Prepared (other) medical treatment
 
-pre-conditie:
-post-conditie:
-&lt;/nl-NL&gt;&lt;en-US&gt;Process Steps Planning people, resources and location can also be executed simultaneously.&lt;/en-US&gt;&lt;/languages&gt;</notes>
+Post-condition: Performed/completed (other) medical treatment"&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
@@ -2586,9 +2781,9 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1070</id>
-      <name>Voorbereiden onderzoek (wp)</name>
-      <alias>Prepare diagnostic testing</alias>
+      <id>1086</id>
+      <name>Uitvoeren medicamenteuze therapie (wp)</name>
+      <alias>Carry out drug therapy</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
@@ -2620,9 +2815,9 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1072</id>
-      <name>Beoordelen resultaat (wp)</name>
-      <alias>Assess results</alias>
+      <id>1085</id>
+      <name>Uitvoeren operatieve behandeling (wp)</name>
+      <alias>Perform operative treatment</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
@@ -2637,147 +2832,12 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1073</id>
-      <name>Rapporteren resultaat (wp)</name>
-      <alias>Report results</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;hier mist nog BA Vrijgeven resultaat tussen Opstellen verslag en Notificeren van aanvrager&lt;/nl-NL&gt;&lt;en-US&gt;BA Release result is still missing between Drafting report and Notifying applicant.&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1074</id>
-      <name>Beoordelen advies aanvraag (wp)</name>
-      <alias>Assess advice request</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1075</id>
-      <name>Geven advies (wp)</name>
-      <alias>Give advice</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1077</id>
-      <name>Bepalen behandelplan (wp)</name>
-      <alias>Determine treatment plan</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: er is een (voorlopig/werk) diagnose bepaald
-Post-conditie: er is een (specifiek) behandelplan bepaald
-
-Na bepalen behandelmogelijkeden (MDO?) voor diagnose,
-wordt samen met de patient (informeren patient) een mogelijkheid gekozen en daar wordt dan concent voor gevraagd en vervolgens worden de details ingevuld (behandelplan).&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: a (provisional/work) diagnosis has been determined
-Post-condition: a (specific) treatment plan has been determined
-
-After determining treatment options (MDO?) for diagnosis,
-an option is chosen together with the patient (informing the patient) and concent is asked for it and then the details are filled in (treatment plan).&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1078</id>
-      <name>Aanvragen behandelactiviteit (wp)</name>
-      <alias>Request treatment activity</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;pre-conditie: behandelplan bestaat uit activiteiten die moeten worden geordered
-post-conditie: een order voor de activiteit is aangemaakt&lt;/nl-NL&gt;&lt;en-US&gt;pre-condition: treatment plan consists of activities that must be ordered
-post-condition: an order for the activity has been created&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1079</id>
-      <name>Plannen behandelactiviteit (wp)</name>
-      <alias>Plan treatment activity</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1080</id>
-      <name>Voorbereiden behandeling (wp)</name>
-      <alias>Prepare treatment</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Behandelplan = dus inclusief geplande (behandel)activiteiten
-Post-conditie: Voorbereide behandeling (locatie, middelen, patient)
-&lt;/nl-NL&gt;&lt;en-US&gt;"Pre-condition: Treatment plan = including planned (treatment) activities
-Post-condition: Prepared treatment (location, resources, patient)"
-"Ensuring that the supplies are prepared, e.g. preparing medication for administration, ensuring that the correct nets are present in the OR, etc&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1081</id>
-      <name>Uitvoeren (overige) medische behandeling (wp)</name>
-      <alias>Carry out (other) medical treatment</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Voorbereide (overige) medische behandeling
-Post-conditie: Uitgevoerde/afgeronde (overige) medische behandeling
-&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: Prepared (other) medical treatment
-
-Post-condition: Performed/completed (other) medical treatment"&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>1084</id>
+      <name>Uitvoeren therapie (wp)</name>
+      <alias>Conduct therapy</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Voorbereide (geplande) therapie
+Post-conditie: Uitgevoerde therapie&lt;/nl-NL&gt;&lt;en-US&gt;Pre-conditie: Voorbereide (geplande) therapie
+Post-conditie: Uitgevoerde therapie&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
@@ -2830,17 +2890,15 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1084</id>
-      <name>Uitvoeren therapie (wp)</name>
-      <alias>Conduct therapy</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Voorbereide (geplande) therapie
-Post-conditie: Uitgevoerde therapie&lt;/nl-NL&gt;&lt;en-US&gt;Pre-conditie: Voorbereide (geplande) therapie
-Post-conditie: Uitgevoerde therapie&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <id>1060</id>
+      <name>Verwerken verwijzing (wp)</name>
+      <alias>Process referral request</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Ontvangen en verwerken van een verzoek  (zowel digitaal als papier) van een patiënt/zorgverlener om een zorgverlener binnen de instelling in te schakelen.
+&lt;/nl-NL&gt;&lt;en-US&gt;Receiving and processing a request (digital and/or paper) from a patient or healthcare provider for service(s) within a hospital.&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
       <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
       <tag name="atomic" value="false">Values: true,false
 Default: false
 </tag>
@@ -2849,9 +2907,9 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1085</id>
-      <name>Uitvoeren operatieve behandeling (wp)</name>
-      <alias>Perform operative treatment</alias>
+      <id>1065</id>
+      <name>Verzamelen aanvullende informatie (wp)</name>
+      <alias>Collect additional information</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
@@ -2866,9 +2924,30 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1086</id>
-      <name>Uitvoeren medicamenteuze therapie (wp)</name>
-      <alias>Carry out drug therapy</alias>
+      <id>1080</id>
+      <name>Voorbereiden behandeling (wp)</name>
+      <alias>Prepare treatment</alias>
+      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Behandelplan = dus inclusief geplande (behandel)activiteiten
+Post-conditie: Voorbereide behandeling (locatie, middelen, patient)
+&lt;/nl-NL&gt;&lt;en-US&gt;"Pre-condition: Treatment plan = including planned (treatment) activities
+Post-condition: Prepared treatment (location, resources, patient)"
+"Ensuring that the supplies are prepared, e.g. preparing medication for administration, ensuring that the correct nets are present in the OR, etc&lt;/en-US&gt;&lt;/languages&gt;</notes>
+      <stereotype>ArchiMate_BusinessProcess</stereotype>
+      <type>Activity</type>
+      <parentId>681</parentId>
+      <modified>2023-02-24T00:00:00</modified>
+      <tag name="ZIRA::Type" value="Werkproces"></tag>
+      <tag name="atomic" value="false">Values: true,false
+Default: false
+</tag>
+      <tag name="showdecoration" value="true">Values: true,false
+Default: true
+</tag>
+    </object>
+    <object>
+      <id>1063</id>
+      <name>Voorbereiden contact (wp)</name>
+      <alias>Prepare contact</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
@@ -2883,67 +2962,15 @@ Default: true
 </tag>
     </object>
     <object>
-      <id>1087</id>
-      <name>Evalueren behandeling (wp)</name>
-      <alias>Evaluate treatment</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;Pre-conditie: Uitgevoerde Behandeling
-Post-conditie: Geëvalueerde Behandeling
-&lt;/nl-NL&gt;&lt;en-US&gt;Pre-condition: Performed Treatment
-Post-condition: Evaluated Treatment&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1088</id>
-      <name>Bepalen transferbeleid (wp)</name>
-      <alias>Determine transfer policy</alias>
+      <id>1070</id>
+      <name>Voorbereiden onderzoek (wp)</name>
+      <alias>Prepare diagnostic testing</alias>
       <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
       <modified>2023-02-24T00:00:00</modified>
       <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>1089</id>
-      <name>Overdragen patient (wp)</name>
-      <alias>Transfer patient</alias>
-      <notes>&lt;languages xml:space="preserve"&gt;&lt;nl-NL&gt;&lt;/nl-NL&gt;&lt;en-US&gt;&lt;/en-US&gt;&lt;/languages&gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2023-02-24T00:00:00</modified>
-      <tag name="ZIRA::Type" value="Werkproces"></tag>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>2975</id>
-      <name>Aanmelden MDO (wp)</name>
-      <alias>Register MDC (wp)</alias>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2024-07-18T00:00:00</modified>
       <tag name="atomic" value="false">Values: true,false
 Default: false
 </tag>
@@ -2954,47 +2981,14 @@ Default: true
     <object>
       <id>2979</id>
       <name>Voorbereiden MDO (wp)</name>
-      <alias>Prepare MDC</alias>
+      <alias>Prepare MDC (wp)</alias>
       <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;Het voorbereiden door en informeren van alle bij het MDO betrokken personen. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt;Preparing and informing all persons involved in the MSC. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;
 
 </notes>
       <stereotype>ArchiMate_BusinessProcess</stereotype>
       <type>Activity</type>
       <parentId>681</parentId>
-      <modified>2024-07-18T00:00:00</modified>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>2985</id>
-      <name>Bespreken en verslagleggen MDO (wp)</name>
-      <alias>Discuss and report MDC (wp)</alias>
-      <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt;Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;
-</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2024-07-18T00:00:00</modified>
-      <tag name="atomic" value="false">Values: true,false
-Default: false
-</tag>
-      <tag name="showdecoration" value="true">Values: true,false
-Default: true
-</tag>
-    </object>
-    <object>
-      <id>2990</id>
-      <name>Terugkoppelen MDO advies (wp)</name>
-      <alias>Feedback MDC advice</alias>
-      <notes>&amp;lt;languages xml:space="preserve"&amp;gt;&amp;lt;nl-NL&amp;gt;De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. &amp;lt;/nl-NL&amp;gt;&amp;lt;en-US&amp;gt; The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. &amp;lt;/en-US&amp;gt;&amp;lt;/languages&amp;gt;</notes>
-      <stereotype>ArchiMate_BusinessProcess</stereotype>
-      <type>Activity</type>
-      <parentId>681</parentId>
-      <modified>2024-07-18T00:00:00</modified>
+      <modified>2024-08-09T00:00:00</modified>
       <tag name="atomic" value="false">Values: true,false
 Default: false
 </tag>
@@ -12663,18 +12657,6 @@ Default: up
       <notes></notes>
       <stereotype>ArchiMate_Association</stereotype>
       <type>Association</type>
-    </relationship>
-    <relationship>
-      <label />
-      <sourceId>2925</sourceId>
-      <sourceLabel />
-      <sourceCard />
-      <destId>2932</destId>
-      <destLabel />
-      <destCard />
-      <notes></notes>
-      <stereotype>ArchiMate_Realization</stereotype>
-      <type>Dependency</type>
     </relationship>
     <relationship>
       <label />

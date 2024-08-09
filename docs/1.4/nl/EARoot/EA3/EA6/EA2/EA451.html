@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Geven advies (wp)</title>
+<title>Bespreken en verslagleggen MDO (wp)</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,26 +34,28 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Geven advies (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Bespreken en verslagleggen MDO (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:12</td>
+			<td width="85%" class="ObjectDetailsValue">18-7-2024 14:33:54</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 09:56:09</td>
+			<td class="ObjectDetailsValue">9-8-2024 13:57:45</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA149.html">Bedrijfsproces Adviseren</a>, <a href="../../../EA2/EA4/EA5/EA217.html">Geven advies</a>, <a href="../../../EA2/EA2/EA130.html">Bedrijfsfunctie + WP + BA adviseren</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA127.html">Bedrijfsfunctie + WP + BA samenwerking</a>, <a href="../../../EA2/EA4/EA4/EA211.html">Bespreken en verslagleggen MDO</a>, <a href="../../../EA2/EA3/EA148.html">Bedrijfsproces Uitvoeren MDO</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Het bespreken van de pati&#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&#235;le afhandeling. &lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
@@ -65,13 +67,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA437.html">«ArchiMate_BusinessProcess» Adviseren (bp)</a><br />
-						BusinessProcess &nbsp;
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA5/EA378.html">«ArchiMate_BusinessFunction» ADVISERING</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
+						<a href="../EA1/EA436.html">«ArchiMate_BusinessProcess» Uitvoeren Multidisciplinair Overleg (bp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -83,20 +80,41 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA528.html">«ArchiMate_BusinessProcess» Bepalen behandeladvies</a><br />
-						BusinessProcess &nbsp;
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA490.html">«ArchiMate_BusinessProcess» Adviseren patiënt</a><br />
+						<a href="../../EA7/EA608.html">«ArchiMate_BusinessProcess» Presenteren patientcasus</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA529.html">«ArchiMate_BusinessProcess» Bepalen behandelmogelijkheden</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA632.html">«ArchiMate_BusinessProcess» Vaststellen behandeladvies</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA486.html">«ArchiMate_BusinessProcess» Accorderen behandeladvies</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA548.html">«ArchiMate_BusinessProcess» Bespreken patientcasus</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA461.html">Terugkoppelen MDO advies (wp)</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+
 			</table>
 		</div>
 		<div class="ItemBody" id="FlowFromTable">
@@ -107,7 +125,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA443.html">Beoordelen advies aanvraag (wp)</a><br />
+						<a href="EA474.html">Voorbereiden MDO (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -126,16 +144,8 @@ function nameClassifier(name, separator)
 				<td width="50%" class="TableRow" valign="top">false</td>
 			</tr>	
 			<tr>
-				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1075</td>
-			</tr>	
-			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
 				<td width="50%" class="TableRow" valign="top">true</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">ZIRA::Type</td>
-				<td width="50%" class="TableRow" valign="top">Werkproces</td>
 			</tr>	
 
 	</table>

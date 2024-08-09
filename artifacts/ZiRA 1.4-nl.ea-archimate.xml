@@ -60,13 +60,16 @@
 			<name xml:lang="nl">Standaard</name>
 		</element>
 		<element identifier="EAID_25DFF1DC_EDAA_4abe_8873_7D812BAFC585" xsi:type="DataObject">
-			<name xml:lang="nl">ZIB</name>
+			<name xml:lang="nl">zib</name>
 		</element>
 		<element identifier="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4" xsi:type="ApplicationComponent">
 			<name xml:lang="nl">Applicatiecomponent</name>
 		</element>
 		<element identifier="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18" xsi:type="Grouping">
 			<name xml:lang="nl">Informatiedomein</name>
+		</element>
+		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
+			<name xml:lang="nl">Informatieobject</name>
 		</element>
 		<element identifier="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Bedrijfsactiviteit</name>
@@ -87,9 +90,6 @@
 					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
-		</element>
-		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
-			<name xml:lang="nl">Informatieobject</name>
 		</element>
 		<element identifier="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="ApplicationFunction">
 			<name xml:lang="nl">Applicatiefunctie</name>
@@ -287,9 +287,6 @@
 			</properties>
 		</element>
 		<element identifier="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5" xsi:type="BusinessService">
-			<name xml:lang="nl">MDO</name>
-		</element>
-		<element identifier="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31" xsi:type="BusinessService">
 			<name xml:lang="nl">MDO</name>
 		</element>
 		<element identifier="EAID_229FB972_4685_4c0f_AF7C_ECEF9B5A7A5A" xsi:type="BusinessService">
@@ -1348,6 +1345,18 @@ In de pre-condities is dat telkens specifiek beschreven.
 				</property>
 			</properties>
 		</element>
+		<element identifier="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Aanmelden MDO (wp)</name>
+			<documentation xml:lang="nl">Het aanmelden van de pati&amp;#235;nt voor een MDO overleg. De specifieke pati&amp;#235;ntcasus wordt bij de aanmelding toegelicht. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+			</properties>
+		</element>
 		<element identifier="EAID_C0048171_4844_4915_ADE6_0C95A42E8622" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Aanvragen behandelactiviteit (wp)</name>
 			<documentation xml:lang="nl">pre-conditie: behandelplan bestaat uit activiteiten die moeten worden geordered
@@ -1491,6 +1500,18 @@ wordt samen met de patient (informeren patient) een mogelijkheid gekozen en daar
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">1061</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Bespreken en verslagleggen MDO (wp)</name>
+			<documentation xml:lang="nl">Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
 		</element>
@@ -1660,6 +1681,18 @@ post-conditie:</documentation>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">1067</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Terugkoppelen MDO advies (wp)</name>
+			<documentation xml:lang="nl">De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
 		</element>
@@ -1875,44 +1908,9 @@ Post-conditie: Voorbereide behandeling (locatie, middelen, patient)</documentati
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Aanmelden MDO (wp)</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
 		<element identifier="EAID_23DD50D2_5DA7_4a8c_9BC0_BEFF6BCF2B7E" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Voorbereiden MDO (wp)</name>
 			<documentation xml:lang="nl">Het voorbereiden door en informeren van alle bij het MDO betrokken personen. </documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Bespreken en verslagleggen MDO (wp)</name>
-			<documentation xml:lang="nl">Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. </documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Terugkoppelen MDO advies (wp)</name>
-			<documentation xml:lang="nl">De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -8925,7 +8923,6 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 		</element>
 	</elements>
 	<relationships>
-		<relationship identifier="EAID_13D4DEB7_6FB1_4b88_993E_CB968276F51D" source="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" target="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31" xsi:type="Realization"/>
 		<relationship identifier="EAID_90307E78_4250_4634_AC0A_9E8F77D3AE1F" source="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4" target="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="Aggregation">
 			<name xml:lang="nl">is  onderdeel van</name>
 		</relationship>
@@ -10322,8 +10319,8 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 			<item identifierRef="EAID_25DFF1DC_EDAA_4abe_8873_7D812BAFC585"/>
 			<item identifierRef="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4"/>
 			<item identifierRef="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18">
-				<item identifierRef="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2"/>
 				<item identifierRef="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F"/>
+				<item identifierRef="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2"/>
 			</item>
 			<item identifierRef="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A"/>
 			<item identifierRef="EAID_0899E8A0_D693_43b8_83FA_8C3FEF7E68EC"/>
@@ -10417,7 +10414,6 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 				<item identifierRef="EAID_0D97CE43_91F0_4430_B673_B1E537AE445F"/>
 				<item identifierRef="EAID_8239F53E_60CE_4885_B74C_EA97A6E3DFC7"/>
 				<item identifierRef="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5"/>
-				<item identifierRef="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31"/>
 				<item identifierRef="EAID_229FB972_4685_4c0f_AF7C_ECEF9B5A7A5A"/>
 			</item>
 			<item>
@@ -10490,6 +10486,7 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 				</item>
 				<item>
 					<label xml:lang="nl">Werkprocessen</label>
+					<item identifierRef="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05"/>
 					<item identifierRef="EAID_C0048171_4844_4915_ADE6_0C95A42E8622"/>
 					<item identifierRef="EAID_2F3EF567_FDED_491d_A8C5_FD39C8E7AC5C"/>
 					<item identifierRef="EAID_85566C0E_B206_40d5_97D8_A1F7BBD6087F"/>
@@ -10498,6 +10495,7 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 					<item identifierRef="EAID_35DBF463_6FA6_450c_9C0B_96B9BFC27D15"/>
 					<item identifierRef="EAID_8E9E49A7_84D8_4ca6_B54B_1AA64AEE427C"/>
 					<item identifierRef="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9"/>
+					<item identifierRef="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9"/>
 					<item identifierRef="EAID_B6A92B23_05C6_49d2_BB9A_F4A2CDC774DC"/>
 					<item identifierRef="EAID_0EC0754E_490A_4925_9C07_9950AE53AE92"/>
 					<item identifierRef="EAID_622A75C5_0874_42b3_AAC1_A0C8EA00EB3E"/>
@@ -10507,6 +10505,7 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 					<item identifierRef="EAID_DDC54E0C_96F8_485c_8CFC_E6A8E69DCF6D"/>
 					<item identifierRef="EAID_BAA9D769_5A19_4043_903F_E1661BC7C210"/>
 					<item identifierRef="EAID_6EEB7757_2B7F_4e7f_AC97_5BA0E54D4A86"/>
+					<item identifierRef="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6"/>
 					<item identifierRef="EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2"/>
 					<item identifierRef="EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7"/>
 					<item identifierRef="EAID_32BBB143_7137_4988_9FEB_EFD1FFFF22C4"/>
@@ -10519,10 +10518,7 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 					<item identifierRef="EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7"/>
 					<item identifierRef="EAID_1D42A3B2_55A8_4c4a_A337_0970281A23E4"/>
 					<item identifierRef="EAID_697CD00E_B695_4dbe_97D7_AFF52CC0F226"/>
-					<item identifierRef="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05"/>
 					<item identifierRef="EAID_23DD50D2_5DA7_4a8c_9BC0_BEFF6BCF2B7E"/>
-					<item identifierRef="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9"/>
-					<item identifierRef="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6"/>
 				</item>
 			</item>
 			<item>

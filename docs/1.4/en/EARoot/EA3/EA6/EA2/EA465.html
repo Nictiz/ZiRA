@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Prepare treatment</title>
+<title>Perform operative treatment</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Prepare treatment", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Perform operative treatment", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,15 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 10:11:34</td>
+			<td class="ObjectDetailsValue">9-8-2024 14:11:31</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA153.html">Business Process Treat</a>, <a href="../../../EA2/EA4/EA7/EA227.html">Treat / Prepare treatment</a>, <a href="../../../EA2/EA2/EA134.html">Business function + WP + BA treatment </a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA154.html">Business Process Treat</a>, <a href="../../../EA2/EA4/EA7/EA236.html">Treat / Perform operative treatment</a>, <a href="../../../EA2/EA2/EA135.html">Business function + WP + BA treatment </a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">&quot;Pre-condition: Treatment plan = including planned (treatment) activities&lt;br/&gt;Post-condition: Prepared treatment (location, resources, patient)&quot;&lt;br/&gt;&quot;Ensuring that the supplies are prepared, e.g. preparing medication for administration, ensuring that the correct nets are present in the OR, etc&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
@@ -64,6 +63,11 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Element</td>
 				</tr>
 				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA5/EA422.html">«ArchiMate_BusinessFunction» SURGERY</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
 						<a href="../../EA5/EA427.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
@@ -83,18 +87,23 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA651.html">«ArchiMate_BusinessProcess» Prepare patient for treatment</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA650.html">«ArchiMate_BusinessProcess» Prepare surgery</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA649.html">«ArchiMate_BusinessProcess» Prepare resources for treatment</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA594.html">«ArchiMate_BusinessProcess» Prepare operation report</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA646.html">«ArchiMate_BusinessProcess» Prepare treatment room</a><br />
-						BusinessProcess &nbsp;
+						<a href="../../EA7/EA627.html">«ArchiMate_BusinessProcess» Perform preoperative screening</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA626.html">«ArchiMate_BusinessProcess» Perform operation</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -111,7 +120,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1080</td>
+				<td width="50%" class="TableRow" valign="top">1085</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>

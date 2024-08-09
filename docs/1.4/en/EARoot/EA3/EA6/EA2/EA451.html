@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Determine care needs</title>
+<title>Discuss and report MDC (wp)</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Determine care needs", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Discuss and report MDC (wp)", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:11</td>
+			<td width="85%" class="ObjectDetailsValue">18-7-2024 14:33:54</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 10:11:32</td>
+			<td class="ObjectDetailsValue">9-8-2024 14:11:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA141.html">Business process Determine care needs</a>, <a href="../../../EA2/EA4/EA1/EA169.html">Determine care needs</a>, <a href="../../../EA2/EA2/EA126.html">Business function + WP + BA Collaboration</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA2/EA127.html">Business function + WP + BA collaboration</a>, <a href="../../../EA2/EA4/EA4/EA211.html">Discuss and report MDC</a>, <a href="../../../EA2/EA3/EA148.html">Business process Conduct MDC</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Post-condition: that you know what you are going to do with the referral.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -67,13 +67,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA433.html">«ArchiMate_BusinessProcess» Determine care needs</a><br />
+						<a href="../EA1/EA436.html">«ArchiMate_BusinessProcess» Conduct multidisciplinary consultation</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA5/EA413.html">«ArchiMate_BusinessFunction» REFERRALS & TRANSFERS</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -85,12 +80,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA525.html">«ArchiMate_BusinessProcess» Assess referral</a><br />
+						<a href="../../EA7/EA608.html">«ArchiMate_BusinessProcess» Present patient case</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA543.html">«ArchiMate_BusinessProcess» Determine care needs</a><br />
+						<a href="../../EA7/EA632.html">«ArchiMate_BusinessProcess» Determine treatment advice</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA486.html">«ArchiMate_BusinessProcess» Approve treatment advice</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA7/EA548.html">«ArchiMate_BusinessProcess» Discuss patient case</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -104,7 +109,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA460.html">Plan contact</a><br />
+						<a href="EA461.html">Feedback MDC advice (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -120,7 +125,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA466.html">Process referral request</a><br />
+						<a href="EA474.html">Prepare MDC (wp)</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -139,16 +144,8 @@ function nameClassifier(name, separator)
 				<td width="50%" class="TableRow" valign="top">false</td>
 			</tr>	
 			<tr>
-				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1061</td>
-			</tr>	
-			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
 				<td width="50%" class="TableRow" valign="top">true</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">ZIRA::Type</td>
-				<td width="50%" class="TableRow" valign="top">Werkproces</td>
 			</tr>	
 
 	</table>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Collect additional information</title>
+<title>Determine treatment plan</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,28 +34,28 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Collect additional information", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Determine treatment plan", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:11</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 13:33:12</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 10:11:31</td>
+			<td class="ObjectDetailsValue">9-8-2024 14:11:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA143.html">Business process Diagnosis</a>, <a href="../../../EA2/EA4/EA2/EA178.html">Collect additional information</a>, <a href="../../../EA2/EA2/EA128.html">Business function + WP + BA diagnosis</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA3/EA152.html">Business process Establish treatment plan</a>, <a href="../../../EA2/EA4/EA6/EA221.html">Determine treatment plan</a>, <a href="../../../EA2/EA2/EA133.html">Business function + WP + BA treatment planning</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Pre-condition: a (provisional/work) diagnosis has been determined&lt;br/&gt;Post-condition: a (specific) treatment plan has been determined&lt;br/&gt;&lt;br/&gt;After determining treatment options (MDO?) for diagnosis,&lt;br/&gt;an option is chosen together with the patient (informing the patient) and concent is asked for it and then the details are filled in (treatment plan).&lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
@@ -66,13 +66,18 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA5/EA386.html">«ArchiMate_BusinessFunction» DIAGNOSIS</a><br />
+						<a href="../EA1/EA438.html">«ArchiMate_BusinessProcess» Establish treatment plan</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA5/EA428.html">«ArchiMate_BusinessFunction» TREATMENT PLANNING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA434.html">«ArchiMate_BusinessProcess» Diagnose</a><br />
-						BusinessProcess «ArchiMate_Aggregation» 
+						<a href="../../EA5/EA428.html">«ArchiMate_BusinessFunction» TREATMENT PLANNING</a><br />
+						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -84,22 +89,22 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA624.html">«ArchiMate_BusinessProcess» Conduct own research</a><br />
+						<a href="../../EA7/EA636.html">«ArchiMate_BusinessProcess» Obtain informed consent</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA481.html">«ArchiMate_BusinessProcess» Request peer consultation</a><br />
+						<a href="../../EA7/EA633.html">«ArchiMate_BusinessProcess» Develop treatment plan</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA492.html">«ArchiMate_BusinessProcess» Take patient history</a><br />
+						<a href="../../EA7/EA571.html">«ArchiMate_BusinessProcess» Inform patient</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA7/EA479.html">«ArchiMate_BusinessProcess» Request Additional diagnostic testing</a><br />
+						<a href="../../EA7/EA529.html">«ArchiMate_BusinessProcess» Determine treatment options</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -113,23 +118,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA444.html">Assess information</a><br />
-						Activity «ArchiMate_Triggering» 
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA467.html">Receive patient</a><br />
+						<a href="EA443.html">Request treatment activity</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -149,7 +138,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">1065</td>
+				<td width="50%" class="TableRow" valign="top">1077</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -167,6 +156,11 @@ function nameClassifier(name, separator)
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
+			<tr>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">Archimate2::Business</td>
+			</tr>
+
 			<tr>
 				<td width="30%" class="TableRow">isReadOnly:</td>
 				<td width="70%" class="TableRow">false</td>

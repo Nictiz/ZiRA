@@ -20,14 +20,17 @@
 		</property>
 	</properties>
 	<elements>
-		<element identifier="EAID_18E78108_D0E8_445f_BD87_67B0338B7FEB" xsi:type="Contract"/>
-		<element identifier="EAID_CB55DA07_1F74_4e82_A189_64DB65BCC18F" xsi:type="Requirement"/>
-		<element identifier="EAID_0DBA1633_DC56_4850_9DF2_3BB98E821E4B" xsi:type="Requirement"/>
+		<element identifier="EAID_18E78108_D0E8_445f_BD87_67B0338B7FEB" xsi:type="Contract">
+			<name xml:lang="nl">Agreement</name>
+		</element>
 		<element identifier="EAID_1C4A8B46_2CAE_4c85_9CE3_5FB12EBACF4C" xsi:type="Principle">
-			<name xml:lang="nl">Basic principle</name>
+			<name xml:lang="nl">Architecture principle</name>
 		</element>
 		<element identifier="EAID_E463BC53_157C_4f7e_B4CD_4FCCB08B7176" xsi:type="Goal">
 			<name xml:lang="nl">Government policy frameworks </name>
+		</element>
+		<element identifier="EAID_0DBA1633_DC56_4850_9DF2_3BB98E821E4B" xsi:type="Requirement">
+			<name xml:lang="nl">Implication</name>
 		</element>
 		<element identifier="EAID_DAC3A5BA_AFD2_4912_A1B3_1FEA1380C962" xsi:type="Driver">
 			<name xml:lang="nl">Motive</name>
@@ -53,14 +56,20 @@
 		<element identifier="EAID_9C6B3AA3_E9EE_4035_8851_D414B4EAB0E0" xsi:type="Stakeholder">
 			<name xml:lang="nl">Stakeholder</name>
 		</element>
+		<element identifier="EAID_CB55DA07_1F74_4e82_A189_64DB65BCC18F" xsi:type="Requirement">
+			<name xml:lang="nl">Standard</name>
+		</element>
 		<element identifier="EAID_25DFF1DC_EDAA_4abe_8873_7D812BAFC585" xsi:type="DataObject">
-			<name xml:lang="nl">ZIB</name>
+			<name xml:lang="nl">zib</name>
 		</element>
 		<element identifier="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4" xsi:type="ApplicationComponent">
 			<name xml:lang="nl">Application component</name>
 		</element>
 		<element identifier="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18" xsi:type="Grouping">
 			<name xml:lang="nl">Informatie domain</name>
+		</element>
+		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
+			<name xml:lang="nl">Information object</name>
 		</element>
 		<element identifier="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Business activity</name>
@@ -81,9 +90,6 @@
 					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
-		</element>
-		<element identifier="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F" xsi:type="BusinessObject">
-			<name xml:lang="nl">Information object</name>
 		</element>
 		<element identifier="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="ApplicationFunction">
 			<name xml:lang="nl">Application function</name>
@@ -265,9 +271,6 @@
 			</properties>
 		</element>
 		<element identifier="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5" xsi:type="BusinessService">
-			<name xml:lang="nl">MDC</name>
-		</element>
-		<element identifier="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31" xsi:type="BusinessService">
 			<name xml:lang="nl">MDC</name>
 		</element>
 		<element identifier="EAID_229FB972_4685_4c0f_AF7C_ECEF9B5A7A5A" xsi:type="BusinessService">
@@ -1355,6 +1358,37 @@ This is specifically described in the pre-conditions.
 				</property>
 			</properties>
 		</element>
+		<element identifier="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Register MDC (wp)</name>
+			<documentation xml:lang="nl">Registering the patient for an MDC consultation. The specific patient case will be explained at the time of registration. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_C0048171_4844_4915_ADE6_0C95A42E8622" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Request treatment activity</name>
+			<documentation xml:lang="nl">pre-condition: treatment plan consists of activities that must be ordered
+post-condition: an order for the activity has been created</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1078</value>
+				</property>
+			</properties>
+		</element>
 		<element identifier="EAID_2F3EF567_FDED_491d_A8C5_FD39C8E7AC5C" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Assess advice request</name>
 			<properties>
@@ -1369,23 +1403,6 @@ This is specifically described in the pre-conditions.
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">1074</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_0618A756_1162_4267_93C2_18E5F480BBCC" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Assess diagnostic testing request</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1068</value>
 				</property>
 			</properties>
 		</element>
@@ -1407,6 +1424,23 @@ This is specifically described in the pre-conditions.
 				</property>
 			</properties>
 		</element>
+		<element identifier="EAID_0618A756_1162_4267_93C2_18E5F480BBCC" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Assess diagnostic testing request</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1068</value>
+				</property>
+			</properties>
+		</element>
 		<element identifier="EAID_209FE7EE_947F_4582_88F5_F8F6A743D865" xsi:type="BusinessProcess">
 			<name xml:lang="nl">Assess results</name>
 			<properties>
@@ -1421,131 +1455,6 @@ This is specifically described in the pre-conditions.
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">1072</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Carry out (other) medical treatment</name>
-			<documentation xml:lang="nl">Pre-condition: Prepared (other) medical treatment
-
-Post-condition: Performed/completed (other) medical treatment"</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1081</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Carry out drug therapy</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1086</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_155C4E48_0CB4_4a4a_9CDE_2E4C38CCFD73" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Collect additional information</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1065</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_32BBB143_7137_4988_9FEB_EFD1FFFF22C4" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Conduct diagnostic testing</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1071</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_AF5CD43C_754E_43d4_B17A_B67259804CC9" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Conduct therapy</name>
-			<documentation xml:lang="nl">Pre-conditie: Voorbereide (geplande) therapie
-Post-conditie: Uitgevoerde therapie</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1084</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Determine care needs</name>
-			<documentation xml:lang="nl">Post-condition: that you know what you are going to do with the referral.</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1061</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_8E9E49A7_84D8_4ca6_B54B_1AA64AEE427C" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Determine transfer policy</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1088</value>
 				</property>
 			</properties>
 		</element>
@@ -1571,8 +1480,8 @@ an option is chosen together with the patient (informing the patient) and concen
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_6EEB7757_2B7F_4e7f_AC97_5BA0E54D4A86" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Diagnosis</name>
+		<element identifier="EAID_8E9E49A7_84D8_4ca6_B54B_1AA64AEE427C" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Determine transfer policy</name>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">Werkproces</value>
@@ -1584,7 +1493,37 @@ an option is chosen together with the patient (informing the patient) and concen
 					<value xml:lang="nl">true</value>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1067</value>
+					<value xml:lang="nl">1088</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Determine care needs</name>
+			<documentation xml:lang="nl">Post-condition: that you know what you are going to do with the referral.</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1061</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Discuss and report MDC (wp)</name>
+			<documentation xml:lang="nl">Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
 				</property>
 			</properties>
 		</element>
@@ -1624,10 +1563,8 @@ Post-condition: Evaluated Treatment</documentation>
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_3C5FBB6B_40F5_4ef4_9478_1BED8FF42AC1" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Perform additional care</name>
-			<documentation xml:lang="nl">Pre-condition: Prepared (planned) care.
-Post-condition: Care performed.</documentation>
+		<element identifier="EAID_622A75C5_0874_42b3_AAC1_A0C8EA00EB3E" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Receive patient</name>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">Werkproces</value>
@@ -1639,14 +1576,12 @@ Post-condition: Care performed.</documentation>
 					<value xml:lang="nl">true</value>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1083</value>
+					<value xml:lang="nl">1064</value>
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_9A54E990_7640_4459_9EEF_FED3456E6820" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Perform nursing care</name>
-			<documentation xml:lang="nl">Pre-condition: Prepared (planned) nursing care
-Post-condition: Nursing care performed.</documentation>
+		<element identifier="EAID_BBE90018_ECB9_41fc_93BC_1ACAAA26C03D" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Transfer patient</name>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">Werkproces</value>
@@ -1658,12 +1593,12 @@ Post-condition: Nursing care performed.</documentation>
 					<value xml:lang="nl">true</value>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1082</value>
+					<value xml:lang="nl">1089</value>
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_1E2E7E48_375E_4269_A6D2_9E89670149DD" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Perform operative treatment</name>
+		<element identifier="EAID_E2A90293_FEA0_4182_BFD9_3067B5D9BA8F" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Plan treatment activity</name>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">Werkproces</value>
@@ -1675,7 +1610,7 @@ Post-condition: Nursing care performed.</documentation>
 					<value xml:lang="nl">true</value>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1085</value>
+					<value xml:lang="nl">1079</value>
 				</property>
 			</properties>
 		</element>
@@ -1725,8 +1660,9 @@ In Schedule appointment, the patient and healthcare provider are determined whet
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_E2A90293_FEA0_4182_BFD9_3067B5D9BA8F" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Plan treatment activity</name>
+		<element identifier="EAID_BAA9D769_5A19_4043_903F_E1661BC7C210" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Report results</name>
+			<documentation xml:lang="nl">BA Release result is still missing between Drafting report and Notifying applicant.</documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">Werkproces</value>
@@ -1738,7 +1674,216 @@ In Schedule appointment, the patient and healthcare provider are determined whet
 					<value xml:lang="nl">true</value>
 				</property>
 				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1079</value>
+					<value xml:lang="nl">1073</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_6EEB7757_2B7F_4e7f_AC97_5BA0E54D4A86" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Diagnosis</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1067</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Feedback MDC advice (wp)</name>
+			<documentation xml:lang="nl"> The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. </documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Carry out (other) medical treatment</name>
+			<documentation xml:lang="nl">Pre-condition: Prepared (other) medical treatment
+
+Post-condition: Performed/completed (other) medical treatment"</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1081</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Carry out drug therapy</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1086</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_32BBB143_7137_4988_9FEB_EFD1FFFF22C4" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Conduct diagnostic testing</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1071</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_1E2E7E48_375E_4269_A6D2_9E89670149DD" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Perform operative treatment</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1085</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_AF5CD43C_754E_43d4_B17A_B67259804CC9" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Conduct therapy</name>
+			<documentation xml:lang="nl">Pre-conditie: Voorbereide (geplande) therapie
+Post-conditie: Uitgevoerde therapie</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1084</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_9A54E990_7640_4459_9EEF_FED3456E6820" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Perform nursing care</name>
+			<documentation xml:lang="nl">Pre-condition: Prepared (planned) nursing care
+Post-condition: Nursing care performed.</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1082</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_3C5FBB6B_40F5_4ef4_9478_1BED8FF42AC1" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Perform additional care</name>
+			<documentation xml:lang="nl">Pre-condition: Prepared (planned) care.
+Post-condition: Care performed.</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1083</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_ED3BC090_330A_4140_9793_62CE97347881" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Process referral request</name>
+			<documentation xml:lang="nl">Receiving and processing a request (digital and/or paper) from a patient or healthcare provider for service(s) within a hospital.</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1060</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_155C4E48_0CB4_4a4a_9CDE_2E4C38CCFD73" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Collect additional information</name>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1065</value>
+				</property>
+			</properties>
+		</element>
+		<element identifier="EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7" xsi:type="BusinessProcess">
+			<name xml:lang="nl">Prepare treatment</name>
+			<documentation xml:lang="nl">"Pre-condition: Treatment plan = including planned (treatment) activities
+Post-condition: Prepared treatment (location, resources, patient)"
+"Ensuring that the supplies are prepared, e.g. preparing medication for administration, ensuring that the correct nets are present in the OR, etc</documentation>
+			<properties>
+				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">Werkproces</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">false</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">true</value>
+				</property>
+				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
+					<value xml:lang="nl">1080</value>
 				</property>
 			</properties>
 		</element>
@@ -1776,150 +1921,9 @@ In Schedule appointment, the patient and healthcare provider are determined whet
 				</property>
 			</properties>
 		</element>
-		<element identifier="EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Prepare treatment</name>
-			<documentation xml:lang="nl">"Pre-condition: Treatment plan = including planned (treatment) activities
-Post-condition: Prepared treatment (location, resources, patient)"
-"Ensuring that the supplies are prepared, e.g. preparing medication for administration, ensuring that the correct nets are present in the OR, etc</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1080</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_ED3BC090_330A_4140_9793_62CE97347881" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Process referral request</name>
-			<documentation xml:lang="nl">Receiving and processing a request (digital and/or paper) from a patient or healthcare provider for service(s) within a hospital.</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1060</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_622A75C5_0874_42b3_AAC1_A0C8EA00EB3E" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Receive patient</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1064</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_BAA9D769_5A19_4043_903F_E1661BC7C210" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Report results</name>
-			<documentation xml:lang="nl">BA Release result is still missing between Drafting report and Notifying applicant.</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1073</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_C0048171_4844_4915_ADE6_0C95A42E8622" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Request treatment activity</name>
-			<documentation xml:lang="nl">pre-condition: treatment plan consists of activities that must be ordered
-post-condition: an order for the activity has been created</documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1078</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_BBE90018_ECB9_41fc_93BC_1ACAAA26C03D" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Transfer patient</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000011_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">Werkproces</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000009_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">1089</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Register MDC (wp)</name>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
 		<element identifier="EAID_23DD50D2_5DA7_4a8c_9BC0_BEFF6BCF2B7E" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Prepare MDC</name>
+			<name xml:lang="nl">Prepare MDC (wp)</name>
 			<documentation xml:lang="nl">Preparing and informing all persons involved in the MSC. </documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Discuss and report MDC (wp)</name>
-			<documentation xml:lang="nl">Discussing the patient case, determining the treatment advice and reporting on it. It also records who is present. Not only for the substantive accountability, but also for the financial settlement. </documentation>
-			<properties>
-				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">false</value>
-				</property>
-				<property propertyDefinitionRef="EAID_PD000006_01A4_4d78_BCA4_15599E617ED4">
-					<value xml:lang="nl">true</value>
-				</property>
-			</properties>
-		</element>
-		<element identifier="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6" xsi:type="BusinessProcess">
-			<name xml:lang="nl">Feedback MDC advice</name>
-			<documentation xml:lang="nl"> The (external) requesting care provider will receive feedback on the advice in the form of the MDC report. </documentation>
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000005_01A4_4d78_BCA4_15599E617ED4">
 					<value xml:lang="nl">false</value>
@@ -8790,7 +8794,6 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 		</element>
 	</elements>
 	<relationships>
-		<relationship identifier="EAID_13D4DEB7_6FB1_4b88_993E_CB968276F51D" source="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" target="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31" xsi:type="Realization"/>
 		<relationship identifier="EAID_90307E78_4250_4634_AC0A_9E8F77D3AE1F" source="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4" target="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="Aggregation">
 			<name xml:lang="nl">is  onderdeel van</name>
 		</relationship>
@@ -10172,10 +10175,9 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 		<item>
 			<label xml:lang="nl">ZIRA metamodel</label>
 			<item identifierRef="EAID_18E78108_D0E8_445f_BD87_67B0338B7FEB"/>
-			<item identifierRef="EAID_CB55DA07_1F74_4e82_A189_64DB65BCC18F"/>
-			<item identifierRef="EAID_0DBA1633_DC56_4850_9DF2_3BB98E821E4B"/>
 			<item identifierRef="EAID_1C4A8B46_2CAE_4c85_9CE3_5FB12EBACF4C"/>
 			<item identifierRef="EAID_E463BC53_157C_4f7e_B4CD_4FCCB08B7176"/>
+			<item identifierRef="EAID_0DBA1633_DC56_4850_9DF2_3BB98E821E4B"/>
 			<item identifierRef="EAID_DAC3A5BA_AFD2_4912_A1B3_1FEA1380C962"/>
 			<item identifierRef="EAID_5024FA2F_C4DE_4013_9C8A_52CE026AFCCB"/>
 			<item identifierRef="EAID_53D1C4AE_ECFE_4cd0_9B0E_E7E77331A3E3"/>
@@ -10184,11 +10186,12 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 			<item identifierRef="EAID_3B15E63A_C012_430c_A435_147B7F0DCB22"/>
 			<item identifierRef="EAID_8AC52926_B21E_4da3_B234_79523C87E734"/>
 			<item identifierRef="EAID_9C6B3AA3_E9EE_4035_8851_D414B4EAB0E0"/>
+			<item identifierRef="EAID_CB55DA07_1F74_4e82_A189_64DB65BCC18F"/>
 			<item identifierRef="EAID_25DFF1DC_EDAA_4abe_8873_7D812BAFC585"/>
 			<item identifierRef="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4"/>
 			<item identifierRef="EAID_2A2740C3_DB69_44f0_85B5_B5EBD1A1DD18">
-				<item identifierRef="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2"/>
 				<item identifierRef="EAID_F06BC187_0CDF_4cd2_A6D7_FFC0CB59F49F"/>
+				<item identifierRef="EAID_4E56CAB8_0EE5_4301_863C_E287CD3453B2"/>
 			</item>
 			<item identifierRef="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A"/>
 			<item identifierRef="EAID_0899E8A0_D693_43b8_83FA_8C3FEF7E68EC"/>
@@ -10200,7 +10203,9 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 		<item>
 			<label xml:lang="nl">Views / Diagrams</label>
 			<item/>
-			<item/>
+			<item>
+				<label xml:lang="nl">Principles and implications</label>
+			</item>
 			<item>
 				<label xml:lang="nl">Business functions</label>
 			</item>
@@ -10208,7 +10213,7 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 				<label xml:lang="nl">Business processes</label>
 			</item>
 			<item>
-				<label xml:lang="nl">Work processes</label>
+				<label xml:lang="nl">Work processes + IO</label>
 				<item>
 					<label xml:lang="nl">Determining care needs</label>
 				</item>
@@ -10218,7 +10223,9 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 				<item>
 					<label xml:lang="nl">Additional Diagnostic Testing</label>
 				</item>
-				<item/>
+				<item>
+					<label xml:lang="nl">Conduct MDC</label>
+				</item>
 				<item>
 					<label xml:lang="nl">Advise</label>
 				</item>
@@ -10238,7 +10245,10 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 			<item>
 				<label xml:lang="nl">Principles</label>
 				<item>
-					<item/>
+					<label xml:lang="nl">Architecture Principles</label>
+					<item>
+						<label xml:lang="nl">Implications</label>
+					</item>
 					<item identifierRef="EAID_B15EC175_7F30_4c10_B0B1_C4A611F7C07B"/>
 					<item identifierRef="EAID_CCAB99F4_4CE8_46a1_A9CD_CEB139DC562E"/>
 					<item identifierRef="EAID_322A3361_ABED_45b4_97E9_6BB6371D0805"/>
@@ -10271,7 +10281,6 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 				<item identifierRef="EAID_0D97CE43_91F0_4430_B673_B1E537AE445F"/>
 				<item identifierRef="EAID_8239F53E_60CE_4885_B74C_EA97A6E3DFC7"/>
 				<item identifierRef="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5"/>
-				<item identifierRef="EAID_BE4240BB_6409_4bc2_81EB_B7EDB54F8D31"/>
 				<item identifierRef="EAID_229FB972_4685_4c0f_AF7C_ECEF9B5A7A5A"/>
 				<item identifierRef="EAID_7B4B673F_A974_439a_B380_C1D416E1DD7C"/>
 				<item identifierRef="EAID_E279FBED_2C6E_4d75_85C6_50321C0AA3C2"/>
@@ -10346,39 +10355,39 @@ The concept does not describe decubitus wounds and burn wounds. For these, the r
 				</item>
 				<item>
 					<label xml:lang="nl">Work processes</label>
+					<item identifierRef="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05"/>
+					<item identifierRef="EAID_C0048171_4844_4915_ADE6_0C95A42E8622"/>
 					<item identifierRef="EAID_2F3EF567_FDED_491d_A8C5_FD39C8E7AC5C"/>
-					<item identifierRef="EAID_0618A756_1162_4267_93C2_18E5F480BBCC"/>
 					<item identifierRef="EAID_85566C0E_B206_40d5_97D8_A1F7BBD6087F"/>
+					<item identifierRef="EAID_0618A756_1162_4267_93C2_18E5F480BBCC"/>
 					<item identifierRef="EAID_209FE7EE_947F_4582_88F5_F8F6A743D865"/>
-					<item identifierRef="EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2"/>
-					<item identifierRef="EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7"/>
-					<item identifierRef="EAID_155C4E48_0CB4_4a4a_9CDE_2E4C38CCFD73"/>
-					<item identifierRef="EAID_32BBB143_7137_4988_9FEB_EFD1FFFF22C4"/>
-					<item identifierRef="EAID_AF5CD43C_754E_43d4_B17A_B67259804CC9"/>
-					<item identifierRef="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9"/>
-					<item identifierRef="EAID_8E9E49A7_84D8_4ca6_B54B_1AA64AEE427C"/>
 					<item identifierRef="EAID_35DBF463_6FA6_450c_9C0B_96B9BFC27D15"/>
-					<item identifierRef="EAID_6EEB7757_2B7F_4e7f_AC97_5BA0E54D4A86"/>
+					<item identifierRef="EAID_8E9E49A7_84D8_4ca6_B54B_1AA64AEE427C"/>
+					<item identifierRef="EAID_9ED16FE4_A685_40a2_9EDA_93E1C066DBD9"/>
+					<item identifierRef="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9"/>
 					<item identifierRef="EAID_B6A92B23_05C6_49d2_BB9A_F4A2CDC774DC"/>
 					<item identifierRef="EAID_0EC0754E_490A_4925_9C07_9950AE53AE92"/>
-					<item identifierRef="EAID_3C5FBB6B_40F5_4ef4_9478_1BED8FF42AC1"/>
-					<item identifierRef="EAID_9A54E990_7640_4459_9EEF_FED3456E6820"/>
-					<item identifierRef="EAID_1E2E7E48_375E_4269_A6D2_9E89670149DD"/>
+					<item identifierRef="EAID_622A75C5_0874_42b3_AAC1_A0C8EA00EB3E"/>
+					<item identifierRef="EAID_BBE90018_ECB9_41fc_93BC_1ACAAA26C03D"/>
+					<item identifierRef="EAID_E2A90293_FEA0_4182_BFD9_3067B5D9BA8F"/>
 					<item identifierRef="EAID_C3604AD3_4A3D_4d78_8C5B_4483D8C6CB82"/>
 					<item identifierRef="EAID_DDC54E0C_96F8_485c_8CFC_E6A8E69DCF6D"/>
-					<item identifierRef="EAID_E2A90293_FEA0_4182_BFD9_3067B5D9BA8F"/>
+					<item identifierRef="EAID_BAA9D769_5A19_4043_903F_E1661BC7C210"/>
+					<item identifierRef="EAID_6EEB7757_2B7F_4e7f_AC97_5BA0E54D4A86"/>
+					<item identifierRef="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6"/>
+					<item identifierRef="EAID_5925F280_451E_40f9_B0EA_4E6AC761B1E2"/>
+					<item identifierRef="EAID_13B4E388_BFCD_4b1f_A568_52F557E18AC7"/>
+					<item identifierRef="EAID_32BBB143_7137_4988_9FEB_EFD1FFFF22C4"/>
+					<item identifierRef="EAID_1E2E7E48_375E_4269_A6D2_9E89670149DD"/>
+					<item identifierRef="EAID_AF5CD43C_754E_43d4_B17A_B67259804CC9"/>
+					<item identifierRef="EAID_9A54E990_7640_4459_9EEF_FED3456E6820"/>
+					<item identifierRef="EAID_3C5FBB6B_40F5_4ef4_9478_1BED8FF42AC1"/>
+					<item identifierRef="EAID_ED3BC090_330A_4140_9793_62CE97347881"/>
+					<item identifierRef="EAID_155C4E48_0CB4_4a4a_9CDE_2E4C38CCFD73"/>
+					<item identifierRef="EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7"/>
 					<item identifierRef="EAID_1D42A3B2_55A8_4c4a_A337_0970281A23E4"/>
 					<item identifierRef="EAID_697CD00E_B695_4dbe_97D7_AFF52CC0F226"/>
-					<item identifierRef="EAID_17D122B8_73E8_420e_8783_5C5A946AB0B7"/>
-					<item identifierRef="EAID_ED3BC090_330A_4140_9793_62CE97347881"/>
-					<item identifierRef="EAID_622A75C5_0874_42b3_AAC1_A0C8EA00EB3E"/>
-					<item identifierRef="EAID_BAA9D769_5A19_4043_903F_E1661BC7C210"/>
-					<item identifierRef="EAID_C0048171_4844_4915_ADE6_0C95A42E8622"/>
-					<item identifierRef="EAID_BBE90018_ECB9_41fc_93BC_1ACAAA26C03D"/>
-					<item identifierRef="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05"/>
 					<item identifierRef="EAID_23DD50D2_5DA7_4a8c_9BC0_BEFF6BCF2B7E"/>
-					<item identifierRef="EAID_23107FFE_E9CC_4d5d_AC2E_E18005628FA9"/>
-					<item identifierRef="EAID_38F8C282_EF14_46aa_94FB_0C174A9399B6"/>
 				</item>
 			</item>
 			<item>

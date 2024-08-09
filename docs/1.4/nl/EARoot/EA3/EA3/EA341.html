@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domeinen::Zorglogistiek</title>
+<title>Domeinen::Verpleging</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,19 +34,19 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Zorglogistiek", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Verpleging", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:26</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">24-5-2023 11:11:36</td>
+			<td class="ObjectDetailsValue">24-5-2023 11:11:16</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA67.html">Domeinen</a>, <a href="../../EA2/EA73.html">Domeinen met BA en IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA68.html">Domeinen</a>, <a href="../../EA2/EA74.html">Domeinen met BA en IO</a></td>
 		</tr>
 	</table>
 	
@@ -63,8 +63,13 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA329.html">«ArchiMate_Grouping» ZORGONDERSTEUNING</a><br />
+						<a href="EA319.html">«ArchiMate_Grouping» BEHANDELING</a><br />
 						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA423.html">«ArchiMate_BusinessFunction» VERPLEGING</a><br />
+						BusinessFunction «ArchiMate_Association» 
 					</td>
 				</tr>
 			</table>
@@ -76,27 +81,62 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA727.html">«ArchiMate_BusinessObject» Locatie</a><br />
-						BusinessObject «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA615.html">«ArchiMate_BusinessProcess» Steriliseren van materialen, instrumenten en apparatuur</a><br />
+						<a href="../EA7/EA495.html">«ArchiMate_BusinessProcess» Afnemen verpleegkundige anamnese</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA638.html">«ArchiMate_BusinessProcess» Verplaatsen middelen</a><br />
+						<a href="../EA7/EA542.html">«ArchiMate_BusinessProcess» Bepalen verpleegplan</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA8/EA744.html">«ArchiMate_BusinessObject» Middel</a><br />
+						<a href="../EA8/EA825.html">«ArchiMate_BusinessObject» Verpleegkundige anamnese</a><br />
 						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA639.html">«ArchiMate_BusinessProcess» Verplaatsen personen</a><br />
+						<a href="../EA7/EA540.html">«ArchiMate_BusinessProcess» Bepalen verpleegdoel (outcome)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA709.html">«ArchiMate_BusinessObject» Interventie</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA562.html">«ArchiMate_BusinessProcess» Evalueren verpleegresultaat</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA629.html">«ArchiMate_BusinessProcess» Uitvoeren verpleegplan</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA827.html">«ArchiMate_BusinessObject» Verpleegkundige Evaluatie</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA828.html">«ArchiMate_BusinessObject» Verpleegplan</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA829.html">«ArchiMate_BusinessObject» Verpleging</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA826.html">«ArchiMate_BusinessObject» Verpleegkundige Diagnose</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA541.html">«ArchiMate_BusinessProcess» Bepalen verpleegkundige diagnose</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -110,11 +150,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.23</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.18</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">CED</td>
+				<td width="50%" class="TableRow" valign="top">CCC</td>
 			</tr>	
 
 	</table>
