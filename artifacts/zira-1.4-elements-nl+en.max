@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="9-8-2024 14:05:40" xmlns="http://www.umcg.nl/MAX">
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="9-8-2024 15:00:51" xmlns="http://www.umcg.nl/MAX">
   <objects xmlns="">
     <object>
       <id>2</id>
@@ -9,8 +9,8 @@
       <type>Package</type>
       <modified>2022-03-09T00:00:00</modified>
       <tag name="MAX::ImportDate" value="4/24/2014 15:28:00"></tag>
-      <tag name="MAX::ExportDate" value="14-6-2023 09:46:20"></tag>
-      <tag name="MAX::ExportFile" value="Z:\EAP\ZiRA v1.2\zira-1.2-elements-nl+en.max"></tag>
+      <tag name="MAX::ExportDate" value="9-8-2024 14:06:44"></tag>
+      <tag name="MAX::ExportFile" value="Z:\EAP\ZiRA v1.4\zira-1.4-elements-nl+en.max"></tag>
     </object>
     <object>
       <id>2515</id>
@@ -11016,6 +11016,18 @@ Default: up
   <relationships xmlns="">
     <relationship>
       <label />
+      <sourceId>2954</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2.16.840.1.113883.2.4.3.11.29.0.2</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.1.5</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -12668,7 +12680,7 @@ Default: up
       <destCard />
       <notes></notes>
       <stereotype>ArchiMate_Realization</stereotype>
-      <type>Dependency</type>
+      <type>Realisation</type>
     </relationship>
     <relationship>
       <label />
@@ -13711,6 +13723,18 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2974</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.174</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -13915,6 +13939,18 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2976</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.391</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -13948,6 +13984,30 @@ Default: up
       <notes></notes>
       <stereotype>U</stereotype>
       <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2977</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2982</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
     </relationship>
     <relationship>
       <label />
@@ -13987,6 +14047,30 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2983</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2984</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.209</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -14023,6 +14107,30 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2981</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2986</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.132</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -14044,6 +14152,30 @@ Default: up
       <notes></notes>
       <stereotype />
       <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2987</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2991</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
     </relationship>
     <relationship>
       <label />
@@ -14383,6 +14515,18 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2988</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.393</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -14512,6 +14656,18 @@ Default: up
       <notes></notes>
       <stereotype>c</stereotype>
       <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2989</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
     </relationship>
     <relationship>
       <label />
@@ -14755,6 +14911,18 @@ Default: up
     </relationship>
     <relationship>
       <label />
+      <sourceId>2988</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2971</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
       <sourceId>2.16.840.1.113883.2.4.3.11.29.3.202</sourceId>
       <sourceLabel />
       <sourceCard />
@@ -14787,6 +14955,18 @@ Default: up
       <destCard />
       <notes></notes>
       <stereotype>c</stereotype>
+      <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2988</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2969</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
       <type>InformationFlow</type>
     </relationship>
     <relationship>
@@ -15682,7 +15862,7 @@ Default: up
       <sourceId>2988</sourceId>
       <sourceLabel />
       <sourceCard />
-      <destId>2969</destId>
+      <destId>2972</destId>
       <destLabel />
       <destCard />
       <notes></notes>
@@ -25102,6 +25282,90 @@ Default: up
       <notes></notes>
       <stereotype />
       <type>InformationFlow</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2971</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2969</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2972</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2967</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2968</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2970</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2966</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2954</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
     </relationship>
     <relationship>
       <label />
