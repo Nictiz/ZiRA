@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Dataobjects (HCIMs)::ContactPerson</title>
+<title>Dataobjects (HCIMs)::Concern</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ContactPerson", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Concern", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:20</td>
+			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:14</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:12:22</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:47:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">A contact is a different person than a healthcare provider who is involved in the patient&#39;s care, such as family members, caregivers, mental caretakers, guardians and legal representatives. &lt;br/&gt;&lt;br/&gt;In addition to identification information such as the name, address and contact information can also be entered. The relationship to the patient and the role this person has can be entered as well.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Determining relevant health issues of the patient involves two important aspects: observing the problem itself on the one hand (complaints, symptoms, diagnosis, etc.) and evaluation of whether or not an active policy is required on the other. This evaluation by the healthcare provider is documented in the &#39;Concern&#39;, the point of attention. Multiple, linked Problems can be subsumed under a single Concern. &lt;br/&gt;The difference between recorded problems and the attention they require enables an indication of which issues medical or nursing policy applies to, or in which issues policy is necessary. An example is well-managed diabetes; this requires no active policy of the healthcare provider. &lt;br/&gt;A problem describes a situation with regard to an individual&#39;s health and/or welfare. This situation can be described by the person involved (the patient) themselves (in the form of a complaint), or by their healthcare provider (in the form of a diagnosis, for example). The situation can form cause for &lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,14 +65,21 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA777.html">«ArchiMate_BusinessObject» Patient</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA827.html">«ArchiMate_BusinessObject» Nurse Diagnosis</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA667.html">«ArchiMate_BusinessObject» Appointment</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA690.html">«ArchiMate_BusinessObject» Course of disease</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA814.html">«ArchiMate_BusinessObject» Therapeutic Diagnosis</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

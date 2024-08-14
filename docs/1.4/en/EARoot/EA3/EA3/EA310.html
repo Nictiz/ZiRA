@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domains::MANAGEMENT</title>
+<title>Domains::Diagnosis</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("MANAGEMENT", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Diagnosis", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,19 +42,33 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:08:07</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:43:11</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA70.html">Business function model </a>, <a href="../../EA2/EA68.html">Domains</a>, <a href="../../EA2/EA74.html">Domains with BA and IO</a>, <a href="../../EA2/EA80.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA69.html">Domains</a>, <a href="../../EA2/EA75.html">Domains with BA and IO</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA314.html">«ArchiMate_Grouping» CONSULTATION</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -62,73 +76,158 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA408.html">«ArchiMate_BusinessFunction» PERFORMANCE MANAGEMENT</a><br />
+						<a href="../EA7/EA532.html">«ArchiMate_BusinessProcess» Determine diagnosis</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA648.html">«ArchiMate_BusinessProcess» Prepare for contact</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA803.html">«ArchiMate_BusinessObject» Medical Index Scores</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA822.html">«ArchiMate_BusinessObject» Diagnostics Results</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA690.html">«ArchiMate_BusinessObject» Course of disease</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA684.html">«ArchiMate_BusinessObject» Collegiate consultation</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA771.html">«ArchiMate_BusinessObject» Order</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA743.html">«ArchiMate_BusinessObject» Measure</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA851.html">«ArchiMate_BusinessObject» Care needs</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA493.html">«ArchiMate_BusinessProcess» Take patient history</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA524.html">«ArchiMate_BusinessProcess» Assess results of peer consultation</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA798.html">«ArchiMate_BusinessObject» Result collegiate consultation</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA625.html">«ArchiMate_BusinessProcess» Conduct own research</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA663.html">«ArchiMate_BusinessObject» Additional diagnostic testing</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA823.html">«ArchiMate_BusinessObject» Results of own research</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA525.html">«ArchiMate_BusinessProcess» Assess results of additional or own research</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA715.html">«ArchiMate_BusinessObject» Complaint</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA482.html">«ArchiMate_BusinessProcess» Request peer consultation</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA824.html">«ArchiMate_BusinessObject» Physical examination result</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA778.html">«ArchiMate_BusinessObject» Patient</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA480.html">«ArchiMate_BusinessProcess» Request Additional diagnostic testing</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA664.html">«ArchiMate_BusinessObject» Activity</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA585.html">«ArchiMate_BusinessProcess» Receive patient</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA744.html">«ArchiMate_BusinessObject» Measurement</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA387.html">«ArchiMate_BusinessFunction» DIAGNOSIS</a><br />
 						BusinessFunction «ArchiMate_Association» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA327.html">«ArchiMate_Grouping» Accountability</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA7/EA522.html">«ArchiMate_BusinessProcess» Review patient file</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA321.html">«ArchiMate_Grouping» Innovation</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA8/EA692.html">«ArchiMate_BusinessObject» Diagnosis</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA421.html">«ArchiMate_BusinessFunction» STRATEGY & GOVERNANCE</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA8/EA843.html">«ArchiMate_BusinessObject» History</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA326.html">«ArchiMate_Grouping» Performance management</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA8/EA779.html">«ArchiMate_BusinessObject» Patient health record</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA409.html">«ArchiMate_BusinessFunction» PLANNING & CONTROL</a><br />
-						BusinessFunction «ArchiMate_Association» 
+						<a href="../EA8/EA671.html">«ArchiMate_BusinessObject» Anamnesis report</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA329.html">«ArchiMate_Grouping» Marketing</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA315.html">«ArchiMate_Grouping» Planning & Control</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA377.html">«ArchiMate_BusinessFunction» ACCOUNTABILITY</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA412.html">«ArchiMate_BusinessFunction» QUALITY MANAGEMENT</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA326.html">«ArchiMate_Grouping» Performance management</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA325.html">«ArchiMate_Grouping» Quality management</a><br />
-						Grouping «ArchiMate_Aggregation» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA395.html">«ArchiMate_BusinessFunction» INNOVATION</a><br />
-						BusinessFunction «ArchiMate_Association» 
-					</td>
-				</tr>				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA311.html">«ArchiMate_Grouping» Strategy & governance</a><br />
-						Grouping «ArchiMate_Aggregation» 
+						<a href="../EA8/EA804.html">«ArchiMate_BusinessObject» Score</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -141,11 +240,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.0.1</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.2.12</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">A</td>
+				<td width="50%" class="TableRow" valign="top">CBA</td>
 			</tr>	
 
 	</table>

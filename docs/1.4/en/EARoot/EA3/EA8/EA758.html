@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Informationobjects::Research data</title>
+<title>Informationobjects::Research request</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Research data", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Research request", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessObject&gt;&gt; BusinessObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:27</td>
+			<td width="85%" class="ObjectDetailsValue">14-12-2016 14:11:42</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:12:07</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:47:06</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA74.html">Domains with BA and IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA4/EA3/EA189.html">Additional Diagnostic Testing / Assess diagnostic testing request</a>, <a href="../../EA2/EA4/EA3/EA191.html">Additional Diagnostic Testing / Plan diagnostic testing</a>, <a href="../../EA2/EA4/EA3/EA195.html">Additional Diagnostic Testing / Conduct diagnostic testing</a>, <a href="../../EA2/EA4/EA3/EA199.html">Additional Diagnostic Testing / Report result</a>, <a href="../../EA2/EA75.html">Domains with BA and IO</a>, <a href="../../EA2/EA79.html">Information model CARE Activities</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">The data collected during the research.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Request to conduct research&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,7 +65,7 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA3/EA354.html">«ArchiMate_Grouping» Perform research</a><br />
+						<a href="../EA3/EA343.html">«ArchiMate_Grouping» Additional diagnostic testing [per type]</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -79,7 +79,11 @@ function nameClassifier(name, separator)
 		</tr>
 					<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.310</td>
+				<td width="50%" class="TableRow" valign="top">1671</td>
+			</tr>	
+			<tr>
+				<td width="50%" class="TableRow" valign="top">RDZ_ID</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.4.281</td>
 			</tr>	
 
 	</table>
@@ -106,42 +110,63 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA630.html">«ArchiMate_BusinessProcess» Valorize research</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA623.html">«ArchiMate_BusinessProcess» Conduct Additional Diagnostic Testing</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA553.html">«ArchiMate_BusinessProcess» Process and analyze research data</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA603.html">«ArchiMate_BusinessProcess» Plan diagnostic testing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA663.html">«ArchiMate_BusinessObject» Additional diagnostic testing</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA521.html">«ArchiMate_BusinessProcess» Assess diagnostic testing request</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
+					<td width="10%" class="TableRow" valign="top">Information Flow</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA521.html">«ArchiMate_BusinessProcess» Assess diagnostic testing request</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA644.html">«ArchiMate_BusinessProcess» Collect research data and material</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA603.html">«ArchiMate_BusinessProcess» Plan diagnostic testing</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA587.html">«ArchiMate_BusinessProcess» Develop research data set</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA623.html">«ArchiMate_BusinessProcess» Conduct Additional Diagnostic Testing</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA554.html">«ArchiMate_BusinessProcess» Monitor compliance with research protocols</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
-					<td width="10%" class="TableRow" valign="top">Information Flow</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA771.html">«ArchiMate_BusinessObject» Order</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Generalization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA637.html">«ArchiMate_BusinessProcess» Obtain patient consent</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA7/EA597.html">«ArchiMate_BusinessProcess» Prepare report</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessProcess</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

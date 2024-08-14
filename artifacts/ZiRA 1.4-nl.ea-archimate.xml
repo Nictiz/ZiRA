@@ -8923,6 +8923,7 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 		</element>
 	</elements>
 	<relationships>
+		<relationship identifier="EAID_74714D36_AF95_4f2b_A319_57BACF804E70" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_4C1D46A5_9057_4a6d_9D9D_D675E64A43E9" xsi:type="Aggregation"/>
 		<relationship identifier="EAID_90307E78_4250_4634_AC0A_9E8F77D3AE1F" source="EAID_518F3982_558E_4db3_A2F1_ECA3233980F4" target="EAID_5B9C6CA7_76B2_4022_97AA_1557A6B92A6A" xsi:type="Aggregation">
 			<name xml:lang="nl">is  onderdeel van</name>
 		</relationship>
@@ -8976,7 +8977,26 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 		<relationship identifier="EAID_3381B0BD_117C_46cb_A1EA_1B9F25AF814F" source="EAID_9C6B3AA3_E9EE_4035_8851_D414B4EAB0E0" target="EAID_DAC3A5BA_AFD2_4912_A1B3_1FEA1380C962" xsi:type="Association"/>
 		<relationship identifier="EAID_07CD77F9_D447_4927_B744_3931DB56D3B0" source="EAID_9C6B3AA3_E9EE_4035_8851_D414B4EAB0E0" target="EAID_D6F5C37C_4FE9_46fa_B30F_D8DE566F8342" xsi:type="Association"/>
 		<relationship identifier="EAID_AF6272B4_8CD9_4302_8A21_8F9ACC0D9522" source="EAID_18E78108_D0E8_445f_BD87_67B0338B7FEB" target="EAID_CB55DA07_1F74_4e82_A189_64DB65BCC18F" xsi:type="Association"/>
+		<relationship identifier="EAID_95FB7EA5_D190_4d20_8C6B_B1451505B7DE" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_C7781644_7E30_4aac_B502_AD3EC484BE7C" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_545E05AD_5432_449a_BA6F_7A306C250E68" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_53B1AF61_476D_4465_8026_E2A4A146F213" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_591497AD_493E_492a_B060_B01E114572A3" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_C834DF9D_B8BA_4ad3_BECB_8A2A6C4BDDDC" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_7CFC3886_6A5E_4b3b_A3E4_05307494599D" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_7706F075_58B7_420e_BCE3_37EF9CA7CF67" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_3217743B_3224_4490_8403_BB985BB6841E" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_E2BF5455_896C_4bc6_BE94_727FAA09E6A0" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_2217383B_22BA_4886_A8CB_86EDBDE2B1E3" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_D9DDD03E_0C79_4af0_B8E5_9854994C06F1" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_0E61A386_38F9_4f97_A3F0_EE0557118952" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_CA8DBAE3_B2AE_49a2_9E0C_F4AC540B75E5" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_6361ECC8_C17B_42b7_B3B5_4A25FCCE3389" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_C81FF288_8990_49bf_B1BA_87C427E26554" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_1C579959_2099_4af6_B29F_809300F21F94" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_0E0338E3_0157_4bc8_996A_0A8942BC8BFD" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_4BB3B44B_078B_45fc_936F_F07F5779DA84" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_6BD088E9_988B_4752_A9AA_48ECCBF457E3" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_304BD337_ED90_4047_B008_F59792B0B0A3" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_8083CD84_E572_4c68_A0B3_5725EE8DB67D" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_AE86BF7B_7AD6_497b_B9BB_10A28117D203" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_4981BACA_DB5C_479a_9CF2_E58B6917AF0E" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_EAE3351A_58EC_4ed3_8AB6_EA32F14C5E25" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_301C9BFB_7A9E_4868_BEB5_22C20C97B0EC" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_7FC9BC69_A550_4f0d_A612_AD2945D9D4A8" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_786292D9_AAF3_411c_93AA_4A56FC8622B6" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_90D590EF_2496_4498_9683_F07C6F4F22F7" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_839B70F6_53F9_45d0_B24E_B3CE962C8228" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_DFDF6873_9550_4197_AB36_7B79351603DA" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_7F2B6320_B4A4_4b98_9002_2875464B9513" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_63473BCE_0B1B_4968_8B09_90FE6BA962A8" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_52DBE012_1CCC_4707_B7E5_D58CE4334E18" xsi:type="Aggregation"/>
+		<relationship identifier="EAID_C4224E08_3B71_42fd_BBE3_81AB813CAF3A" source="EAID_AB3F0180_B5B0_4eb8_98BB_668760DBF675" target="EAID_9BD92148_CE4D_4d85_8C0A_FF5F54D3D641" xsi:type="Aggregation"/>
 		<relationship identifier="EAID_D8A190D7_889A_4423_8BE2_3D856F134A21" source="EAID_9BD92148_CE4D_4d85_8C0A_FF5F54D3D641" target="EAID_0B22A61B_DCBE_42ea_A41D_81897EBB79E2" xsi:type="Specialization"/>
+		<relationship identifier="EAID_3D69B3CE_11FB_4a45_B63A_9CAE147E4ECE" source="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" target="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5" xsi:type="Realization"/>
 		<relationship identifier="EAID_1E3C5547_B2AD_4619_B072_0FB46044EF71" source="EAID_839B70F6_53F9_45d0_B24E_B3CE962C8228" target="EAID_0B22A61B_DCBE_42ea_A41D_81897EBB79E2" xsi:type="Specialization"/>
 		<relationship identifier="EAID_2F9048C3_87C7_4f67_9B0C_CC89E5BEA1DF" source="EAID_301C9BFB_7A9E_4868_BEB5_22C20C97B0EC" target="EAID_AF50ED85_69E7_4e65_A7B1_49B55697DA51" xsi:type="Specialization"/>
 		<relationship identifier="EAID_155FE8F0_A91F_435d_8C9F_5E8FB0AD16F0" source="EAID_7F2B6320_B4A4_4b98_9002_2875464B9513" target="EAID_301C9BFB_7A9E_4868_BEB5_22C20C97B0EC" xsi:type="Association"/>
@@ -8988,7 +9008,6 @@ Het concept beschrijft geen decubituswonden en brandwonden. Hiervoor kunnen de b
 				</property>
 			</properties>
 		</relationship>
-		<relationship identifier="EAID_F977C49E_6DD6_475f_B9CA_80E9BCA40F7A" source="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" target="EAID_C03BEEF6_F73D_43a4_8F96_465C4E8A0AB5" xsi:type="Realization"/>
 		<relationship identifier="EAID_D9230B7A_26E6_470e_9D31_AD8C9A4372FD" source="EAID_55BA5C31_AE7B_4299_AC08_837C94FC72C5" target="EAID_EF67301A_64D5_492d_A526_FF543D8F5F05" xsi:type="Aggregation">
 			<properties>
 				<property propertyDefinitionRef="EAID_PD000012_01A4_4d78_BCA4_15599E617ED4">

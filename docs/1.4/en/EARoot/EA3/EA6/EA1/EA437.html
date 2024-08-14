@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Advise</title>
+<title>Conduct multidisciplinary consultation</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,25 +34,25 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Advise", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Conduct multidisciplinary consultation", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">4-7-2016 21:02:38</td>
+			<td width="85%" class="ObjectDetailsValue">9-7-2024 17:51:52</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:08:30</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:46:10</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../../EA2/EA72.html">Process model</a>, <a href="../../../EA2/EA3/EA150.html">Business Process Advise</a></td>
+			<td class="ObjectDetailsValue"><a href="../../../EA2/EA73.html">Process model</a>, <a href="../../../EA2/EA3/EA149.html">Business process Conduct MDC</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Discussing and determining diagnosis, treatment plan and/or treatment in a joint discussion of healthcare providers from different disciplines in order to be able to offer the best possible appropriate treatment to the patient and to guarantee the quality of care. This process can take place within a single organization, but also with specialized expertise from multiple centers (echeloning). MDOs usually take place periodically (e.g. weekly) and pre-planned. &lt;br/&gt;</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
 			<li onClick="parent.toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
@@ -60,19 +60,6 @@ function nameClassifier(name, separator)
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../../EA5/EA379.html">«ArchiMate_BusinessFunction» ADVICE</a><br />
-						BusinessFunction «ArchiMate_Aggregation» 
-					</td>
-				</tr>
-			</table>
-		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -80,13 +67,23 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA2/EA453.html">«ArchiMate_BusinessProcess» Give advice</a><br />
-						BusinessProcess &nbsp;
+						<a href="../EA2/EA475.html">«ArchiMate_BusinessProcess» Prepare MDC (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA2/EA444.html">«ArchiMate_BusinessProcess» Assess advice request</a><br />
-						BusinessProcess &nbsp;
+						<a href="../EA2/EA443.html">«ArchiMate_BusinessProcess» Register MDC (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA452.html">«ArchiMate_BusinessProcess» Discuss and report MDC (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA2/EA462.html">«ArchiMate_BusinessProcess» Feedback MDC advice (wp)</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -99,7 +96,21 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA440.html">Transfer</a><br />
+						<a href="EA440.html">Treat</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA439.html">Establish treatment plan</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA435.html">Diagnose</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -115,7 +126,21 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA438.html">Establish treatment plan</a><br />
+						<a href="EA439.html">Establish treatment plan</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA435.html">Diagnose</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA440.html">Treat</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -132,10 +157,6 @@ function nameClassifier(name, separator)
 					<tr>
 				<td width="50%" class="TableRow" valign="top">atomic</td>
 				<td width="50%" class="TableRow" valign="top">false</td>
-			</tr>	
-			<tr>
-				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">852</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">showdecoration</td>
@@ -171,7 +192,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA369.html">«ArchiMate_BusinessService» Advise</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA373.html">«ArchiMate_BusinessService» MDC</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessService</td>
 					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

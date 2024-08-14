@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Result reporting</title>
+<title>Order management</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Result reporting", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Order management", " : "))</script> : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">20-11-2017 23:24:30</td>
+			<td width="85%" class="ObjectDetailsValue">20-11-2017 23:24:29</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:12:30</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:47:41</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA80.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA81.html">Application functions</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Functionality for the analysis and reporting of results and notification to healthcare providers and/or patient&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Functionality for the execution of the closed order loop of diagnostic tests (request, planning, delivery, acceptance)&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -64,12 +64,42 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA524.html">«ArchiMate_BusinessProcess» Assess results of additional or own research</a><br />
+						<a href="../EA7/EA576.html">«ArchiMate_BusinessProcess» Notify applicant</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA7/EA523.html">«ArchiMate_BusinessProcess» Assess results of peer consultation</a><br />
+						<a href="../EA7/EA603.html">«ArchiMate_BusinessProcess» Plan diagnostic testing</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA481.html">«ArchiMate_BusinessProcess» Request activity</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA641.html">«ArchiMate_BusinessProcess» Process application</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA548.html">«ArchiMate_BusinessProcess» Make report available</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA521.html">«ArchiMate_BusinessProcess» Assess diagnostic testing request</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA641.html">«ArchiMate_BusinessProcess» Process application</a><br />
+						BusinessProcess «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA480.html">«ArchiMate_BusinessProcess» Request Additional diagnostic testing</a><br />
 						BusinessProcess «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -87,7 +117,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">ExternalReference</td>
-				<td width="50%" class="TableRow" valign="top">CP.5 Manage Results</td>
+				<td width="50%" class="TableRow" valign="top">CP.4 Manage Orders</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">rotation</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Dataobjects (HCIMs)::AllergyIntolerance</title>
+<title>Dataobjects (HCIMs)::Alert</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,22 +34,22 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("AllergyIntolerance", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Alert", " : "))</script> : Public  &lt;&lt;ArchiMate_DataObject&gt;&gt; DataObject</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:16</td>
+			<td width="85%" class="ObjectDetailsValue">19-4-2017 17:02:17</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:12:20</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:47:23</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">An allergy or intolerance describes a patient&#39;s tendency towards hypersensitivity to a certain substance, so that an unwanted physiological reaction is expected after exposure to the substance, while most people would not exhibit such a reaction to that amount. The observed physiological changes are usually the result of an immunological reaction.&#160;&#160;&#160;&lt;br/&gt;The substances can be categorized as follows: &lt;br/&gt;- Medicine &lt;br/&gt;- Medicine category &lt;br/&gt;- Ingredient/addition &lt;br/&gt;- Nutrition &lt;br/&gt;- Environmental factor &lt;br/&gt;- Animal &lt;br/&gt;- Plants &lt;br/&gt;- Chemicals &lt;br/&gt;- Inhaled allergenic&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">An alert describes a clinical or administrative fact brought to the attention of the users of the clinical systems to be taken into account when shaping diagnostic and therapeutic policy or in dealing with the patient, usually because of a safety risk.&#160;&#160;&lt;br/&gt;Disorders that describe the body&#39;s sensitivity to a substance which results in a specific physiological reaction after being exposed to that substance are referred to as allergies. These are described in a separate information model.&#160;&#160;&lt;br/&gt;Warnings for non-allergic disorders can concern: &lt;br/&gt;- A disorder (condition or diagnosis which can be considered as a contraindication for the use of groups of medication or undergoing a certain type of therapy), such as pregnancy or long QT syndrome &lt;br/&gt;- Impaired functioning of an organ system (heart failure, impaired liver or kidney function, weakened immune system)&#160;&#160;&lt;br/&gt;- Risk of spreading certain microorganisms (multi-resistant bacteria, tubercle bacilli, HIV, HBV, Ebola virus) &lt;br/&gt;- Other risks&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -65,21 +65,28 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA812.html">«ArchiMate_BusinessObject» Therapeutic History</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA813.html">«ArchiMate_BusinessObject» Therapeutic History</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA838.html">«ArchiMate_BusinessObject» Care plan</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA785.html">«ArchiMate_BusinessObject» Preoperative Screening Report</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA686.html">«ArchiMate_BusinessObject» Contraindication</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA671.html">«ArchiMate_BusinessObject» Anamnesis report</a></td>
+					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="10%" class="TableRow" valign="top">Abstraction</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA839.html">«ArchiMate_BusinessObject» Care plan</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Abstraction</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Process care request</title>
+<title>Process application</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,7 +34,7 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Process care request", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Process application", " : "))</script> : Public  &lt;&lt;ArchiMate_BusinessProcess&gt;&gt; BusinessProcess</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -42,14 +42,14 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:11:55</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:46:48</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA154.html">Business Process Treat</a>, <a href="../../EA2/EA4/EA7/EA240.html">Treat / Perform additional care</a>, <a href="../../EA2/EA2/EA135.html">Business function + WP + BA treatment </a>, <a href="../../EA2/EA2/EA125.html">Business function + BA treatment </a>, <a href="../../EA2/EA74.html">Domains with BA and IO</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA147.html">Business process Conduct Additional diagnostic testing</a>, <a href="../../EA2/EA3/EA153.html">Business process Establish treatment plan</a>, <a href="../../EA2/EA4/EA6/EA226.html">Plan treatment activity</a>, <a href="../../EA2/EA2/EA134.html">Business function + WP + BA treatment planning</a>, <a href="../../EA2/EA2/EA138.html">Business function + WP + BA additional diagnostic testing</a>, <a href="../../EA2/EA2/EA124.html">Business function + BA treatment planning</a>, <a href="../../EA2/EA75.html">Domains with BA and IO</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Receiving and understanding the request for care.&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">Receiving a request and checking for completeness and correctness. Providing feedback that the application has been received in good order.&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -67,22 +67,27 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA405.html">«ArchiMate_BusinessFunction» NURSING ASSISTANCE</a><br />
+						<a href="../EA6/EA2/EA457.html">«ArchiMate_BusinessProcess» Plan treatment activity</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA379.html">«ArchiMate_BusinessFunction» ADDITIONAL DIAGNOSTIC TESTING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA3/EA306.html">«ArchiMate_Grouping» Nursing</a><br />
+						<a href="../EA3/EA344.html">«ArchiMate_Grouping» Care planning</a><br />
 						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA5/EA427.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						<a href="../EA5/EA429.html">«ArchiMate_BusinessFunction» TREATMENT PLANNING</a><br />
 						BusinessFunction «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA6/EA2/EA468.html">«ArchiMate_BusinessProcess» Perform additional care</a><br />
+						<a href="../EA6/EA2/EA459.html">«ArchiMate_BusinessProcess» Plan diagnostic testing</a><br />
 						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
@@ -95,7 +100,12 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA969.html">«ArchiMate_ApplicationFunction» Nursing support (patient services)</a><br />
+						<a href="../EA10/EA972.html">«ArchiMate_ApplicationFunction» Order management</a><br />
+						ApplicationFunction «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA10/EA972.html">«ArchiMate_ApplicationFunction» Order management</a><br />
 						ApplicationFunction «ArchiMate_Association» 
 					</td>
 				</tr>
@@ -109,7 +119,14 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA607.html">Draw up care plan</a><br />
+						<a href="EA603.html">Plan diagnostic testing</a><br />
+						Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA600.html">Plan activity</a><br />
 						Activity «ArchiMate_Triggering» 
 					</td>
 					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
@@ -129,7 +146,7 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
-				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.391</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.3.400</td>
 			</tr>	
 			<tr>
 				<td width="50%" class="TableRow" valign="top">NIEUW</td>
@@ -164,14 +181,14 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA836.html">«ArchiMate_BusinessObject» Care</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA771.html">«ArchiMate_BusinessObject» Order</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA836.html">«ArchiMate_BusinessObject» Care</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA8/EA771.html">«ArchiMate_BusinessObject» Order</a></td>
 					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
 					<td width="10%" class="TableRow" valign="top">Information Flow</td>
 					<td width="10%" class="TableRow" valign="top">To</td>

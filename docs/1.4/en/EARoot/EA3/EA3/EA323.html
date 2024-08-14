@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Domains::CONNECTIVITY</title>
+<title>Domains::TREATMENT</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,28 +34,41 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("CONNECTIVITY", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("TREATMENT", " : "))</script> : Public  &lt;&lt;ArchiMate_Grouping&gt;&gt; Grouping</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">10-12-2017 17:53:36</td>
+			<td width="85%" class="ObjectDetailsValue">13-7-2016 14:16:25</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">9-8-2024 14:08:17</td>
+			<td class="ObjectDetailsValue">14-8-2024 10:43:12</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA80.html">Application functions</a></td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA71.html">Business function model </a>, <a href="../../EA2/EA69.html">Domains</a>, <a href="../../EA2/EA75.html">Domains with BA and IO</a>, <a href="../../EA2/EA81.html">Application functions</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
 			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
-			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA320.html">«ArchiMate_Grouping» CARE</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>
+			</table>
+		</div>
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
@@ -63,33 +76,68 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1030.html">«ArchiMate_ApplicationFunction» Network management</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="../EA7/EA650.html">«ArchiMate_BusinessProcess» Prepare resources for treatment</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1034.html">«ArchiMate_ApplicationFunction» Load balancing</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="../EA7/EA557.html">«ArchiMate_BusinessProcess» Collect treatment outcomes</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1032.html">«ArchiMate_ApplicationFunction» DNS and IP address management</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="../EA7/EA652.html">«ArchiMate_BusinessProcess» Prepare patient for treatment</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1033.html">«ArchiMate_ApplicationFunction» (Workplace) Remote access</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="EA339.html">«ArchiMate_Grouping» Medication</a><br />
+						Grouping «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1031.html">«ArchiMate_ApplicationFunction» Location determination</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="../EA7/EA564.html">«ArchiMate_BusinessProcess» Evaluate care</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA10/EA1035.html">«ArchiMate_ApplicationFunction» Data exchange</a><br />
-						ApplicationFunction «ArchiMate_Aggregation» 
+						<a href="EA338.html">«ArchiMate_Grouping» Surgery</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA341.html">«ArchiMate_Grouping» Treatment, other</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA342.html">«ArchiMate_Grouping» Nursing</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA340.html">«ArchiMate_Grouping» Therapy</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA5/EA428.html">«ArchiMate_BusinessFunction» TREATMENT</a><br />
+						BusinessFunction «ArchiMate_Association» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA8/EA695.html">«ArchiMate_BusinessObject» Evaluation report</a><br />
+						BusinessObject «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA307.html">«ArchiMate_Grouping» Nursing</a><br />
+						Grouping «ArchiMate_Aggregation» 
+					</td>
+				</tr>				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA647.html">«ArchiMate_BusinessProcess» Prepare treatment room</a><br />
+						BusinessProcess «ArchiMate_Aggregation» 
 					</td>
 				</tr>
 			</table>
@@ -101,30 +149,16 @@ function nameClassifier(name, separator)
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
+				<td width="50%" class="TableRow" valign="top">MAX::ID</td>
+				<td width="50%" class="TableRow" valign="top">2.16.840.1.113883.2.4.3.11.29.1.4</td>
+			</tr>	
+			<tr>
 				<td width="50%" class="TableRow" valign="top">SortKey</td>
-				<td width="50%" class="TableRow" valign="top">FA</td>
+				<td width="50%" class="TableRow" valign="top">CC</td>
 			</tr>	
 
 	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="30%" class="TableHeading">Property</td>
-					<td width="70%" class="TableHeading">Value</td>
-				</tr>
-			<tr>
-				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">Archimate2::Business</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
-				<td width="70%" class="TableRow">true</td>
-			</tr>
-
-
-			</table>
-		</div>	</div>
+</div>	</div>
 <div class="pageFooter"></div>
  
 </body>
