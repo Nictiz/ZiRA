@@ -24,8 +24,9 @@ java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-nl.max -xsl:xslt
 java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-en.max -xsl:xslt/zira2xls/zira2sheet.xslt -o:artifacts/zira-1.4-en.xml
 ```
 
-Then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet.
-Export matrixes as CSV, import and paste in, then sort in lookup sortkeys!
+1. Then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet.
+1. Sort Informatie tab op sortkey kolom.
+1. Export matrixes as CSV (open Matrix; check Options/Options not including packagenames; Options/Matrix/Export as CSV), import (semicol only) in Calc and paste in sheet, then sort on sortkeys horiz/vert!
 
 #### Generate Graphviz xslt/ziraim2gv
 
