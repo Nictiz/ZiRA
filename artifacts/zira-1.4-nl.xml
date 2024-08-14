@@ -4,62 +4,62 @@
       <line>
          <type/>
          <principe>Waardevol</principe>
-         <beschrijving/>
+         <beschrijving> Binnen de organisatie doen we alleen dingen die waarde toevoegen. We borgen dat alle veranderinitiatieven worden getoetst aan de doelen van de organisatie.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Veilig en vertrouwd</principe>
-         <beschrijving/>
+         <beschrijving> Pati&amp;#235;nten, medewerkers en bezoekers kunnen erop vertrouwen dat in alles wat we doen hun veiligheid voorop staat en privacy geborgd is.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Duurzaam</principe>
-         <beschrijving/>
+         <beschrijving> Met toekomstbestendige zorg vermijden we verspilling, borgen we beschikbaarheid van informatie, mensen en materialen en houden we rekening met de toekomst van onze planeet.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Continu</principe>
-         <beschrijving/>
+         <beschrijving>Bij alles wat we doen, waarborgen we de continu&amp;#239;teit van zorg door risico’s zo vroeg mogelijk te signaleren en te mitigeren. </beschrijving>
       </line>
       <line>
          <type/>
          <principe>Mens centraal</principe>
-         <beschrijving/>
+         <beschrijving> De mens staat centraal. Bij alles wat we doen, werken we voor en met mensen.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Samen</principe>
-         <beschrijving/>
+         <beschrijving> Bij alles wat we doen stemmen we met alle belanghebbenden af. In zorgnetwerken werken we samen met pati&amp;#235;nten, zorgverleners en professionals binnen en buiten onze organisatie.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Gestandaardiseerd</principe>
-         <beschrijving/>
+         <beschrijving> Processen, informatie, systemen, producten en diensten voldoen aan open (markt)standaarden en zijn gebaseerd op best practices.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Flexibel</principe>
-         <beschrijving/>
+         <beschrijving> Oplossingen zijn uitbreidbaar, aanpasbaar en vervangbaar. Ze zijn modulair opgebouwd en bestaan uit herkenbare autonome eenheden, met duidelijk gedefinieerde functies en interfaces.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Eenvoudig</principe>
-         <beschrijving/>
+         <beschrijving> Voor alle vraagstukken die we willen oplossen, kiezen we de eenvoudigste oplossing waarmee aan de essentie van de vraag voldaan wordt.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Onder eigenaarschap</principe>
-         <beschrijving/>
+         <beschrijving> Alle processen, middelen, data, beleid, als ook veranderinitiatieven in de organisatie, hebben een eigenaar.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Datagedreven</principe>
-         <beschrijving/>
+         <beschrijving> We leggen informatie zodanig vast dat deze optimaal hergebruikt kan worden binnen werkprocessen en voor sturing, onderzoek en ontwikkeling van nieuwe en betere behandelingen.</beschrijving>
       </line>
       <line>
          <type/>
          <principe>Innovatief</principe>
-         <beschrijving/>
+         <beschrijving> We zetten in op innovatieve initiatieven die gericht zijn op passende zorg voor de pati&amp;#235;nt, effici&amp;#235;nte processen en inzet van personeel en betaalbare oplossingen.</beschrijving>
       </line>
    </principes>
    <functies>
@@ -200,7 +200,7 @@
          <type>BA</type>
          <bedrijfsfunctie>VERANTWOORDING</bedrijfsfunctie>
          <processtap>Aanleveren gegevens aan externe partijen</processtap>
-         <beschrijving/>
+         <beschrijving>Het verstrekken van gegevens aan externe partijen zoals ministeries, RIVM, GGD, Vektis, verzekeraars, etc.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.122</zira_id>
       </line>
       <line>
@@ -359,14 +359,14 @@ Dit bevat in specifieke contexten (e.g. SEH) ook de triage.</beschrijving>
          <type>BA</type>
          <bedrijfsfunctie>VERWIJZING &amp; OVERDRACHT</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>VERWIJZING &amp; OVERDRACHT</bedrijfsfunctie>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
@@ -582,35 +582,35 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <type>BF</type>
          <bedrijfsfunctie>KCL ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van klinisch chemisch laboratorium (KCL) onderzoek.</beschrijving>
          <zira_id>1563</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>MMI ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van microbiologisch en immunologisch labonderzoek.</beschrijving>
          <zira_id>1564</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>BEELDVORMING</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van beeldvormend onderzoek zoals radiologie en nucleair.</beschrijving>
          <zira_id>1565</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>ENDOSCOPIE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van endoscopisch onderzoek.</beschrijving>
          <zira_id>1566</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>FUNCTIE ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van functieonderzoeken. </beschrijving>
          <zira_id>1567</zira_id>
       </line>
       <line>
@@ -624,7 +624,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <type>BA</type>
          <bedrijfsfunctie>DIAGNOSTISERING</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -673,7 +673,9 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <type>BA</type>
          <bedrijfsfunctie>DIAGNOSTISERING</bedrijfsfunctie>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+
+In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
       </line>
       <line>
@@ -752,21 +754,21 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -794,7 +796,7 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>AANVULLEND ONDERZOEK</bedrijfsfunctie>
          <processtap>Uitvoeren aanvullend onderzoek</processtap>
-         <beschrijving/>
+         <beschrijving>Op systematische wijze, volgens een bepaalde methodiek of techniek, verkrijgen van informatie over de lichamelijke of geestelijke gesteldheid van een pati&amp;#235;nt/cli&amp;#235;nt. Het  afnemen van menselijk materiaal en het verzamelen van beeldmateriaal is hier een onderdeel van. </beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.156</zira_id>
       </line>
       <line>
@@ -850,7 +852,7 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>ADVISERING</bedrijfsfunctie>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving/>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.376</zira_id>
       </line>
       <line>
@@ -885,14 +887,16 @@ Analyseren conclusie, diagnose, voorgeschiedenis, onderzoeksresultaten, evaluati
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+
+In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.135</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving/>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.376</zira_id>
       </line>
       <line>
@@ -929,14 +933,14 @@ Vastleggen welke aanvraag gedaan wordt, deze voorzien van alle benodigde informa
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.165</zira_id>
       </line>
       <line>
          <type>BA</type>
          <bedrijfsfunctie>BEHANDELPLANNING</bedrijfsfunctie>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.166</zira_id>
       </line>
       <line>
@@ -1416,7 +1420,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>OVERIGE BEHANDELINGEN</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Behandeling niet afgedekt door de overig soorten van behandeling.</beschrijving>
          <zira_id>1580</zira_id>
       </line>
       <line>
@@ -1493,7 +1497,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BA</type>
          <bedrijfsfunctie>ZORGLOGISTIEK</bedrijfsfunctie>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.402</zira_id>
       </line>
       <line>
@@ -1556,7 +1560,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>UITVOERING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het voorbereiden en uitvoeren van alle direct aan het onderwijs gerelateerde activiteiten.</beschrijving>
          <zira_id>1586</zira_id>
       </line>
       <line>
@@ -1577,14 +1581,14 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BA</type>
          <bedrijfsfunctie>UITVOERING ONDERWIJS</bedrijfsfunctie>
          <processtap>Begeleiden deelnemers</processtap>
-         <beschrijving/>
+         <beschrijving>Begeleiden, coachen, adviseren, inclusief informele overdracht van kennis en ervaring.</beschrijving>
          <zira_id>2284</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>TOETSING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het testen van de resultaten van het onderwijs.</beschrijving>
          <zira_id>1587</zira_id>
       </line>
       <line>
@@ -1598,7 +1602,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>ONDERSTEUNING ONDERWIJS</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Administratief, inhoudelijk, ondersteuning van onderwijs</beschrijving>
          <zira_id>1589</zira_id>
       </line>
       <line>
@@ -1654,7 +1658,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BF</type>
          <bedrijfsfunctie>PERSONEEL &amp; ORGANISATIE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het management van personeelszaken binnen het ziekenhuis.</beschrijving>
          <zira_id>1591</zira_id>
       </line>
       <line>
@@ -1766,7 +1770,7 @@ Een verstrekking is de terhandstelling van een hoeveelheid van een geneesmiddel 
          <type>BA</type>
          <bedrijfsfunctie>HOSPITALITY</bedrijfsfunctie>
          <processtap>Aanbieden hotelservice</processtap>
-         <beschrijving/>
+         <beschrijving>Verlenen en administratief vastleggen van een gewenste dienst zoals: parkeergelegenheid, maaltijden, catering, winkels, (vergader)ruimte, telecomfaciliteiten, mobiliteitsmiddelen, afval, repro, post, beheer bedrijfskleding en bedlinnen, etc. Omvat o.a. ook het verbeteren van bestaande diensten en het afhandelen van storingen.</beschrijving>
          <zira_id>2.16.840.1.113883.2.4.3.11.29.3.215</zira_id>
       </line>
       <line>
@@ -1893,7 +1897,7 @@ ICT-diensten zijn o.a. presentatieaggregatie (Portals), zoekengine, aanbieden Bu
          <type>BF</type>
          <bedrijfsfunctie>PLANNING &amp; CONTROL</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het geheel van activiteiten om te bepalen wat er in een bepaalde periode moet gebeuren (planning), de rapportage daarover en de benodigde bijsturing en uiteindelijke verantwoording over de behaalde resultaat (control).</beschrijving>
          <zira_id>1655</zira_id>
       </line>
       <line>
@@ -1914,21 +1918,21 @@ ICT-diensten zijn o.a. presentatieaggregatie (Portals), zoekengine, aanbieden Bu
          <type>BF</type>
          <bedrijfsfunctie>BIOPSIE</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van biopsie.</beschrijving>
          <zira_id>2840</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>GENETISCH ONDERZOEK</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het uitvoeren en verslagleggen van genetisch onderzoek.</beschrijving>
          <zira_id>2841</zira_id>
       </line>
       <line>
          <type>BF</type>
          <bedrijfsfunctie>MULTIDISCIPLINAIRE SAMENWERKING</bedrijfsfunctie>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Samenwerking tussen meerdere specialistische disciplines ihkv passende zorg en netwerkzorg. Kan plaatsvinden in meerdere echelons en daarmee zowel intra- als transmuraal.</beschrijving>
          <zira_id>2953</zira_id>
       </line>
    </functies>
@@ -2126,7 +2130,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Behandelplan
 Rooster</io_in>
          <io_out>Afspraak
@@ -2143,7 +2147,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Vaststellen Zorgbehoefte (bp)</bedrijfsproces>
          <werkproces>Plannen contact (wp)</werkproces>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Afspraak
 Locatie</io_out>
@@ -2333,7 +2337,9 @@ Uitslag eigen onderzoek</io_out>
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Stellen diagnose (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+
+In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <io_in>Behandelmogelijkheden
 Diagnose
 Patientdossier
@@ -2363,7 +2369,7 @@ BEHANDELPLANNING
          <bedrijfsproces>Diagnosticeren (bp)</bedrijfsproces>
          <werkproces>Ontvangen patient (wp)</werkproces>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <io_in>Afspraak</io_in>
          <io_out>Afspraak</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
@@ -2528,7 +2534,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Behandelplan
 Rooster</io_in>
          <io_out>Afspraak
@@ -2545,7 +2551,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Plannen onderzoek (wp)</werkproces>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Afspraak
 Locatie</io_out>
@@ -2573,7 +2579,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Voorbereiden onderzoek (wp)</werkproces>
          <processtap>Ontvangen patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>Het ontvangen van de patiënt.</beschrijving>
          <io_in>Afspraak</io_in>
          <io_out>Afspraak</io_out>
          <bedrijfsfuncties>DIAGNOSTISERING
@@ -2640,7 +2646,7 @@ DIAGNOSTISERING
          <bedrijfsproces>Uitvoeren aanvullend Onderzoek (bp)</bedrijfsproces>
          <werkproces>Uitvoeren onderzoek (wp)</werkproces>
          <processtap>Uitvoeren aanvullend onderzoek</processtap>
-         <beschrijving/>
+         <beschrijving>Op systematische wijze, volgens een bepaalde methodiek of techniek, verkrijgen van informatie over de lichamelijke of geestelijke gesteldheid van een pati&amp;#235;nt/cli&amp;#235;nt. Het  afnemen van menselijk materiaal en het verzamelen van beeldmateriaal is hier een onderdeel van. </beschrijving>
          <io_in>Lichaamsmateriaal
 Onderzoeksaanvraag</io_in>
          <io_out>Onderzoeksaanvraag
@@ -2781,7 +2787,7 @@ Onderzoeksverslag</io_out>
          <bedrijfsproces>Adviseren (bp)</bedrijfsproces>
          <werkproces>Geven advies (wp)</werkproces>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving/>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <io_in>Diagnose
 Patientdossier</io_in>
          <io_out>Behandelmogelijkheden</io_out>
@@ -2855,7 +2861,7 @@ wordt samen met de patient (informeren patient) een mogelijkheid gekozen en daar
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Bepalen behandelplan (wp)</werkproces>
          <processtap>Bepalen behandelmogelijkheden</processtap>
-         <beschrijving/>
+         <beschrijving>Op basis van alle beschikbare gegevens bepalen welke behandelingen mogelijk zijn voor de zorgbehoefte van de patiënt.</beschrijving>
          <io_in>Diagnose
 Patientdossier</io_in>
          <io_out>Behandelmogelijkheden</io_out>
@@ -2871,7 +2877,9 @@ BEHANDELPLANNING
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Bepalen behandelplan (wp)</werkproces>
          <processtap>Informeren patiënt</processtap>
-         <beschrijving/>
+         <beschrijving>In de context van Behandelplan: Het informeren en adviseren over bijvoorbeeld aard, aanpak en risico van een onderzoek, behandeling(mogelijkheden) of operatie die de patiënt ondergaat
+
+In de context van Stellen Diagnose: Het informeren over de gestelde  diagnose en het mogelijke verdere verloop van het behandelproces</beschrijving>
          <io_in>Behandelmogelijkheden
 Diagnose
 Patientdossier
@@ -3002,7 +3010,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
          <processtap>Plannen middelen</processtap>
-         <beschrijving/>
+         <beschrijving>Plannen van gewenste inzet van middelen zoals apparatuur, instrumentarium, bloedproducten, voeding en bedden.</beschrijving>
          <io_in>Behandelplan
 Rooster</io_in>
          <io_out>Afspraak
@@ -3019,7 +3027,7 @@ VERWIJZING &amp; OVERDRACHT
          <bedrijfsproces>Opstellen Behandelplan (bp)</bedrijfsproces>
          <werkproces>Plannen behandelactiviteit (wp)</werkproces>
          <processtap>Plannen van de locatie</processtap>
-         <beschrijving/>
+         <beschrijving>Vaststellen en plannen van gewenste inzet van ruimtes en kamers.</beschrijving>
          <io_in>Rooster</io_in>
          <io_out>Afspraak
 Locatie</io_out>
@@ -3763,7 +3771,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces/>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het bespreken en vaststellen van diagnose, behandelplan en/of behandeling in een gezamenlijke bespreking van zorgverleners vanuit verschillende disciplines om een zo goed mogelijk passende behandeling aan de pati&amp;#235;nt te kunnen bieden en de kwaliteit van de zorg te waarborgen . Dit proces kan binnen &amp;#233;&amp;#233;n organisatie plaatsvinden, maar ook met gespecialiseerde expertise vanuit meerdere centra (echelonnering). MDO’s vinden doorgaans periodiek (bv wekelijks)en vooraf gepland plaats. </beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3775,7 +3783,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Bespreken en verslagleggen MDO (wp)</werkproces>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het bespreken van de pati&amp;#235;ntcasus, het vaststellen van de behandeladvies en de verslaglegging daarvan. Hierbij wordt ook vastgelegd wie aanwezig is. Niet alleen voor de inhoudelijke verantwoording, maar ook voor de financi&amp;#235;le afhandeling. </beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3787,7 +3795,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Bespreken en verslagleggen MDO (wp)</werkproces>
          <processtap>Presenteren patientcasus</processtap>
-         <beschrijving/>
+         <beschrijving>De (hoofd)behandelaar presenteert de pati&amp;#235;ntcasus.  Relevante informatie wordt toegelicht en getoond.</beschrijving>
          <io_in>MDO formulier</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3799,7 +3807,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Bespreken en verslagleggen MDO (wp)</werkproces>
          <processtap>Bespreken patientcasus</processtap>
-         <beschrijving/>
+         <beschrijving>Bij de bespreking van de casus deelt elke deelnemer zijn inzichten en brengt de laatste stand van de wetenschap, praktijk en ervaringsdeskundigheid vanuit zijn specialisme in. Behandelopties worden besproken. Richtlijnen zijn leidend in de besluitvorming. Eventuele deelname van de pati&amp;#235;nt aan een trial wordt op basis van in- en exclusiecriteria overwogen.</beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3811,7 +3819,7 @@ Zie ook "IO Uitwisselingsinformatie".</beschrijving>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Bespreken en verslagleggen MDO (wp)</werkproces>
          <processtap>Vaststellen behandeladvies</processtap>
-         <beschrijving/>
+         <beschrijving>Het behandeladvies en -beleid voor de pati&amp;#235;nt wordt gezamenlijk vastgesteld en in het verslag vastgelegd.  Het advies betreft naast beleid ten aanzien van de behandeling eventuele nadere diagnostiek en eventuele deelname aan wetenschappelijke studies of trials.</beschrijving>
          <io_in/>
          <io_out>MDO behandeladvies
 MDO conclusie
@@ -3825,7 +3833,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Bespreken en verslagleggen MDO (wp)</werkproces>
          <processtap>Accorderen behandeladvies</processtap>
-         <beschrijving/>
+         <beschrijving>Het verslag met daarin het advies ten aanzien van de behandeling wordt (meestal) tijdens het MDO genoteerd en geaccordeerd door de aanwezigen.</beschrijving>
          <io_in>MDO verslag</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3837,7 +3845,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Aanmelden MDO (wp)</werkproces>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het aanmelden van de pati&amp;#235;nt voor een MDO overleg. De specifieke pati&amp;#235;ntcasus wordt bij de aanmelding toegelicht. </beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3849,7 +3857,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Aanmelden MDO (wp)</werkproces>
          <processtap>Aanmelden patientcasus</processtap>
-         <beschrijving/>
+         <beschrijving>Het aanmelden van de pati&amp;#235;ntcasus door de (hoofd)behandelaar voor bespreking in een MDO. Dit kan een casus van een externe pati&amp;#235;nt betreffen en/of door een externe aanvrager gebeuren.</beschrijving>
          <io_in/>
          <io_out>MDO aanmelding</io_out>
          <bedrijfsfuncties/>
@@ -3861,7 +3869,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Aanmelden MDO (wp)</werkproces>
          <processtap>Formuleren vraagstelling</processtap>
-         <beschrijving/>
+         <beschrijving>Het opnemen van de vraagstelling van de casus om te bespreken op het MDO (evt. met voorlopige conclusie en voorstel beleid) door de (hoofd)behandelaar/aanvrager.</beschrijving>
          <io_in/>
          <io_out>MDO vraagstelling</io_out>
          <bedrijfsfuncties/>
@@ -3873,7 +3881,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Aanmelden MDO (wp)</werkproces>
          <processtap>Beschikbaarstellen patientgegevens</processtap>
-         <beschrijving/>
+         <beschrijving>Het koppelen/aanwijzen/verwijzen/linken van gegevens van de pati&amp;#235;nt waaronder diagnose, onderzoeksverslagen, additionele medische gegevens en verwijzingen naar radiologische beelden. Vaak zijn er afspraken gemaakt over welke gegevens relevant zijn en aangeleverd moeten worden. Kan door meerdere bij het MDO en bij de zorg voor de pati&amp;#235;nt betrokken zorgverleners worden gedaan (behandelend arts, radioloog, patholoog, …).</beschrijving>
          <io_in/>
          <io_out>MDO formulier</io_out>
          <bedrijfsfuncties/>
@@ -3885,7 +3893,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Voorbereiden MDO (wp)</werkproces>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>Het voorbereiden door en informeren van alle bij het MDO betrokken personen. </beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3897,7 +3905,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Voorbereiden MDO (wp)</werkproces>
          <processtap>Controleren aanmelding</processtap>
-         <beschrijving/>
+         <beschrijving>De ingediende aanmelding MDO wordt gecontroleerd op juistheid en volledigheid.</beschrijving>
          <io_in>MDO aanmelding</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3909,7 +3917,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Voorbereiden MDO (wp)</werkproces>
          <processtap>Toevoegen aan bespreeklijst MDO</processtap>
-         <beschrijving/>
+         <beschrijving>De gecontroleerde aanmelding wordt toegevoegd aan de bespreeklijst van het (eerstvolgende) MDO. De volgorde van pati&amp;#235;nten op de lijst wordt logisch geclusterd. Als er sprake is van echelonnering wordt er tevens bepaald welke soort MDO (intramuraal, transmuraal, …) van toepassing is/bij de vraagstelling van de casus past.</beschrijving>
          <io_in/>
          <io_out>MDO bespreeklijst</io_out>
          <bedrijfsfuncties/>
@@ -3921,7 +3929,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Voorbereiden MDO (wp)</werkproces>
          <processtap>Delen MDO informatie</processtap>
-         <beschrijving/>
+         <beschrijving>De deelnemers worden ge&amp;#239;nformeerd over de pati&amp;#235;ntcasus op de bespreeklijst en (toegang verleend tot) de beschikbaargestelde informatie over de casus.</beschrijving>
          <io_in>MDO bespreeklijst</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3933,7 +3941,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Voorbereiden MDO (wp)</werkproces>
          <processtap>Voorbereiden MDO</processtap>
-         <beschrijving/>
+         <beschrijving>Elke deelnemer bereid de pati&amp;#235;ntcasus voor vanuit zijn eigen rol. De (hoofd)behandelaar om zijn pati&amp;#235;ntcasus te presenteren, de overige deelnemende specialisten medisch inhoudelijk, de ondersteuner (casemanager, secretariaat) de administratieve en logistieke aspecten.</beschrijving>
          <io_in>MDO formulier</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3945,7 +3953,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Terugkoppelen MDO advies (wp)</werkproces>
          <processtap/>
-         <beschrijving/>
+         <beschrijving>De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag. </beschrijving>
          <io_in/>
          <io_out/>
          <bedrijfsfuncties/>
@@ -3957,7 +3965,7 @@ MDO verslag</io_out>
          <bedrijfsproces>Uitvoeren Multidisciplinair Overleg (bp)</bedrijfsproces>
          <werkproces>Terugkoppelen MDO advies (wp)</werkproces>
          <processtap>Terugkoppelen aanvrager</processtap>
-         <beschrijving/>
+         <beschrijving>De (extern) aanvragend zorgverlener ontvangt een terugkoppeling van het advies in de vorm van het MDO verslag.</beschrijving>
          <io_in>MDO verslag</io_in>
          <io_out/>
          <bedrijfsfuncties/>
@@ -6228,7 +6236,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO aanmelding</informatieobject>
-         <beschrijving/>
+         <beschrijving>De registratie van de pati&amp;#235;ntcasus voor het MDO.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2966</zira_id>
@@ -6237,7 +6245,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO behandeladvies</informatieobject>
-         <beschrijving/>
+         <beschrijving>Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde behandeladvies voor de pati&amp;#235;nt.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2971</zira_id>
@@ -6246,7 +6254,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO bespreeklijst</informatieobject>
-         <beschrijving/>
+         <beschrijving>Het overzicht met pati&amp;#235;ntcasussen dat tijdens de (eerstvolgende) MDO bijeenkomst wordt besproken.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2967</zira_id>
@@ -6255,7 +6263,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO conclusie</informatieobject>
-         <beschrijving/>
+         <beschrijving>Vastlegging van de door de MDO deelnemers gezamenlijke vastgestelde conclusie over de pati&amp;#235;ntcasus.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2972</zira_id>
@@ -6264,7 +6272,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO formulier</informatieobject>
-         <beschrijving/>
+         <beschrijving>Document waar de voor het MDO relevante informatie over de pati&amp;#235;nt wordt ingevuld.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2968</zira_id>
@@ -6273,7 +6281,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO vraagstelling</informatieobject>
-         <beschrijving/>
+         <beschrijving>Vastlegging van de vraag omtrent de pati&amp;#235;ntcasus die aan het MDO wordt voorgelegd.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2970</zira_id>
@@ -6282,7 +6290,7 @@ nl.zorg.OverdrachtVerrichting</zibs>
       <line>
          <informatiedomein>Multidisciplinaire samenwerking</informatiedomein>
          <informatieobject>MDO verslag</informatieobject>
-         <beschrijving/>
+         <beschrijving>Vastlegging van de door de MDO deelnemers gezamenlijke conclusie en behandeladvies voor de pati&amp;#235;nt.</beschrijving>
          <zibs/>
          <informatiedomein_sortkey>CAB</informatiedomein_sortkey>
          <zira_id>2969</zira_id>

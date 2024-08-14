@@ -1,0 +1,58 @@
+
+digraph{
+layout=twopi;
+graph [splines=true];
+node [style="rounded,filled" fontname="Roboto"];
+edge [fontname="Roboto" nodesep="1"];
+overlap=false;
+"1671" [shape=rect fontcolor=black fillcolor=salmon label="Onderzoeksaanvraag" tooltip="Verzoek tot het uitvoeren van onderzoek. "];
+				"1714" [shape=rect fontcolor=black fillcolor=salmon label="Operatie" tooltip="Beschrijving van de beoogde dan wel uitgevoerde operatieve ingreep. "];
+				"1718" [shape=rect fontcolor=black fillcolor=salmon label="Verzorging" tooltip="Verpleegkundige hulpactiviteiten vastleggen "];
+				"1811" [shape=rect fontcolor=black fillcolor=salmon label="Order" tooltip="Een order is synoniem voor een aanvraag van iets (een activiteit). "];
+				"1841" [shape=rect fontcolor=black fillcolor=salmon label="Collegiaal Consult" tooltip="Verzoek tot opinie of advies van een collega/zorgverlener inzake diagnose of behandeling. "];
+				"1842" [shape=rect fontcolor=black fillcolor=salmon label="Aanvullend Onderzoek" tooltip="Verzoek tot planning en uitvoering van een verplaatsing (opname/ontslag/overplaatsing) van een patiënt. "];
+				"1915" [shape=rect fontcolor=black fillcolor=salmon label="Verwijzing" tooltip="Verzoek tot het (tijdelijk) overnemen of terugnemen van de zorg voor een patiënt. "];
+				"2095" [shape=rect fontcolor=black fillcolor=salmon label="Advies" tooltip="Het advies van de zorgverlener aan de patiënt als resultaat van het consult en het diagnostisch traject (anders dan behandeling). "];
+				"1923" [shape=rect fontcolor=black fillcolor=salmon label="Overdracht" tooltip="Overdracht / Transfer (Order) "];
+				"1948" [shape=rect fontcolor=black fillcolor=salmon label="Ontslag" tooltip="Verzoek tot beëindigen van de zorgverlening.&#10;&#10;Dit resulteert in een informatieobject Uitwisselingsinformatie of Overdrachtsinformatie "];
+				"2161" [shape=rect fontcolor=black fillcolor=salmon label="Behandeling" tooltip="Behandeling van de patiënt, anders dan medicamenteus, operatief, paramedisch, verpleegkundig of verzorgend. "];
+				"2164" [shape=rect fontcolor=black fillcolor=salmon label="Verpleging" tooltip="Verpleegkundige activiteiten vastleggen "];
+				"2171" [shape=rect fontcolor=black fillcolor=salmon label="Activiteit" tooltip="Er zijn 2 soorten activiteiten, namelijk georderde en niet geordered. "];
+				"2175" [shape=rect fontcolor=black fillcolor=salmon label="Therapie" tooltip="Verzoek tot behandeling, uitgevoerd door een specifieke paramedische discipline, bv. fysiotherapie, logopedie. "];
+				"2167" [shape=rect fontcolor=black fillcolor=salmon label="Interventie" tooltip="Interventie is een conditionele Activiteit.&#10;E.g. in het verpleegplan staat bijvoorbeeld:&#10;Als patient hoofdpijn heeft, geef hem dan paracetamol.&#10;Als de patient dan hoofdpijn heeft en je geeft paracetamol, dan is dat een Interventie. "];
+				"2169" [shape=rect fontcolor=black fillcolor=salmon label="Meten" tooltip="De activiteit van het bepalen van een kwantitatieve/objectieve waarde. "];
+				"2170" [shape=rect fontcolor=black fillcolor=salmon label="Scoren" tooltip="De activiteit van het bepalen van een kwalitatieve/subjectieve waarde. "];
+				"1969" [shape=rect fontcolor=black fillcolor=green label="Verpleegplan" tooltip="Vastlegging van het plan t.a.v. de te leveren verpleegkundige zorg aan de patiënt met als doel het verlichten of wegnemen van  gezondheidsklachten of gebreken. "];
+				"1968" [shape=rect fontcolor=black fillcolor=green label="Behandelplan" tooltip="Vastlegging van het plan t.a.v. de te leveren zorg aan de patiënt met als doel het verlichten of wegnemen van gezondheidsklachten of gebreken.&#10; "];
+				"2149" [shape=rect fontcolor=black fillcolor=salmon label="Verstrekkingsverzoek" tooltip="Medicatievoorschrift van een arts aan een apotheker om de patiënt van een bepaald medicijn te voorzien. "];
+				"2179" [shape=rect fontcolor=black fillcolor=green label="Therapieplan" tooltip="Vastlegging van het plan t.a.v. de te leveren paramedische zorg aan de patiënt, met als doel het verlichten of wegnemen van  gezondheidsklachten of gebreken.. "];
+				"2174" [shape=rect fontcolor=black fillcolor=green label="Verzorgplan" tooltip="Verzorgplan bevat het Dieet "];
+				"2189" [shape=rect fontcolor=black fillcolor=salmon label="Afspraakverzoek" tooltip="Verzoek tot planning van een contact tussen een patiënt en een zorgverlener. "];
+				"1714"->"2161" [arrowhead=empty color=blue];
+				"1671"->"1811" [arrowhead=empty color=blue];
+				"1718"->"1811" [arrowhead=empty color=blue];
+				"1841"->"1811" [arrowhead=empty color=blue];
+				"1842"->"1671" [arrowhead=empty color=blue];
+				"2095"->"1811" [arrowhead=empty color=blue];
+				"1915"->"1923" [arrowhead=empty color=blue];
+				"1923"->"1811" [arrowhead=empty color=blue];
+				"1948"->"1923" [arrowhead=empty color=blue];
+				"2161"->"1811" [arrowhead=empty color=blue];
+				"2164"->"1811" [arrowhead=empty color=blue];
+				"1811"->"2171" [arrowhead=empty color=blue];
+				"2175"->"2161" [arrowhead=empty color=blue];
+				"2167"->"2171" [arrowhead=empty color=blue];
+				"2169"->"2171" [arrowhead=empty color=blue];
+				"2170"->"2171" [arrowhead=empty color=blue];
+				"2170"->"1969" [arrowhead=odiamond color=green];
+				"2169"->"1969" [arrowhead=odiamond color=green];
+				"2167"->"1969" [arrowhead=odiamond color=green];
+				"1969"->"1968" [arrowhead=empty color=blue];
+				"2149"->"1811" [arrowhead=empty color=blue];
+				"1811"->"1968" [arrowhead=odiamond color=green];
+				"2179"->"1968" [arrowhead=empty color=blue];
+				"2174"->"1968" [arrowhead=empty color=blue];
+				"2189"->"1811" [arrowhead=empty color=blue];
+				
+}
+	

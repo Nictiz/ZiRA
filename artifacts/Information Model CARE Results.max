@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="14-8-2024 12:45:29" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>1960</id>
+      <name>Patient health record</name>
+      <alias>Patientdossier</alias>
+      <notes>All data recorded about the patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1684</id>
+      <name>Resource</name>
+      <alias>Resource</alias>
+      <notes>People and other non-material assets that are used within a healthcare institution to support the healthcare process</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1766</id>
+      <name>Result</name>
+      <alias>Resultaat</alias>
+      <notes>Recording the result of an activity.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1759</id>
+      <name>Specimen</name>
+      <alias>Lichaamsmateriaal</alias>
+      <notes>Human body, or material derived from the human body on which research can be carried out for the purpose of diagnosis, treatment or scientific research.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.282"></tag>
+    </object>
+    <object>
+      <id>1820</id>
+      <name>Complaint</name>
+      <alias>Klacht</alias>
+      <notes>A subjective perception of health that is experienced as negative.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1983</id>
+      <name>Diagnosis</name>
+      <alias>Diagnose</alias>
+      <notes>Recording the name of the disease or condition that a person is believed to be suffering from, as stated by the physician.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.255"></tag>
+    </object>
+    <object>
+      <id>1993</id>
+      <name>Informed Consent</name>
+      <alias>Informed Consent</alias>
+      <notes>Signed statement by a patient that they agree with what is specified in the statement, for example, with regard to nature, approach, and risk of scientific research, diagnosis or treatment that the patient is undergoing.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.258"></tag>
+    </object>
+    <object>
+      <id>2097</id>
+      <name>Course of disease</name>
+      <alias>Decursus</alias>
+      <notes>Description of the chronological course of the patient's disease process and of the progress of treatment, written down/summarized by the physician.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.252"></tag>
+    </object>
+    <object>
+      <id>1809</id>
+      <name>Current medication overview</name>
+      <alias>Actueel medicatieoverzicht (AMO)</alias>
+      <notes>Recording of the current medication use by a patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.269"></tag>
+    </object>
+    <object>
+      <id>1824</id>
+      <name>History</name>
+      <alias>Voorgeschiedenis</alias>
+      <notes>Patient history, possibly (partly) obtained through referral information</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1946</id>
+      <name>Referral information</name>
+      <alias>Verwijsinformatie</alias>
+      <notes>The information that a healthcare provider uses to refer a patient to another healthcare provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.241"></tag>
+    </object>
+    <object>
+      <id>1938</id>
+      <name>Exchange information</name>
+      <alias>Uitwisselingsinformatie</alias>
+      <notes>Information that is exchanged between healthcare providers / institutions. Specific instances are ”referral information” and “transfer information.”</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.244"></tag>
+    </object>
+    <object>
+      <id>1826</id>
+      <name>Results of own research</name>
+      <alias>Uitslag eigen onderzoek</alias>
+      <notes>Findings of the research conducted by the healthcare provider himself.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1821</id>
+      <name>Physical examination result</name>
+      <alias>Uitslag lichamelijk onderzoek</alias>
+      <notes>Findings from the observations of examined bodily functions.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_IO" value="2.16.840.1.113883.2.4.3.11.29.4.254"></tag>
+    </object>
+    <object>
+      <id>1723</id>
+      <name>Report</name>
+      <alias>Verslag</alias>
+      <notes>Record of a specific additional diagnostic test</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2166</id>
+      <name>Care Report</name>
+      <alias>Verzorgingsverslag</alias>
+      <notes>Record observations of the patient by the caregiver.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2165</id>
+      <name>Nurse Evaluation</name>
+      <alias>Verpleegkundige Evaluatie</alias>
+      <notes>Assessment of the nursing care provided, in which the opinion and experiences of the patient can also be discussed.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2163</id>
+      <name>Nurse Diagnosis</name>
+      <alias>Verpleegkundige Diagnose</alias>
+      <notes>Recording the name of the illness or condition that a person is believed to be suffering from, stated by the nurse.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2084</id>
+      <name>Correspondance</name>
+      <alias>Brief</alias>
+      <notes>Document with which healthcare providers inform each other about the status of the patient, their medical history and treatment(s), e.g. upon discharge, admission, or other transfer situations.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2080</id>
+      <name>Advisory report</name>
+      <alias>Adviesverslag</alias>
+      <notes>Recording of the advice given.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1924</id>
+      <name>Transfer information</name>
+      <alias>Overdrachtsinformatie</alias>
+      <notes>Selection of data from the file intended for the transfer of the patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.366"></tag>
+    </object>
+    <object>
+      <id>1854</id>
+      <name>External information, patient</name>
+      <alias>Externe informatie Patient</alias>
+      <notes>External (medical) information, supplied by the patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1779</id>
+      <name>Research report</name>
+      <alias>Onderzoeksverslag</alias>
+      <notes>Record of the complete additional findings </notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.285"></tag>
+    </object>
+    <object>
+      <id>1848</id>
+      <name>Anamnesis report</name>
+      <alias>Anamneseverslag</alias>
+      <notes>Recording of the interview between care provider and patient a personal representative or healthcare proxy, in which the care provider asks specific questions about the care demand.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.253"></tag>
+    </object>
+    <object>
+      <id>1715</id>
+      <name>Preoperative Screening Report</name>
+      <alias>Preoperatieve-screeningverslag</alias>
+      <notes>Recording the findings of the preoperative screening.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.260"></tag>
+    </object>
+    <object>
+      <id>2143</id>
+      <name>Result collegiate consultation</name>
+      <alias>Resultaat Collegiaal Consult</alias>
+      <notes>Information about the outcome of a request for peer consultation.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2172</id>
+      <name>Measurement</name>
+      <alias>Meting</alias>
+      <notes>The result of determining a quantitative measure (for example, from a device, like a scale or monitor.)</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2173</id>
+      <name>Medical Index Scores</name>
+      <alias>Score</alias>
+      <notes>The result of determining a qualitative measure using a clinical assessment tool (for example, a questionnaire, index, scale, or other scoring tool).</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1695</id>
+      <name>Surgery report</name>
+      <alias>Operatieverslag</alias>
+      <notes>Recording of the course of an surgery performed, including materials used.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.262"></tag>
+    </object>
+    <object>
+      <id>2182</id>
+      <name>Evaluation report</name>
+      <alias>Evaluatieverslag</alias>
+      <notes>Documentation of the conversation with the patient at the end of care, in which information is provided about aftercare, and in which the opinion and experiences of the patient about the care provided can be discussed.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.279"></tag>
+    </object>
+    <object>
+      <id>2180</id>
+      <name>Therapeutic History</name>
+      <alias>Therapeutische Anamnese</alias>
+      <notes>Background and history of a patient, obtained through systematic questioning by a paramedical care provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2178</id>
+      <name>Therapy report</name>
+      <alias>Therapieverslag</alias>
+      <notes>Recording of the therapy performed by the paramedical care provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2176</id>
+      <name>Therapeutic Diagnosis</name>
+      <alias>Therapeutische Diagnose</alias>
+      <notes>Recording the name of the disease or condition from which a person is believed to be suffering.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2014</id>
+      <name>Nursing anamnesis (history)</name>
+      <alias>Verpleegkundige anamnese</alias>
+      <notes>Background and history of a patient, obtained through systematic questioning by a nurse</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.273"></tag>
+    </object>
+    <object>
+      <id>2162</id>
+      <name>Treatment report</name>
+      <alias>Behandelverslag</alias>
+      <notes>Documentation of the treatment of the patient, other than medical, surgical, paramedical, nursing or caring.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1693</id>
+      <name>Schedule</name>
+      <alias>Rooster</alias>
+      <notes>An overview with dates and times in which the availability (occupied and open slots) of one resource is recorded.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.290"></tag>
+    </object>
+    <object>
+      <id>1710</id>
+      <name>Material</name>
+      <alias>Middel</alias>
+      <notes>A consumable within the healthcare institution that is used to support the process (e.g. durable medical equipment, medicine, beds, etc).</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1726</id>
+      <name>Person</name>
+      <alias>Persoon</alias>
+      <notes>Person who has a role in the care process, this can also be the patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1688</id>
+      <name>Appointment</name>
+      <alias>Afspraak</alias>
+      <notes>Recording data regarding a patient's appointment with a healthcare provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2148</id>
+      <name>Contraindication</name>
+      <alias>Contra-indicatie</alias>
+      <notes>Disorder, illness, or complaint in which a certain therapy, for example medication, may not be used.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.270"></tag>
+    </object>
+    <object>
+      <id>2181</id>
+      <name>Care Team</name>
+      <alias>(Care) Team</alias>
+      <notes>A group of caregivers, often from different disciplines, assigned to the patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1965</id>
+      <name>Patient</name>
+      <alias>Patient</alias>
+      <notes>Administrative information about the patient. This is a person who receives care (eg medical, paramedical or nursing) from a care provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_IO" value="2.16.840.1.113883.2.4.3.11.29.4.292"></tag>
+    </object>
+    <object>
+      <id>2144</id>
+      <name>Treatment options</name>
+      <alias>Behandelmogelijkheden</alias>
+      <notes>The treatment options that are identified during the consultation and the diagnostic process.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1914</id>
+      <name>Transfer policy</name>
+      <alias>Overdracht / transferbeleid</alias>
+      <notes>Patient transfer policy, including reason, treatment goal and destination.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>1860</id>
+      <name>Care needs</name>
+      <alias>Zorgbehoefte</alias>
+      <notes>The patient’s care needs aso determined by a healthcare provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2196</id>
+      <name>Complication</name>
+      <alias>Complicatie</alias>
+      <notes>Recording of the unintended and undesired outcomes, during or following the actions of a healthcare provider, that are detrimental to the health of the patient to such an extent that an adjustment of the medical treatment or treatment is necessary, or that irreparable damage has occurred.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.263"></tag>
+    </object>
+    <object>
+      <id>2197</id>
+      <name>Anesthesia report</name>
+      <alias>Anesthesieverslag</alias>
+      <notes>Recording of the anesthesia performed during an operation.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.261"></tag>
+    </object>
+    <object>
+      <id>2193</id>
+      <name>Patient brochure</name>
+      <alias>Patientfolder</alias>
+      <notes>Information about a disease/treatment provided to the patient by a healthcare professional.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_ID" value="2.16.840.1.113883.2.4.3.11.29.4.240"></tag>
+    </object>
+    <object>
+      <id>2.16.840.1.113883.2.4.3.11.29.4.239</id>
+      <name>Self-management information</name>
+      <alias>Zelfmanagementinformatie</alias>
+      <notes>Information yet to be validated by the treating physician obtained from the patient as a result of their own care process (self measurement, diary reports, images, etc.). This can be obtained for example, from completed questionnaires or a personal health file.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2.16.840.1.113883.2.4.3.11.29.4.297</id>
+      <name>Location</name>
+      <alias>Locatie</alias>
+      <notes>Place or room where patient care (eg consultation, treatment and diagnostics) takes place.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2146</id>
+      <name>Medication agreement</name>
+      <alias>Medicatieafspraak</alias>
+      <notes>Proposal by a healthcare provider in the role of prescriber for the use of medication by a patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2150</id>
+      <name>Medication Administration</name>
+      <alias>Medicatietoediening</alias>
+      <notes>Description of the actual administration of a medication to a patient.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+      <tag name="RDZ_IO" value="2.16.840.1.113883.2.4.3.11.29.4.268"></tag>
+    </object>
+    <object>
+      <id>2154</id>
+      <name>Administration agreement</name>
+      <alias>Toedieningsafspraak</alias>
+      <notes>The supply of a medication product to a specific patient (or the administerer or a representative) with the intent that it be used according to a supplied instruction (usually as an implementation of the dispensing request in a medication prescription).</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2155</id>
+      <name>Medication dispense</name>
+      <alias>Medicatieverstrekking</alias>
+      <notes>Description of the provision of a medicine.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2157</id>
+      <name>Medication use</name>
+      <alias>Medicatiegebruik</alias>
+      <notes>Recording of the intake or administration of prescribed or over-the-counter medication, as reported by the patient, an informal caregiver, or a health care provider.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2.16.840.1.113883.2.4.3.11.29.4.293</id>
+      <name>Healthcare Professional</name>
+      <alias>Zorgverlener</alias>
+      <notes>Person who provides care professionally under a particular qualification and/or approval to do so from a competent authority.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2526</id>
+      <name>Agenda</name>
+      <alias>Agenda</alias>
+      <notes>An overview with dates and times in which the scheduled appointments of one specific resource (person or agent) are recorded. A group calendar is an aggregation of multiple calendars.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2192</id>
+      <name>Diagnostics Results</name>
+      <alias>Uitslag aanvullend onderzoek</alias>
+      <notes>Any result from a diagnostic tests</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2.16.840.1.113883.2.4.3.11.29.4.246</id>
+      <name>Healthcare knowledge</name>
+      <alias>Zorgkennis</alias>
+      <notes>Publications, professional literature, knowledge about healthcare.</notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2966</id>
+      <name>MDC registration</name>
+      <alias>MDO aanmelding</alias>
+      <notes> The registration of the patient case for the MDC. </notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2967</id>
+      <name>MDC consultation list</name>
+      <alias>MDO bespreeklijst</alias>
+      <notes> The overview of patient cases that will be discussed during the (next) MDC meeting. </notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2968</id>
+      <name>MDC form</name>
+      <alias>MDO formulier</alias>
+      <notes> Document where the information about the pati&amp;#235;nt relevant to the MDC is filled in. </notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+    <object>
+      <id>2969</id>
+      <name>MDC report</name>
+      <alias>MDO verslag</alias>
+      <notes> Recording of the joint conclusion and treatment advice for the patient by the MDC participants. </notes>
+      <stereotype>ArchiMate_BusinessObject</stereotype>
+      <type>Class</type>
+      <modified>2024-08-14T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>1766</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1960</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1759</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2097</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1809</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1960</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1824</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1960</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1824</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1946</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1820</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1946</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1809</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1946</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1946</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1938</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1983</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1723</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1826</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1821</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2166</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2165</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2163</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1983</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2080</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1924</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1938</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1854</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1938</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1779</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1848</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1820</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1848</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1715</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2143</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2172</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2173</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1695</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2182</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2180</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1848</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2178</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2176</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1983</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2014</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1848</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2162</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label>hoort bij</label>
+      <sourceId>1693</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1684</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2.16.840.1.113883.2.4.3.11.29.4.297</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1684</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1710</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1684</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1726</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1684</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2084</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1938</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2.16.840.1.113883.2.4.3.11.29.4.293</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1726</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2.16.840.1.113883.2.4.3.11.29.4.293</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2181</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1965</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1726</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2144</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1914</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label>hoort bij</label>
+      <sourceId>1960</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>1965</destId>
+      <destLabel />
+      <destCard>1</destCard>
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label>omzetten naar</label>
+      <sourceId>1820</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1860</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2196</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2197</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2148</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1860</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1820</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2193</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label>onderdeel van</label>
+      <sourceId>2197</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1695</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1993</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2.16.840.1.113883.2.4.3.11.29.4.239</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1688</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2146</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2150</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2154</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2155</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2157</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1688</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2526</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Aggregation</stereotype>
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label>hoort bij</label>
+      <sourceId>2526</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1684</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2192</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>1766</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2.16.840.1.113883.2.4.3.11.29.4.246</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2966</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2967</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1766</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2969</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>1723</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Specialization</stereotype>
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2968</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2969</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>2966</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>2968</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype>ArchiMate_Association</stereotype>
+      <type>Association</type>
+    </relationship>
+  </relationships>
+</model>

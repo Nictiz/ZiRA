@@ -1,82 +1,46 @@
 
 ### Folders
 
-docs/ Generated HTML from the Enterprise Architect project
+* docs/ Generated HTML from the Enterprise Architect project
 
-artifacts/ Different generated versions of the ZiRA model (master source is the ZiRA Enterprise Architect Project): XLSX, MAX, XML, ArchMate
+* artifacts/ Different generated versions of the ZiRA model (master source is the ZiRA Enterprise Architect Project): XLSX, MAX, XML, ArchMate
 
-xslts/zira2xls/ Converts the MAX export of the ZiRA into a spreadsheet
+* xslts/zira2xls/ Converts the MAX export of the ZiRA into a spreadsheet
 
-xslts/ziraim2gv/ Converts the ZiRA Information model to GraphViz diagrams
+* xslts/ziraim2gv/ Converts the ZiRA Information model to GraphViz diagrams
 
-xslts/appfuncties2max/ Temporary conversion script from RDZ
-
-scripts/adden2max.js Convert the English translations spreadsheet to a max file for import in the EA model 
-
-scripts/zira2xml.js
-
-### Scripts
+### XSLT "Scripts"
 
 XSLT met Saxon HE 11.5 https://github.com/Saxonica/Saxon-HE/releases
 Extract saxon-he-11.5.jar and lib folder
 
 #### Generate spreadsheets: xslt/zira2xls
 
-N.B. artifacts/zira-1.2-elements-nl+en.max is the latest version with SortKey!
+Export de elementen package als .max uit de NL of EN versie.
+Of gebruik artifacts/zira-1.4-element-(nl of en).max.
 
 ```
-> java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-nl.xslt -o:artifacts/zira-1.4-nl.xml
-> java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-nl+en.max -xsl:xslt/zira2xls/zira2sheet-5-en.xslt -o:artifacts/zira-1.4-en.xml
-.. then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet
-.. export matrixes as CSV, import and paste in, then sort in lookup sortkeys!
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-nl.max -xsl:xslt/zira2xls/zira2sheet.xslt -o:artifacts/zira-1.4-nl.xml
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/zira-1.4-elements-en.max -xsl:xslt/zira2xls/zira2sheet.xslt -o:artifacts/zira-1.4-en.xml
 ```
+
+Then import the xml file using LibreOffice "XML Source" and map each type/line to the top/left column of a sheet.
+Export matrixes as CSV, import and paste in, then sort in lookup sortkeys!
 
 #### Generate Graphviz xslt/ziraim2gv
 
-```
-> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv.xslt -o:Informatiemodel\ ZORG\ Resultaten.gv
-> dot "Informatiemodel ZORG Resultaten.gv" -Tpng > Informatiemodel\ ZORG\ Resultaten.png
-```
-
-#### Generate Graphviz xslt/ziraim2gv: OpenGroup ENGLISH
+Export de Informatie model views ("Informatiemodel Zorg Resultaten" en "Informatiemodel Zorg Activiteiten") als .max uit de NL of EN versie.
 
 ```
-> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Resultaten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Resultaten-en.gv
-> dot "Informatiemodel ZORG Resultaten-en.gv" -Tpng > Informatiemodel\ ZORG\ Resultaten-en.png
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/Informatiemodel\ ZORG\ Resultaten.max -xsl:xslt/ziraim2gv/ziraim-to-gv.xslt -o:artifacts/Informatiemodel\ ZORG\ Resultaten.gv
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/Informatiemodel\ ZORG\ Activiteiten.max -xsl:xslt/ziraim2gv/ziraim-to-gv.xslt -o:artifacts/Informatiemodel\ ZORG\ Activiteiten.gv
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/Information\ Model\ CARE\ Results.max -xsl:xslt/ziraim2gv/ziraim-to-gv.xslt -o:artifacts/Information\ Model\ CARE\ Results.gv
+java -jar xslt/saxon-he-11.5.jar -s:artifacts/Information\ model\ CARE\ Activities.max -xsl:xslt/ziraim2gv/ziraim-to-gv.xslt -o:artifacts/Information\ model\ CARE\ Activities.gv
 ```
 
 ```
-> java -jar xslt/saxon-he-11.5.jar -s:Informatiemodel\ ZORG\ Activiteiten.max -xsl:ziraim-to-gv-en.xslt -o:Informatiemodel\ ZORG\ Activiteiten-en.gv
-> dot "Informatiemodel ZORG Activiteiten-en.gv" -Tpng > Informatiemodel\ ZORG\ Activiteiten-en.png
-```
-
-=============
-
-#### Obsolete scripts
-
-#### adden2max.js: Adding engligh translation to original zira-v1.0.max file
-
-```
-> docker run -it -v "$(pwd)":/app node:lts-buster /bin/bash
-@> cd /app/scripts
-@> node adden2max.js > output.max
-.. then import the file in dit ZiRA v1.0.eap using EA and the MAX extension
-.. then export the whole model to v-1.0-en-full.max
-```
-
-#### zira2xsl.js: Convert max to xml for import in spreadsheet
-
-```
-@> cd /app/scripts
-@> node zira2xml.js > ../artifacts/tmp-zira-1.0-en.xml
-.. then import the xml into a spreadsheet using LibreOffice XML Data Source
-```
-
-#### english.xslt
-
-N.B. zira.fods is "ZiRA v1.0 Spreadsheet+Matrix July 11 2021+EN.xlsx" converted to Open Office Sheets.
-
-English names lookup table from fods export of zira spreadsheet with english column.
-```
-> java -jar xslt/saxon-he-11.5.jar -s:/tmp/zira.fods -xsl:english.xslt -o:english.xml 
+dot artifacts/Informatiemodel\ ZORG\ Resultaten.gv -Tpng > artifacts/Informatiemodel\ ZORG\ Resultaten.png
+dot artifacts/Informatiemodel\ ZORG\ Activiteiten.gv -Tpng > artifacts/Informatiemodel\ ZORG\ Activiteiten.png
+dot artifacts/Information\ Model\ CARE\ Results.gv -Tpng > artifacts/Information\ Model\ CARE\ Results.png
+dot artifacts/Information\ model\ CARE\ Activities.gv -Tpng > artifacts/Information\ model\ CARE\ Activities.png
 ```
